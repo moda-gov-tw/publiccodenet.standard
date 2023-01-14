@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-14 16:42+0000\n"
+"PO-Revision-Date: 2023-01-16 16:59+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr "order: 2"
 
 #: ./bundle-policy-and-code.md:block 2 (header)
 msgid "Bundle policy and source code"
-msgstr "合捆政策與原始碼"
+msgstr "政策與原始碼要合捆"
 
 #: ./bundle-policy-and-code.md:block 4 (header)
 msgid "Requirements"
@@ -50,8 +50,8 @@ msgstr "政策應該採用機器可讀取且明確的格式。"
 msgid ""
 "[Continuous integration](../glossary.md#continuous-integration) tests SHOULD"
 " validate that the source code and the policy are executed coherently."
-msgstr "[持續整合](../glossary.md#continuous-integration) "
-"測試應該驗證原始碼與政策能一致執行。"
+msgstr "[持續整合](../glossary.md#continuous-"
+"integration)測試應該驗證原始碼與政策能一致執行。"
 
 #: ./bundle-policy-and-code.md:block 6 (header)
 msgid "Why this is important"
@@ -86,7 +86,7 @@ msgstr "保證代碼庫能反應合捆的政策。"
 msgid ""
 "Make sure packages comply with the local technical infrastructure or legal "
 "framework of a given public organization."
-msgstr "確保合捆套組內容符合地方性技術基礎設施，或是特定公共組織的法律框架。"
+msgstr "確保合捆套組內容符合地方性技術基礎建設，或是特定公共組織的法律框架。"
 
 #: ./bundle-policy-and-code.md:block 10 (header)
 msgid "How to test"
@@ -102,7 +102,7 @@ msgstr "與公務人員確認程式碼根據的所有政策內容都有包含在
 msgid ""
 "Confirm with a civil servant that all source code that the policy is based "
 "on is included."
-msgstr "與公務人員確認根據該政策的所有原始碼都有包含在內。"
+msgstr "與公務人員確認根據該政策而來的所有原始碼都有包含在內。"
 
 #: ./bundle-policy-and-code.md:block 11 (unordered list)
 msgid "Check if policy can be interpreted by a machine."
@@ -150,7 +150,7 @@ msgid ""
 "Notation](https://en.wikipedia.org/wiki/Decision_Model_and_Notation) and "
 "[Case Management Model Notation](https://en.wikipedia.org/wiki/CMMN)."
 msgstr ""
-"政策內容請使用明確且機器可閱讀的格式，像是[業務流程模型與標記法](https://en."
+"政策內容請使用明確且機器可讀取的格式，像是[業務流程模型與標記法](https://en."
 "wikipedia.org/wiki/"
 "Business_Process_Model_and_Notation)，[決策模型與標記法](https://en.wikipedia"
 ".org/wiki/Decision_Model_and_Notation)以及[案例管理模型標記法](https://en."
@@ -217,7 +217,7 @@ msgid ""
 "bmpn.io](https://bpmn.io/) by Camunda."
 msgstr ""
 "Camunda [於 bmpn.io 網站提供可協助製作業務流程 BPMN、案例管理 CMMN、決策 DMN "
-"等模型與表記法圖表](https://bpmn.io/)。"
+"等模型與表記法圖表](https://bpmn.io/)的免費線上工具。"
 
 #: ./bundle-policy-and-code.md:block 19 (unordered list)
 msgid ""
@@ -233,7 +233,7 @@ msgstr "order: 1"
 
 #: ./code-in-the-open.md:block 2 (header)
 msgid "Code in the open"
-msgstr "原始碼開放"
+msgstr "原始碼要開放"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
@@ -248,16 +248,16 @@ msgstr ""
 msgid ""
 "All source code for any software in use (unless used for fraud detection) "
 "MUST be published and publicly accessible."
-msgstr "任何使用中軟體的所有程式原始碼都必須要公開（用於偵測詐欺的原始碼除外），且供"
-"民眾使用。"
+msgstr "任何使用中軟體的所有程式原始碼都必須要公開（用於偵測詐欺的原始碼除外），且能"
+"供民眾取用。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
 "Contributors MUST NOT upload sensitive information regarding users, their "
 "organization or third parties to the "
 "[repository](../glossary.md#repository)."
-msgstr "貢獻者絕對禁止上傳與使用者及其單位組織，或與第三方相關的敏感性資訊到[儲存庫]("
-"../glossary.md#repository)中。"
+msgstr "貢獻者不得上傳與使用者及其單位組織，或與第三方相關的敏感性資訊到[儲存庫](../g"
+"lossary.md#repository)中。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
@@ -328,7 +328,7 @@ msgstr "檢查目前非使用中的原始碼是否有公開。"
 
 #: ./code-in-the-open.md:block 15 (unordered list)
 msgid "Develop policies in the open."
-msgstr "以開放精神發展政策。"
+msgstr "制定合乎開放精神的政策。"
 
 #: ./code-in-the-open.md:block 15 (unordered list)
 msgid "Prioritize open and transparent policies."
@@ -449,12 +449,12 @@ msgid ""
 "Testing [policy](../glossary.md#policy) and documentation for consistency "
 "with the source and vice versa is OPTIONAL."
 msgstr "可選擇是否測試[政策](../glossary."
-"md#policy)和文件，是否與原始碼間有一致性，或是反之亦然。"
+"md#policy)和文件，與原始碼間有無一致性，或是反之亦然。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid ""
 "Testing policy and documentation for style and broken links is OPTIONAL."
-msgstr "可選擇是否測試政策和文件所採用的樣式，以及連結是否失效。"
+msgstr "可選擇是否測試政策和文件所採用的樣式，以及連結有無失效。"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid "Using [continuous integration](../glossary.md#continuous-integration):"
@@ -548,7 +548,7 @@ msgid ""
 "Involve management as well as developers and designers as early in the "
 "process as possible and keep them engaged throughout development of your "
 "policy."
-msgstr "儘早讓管理人員、開發人員與設計師一同加入，並且讓他們持續參與您政策的發展程序"
+msgstr "儘早讓管理人員、開發人員與設計師一同加入，並且讓他們持續參與您政策的制定程序"
 "。"
 
 #: ./continuous-integration.md:block 13 (unordered list)
@@ -582,7 +582,7 @@ msgstr "以頻繁交付少量部分內容的方式做專案規劃，而非久久
 msgid ""
 "Procure consultancy services that deliver incrementally aligned with the "
 "plan."
-msgstr "聘請有能力處理漸進式交付並與跟上規劃進度的顧問服務。"
+msgstr "聘請有能力處理漸進式交付並跟上規劃進度的顧問服務。"
 
 #: ./continuous-integration.md:block 15 (unordered list)
 msgid ""
@@ -679,56 +679,59 @@ msgstr "紀錄代碼庫成熟度"
 
 #: ./document-maturity.md:block 5 (unordered list)
 msgid "The [codebase](../glossary.md#codebase) MUST be versioned."
-msgstr "[代碼庫](../glossary.md#codebase) 必須註明版本。"
+msgstr "[代碼庫](../glossary.md#codebase)必須註明版本編號。"
 
 #: ./document-maturity.md:block 5 (unordered list)
 msgid ""
 "The codebase that is ready to use MUST only depend on other codebases that "
 "are also ready to use."
-msgstr "與可用代碼庫具相依性的代碼庫必須也是立即可用。"
+msgstr "準備完成可供使用的代碼庫，必須只能依賴其他也已經準備完成可供使用的代碼庫。"
 
 #: ./document-maturity.md:block 5 (unordered list)
 msgid ""
 "The codebase that is not yet ready to use MUST have one of the labels: "
 "prototype, alpha, beta or pre-release version."
-msgstr "尚未準備好使用的代碼庫必須有這些標籤之一：原型，預覽，測試或準完成版本。"
+msgstr "尚未準備好使用的代碼庫，必須有所列標籤之一：prototype、alpha、beta、pre-"
+"release 等版本進度。"
 
 #: ./document-maturity.md:block 5 (unordered list)
 msgid ""
 "The codebase SHOULD contain a log of changes from version to version, for "
 "example in the `CHANGELOG`."
-msgstr "代碼庫應該包含每次版本變動的紀錄，像是「CHANGELOG」。"
+msgstr "代碼庫應該包含每次版本的變動紀錄，像是以「`CHANGELOG`」日誌格式檔紀錄。"
 
 #: ./document-maturity.md:block 7 (paragraph)
 msgid ""
 "Clearly signalling a codebase's maturity helps others decide whether to "
 "reuse, invest in or contribute to it."
-msgstr "清楚標示代碼庫的成熟度有助於他人決定是否要重複使用，投資或貢獻給該代碼庫。"
+msgstr "清楚標示代碼庫的成熟度，有助於他人決定是否要重複使用、投資，或為該代碼庫做出"
+"貢獻。"
 
 #: ./document-maturity.md:block 9 (unordered list)
 msgid "Guarantee that others will use the [code](../glossary.md#code)."
-msgstr "保證他人會使用[程式碼](../glossary.md#code)。"
+msgstr "保證他人會來使用[程式碼](../glossary.md#code)。"
 
 #: ./document-maturity.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase has a strategy for versioning which is documented."
-msgstr "確認代碼庫有版本化策略且有文件詳細記載該策略。"
+msgstr "確認代碼庫有版本編號策略，且有文件記載該策略。"
 
 #: ./document-maturity.md:block 11 (unordered list)
 msgid "Confirm that it is clear where to get the newest version."
-msgstr "確認有註明最新版本的取得方法。"
+msgstr "確認有清楚表明最新版的取得位置。"
 
 #: ./document-maturity.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase doesn't depend on any codebases marked with a less"
 " mature status."
-msgstr "確認代碼庫不需要仰賴成熟度標示較低的其他代碼庫。"
+msgstr "確認代碼庫不依賴其他成熟度標示較低的任何代碼庫。"
 
 #: ./document-maturity.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase is ready to use or labeled as prototype, alpha, "
 "beta or pre-release version."
-msgstr "確認代碼庫已準備好使用，或是標示為原型，預覽，測試或準完成版本。"
+msgstr "確認代碼庫已準備好可供使用，還是仍標示為 prototype、alpha、beta、pre-release "
+"等開發中版本。"
 
 #: ./document-maturity.md:block 11 (unordered list)
 msgid "Check that there is a log of changes."
@@ -738,62 +741,66 @@ msgstr "檢查是否有變更紀錄。"
 msgid ""
 "When developing [policy](../glossary.md#policy), understand that any code "
 "developed needs to be tested and improved before it can be put into service."
-msgstr "制定[政策](../glossary."
-"md#policy)時，記住任何開發出來的程式碼都必須經過測試與改善，才能夠投入服務。"
+msgstr "制定[政策](../glossary.md#policy)時，請記住任何開發出來的程式碼都必須先經過測"
+"試與改善，才能夠投入服務。"
 
 #: ./document-maturity.md:block 13 (unordered list)
 msgid ""
 "Consider versioning policy changes, especially when they trigger new "
 "versions of the source code."
-msgstr "考慮版本化政策的變動，特別是因此產生新版本原始碼的情況時。"
+msgstr "考慮將政策的變動註明版本編號，尤其是因而觸發開發新版本原始碼的情況。"
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid ""
 "Make sure that services only rely on codebases of equal or greater maturity "
 "than the service. For example, don't use a beta codebase in a production "
 "service or a prototype codebase in a beta service."
-msgstr "要確認服務使用的代碼庫成熟度等同或高於服務本身。舉例來說，生產服務不要用測試"
-"版代碼庫，測試版服務不要用原型代碼庫。"
+msgstr ""
+"要確認服務依賴的代碼庫成熟度等同或高於服務本身。舉例來說，"
+"正式上線的服務不要使用 beta 測試版代碼庫，測試版服務不要使用 prototype "
+"原型代碼庫。"
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid ""
 "If the codebase is not ready for general use, work with the developers to "
 "ensure the codebase is properly labeled:"
-msgstr "若代碼庫尚未準備好使用，請與開發人員一起確保該代碼庫具備合適的標籤："
+msgstr "若代碼庫尚未準備好供一般使用，請與開發人員一起確保該代碼庫是否有標示適當標籤"
+"："
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid ""
 "prototype: to test the look and feel, and to internally prove the concept of"
 " the technical possibilities,"
-msgstr "原型：測試外觀與體驗，並且從內部證明技術可能性的概念，"
+msgstr "prototype：原型概念，測試外觀與感覺體驗，並且從內部證明技術可行性的概念，"
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid "alpha: to do guided tests with a limited set of users,"
-msgstr "預覽：在使用者有限的情況下進行引導測試，"
+msgstr "alpha：內部測試，在限制的一群使用者中進行引導性測試，"
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid ""
 "beta: to open up testing to a larger section of the [general "
 "public](../glossary.md#general-public), for example to test if the codebase "
 "works at scale,"
-msgstr "測試：讓更多[社會大眾](../glossary.md#general-"
-"public)參與測試，例如測試代碼庫在大規模運作下是否依舊順暢，"
+msgstr ""
+"beta：公開測試，讓更多[一般大眾](../glossary.md#general-"
+"public)參與測試，例如測試代碼庫在大規模操作下是否仍能運作，"
 
 #: ./document-maturity.md:block 15 (unordered list)
 msgid ""
 "pre-release version: code that is ready to be released but hasn't received "
 "formal approval yet."
-msgstr "準完成版本：已經準備好發布但尚未正式獲准的程式碼。"
+msgstr "pre-release：準發行版，已經準備好發行，但尚未獲得正式批准的程式碼。"
 
 #: ./document-maturity.md:block 17 (unordered list)
 msgid ""
 "Add a prominent header to every interface that indicates the maturity level "
 "of the code."
-msgstr "在每個介面上加上顯著的標頭，標示程式碼的成熟度。"
+msgstr "在每個指示程式碼成熟度的介面中加上明顯的標頭。"
 
 #: ./document-maturity.md:block 17 (unordered list)
 msgid "Version all releases."
-msgstr "所有釋出的程式碼都要註明版本。"
+msgstr "所有發行的程式碼都要有版本編號。"
 
 #: ./document-maturity.md:block 17 (unordered list)
 msgid ""
@@ -802,9 +809,9 @@ msgid ""
 "metadata (for example by using [git describe](https://git-scm.com/docs/git-"
 "describe))."
 msgstr ""
-"特別是在「滾動發行」的情況時，程式碼的版本資訊可能自動從[版本控制](../glossar"
-"y.md#version-control)系統元資料中擷取(例如使用[git describe](https://git-scm."
-"com/docs/git-describe))。"
+"特別是在採用「滾動發行」的情況下，程式碼的版本資訊可以根據[版本控制](../gloss"
+"ary.md#version-control)系統的中介資料自動衍生（例如使用[git describe](https"
+"://git-scm.com/docs/git-describe)）。"
 
 #: ./document-maturity.md:block 19 (unordered list)
 msgid ""
@@ -812,21 +819,22 @@ msgid ""
 "advice/build-and-improve-services/service-design-and-delivery-process) by "
 "the Australian Digital Transformation Agency."
 msgstr ""
-"澳洲數位轉型局的[服務設計與交付流程](https://www.dta.gov.au/help-and-advice/"
-"build-and-improve-services/service-design-and-delivery-process)。"
+"澳洲數位轉型局《[服務設計與交付流程](https://www.dta.gov.au/help-and-advice/"
+"build-and-improve-services/service-design-and-delivery-process)》。"
 
 #: ./document-maturity.md:block 19 (unordered list)
 msgid ""
 "[Service Manual on Agile Delivery](https://www.gov.uk/service-manual/agile-"
 "delivery) by the UK Government Digital Service."
-msgstr "英國政府數位服務團的[敏捷交付服務手冊](https://www.gov.uk/service-manual/"
-"agile-delivery)。"
+msgstr ""
+"英國政府數位服務團《[敏捷交付服務手冊](https://www.gov.uk/service-manual/"
+"agile-delivery)》。"
 
 #: ./document-maturity.md:block 19 (unordered list)
 msgid ""
 "[Semantic Versioning Specification](https://semver.org/) used by many "
 "codebases to label versions."
-msgstr "許多代碼庫使用[語意化版本控制規範](https://semver.org/)來標示版本。"
+msgstr "許多代碼庫使用「[語意化版本控制規範](https://semver.org/)」來標示版本。"
 
 #: ./document-maturity.md:block 19 (unordered list)
 msgid ""
@@ -834,16 +842,16 @@ msgid ""
 "service? [Video 0'0\"59]](https://www.youtube.com/watch?v=_cyI7DMhgYc) by "
 "the UK Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[什麼是服務開發當中的探索，預覽，測試與上線階段？ [影片 "
-"0'0\"59]](https://www.youtube.com/watch?v=_cyI7DMhgYc)。"
+"英國政府數位服務團《[什麼是服務開發當中的探索、Alpha、Beta、上線階段？ [影片 "
+"0'0\"59]](https://www.youtube.com/watch?v=_cyI7DMhgYc)》。"
 
 #: ./document-objectives.md:block 1 (header)
 msgid "order: 8"
-msgstr "順序：8"
+msgstr "order: 8"
 
 #: ./document-objectives.md:block 2 (header)
 msgid "Document codebase objectives"
-msgstr "記錄代碼庫目標"
+msgstr "有代碼庫目標文件"
 
 #: ./document-objectives.md:block 5 (unordered list)
 msgid ""
@@ -851,8 +859,9 @@ msgid ""
 "objectives, like a mission and goal statement, that is understandable by "
 "developers and designers so that they can use or contribute to the codebase."
 msgstr ""
-"[代碼庫](../glossary.md#codebase) 必須包含目標文件，像是使命或目標宣言。開發"
-"人員與設計師需要能夠瞭解這些註解，讓他們能使用或對代碼庫做出貢獻。"
+"[代碼庫](../glossary.md#codebase)必須包含描寫目標的文件，像是主旨、使命或目標"
+"陳述。開發人員與設計師需要能夠瞭解這些，他們才知道可以怎樣使用代碼庫或協助貢"
+"獻。"
 
 #: ./document-objectives.md:block 5 (unordered list)
 msgid ""
@@ -865,17 +874,18 @@ msgstr "代碼庫文件應該清楚描述[政策](../glossary."
 msgid ""
 "Documenting the objectives of the codebase for the [general "
 "public](../glossary.md#general-public) is OPTIONAL."
-msgstr "可選擇為[一般民眾](../glossary.md#general-public)紀錄代碼庫目標。"
+msgstr "可選擇是否以文件紀錄給[一般民眾](../glossary.md#general-"
+"public)看的代碼庫目標。"
 
 #: ./document-objectives.md:block 7 (paragraph)
 msgid "Documenting codebase objectives:"
-msgstr "紀錄代碼庫目標："
+msgstr "以文件紀錄代碼庫目標："
 
 #: ./document-objectives.md:block 8 (unordered list)
 msgid ""
 "provides an easy way for people to decide whether this codebase, or one of "
 "its modules, is interesting for them now or in the future."
-msgstr "提供簡易方法讓人判斷是否在當下或未來會對本代碼庫或其模組感興趣。"
+msgstr "提供簡易方法讓人方便判斷是否在當下或未來，會對此代碼庫或其模組感興趣。"
 
 #: ./document-objectives.md:block 8 (unordered list)
 msgid "helps scope your own development."
@@ -885,26 +895,26 @@ msgstr "幫助劃定您自己開發專案的範圍。"
 msgid ""
 "clearly communicates to other stakeholders and contributors the purpose of "
 "the codebase and the modules of which it is composed."
-msgstr "將代碼庫以及所包含模組的目的清楚告知其他利害關係人與貢獻者。"
+msgstr "將代碼庫以及所包含模組的目的用途，清楚告知其他利害關係人與貢獻者。"
 
 #: ./document-objectives.md:block 10 (unordered list)
 msgid "Guarantee that the codebase achieves the stated objective(s)."
-msgstr "保證代碼庫能達成其陳述性目標。"
+msgstr "保證代碼庫能達成其陳述的目標。"
 
 #: ./document-objectives.md:block 10 (unordered list)
 msgid "Guarantee contributions to the codebase."
-msgstr "保證會有人貢獻給代碼庫。"
+msgstr "保證會有人為代碼庫做出貢獻。"
 
 #: ./document-objectives.md:block 10 (unordered list)
 msgid ""
 "Prevent other codebases from attempting to achieve the same objectives."
-msgstr "預防其他代碼庫嘗試達成相同的目標。"
+msgstr "預防其他代碼庫試圖達成相同目標。"
 
 #: ./document-objectives.md:block 12 (unordered list)
 msgid ""
 "Confirm that the codebase documentation includes the codebase objectives, "
 "mission or goal."
-msgstr "確認代碼庫文件包含代碼庫目標與使命。"
+msgstr "確認代碼庫文件有包含代碼庫目標，或主旨、使命等。"
 
 #: ./document-objectives.md:block 12 (unordered list)
 msgid ""
@@ -916,27 +926,27 @@ msgstr "查看政策目標與代碼庫目標之間關聯的描述。"
 msgid ""
 "Add the policy objectives to the codebase documentation, for example in the "
 "`README`."
-msgstr "將政策目標加入代碼庫文件中，例如在「README」當中。"
+msgstr "將政策目標加入代碼庫文件中，例如「`README`」文件當中。"
 
 #: ./document-objectives.md:block 14 (unordered list)
 msgid ""
 "Include relevant policies which impact the community, codebase, and "
 "development like value and ethics based policies, for example accessibility "
 "or equal opportunity."
-msgstr "加入相關政策，這些政策會影響到社群，代碼庫以及無障礙或平等機會等價值或倫理基"
-"礎的政策的制定。"
+msgstr "納入會影響社會群體、代碼庫與開發目標的相關政策，例如可近用無障礙環境，或機會"
+"平等等價值或倫理取向的政策。"
 
 #: ./document-objectives.md:block 16 (unordered list)
 msgid ""
 "Add the organizational and business objectives to the codebase "
 "documentation, for example in the `README`."
-msgstr "將組織或企業目標加入代碼庫文件中，例如在「README」當中。"
+msgstr "將組織目標或業務目標加入代碼庫文件中，例如「`README`」文件當中。"
 
 #: ./document-objectives.md:block 18 (unordered list)
 msgid ""
 "Add the technology and design objectives to the codebase documentation, for "
 "example in the `README`."
-msgstr "將技術與設計目標加入代碼庫文件中，例如在「README」當中。"
+msgstr "將技術與設計目標加入代碼庫文件中，例如「`README`」文件當中。"
 
 #: ./document-objectives.md:block 20 (unordered list)
 msgid ""
@@ -944,16 +954,16 @@ msgid ""
 "objectives](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)"
 " by Marek Hajduczenia."
 msgstr ""
-"Marek Hajduczenia的[如何撰寫專案目標](http://grouper.ieee.org/groups/802/3/"
-"RTPGE/public/may12/hajduczenia_01_0512.pdf)。"
+"Marek Hajduczenia《[如何撰寫專案目標](http://grouper.ieee.org/groups/802/3/"
+"RTPGE/public/may12/hajduczenia_01_0512.pdf)》。"
 
 #: ./documenting.md:block 1 (header)
 msgid "order: 9"
-msgstr "順序：9"
+msgstr "order: 9"
 
 #: ./documenting.md:block 2 (header)
 msgid "Document the code"
-msgstr "紀錄程式碼"
+msgstr "有程式碼文件"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
@@ -962,9 +972,9 @@ msgid ""
 "language clearly understandable for those that understand the purpose of the"
 " [code](../glossary.md#code)."
 msgstr ""
-"[代碼庫](../glossary.md#codebase)，[政策](../glossary."
-"md#policy)以及原始碼的功能性，都必須清楚描述，讓懂[程式碼](../glossary."
-"md#code)目的的人也能夠瞭解。"
+"[代碼庫](../glossary.md#codebase)的所有功能、[政策](../glossary."
+"md#policy)及其來源，都必須以可清楚瞭解的用語描述，讓懂[程式碼](../glossary."
+"md#code)目的用途的人也能夠理解。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
@@ -976,37 +986,38 @@ msgstr "代碼庫文件必須說明如何安裝與執行原始碼。"
 msgid ""
 "The documentation of the codebase MUST contain examples demonstrating the "
 "key functionality."
-msgstr "代碼庫文件必須示範關鍵功能。"
+msgstr "代碼庫文件必須為關鍵功能舉出範例。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
 "The documentation of the codebase SHOULD contain a high level description "
 "that is clearly understandable for a wide audience of stakeholders, like the"
 " [general public](../glossary.md#general-public) and journalists."
-msgstr "代碼庫文件應該包含詳盡的說明，讓[一般民眾](../glossary.md#general-"
-"public)與記者等廣泛的利害關係人都能明白。."
+msgstr ""
+"代碼庫文件應該包含精要的說明，讓[一般民眾](../glossary.md#general-"
+"public)和記者等廣泛的利害關係人都能清楚明白。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
 "The documentation of the codebase SHOULD contain a section describing how to"
 " install and run a standalone version of the source code, including, if "
 "necessary, a test dataset."
-msgstr "代碼庫文件中應該有一部分是用來說明如何安裝與執行單機版的原始碼。若有需要，也"
+msgstr "代碼庫文件應該有一部分用來說明，如何安裝與執行單機版的原始碼；如果有必要，也"
 "應該包含測試資料集。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
 "The documentation of the codebase SHOULD contain examples for all "
 "functionality."
-msgstr "代碼庫文件應該包含所有功能的示範。"
+msgstr "代碼庫文件應該包含所有功能的範例。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
 "The documentation SHOULD describe the key components or modules of the "
 "codebase and their relationships, for example as a high level architectural "
 "diagram."
-msgstr "程式碼文件應該描述代碼庫的主要元件或模組（例如高階建築圖解），以及之間的關係"
-"。"
+msgstr "程式碼文件應該描述代碼庫的主要組件或模組，以及其彼此之間的關係，例如以高層架"
+"構圖表示。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
@@ -1018,21 +1029,22 @@ msgstr "應該要有針對文件品質的[持續整合](../glossary.md#continuou
 msgid ""
 "Including examples that make users want to immediately start using the "
 "codebase in the documentation of the codebase is OPTIONAL."
-msgstr "可選擇在代碼庫文件中，包含讓使用者會想要立即使用代碼庫的範例。"
+msgstr "可選擇是否在代碼庫文件中，包含讓使用者想要立即使用代碼庫的範例。"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid "Testing the code by using examples in the documentation is OPTIONAL."
-msgstr "可選擇使用文件中的範例來測試程式碼。"
+msgstr "可選擇是否以文件中的範例來測試程式碼。"
 
 #: ./documenting.md:block 7 (unordered list)
 msgid "Users can start using and contributing more quickly."
-msgstr "使用者可以更快速地使用與貢獻給代碼庫。"
+msgstr "使用者可以更快速上手代碼庫的使用並做出貢獻。"
 
 #: ./documenting.md:block 7 (unordered list)
 msgid ""
 "You help people discover the codebase, especially people asking 'is there "
 "already code that does something like this'."
-msgstr "幫助他人找到這個代碼庫，特別是那些在尋找有如此功能代碼庫的人們。"
+msgstr "能幫助他人找到這個代碼庫，特別是那些在問「是不是已經有提供某某功能的程式碼」"
+"的人。"
 
 #: ./documenting.md:block 7 (unordered list)
 msgid "This provides transparency into your organization and processes."
@@ -1043,39 +1055,39 @@ msgid ""
 "Contribute directly to more reusable, portable code (see [Create reusable "
 "and portable code](./reusable-and-portable-codebases.md))."
 msgstr ""
-"直接貢獻給更可重複使用以及容易攜帶的程式碼(請參閱[編寫可重複使用且容易攜帶的"
-"程式碼](./reusable-and-portable-codebases.md))。"
+"直接貢獻更可重複使用，以及更具可攜性的程式碼（請參閱[編寫可重複使用且具可攜性"
+"的程式碼](./reusable-and-portable-codebases.md)）。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Confirm that other stakeholders, professionals from other public "
 "organizations and the general public find the documentation clear and "
 "understandable."
-msgstr "確認其他利害關係人，其他公共組織的專業人士以及一般民眾，都能輕易閱讀與瞭解文"
-"件內容。"
+msgstr "確認文件內容能讓其他利害關係人、其他公共組織的專業人士，以及一般民眾，都可以"
+"清楚明白。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Confirm that the documentation describes how to install and run the source "
 "code."
-msgstr "確認文件說明如何安裝與執行原始碼。"
+msgstr "確認文件有說明如何安裝與執行原始碼。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Confirm that the documentation includes examples of the key functionality."
-msgstr "確認文件包含主要功能的示範。"
+msgstr "確認文件有包含主要功能的範例。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Check with members of the general public and journalists if they can "
 "understand the high level description."
-msgstr "與一般民眾以及記者確認他們是否能明白文件當中艱深的說明。"
+msgstr "向一般民眾的成員以及記者確認他們是否能明白文件當中的精要說明。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Check that the instructions for how to install and run a standalone version "
 "of the source code result in a running system."
-msgstr "檢查單機版原始碼的安裝與執行說明，確認能順利執行。"
+msgstr "檢查單機版原始碼的安裝與執行的步驟說明，確認能順利執行系統。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid "Check that all functionality documented contains an example."
@@ -1085,15 +1097,15 @@ msgstr "檢查文件中列舉的所有功能都包含範例。"
 msgid ""
 "Check that the documentation includes a high level architectural diagram or "
 "similar."
-msgstr "檢查文件是否包含精細的架構圖。"
+msgstr "檢查文件中是否包含高層架構圖，或類似的組件關係圖表。"
 
 #: ./documenting.md:block 11 (unordered list)
 msgid ""
 "Check that the documentation quality is part of integration testing, for "
 "example documentation is generated from code, and links and images are "
 "tested."
-msgstr "確認整合測試有包含程式碼文件品質，例如確認文件是由程式碼生成，並檢查連結與圖"
-"片。"
+msgstr "確認整合測試有包含到程式碼文件品質，例如確認由程式碼生成的文件，並檢查連結與"
+"圖片等。"
 
 #: ./documenting.md:block 13 (unordered list)
 msgid ""
@@ -1113,13 +1125,13 @@ msgstr "嘗試使用代碼庫。"
 msgid ""
 "Make sure you understand both the policy and source code as well as the "
 "documentation."
-msgstr "確保您了解政策，原始碼以及文件內容。"
+msgstr "確保您同時瞭解政策、原始碼以及文件內容。"
 
 #: ./documenting.md:block 17 (unordered list)
 msgid ""
 "Check in regularly to understand how the non-source code in the codebase has"
 " changed."
-msgstr "定期查看代碼庫的非原始碼的變動情況。"
+msgstr "定期查看代碼庫中非原始碼部分的變動情況。"
 
 #: ./documenting.md:block 17 (unordered list)
 msgid "Give feedback on how to make non-source documentation more clear."
@@ -1129,46 +1141,46 @@ msgstr "針對如何讓非原始碼文件更清楚易懂提供意見回饋。"
 msgid ""
 "[Documentation guide](https://www.writethedocs.org/guide/) by Write the "
 "Docs."
-msgstr "Write the Docs的[文件指南](https://www.writethedocs.org/guide/)。"
+msgstr "Write the Docs《[文件指南](https://www.writethedocs.org/guide/)》。"
 
 #: ./findability.md:block 1 (header)
 msgid "order: 14"
-msgstr "順序：14"
+msgstr "order: 14"
 
 #: ./findability.md:block 2 (header)
 msgid "Make the codebase findable"
-msgstr "讓民眾可以搜尋到此代碼庫"
+msgstr "可查詢得到代碼庫"
 
 #: ./findability.md:block 5 (unordered list)
 msgid ""
 "The [codebase](../glossary.md#codebase) MUST be findable using a search "
 "engine by describing the problem it solves in natural language."
-msgstr "民眾在使用搜尋引擎時，如果以自然的語言描述代碼庫能解決的問題時，必須能搜尋到["
-"代碼庫](../glossary.md#codebase)。"
+msgstr "在使用搜尋引擎時，如果以自然語言描述代碼庫所能解決的問題，必須能搜尋得到[代碼"
+"庫](../glossary.md#codebase)。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid "The codebase MUST be findable using a search engine by codebase name."
-msgstr "民眾用搜尋引擎搜尋代碼庫名稱時，必須能搜尋到代碼庫。"
+msgstr "在搜尋引擎查找代碼庫名稱時，必須能搜尋得到代碼庫。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid "Maintainers SHOULD submit the codebase to relevant software catalogs."
-msgstr "維護者應該將代碼庫提交至相關軟體目錄上。"
+msgstr "維護人員應該將代碼庫提交至相關的軟體目錄上。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid ""
 "The codebase SHOULD have a website which describes the problem the codebase "
 "solves using the preferred jargon of different potential users of the "
 "codebase (including technologists, policy experts and managers)."
-msgstr "應該要為代碼庫架設網站，上面用潛在使用者(技術人員，政策專家與管理人員)偏好的"
-"術語描述代碼庫能解決的問題。"
+msgstr "代碼庫應該要架設網站，內容中以代碼庫各類潛在使用者（技術人員、政策專家、管理"
+"人員等）偏好的業內用語，描述代碼庫所能解決的問題。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid ""
 "The codebase SHOULD have a unique and persistent identifier where the entry "
 "mentions the major contributors, [repository](../glossary.md#repository) "
 "location and website."
-msgstr "代碼庫應該具備永久唯一識別碼，且內容需要提到主要貢獻者，[儲存庫](../glossary."
-"md#repository)，地點與網站。"
+msgstr "代碼庫應該具備永久唯一識別碼，而且該項條目要提及主要貢獻者、[儲存庫](../gloss"
+"ary.md#repository)、位置、網站等。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid ""
@@ -1176,32 +1188,32 @@ msgid ""
 "example in a "
 "[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) file."
 msgstr ""
-"代碼庫應該包含機器可閱讀的元資料說明，像是[publiccode.yml](https://github."
-"com/publiccodeyml/publiccode.yml)檔案這樣。"
+"代碼庫應該包含機器可讀取的中介資料說明，例如採用 [publiccode."
+"yml](https://github.com/publiccodeyml/publiccode.yml) 格式的檔案。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid "A dedicated domain name for the codebase is OPTIONAL."
-msgstr "可選擇為代碼庫設定專屬網域名稱。"
+msgstr "可選擇是否為代碼庫設定專用的網域名稱。"
 
 #: ./findability.md:block 5 (unordered list)
 msgid "Regular presentations at conferences by the community are OPTIONAL."
-msgstr "可選擇定期在社群舉辦的會議中進行簡報。"
+msgstr "可選擇是否在社群舉辦的會議中定期進行簡報。"
 
 #: ./findability.md:block 7 (unordered list)
 msgid ""
 "Proactiveness is needed; just publishing a codebase and hoping it's found "
 "doesn't work."
-msgstr "必須主動出擊，不能只是發布代碼庫然後盼望網民會找到這個代碼庫。"
+msgstr "必須主動積極；不能只是發表個代碼庫，然後就盼望他人找得到這個代碼庫。"
 
 #: ./findability.md:block 7 (unordered list)
 msgid "A metadata description file increases discoverability."
-msgstr "元資料說明檔案會讓代碼庫更容易被發現。"
+msgstr "有中介資料說明檔案會讓代碼庫更容易被發現。"
 
 #: ./findability.md:block 7 (unordered list)
 msgid ""
 "The more findable a codebase is, the more potential new collaborators will "
 "find it."
-msgstr "代碼庫越容易被發現，更多的潛在協作者也會發現。"
+msgstr "一旦代碼庫越容易被發現，更多的潛在協作者也就找得到它。"
 
 #: ./findability.md:block 7 (unordered list)
 msgid ""
@@ -1211,35 +1223,35 @@ msgid ""
 "refer, cite, disambiguate and discover the codebase through third party "
 "tools."
 msgstr ""
-"內容豐富且包含永久唯一識別碼的元資料(像是刊載在維基數據或是FSF網站上)，讓代碼"
-"庫成為語意網的一部份。如此一來，他人就能更容易地透過第三方工具參考，引用，解"
-"釋與發現代碼庫。"
+"撰寫出良好且包含永久唯一識別碼的中介資料，例如寫成 Wikidata 維基數據條目，"
+"或是放到 FSF 自由軟體基金會的軟體目錄列表之中，使代碼庫成為語意網路中的一部份"
+"。如此一來，他人就能更容易透過第三方工具參考、引用、辨別、發現代碼庫。"
 
 #: ./findability.md:block 9 (unordered list)
 msgid "Ensure new collaborators or replicators."
-msgstr "確認新協作者或複製者。"
+msgstr "確認新的協作人員或複製者。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase appears in the first set of results on more than "
 "one major search engine when searching by a plain English problem "
 "description."
-msgstr "確認在多個常用的搜尋引擎上，用直白的英文敘述問題，按下搜尋後代碼庫會出現在搜"
-"尋結果的第一頁。"
+msgstr "確認以白話英文敘述相關問題來作搜尋時，有超過一個的常用主流搜尋引擎，都將代碼"
+"庫放在搜尋結果的第一頁中。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase appears in the first set of results on more than "
 "one major search engine when searching by a technical problem description."
-msgstr "確認在多個常用的搜尋引擎上，用技術性文字敘述問題，按下搜尋後代碼庫會出現在搜"
-"尋結果的第一頁。"
+msgstr "確認以技術性文字敘述相關問題來作搜尋時，有超過一個的常用主流搜尋引擎，都將代"
+"碼庫放在搜尋結果的第一頁中。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase appears in the first set of results on more than "
 "one major search engine when searching by the codebase name."
-msgstr "確認在多個常用的搜尋引擎上，搜尋代碼庫名字後，代碼庫會出現在搜尋結果的第一頁"
-"。"
+msgstr "確認以代碼庫名稱來作搜尋時，有超過一個的常用主流搜尋引擎，都將代碼庫放在搜尋"
+"結果的第一頁中。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid "Check for the codebase listing in relevant software catalogs."
@@ -1255,27 +1267,27 @@ msgstr "檢查代碼庫的網站有描述代碼庫能夠解決的問題。"
 msgid ""
 "Check unique and persistent identifier entries for mention of the major "
 "contributors."
-msgstr "檢查永久唯一識別碼有提到主要貢獻者。"
+msgstr "檢查永久唯一識別碼條目有提及主要貢獻者。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid ""
 "Check unique and persistent identifier entries for the repository location."
-msgstr "檢查永久唯一識別碼是否包含儲存庫地點。"
+msgstr "檢查永久唯一識別碼條目中有包含儲存庫位置。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid ""
 "Check unique and persistent identifier entries for the codebase website."
-msgstr "檢查永久唯一識別碼是否有列出代碼庫網站。"
+msgstr "檢查永久唯一識別碼條目有列出代碼庫網站。"
 
 #: ./findability.md:block 11 (unordered list)
 msgid "Check for a machine-readable metadata description file."
-msgstr "檢查元資料說明檔案具有機器可讀的格式。"
+msgstr "檢查中介資料說明檔案是機器可讀取的格式。"
 
 #: ./findability.md:block 13 (unordered list)
 msgid ""
 "Contribute a description of the policy area or problem this codebase acts on"
 " or operates."
-msgstr "描述可應用此代碼庫的政策或問題。"
+msgstr "貢獻一段說明此代碼庫作用的政策領域或處理的問題的描述。"
 
 #: ./findability.md:block 13 (unordered list)
 msgid ""
@@ -1287,44 +1299,46 @@ msgstr "請對代碼庫不熟悉且不同領域的同儕來測試您的問題描
 msgid ""
 "Present on how the codebase implements the [policy](../glossary.md#policy) "
 "at relevent conferences."
-msgstr "在相關會議上介紹代碼庫如何執行[政策](../glossary.md#policy)。"
+msgstr "在相關會議上作簡報介紹代碼庫如何執行[政策](../glossary.md#policy)。"
 
 #: ./findability.md:block 15 (unordered list)
 msgid ""
 "Budget for content design and Search Engine Optimization skills in the team."
-msgstr "為團隊編列內容設計與搜尋引擎優化技能的預算。"
+msgstr "為團隊編列內容設計與 SEO 搜尋引擎最佳化技能的預算。"
 
 #: ./findability.md:block 15 (unordered list)
 msgid "Ensure people involved in the project present at relevant conferences."
-msgstr "確保專案人員在相關會議上介紹本專案。"
+msgstr "確保專案參與人員出席相關會議或作簡報介紹。"
 
 #: ./findability.md:block 15 (unordered list)
 msgid ""
 "Search trademark databases to avoid confusion or infringement before "
 "deciding the name."
-msgstr "決定名稱之前，先搜尋商標資料庫，避免名稱造成混淆或侵權的問題。"
+msgstr "在決定專案名稱之前，先搜尋過商標資料庫，以避免名稱造成混淆或侵權的問題。"
 
 #: ./findability.md:block 17 (unordered list)
 msgid "Search engine optimization."
-msgstr "搜尋引擎優化。"
+msgstr "搜尋引擎最佳化。"
 
 #: ./findability.md:block 17 (unordered list)
 msgid "Suggest conferences to present at and present at them."
-msgstr "建議適合用來簡報的會議並且在這些會議中介紹代碼庫。"
+msgstr "推薦適合出席或作簡報介紹的會議，並且在這些會議中出席或作簡報。"
 
 #: ./findability.md:block 19 (unordered list)
 msgid ""
 "[Introduction to "
 "Wikidata](https://www.wikidata.org/wiki/Wikidata:Introduction) by the "
 "Wikidata community."
-msgstr "維基數據社群的[維基數據簡介](https://www.wikidata.org/wiki/"
-"Wikidata:Introduction)。"
+msgstr ""
+"Wikidata 維基數據社群撰寫，《[維基數據簡介](https://www.wikidata.org/wiki/"
+"Wikidata:Introduction)》。"
 
 #: ./findability.md:block 19 (unordered list)
 msgid ""
 "[FSF software directory listing](https://directory.fsf.org/wiki/Main_Page) "
 "by the Free Softare Foundation."
-msgstr "自由軟體基金會的[FSF軟體型錄清單](https://directory.fsf.org/wiki/Main_Page)。"
+msgstr "FSF 自由軟體基金會，《[FSF 軟體目錄列表](https://directory.fsf.org/wiki/"
+"Main_Page)》。"
 
 #: ./findability.md:block 19 (unordered list)
 msgid ""
@@ -1335,15 +1349,15 @@ msgid ""
 "findable). Some of these apply directly to codebases, while others may "
 "provoke exploration into what the codebase equivalent would be."
 msgstr ""
-"GO FAIR國際支援與合作辦公室的 "
-"[FAIR科學資料管理與盡職治理指導原則](https://www.go-fair.org/fair-principles/"
-")，提出詳盡的清單，解釋哪些屬性會讓(元)資料更容易讓機器採取行動(也因此更容易"
-"被找到)。當中部分屬性可直接套用在代碼庫上，無法直接套用的，我們也需要研究代碼"
-"庫中與其對照的屬性。"
+"GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR科學資料管理與盡職治理指導原則](ht"
+"tps://www.go-fair.org/fair-principles/)》中，提供一份滿好的特性清單，解說哪些"
+"特性會讓資料（或中介資料）更容易讓機器採取行動（也因此更容易被找到）。其中的"
+"部分屬性可直接套用到代碼庫上，而其他無法直接套用的，我們還需要再研究代碼庫與"
+"其對應的特性要怎麼處理。"
 
 #: ./index.md:block 1 (header)
 msgid "Criteria"
-msgstr "標準"
+msgstr "準則"
 
 #: ./index.md:block 3 (paragraph)
 msgid "{% assign sorted = site.pages | sort:\"order\" %}"
@@ -1365,53 +1379,54 @@ msgstr ""
 
 #: ./make-contributing-easy.md:block 1 (header)
 msgid "order: 5"
-msgstr "順序：5"
+msgstr "order: 5"
 
 #: ./make-contributing-easy.md:block 2 (header)
 msgid "Make contributing easy"
-msgstr "讓對代碼庫貢獻代碼變得更容易"
+msgstr "做出貢獻要容易"
 
 #: ./make-contributing-easy.md:block 5 (unordered list)
 msgid ""
 "The [codebase](../glossary.md#codebase) MUST have a public issue tracker "
 "that accepts suggestions from anyone."
-msgstr "[代碼庫](../glossary.md#codebase) 必須具備接受任何人建議的公共議題追蹤器。"
+msgstr "[代碼庫](../glossary.md#codebase)必須有個可以公開接受任何人建議的議題追蹤器。"
 
 #: ./make-contributing-easy.md:block 5 (unordered list)
 msgid ""
 "The codebase MUST include instructions for how to privately report security "
 "issues for responsible disclosure."
-msgstr "代碼庫必須說明如何私下回報安全問題， 達到負責任的揭露。"
+msgstr "代碼庫必須說明，如何私下回報安全性問題來達成負責任的揭露。"
 
 #: ./make-contributing-easy.md:block 5 (unordered list)
 msgid ""
 "The documentation MUST link to both the public issue tracker and submitted "
 "codebase changes, for example in a `README` file."
-msgstr "文件必須有與公共議題追蹤器以及已提交的代碼庫變動的連結，例如記錄在「README」"
-"檔案中。"
+msgstr "文件中必須同時有公開的議題追蹤器連結，以及提交的代碼庫變動的連結，例如記錄在"
+"「`README`」檔案中。"
 
 #: ./make-contributing-easy.md:block 5 (unordered list)
 msgid ""
 "The codebase MUST have communication channels for users and developers, for "
 "example email lists."
-msgstr "代碼庫必須有與使用者以及開發人員的溝通管道，像是電子郵件清單。"
+msgstr "代碼庫必須要有能與使用者以及開發人員溝通的管道，像是設立電子郵件列表（如郵遞"
+"論壇）。"
 
 #: ./make-contributing-easy.md:block 5 (unordered list)
 msgid ""
 "The documentation SHOULD include instructions for how to report potentially "
 "security sensitive issues on a closed channel."
-msgstr "文件應該說明如何透過封閉的管道通報潛在的安全與敏感性問題。"
+msgstr "文件應該說明，如何私下透過封閉的管道通報潛在的安全性與敏感性問題。"
 
 #: ./make-contributing-easy.md:block 7 (unordered list)
 msgid ""
 "Enables users to fix problems and add features to the shared codebase "
 "leading to better, more reliable and feature rich software."
-msgstr "讓使用者能夠修復問題以及新增共享代碼庫的功能，讓軟體更好，更可靠且功能更豐富"
-"。"
+msgstr "讓使用者能夠為共享的代碼庫修復問題與新增功能，能讓軟體變得更好、更可靠、功能"
+"更豐富。"
 
 #: ./make-contributing-easy.md:block 7 (unordered list)
 msgid "Allows collaborative uptake of shared digital infrastructure."
-msgstr "允許共同使用共享數位基礎設施。"
+msgstr "讓人們能以協作方式採用共享的數位基礎建設。"
 
 #: ./make-contributing-easy.md:block 7 (unordered list)
 msgid "Helps users decide to use one codebase over another."
@@ -1423,53 +1438,54 @@ msgstr "保證其他人會重複使用代碼庫。"
 
 #: ./make-contributing-easy.md:block 11 (unordered list)
 msgid "Confirm that there is a public issue tracker."
-msgstr "確認有公共議題追蹤器。"
+msgstr "確認有公開的議題追蹤器。"
 
 #: ./make-contributing-easy.md:block 11 (unordered list)
 msgid ""
 "Confirm that there are instructions for privately reporting security issues."
-msgstr "確認有說明如何私下通報安全問題。"
+msgstr "確認有說明如何私下通報安全性問題。"
 
 #: ./make-contributing-easy.md:block 11 (unordered list)
 msgid ""
 "Confirm that the codebase contains links to the public issue tracker and "
 "submitted codebase changes."
-msgstr "確認代碼庫有公共議題追蹤器以及已提交的代碼庫變動的連結。"
+msgstr "確認代碼庫有公開的議題追蹤器連結，以及已提交的代碼庫變動的連結。"
 
 #: ./make-contributing-easy.md:block 11 (unordered list)
 msgid ""
 "Confirm that it is possible to participate in a discussion with other users "
 "and developers about the software using channels described in the codebase."
-msgstr "確認可以使用代碼庫中提到的管道，與其他使用者以及開發人員討論。"
+msgstr "確認可以使用代碼庫中提到的管道，與其他使用者以及開發人員一同討論該軟體。"
 
 #: ./make-contributing-easy.md:block 13 (unordered list)
 msgid ""
 "Track [policy](../glossary.md#policy) issues in the codebase, so that a "
 "relevant external policy expert can volunteer help."
 msgstr "追蹤代碼庫中的[政策](../glossary."
-"md#policy)問題，讓相關外部政策專家也能自願協助。"
+"md#policy)問題，讓相關的外部政策專家如果自願也能夠協助。"
 
 #: ./make-contributing-easy.md:block 15 (unordered list)
 msgid ""
 "Track management issues in the codebase, so that external managers with "
 "relevant experience can volunteer help."
-msgstr "追蹤代碼庫中的管理問題，讓相關外部政策專家也能自願協助。"
+msgstr "追蹤代碼庫中的管理問題，讓有相關經驗的外部管理人員如果自願也能夠協助。"
 
 #: ./make-contributing-easy.md:block 15 (unordered list)
 msgid ""
 "Support your experienced policy makers, developers and designers to keep "
 "contributing to the codebase for as long as possible."
-msgstr "支持您經驗豐富的政策制定者，開發人員與設計師來持續貢獻代碼給代碼庫。"
+msgstr "支持您經驗豐富的政策制定人員、開發人員與設計師，盡可能使其為代碼庫持續做出長"
+"久貢獻。"
 
 #: ./make-contributing-easy.md:block 17 (unordered list)
 msgid "Respond promptly to requests."
-msgstr "迅速回應要求。"
+msgstr "快速回應請求。"
 
 #: ./make-contributing-easy.md:block 17 (unordered list)
 msgid ""
 "Keep your management informed of the time and resources you require to "
 "support other contributors."
-msgstr "持續告知管階層您需要用來支援其他貢獻者的時間與資源。"
+msgstr "持續告知管理階層您在支援其他貢獻者時所需要的時間與資源。"
 
 #: ./make-contributing-easy.md:block 19 (unordered list)
 msgid ""
@@ -1477,67 +1493,68 @@ msgid ""
 "project](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-"
 "to-your-open-source-project-1ebf) by Joel Hans."
 msgstr ""
-"Joel Hans的[如何鼓勵他人貢獻一流的代碼給您的開源專案](https://dev.to/"
-"joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-"
-"project-1ebf)。"
+"Joel Hans《[如何引發他人為您的開源專案做出優秀貢獻](https://dev.to/joelhans/"
+"how-to-inspire-exceptional-contributions-to-your-open-source-project-"
+"1ebf)》。"
 
 #: ./make-contributing-easy.md:block 19 (unordered list)
 msgid ""
 "[The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-"
 "benefits-of-coding-in-the-open/) by the UK Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[以開放精神編寫原始碼的好處](https://gds.blog.gov.uk/"
-"2017/09/04/the-benefits-of-coding-in-the-open/)。"
+"英國政府數位服務團《[以開放精神編寫原始碼的好處](https://gds.blog.gov.uk/"
+"2017/09/04/the-benefits-of-coding-in-the-open/)》。"
 
 #: ./open-licenses.md:block 1 (header)
 msgid "order: 13"
-msgstr "順序：13"
+msgstr "order: 13"
 
 #: ./open-licenses.md:block 2 (header)
 msgid "Publish with an open license"
-msgstr "取得公開授權並公布程式碼"
+msgstr "採用開放授權發行"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
 "All [code](../glossary.md#code) and documentation MUST be licensed such that"
 " it may be freely reusable, changeable and redistributable."
-msgstr "必須取得所有[程式碼](../glossary."
-"md#code)與文件的授權，讓所有人可以免費重複利用，變更與散布。"
+msgstr "所有[程式碼](../glossary.md#code)與文件，皆必須採用使其得以可自由重複使用、可"
+"自由修改、可自由再次散布的授權條款。"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
 "Software source code MUST be licensed under an [OSI-approved or FSF "
 "Free/Libre license](https://spdx.org/licenses/)."
-msgstr "軟體原始碼必須取得[開放原始碼促進會認證或FSF Free/Libre授權](https://spdx."
-"org/licenses/)。"
+msgstr ""
+"軟體原始碼必須採用[經 OSI 開源促進會所批准，或由 FSF "
+"自由軟體基金會所發表的自由授權條款](https://spdx.org/licenses/)。"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid "All code MUST be published with a license file."
-msgstr "所有程式碼都必須放在授權檔案中發布。"
+msgstr "所有程式碼皆必須搭配授權條款檔案一併發行。"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
 "Contributors MUST NOT be required to transfer copyright of their "
 "contributions to the [codebase](../glossary.md#codebase)."
-msgstr "不得要求貢獻者將其貢獻代碼的著作權轉移給[代碼庫](../glossary.md#codebase)。"
+msgstr "不得要求貢獻者將其貢獻的程式碼著作權轉讓給[代碼庫](../glossary.md#codebase)。"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
 "All source code files in the codebase SHOULD include a copyright notice and "
 "a license header that are machine-readable."
-msgstr "代碼庫中所有原始碼檔案都應該包含機器可判讀的著作權與授權聲明。"
+msgstr "代碼庫中所有原始碼檔案，皆應該包含機器可讀取的著作權聲明與授權條款標頭內容。"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
 "Having multiple licenses for different types of code and documentation is "
 "OPTIONAL."
-msgstr "可選擇為不同類型的程式碼與文件取得多個授權。"
+msgstr "可選擇是否為不同類型的程式碼與文件採用多重授權條款。"
 
 #: ./open-licenses.md:block 7 (unordered list)
 msgid ""
 "Makes it possible for anyone to see the code and know that they can and how "
 "they can reuse it."
-msgstr "讓任何看到程式碼的人，都能知道可以與如何重複利用這些程式碼。"
+msgstr "讓任何人都可以查看程式碼，並知道他們可以與該如何重複利用這些程式碼。"
 
 #: ./open-licenses.md:block 9 (unordered list)
 msgid "Prevent use of the code by any specific actors."
@@ -1545,7 +1562,7 @@ msgstr "預防任何特定行為人使用程式碼。"
 
 #: ./open-licenses.md:block 11 (unordered list)
 msgid "Confirm that the codebase is clearly licensed."
-msgstr "確認代碼庫確實有取得授權。"
+msgstr "確認代碼庫有清楚給予授權條款。"
 
 #: ./open-licenses.md:block 11 (unordered list)
 msgid ""
@@ -1554,47 +1571,50 @@ msgid ""
 "documentation [conforms to the Open "
 "Definition](https://opendefinition.org/licenses/)."
 msgstr ""
-"確認原始碼授權有在[開放原始碼促進會認證或FSF Free/Libre授權清單](https://spdx"
-".org/licenses/)，以及文件授權[符合開放定義](https://opendefinition.org/"
+"確認原始碼的授權條款有列於[經 OSI 開源促進會所批准，或由 FSF "
+"自由軟體基金會所發表的自由授權條款清單](https://spdx.org/licenses/"
+")，以及文件的授權條款有[符合「開放定義」](https://opendefinition.org/"
 "licenses/)。"
 
 #: ./open-licenses.md:block 11 (unordered list)
 msgid "Confirm that the licenses used in the codebase are included as files."
-msgstr "確認代碼庫有包含其使用授權的檔案。"
+msgstr "確認代碼庫中有包含其採用的授權條款檔案。"
 
 #: ./open-licenses.md:block 11 (unordered list)
 msgid ""
 "Confirm that contribution guidelines and "
 "[repository](../glossary.md#repository) configuration do not require "
 "transfer of copyright."
-msgstr "確認貢獻指南以及[儲存庫](../glossary."
-"md#repository)的設定不要求貢獻者轉移著作權。"
+msgstr "確認貢獻指南中，以及[儲存庫](../glossary."
+"md#repository)的組態設定中，沒有求貢獻者轉讓著作權。"
 
 #: ./open-licenses.md:block 11 (unordered list)
 msgid ""
 "Check for machine-readable license checking in the codebase [continuous "
 "integration](../glossary.md#continuous-integration) tests."
-msgstr "在代碼庫[持續整合](../glossary.md#continuous-"
-"integration)測試中，確認是否有檢查機器可判讀授權的功能。"
+msgstr ""
+"在代碼庫[持續整合](../glossary.md#continuous-"
+"integration)測試中，確認是否有檢查授權內容為機器可讀取的檢查項目。"
 
 #: ./open-licenses.md:block 13 (unordered list)
 msgid ""
 "Develop [policy](../glossary.md#policy) that requires code to be [open "
 "source](../glossary.md#open-source)."
-msgstr "制定要求程式碼為 [開源](../glossary.md#open-source)的[政策](../glossary."
-"md#policy)。"
+msgstr ""
+"制定要求程式碼必須採用[開源](../glossary.md#open-"
+"source)授權的[政策](../glossary.md#policy)。"
 
 #: ./open-licenses.md:block 13 (unordered list)
 msgid ""
 "Develop policy that disincentivizes non-open source code and technology in "
 "procurement."
-msgstr "制定政策，減少採購非開源的程式碼與科技。"
+msgstr "制定抑制採購非開源授權程式碼與非開放科技的政策。"
 
 #: ./open-licenses.md:block 15 (unordered list)
 msgid ""
 "Only work with open source vendors that deliver their code by publishing it "
 "under an open source license."
-msgstr "只與透過開源授權發布其程式碼的開源供應商合作。"
+msgstr "只與能採用開源授權交付與發行其程式碼的開源軟體供應商合作。"
 
 #: ./open-licenses.md:block 15 (unordered list)
 msgid ""
@@ -1604,25 +1624,26 @@ msgid ""
 "NOT freely reusable, changeable and redistributable and don't fulfill these "
 "requirements."
 msgstr ""
-"請注意：雖然[創用CC授權](https://creativecommons.org/licenses/)適合用於文件上"
-"，具有非商業性或禁止改作的授權代表不得免費重複使用，變更與散布，因此不符合規"
-"定。"
+"請注意，雖然[創用CC授權](https://creativecommons.org/licenses/)適合用於文件作"
+"品，但其中指明「非商業性」或「禁止改作」的授權條款，代表「無法」自由重複使用"
+"、自由修改、自由再次散布等，因此未能符合規定。"
 
 #: ./open-licenses.md:block 17 (unordered list)
 msgid "Add a new `license` file to every new codebase created."
-msgstr "建立新的代碼庫時，都要加入新的「授權」檔案。"
+msgstr "每當建立新的代碼庫時，都要加入新的「`license`」授權條款檔案。"
 
 #: ./open-licenses.md:block 17 (unordered list)
 msgid ""
 "Add a copyright notice and a license header to every new source code file "
 "created."
-msgstr "建立新的原始碼檔案時，都要加入著作權與授權聲明。"
+msgstr "每當建立新的原始碼檔案時，都要加入著作權聲明與授權條款標頭內容。"
 
 #: ./open-licenses.md:block 19 (unordered list)
 msgid ""
 "[Open source definition](https://opensource.org/osd) by the Open Source "
 "Initiative, all open source licenses meet this definition."
-msgstr "所有開源授權都符合開放原始碼促進會的[開源定義](https://opensource.org/osd)。"
+msgstr "開源促進會所發表的《[開放原始碼定義](https://opensource.org/"
+"osd)》，所有開放原始碼授權條款皆符合這套定義。"
 
 #: ./open-licenses.md:block 19 (unordered list)
 msgid ""
@@ -1630,8 +1651,8 @@ msgid ""
 "Commons](https://creativecommons.org/about/videos/creative-commons-kiwi) by "
 "Creative Commons Aotearoa New Zealand."
 msgstr ""
-"紐西蘭CC Aotearoa的[創用CC介紹動畫影片](https://creativecommons.org/about/"
-"videos/creative-commons-kiwi)。"
+"紐西蘭CC Aotearoa《[創用CC介紹動畫影片](https://creativecommons.org/about/"
+"videos/creative-commons-kiwi)》。"
 
 #: ./open-licenses.md:block 19 (unordered list)
 msgid ""
@@ -1639,23 +1660,24 @@ msgid ""
 "Software Foundation Europe for unambiguous, human-readable and machine-"
 "readable copyright and licensing information."
 msgstr ""
-"歐洲自由軟體基金會的[REUSE倡議規範](https://reuse.software/spec/"
-")，是規範明確，人類可讀以及機器可讀的著作權與授權資訊。"
+"歐洲自由軟體基金會所發表的《[REUSE 倡議規範](https://reuse.software/spec/"
+")》提供規範明確、人類可讀以及機器可讀的著作權與授權資訊。"
 
 #: ./open-licenses.md:block 19 (unordered list)
 msgid ""
 "[SPDX License List](https://spdx.org/licenses/) by the Linux Foundation with"
 " standardized, machine-readable abbreviations for most licenses."
-msgstr "Linux基金會的[SPDX授權清單](https://spdx.org/licenses/"
-")，提供多數授權的標準化且機器可讀的縮寫。"
+msgstr ""
+"Linux 基金會所發表的 [SPDX 授權條款清單](https://spdx.org/licenses/"
+")提供經標準化、且機器可讀的大多數授權條款縮寫表示法。"
 
 #: ./open-standards.md:block 1 (header)
 msgid "order: 11"
-msgstr "順序：11"
+msgstr "order: 11"
 
 #: ./open-standards.md:block 2 (header)
 msgid "Use open standards"
-msgstr "使用開源標準"
+msgstr "採用開放標準"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
@@ -1664,102 +1686,103 @@ msgid ""
 "standard](../glossary.md#open-standard) that meets the [Open Source "
 "Initiative Open Standard Requirements](https://opensource.org/osr)."
 msgstr ""
-"[代碼庫](../glossary.md#codebase)要能進行資料交換，就必須使用符合 "
-"[開放原始碼促進會開源標準規定](https://opensource.org/"
-"osr)的[開源標準](../glossary.md#open-standard)。"
+"[代碼庫](../glossary.md#codebase)如要達成促進資料交換的特性，就必須採用符合["
+"開源促進會其開放標準需求規範](https://opensource.org/"
+"osr)的[開放標準](../glossary.md#open-standard)。"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
 "Any non-open standards used MUST be recorded clearly as such in the "
 "documentation."
-msgstr "若使用非開源標準，就必須在文件中清楚標示。"
+msgstr "如果有使用到任何的非開放標準，則必須在文件中清楚記錄。"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
 "Any standard chosen for use within the codebase MUST be listed in the "
 "documentation with a link to where it is available."
-msgstr "代碼庫使用的任何標準必須在文件中清楚標示，並且附上該標準的連結。"
+msgstr "代碼庫採用的任何標準，皆必須在文件中清楚列出，並且只要有的話，就附上該標準的"
+"連結。"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
 "Any non-open standards chosen for use within the codebase MUST NOT hinder "
 "collaboration and reuse."
-msgstr "代碼庫使用的非開源標準不得妨礙代碼庫的協作與重複使用。"
+msgstr "代碼庫採用的任何非開放標準，皆不得妨礙代碼庫的協作與重複使用。"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
 "If no existing open standard is available, effort SHOULD be put into "
 "developing one."
-msgstr "如果沒有開源標準可用，則應該開發新標準。"
+msgstr "如果還沒有已存在的開放標準可採用，則應該投入開發新標準。"
 
 #: ./open-standards.md:block 5 (unordered list)
 msgid ""
 "Standards that are machine testable SHOULD be preferred over those that are "
 "not."
-msgstr "應該優先選擇可用機器測試的標準。"
+msgstr "採用標準時，應該優先選擇可經機器測試的標準。"
 
 #: ./open-standards.md:block 7 (unordered list)
 msgid "Creates interoperability between systems."
-msgstr "讓系統可以互通。"
+msgstr "為不同的系統之間建立互通性。"
 
 #: ./open-standards.md:block 7 (unordered list)
 msgid "Reduces possible vendor lock-in."
-msgstr "降低可能的廠商陷阱。"
+msgstr "降低廠商套牢的可能性。"
 
 #: ./open-standards.md:block 7 (unordered list)
 msgid ""
 "Guarantees access to the knowledge required to reuse and contribute to the "
 "codebase."
-msgstr "保證讓每個人都能獲得相關知識，學會重複利用以及貢獻代碼給代碼庫。"
+msgstr "保證可以取得重複利用與貢獻代碼庫所需的知識。"
 
 #: ./open-standards.md:block 9 (unordered list)
 msgid "Make it understandable how to use the software."
-msgstr "說明如何使用軟體。"
+msgstr "讓軟體的操作方法變得可以瞭解。"
 
 #: ./open-standards.md:block 11 (unordered list)
 msgid "Confirm that data exchange follows an OSI approved open standard."
-msgstr "確認資料交換遵守OSI認證的開源標準。"
+msgstr "確認資料交換遵守 OSI 開源促進會批准的開放標準。"
 
 #: ./open-standards.md:block 11 (unordered list)
 msgid ""
 "Confirm that any non-open standards used are clearly documented as such."
-msgstr "確認若有使用非開源標準，都有清楚標示。"
+msgstr "確認若有採用任何的非開放標準，皆有清楚記錄在文件中。"
 
 #: ./open-standards.md:block 11 (unordered list)
 msgid ""
 "Confirm that documentation includes a list of the standards followed within "
 "the codebase, each with a working link, or a statement that no standards "
 "were chosen."
-msgstr "確認文件有清單列出代碼庫使用的標準，而且代碼庫都有對應的連結可用。若是沒有使"
-"用標準，也須清楚標示。"
+msgstr "確認文件有清單列出代碼庫所採用的標準，其中各標準有對應的生效連結；或沒有採用"
+"任何標準時，則留下聲明。"
 
 #: ./open-standards.md:block 13 (unordered list)
 msgid "Mandate use of open standards everywhere possible."
-msgstr "盡可能規定要求使用開源標準。"
+msgstr "以政策要求盡可能在任何情況下使用開放標準。"
 
 #: ./open-standards.md:block 13 (unordered list)
 msgid "Prohibit procurement of technology that does not use open standards."
-msgstr "禁止採購不支援開源標準的科技。"
+msgstr "禁止採購不採用開放標準的技術科技。"
 
 #: ./open-standards.md:block 15 (unordered list)
 msgid ""
 "Consider including open standard compliance assessment in "
 "[code](../glossary.md#code) reviews."
-msgstr "考慮在[程式碼](../glossary.md#code)審核中加入開源標準遵循評估。"
+msgstr "考慮在[程式碼](../glossary.md#code)審核中納入開放標準依循評估。"
 
 #: ./open-standards.md:block 17 (unordered list)
 msgid ""
 "Add [continuous integration](../glossary.md#continuous-integration) tests "
 "for compliance with the standards."
-msgstr "在標準遵循方面，加入[持續整合](../glossary.md#continuous-integration)測試。"
+msgstr "將是否依循標準加入[持續整合](../glossary.md#continuous-integration)測試中。"
 
 #: ./open-standards.md:block 17 (unordered list)
 msgid ""
 "Review the commits and other [repository](../glossary.md#repository) "
 "resources for references to standards and cross-check those with the "
 "standards listed."
-msgstr "檢查提交說明與其他[儲存庫](../glossary."
-"md#repository)資源是否有提到開源標準，並且再次確認有列出標準的內容。"
+msgstr "審查提交紀錄與其他[儲存庫](../glossary."
+"md#repository)資源是否有參考開放標準，並交叉檢查其中有列出標準的部分。"
 
 #: ./open-standards.md:block 19 (unordered list)
 msgid ""
@@ -1767,13 +1790,13 @@ msgid ""
 "standards-principles/open-standards-principles), "
 "[policy](../glossary.md#policy) paper of the UK Cabinet Office."
 msgstr ""
-"英國內閣辦公室的[開源標準原則](https://www.gov.uk/government/publications/"
-"open-standards-principles/open-standards-principles)與[政策](../glossary."
-"md#policy)論文。"
+"英國內閣辦公室發表的《[開放標準原則](https://www.gov.uk/government/"
+"publications/open-standards-principles/open-standards-"
+"principles)》[政策](../glossary.md#policy)報告。"
 
 #: ./open-to-contributions.md:block 1 (header)
 msgid "order: 4"
-msgstr "順序：4"
+msgstr "order: 4"
 
 #: ./open-to-contributions.md:block 2 (header)
 msgid "Welcome contributors"
@@ -2483,7 +2506,7 @@ msgid ""
 "in the codebase, for example in the `CONTRIBUTING` or `README`."
 msgstr ""
 "為[政策](../glossary.md#policy)與文件建立與遵守風格指南，並且持續改善，同時可"
-"在代碼庫的「CONTRIBUTING」或「README」檔案中註明。"
+"在代碼庫的「`CONTRIBUTING`」或「`README`」檔案中註明。"
 
 #: ./style.md:block 15 (unordered list)
 msgid ""
@@ -2505,10 +2528,10 @@ msgid ""
 "evolving this documentation into engineering guidelines."
 msgstr ""
 "代碼庫若沒有工程指南或其他貢獻者指南，先在[儲存庫](../glossary.md#repository)"
-"中的「CONTRIBUTING」或「README」檔案加入文件，描述目前在指南方面的進展。文件"
-"主要目的在於表達設計偏好，命名規則等機器不容易檢查的內容。指南應該包含貢獻[程"
-"式碼](../glossary.md#code)該符合哪些要求，才會被維護人員加入代碼庫，包括原始"
-"碼，測試與文件。持續改善與增加文件內容，目標在於讓該文件成為工程指南。"
+"中的「`CONTRIBUTING`」或「`README`」檔案加入文件，描述目前在指南方面的進展。"
+"文件主要目的在於表達設計偏好，命名規則等機器不容易檢查的內容。指南應該包含貢"
+"獻[程式碼](../glossary.md#code)該符合哪些要求，才會被維護人員加入代碼庫，包括"
+"原始碼，測試與文件。持續改善與增加文件內容，目標在於讓該文件成為工程指南。"
 
 #: ./style.md:block 18 (paragraph)
 msgid "Additionally:"
