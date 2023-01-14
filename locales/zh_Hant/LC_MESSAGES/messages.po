@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-14 10:41+0000\n"
+"PO-Revision-Date: 2023-01-14 16:42+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 #
 #: ./bundle-policy-and-code.md:block 1 (header)
 msgid "order: 2"
-msgstr "順序：2"
+msgstr "order: 2"
 
 #: ./bundle-policy-and-code.md:block 2 (header)
 msgid "Bundle policy and source code"
-msgstr "同捆政策與原始碼"
+msgstr "合捆政策與原始碼"
 
 #: ./bundle-policy-and-code.md:block 4 (header)
 msgid "Requirements"
@@ -33,29 +33,29 @@ msgid ""
 "[policy](../glossary.md#policy) that the source [code](../glossary.md#code) "
 "is based on."
 msgstr ""
-"[代碼庫](../glossary.md#codebase)必須包含作為[原始碼](../glossary."
-"md#code)基礎的[政策](../glossary.md#policy)。"
+"[代碼庫](../glossary.md#codebase)必須包含[原始碼](../glossary."
+"md#code)所根據的[政策](../glossary.md#policy)。"
 
 #: ./bundle-policy-and-code.md:block 5 (unordered list)
 msgid ""
 "The codebase MUST include all source code that the policy is based on, "
 "unless used for fraud detection."
-msgstr "代碼庫必須包含政策基於的所有原始碼（用於偵測詐騙的原始碼除外）。"
+msgstr "代碼庫必須包含所根據政策的所有原始碼，用於偵測詐騙的原始碼則可除外。"
 
 #: ./bundle-policy-and-code.md:block 5 (unordered list)
 msgid "Policy SHOULD be provided in machine readable and unambiguous formats."
-msgstr "政策必須採用機器可閱讀且非模凌兩可的格式。"
+msgstr "政策應該採用機器可讀取且明確的格式。"
 
 #: ./bundle-policy-and-code.md:block 5 (unordered list)
 msgid ""
 "[Continuous integration](../glossary.md#continuous-integration) tests SHOULD"
 " validate that the source code and the policy are executed coherently."
 msgstr "[持續整合](../glossary.md#continuous-integration) "
-"測試應該驗證原始碼與政策可一致執行。"
+"測試應該驗證原始碼與政策能一致執行。"
 
 #: ./bundle-policy-and-code.md:block 6 (header)
 msgid "Why this is important"
-msgstr "重要的原因"
+msgstr "此措施為何重要"
 
 #: ./bundle-policy-and-code.md:block 7 (paragraph)
 msgid ""
@@ -68,24 +68,25 @@ msgid ""
 " must choose to make or how to contribute additional configurability to the "
 "existing solution in order to adapt it to the new context."
 msgstr ""
-"取得原始碼與政策文件，才能瞭解，重複使用以及在代碼庫中進行協作。瞭解情境以及"
-"政策所在情境，才能瞭解代碼庫想要嘗試解決的問題，以及代碼庫可以如何解決這些問"
-"題。如欲評估是否在新的情境中採用代碼庫，組織需要瞭解必須改變的流程，或是如何"
-"提升現有解決方案的設定，才能適應新情境。"
+"如果要瞭解、重複利用程式碼，還有在代碼庫中互相協作，就必須要能同時取用原始碼"
+"與政策文件。瞭解使用情境與該情境的政策是基本原則，才能瞭解代碼庫試圖想解決的"
+"問題，以及程式碼解決這些問題的出發點。如果想評估是否能在新的情境中採用該代碼"
+"庫，則單位組織需要瞭解必須做出改變的程序有哪些，或是如何對現有解決方案付出的"
+"額外調整與設定，以適應新的情境。"
 
 #: ./bundle-policy-and-code.md:block 8 (header)
 msgid "What this does not do"
-msgstr "不包含的功能"
+msgstr "此措施辦不到的事"
 
 #: ./bundle-policy-and-code.md:block 9 (unordered list)
 msgid "Guarantee that a codebase will reflect the bundled policy."
-msgstr "保證代碼庫能反應同捆政策。"
+msgstr "保證代碼庫能反應合捆的政策。"
 
 #: ./bundle-policy-and-code.md:block 9 (unordered list)
 msgid ""
 "Make sure packages comply with the local technical infrastructure or legal "
 "framework of a given public organization."
-msgstr "確保套件符合本地技術基礎設施或是特定公共組織的法律框架。"
+msgstr "確保合捆套組內容符合地方性技術基礎設施，或是特定公共組織的法律框架。"
 
 #: ./bundle-policy-and-code.md:block 10 (header)
 msgid "How to test"
@@ -95,33 +96,33 @@ msgstr "測試方式"
 msgid ""
 "Confirm with a civil servant that all policy that the source code is based "
 "on is included."
-msgstr "與公務人員確認包含作為程式碼基礎的整個政策。"
+msgstr "與公務人員確認程式碼根據的所有政策內容都有包含在內。"
 
 #: ./bundle-policy-and-code.md:block 11 (unordered list)
 msgid ""
 "Confirm with a civil servant that all source code that the policy is based "
 "on is included."
-msgstr "與公務人員確認包含所有作為政策基礎的原始碼。"
+msgstr "與公務人員確認根據該政策的所有原始碼都有包含在內。"
 
 #: ./bundle-policy-and-code.md:block 11 (unordered list)
 msgid "Check if policy can be interpreted by a machine."
-msgstr "確認政策是否由機器詮釋。"
+msgstr "確認政策內容是否能在機器上解讀。"
 
 #: ./bundle-policy-and-code.md:block 11 (unordered list)
 msgid ""
 "Check the continuous integration tests for coherent execution of source code"
 " and policy pass."
-msgstr "確認原始碼與政策的執行能一致通過持續整合測試。"
+msgstr "確認原始碼與政策間的執行一致性能通過持續整合測試。"
 
 #: ./bundle-policy-and-code.md:block 12 (header)
 msgid "Policy makers: what you need to do"
-msgstr "決策者們：你們要執行的工作"
+msgstr "政策制定人員：需要的工作"
 
 #: ./bundle-policy-and-code.md:block 13 (unordered list)
 msgid ""
 "Collaborate with developers and designers to ensure there is no mismatch "
 "between policy code and source code."
-msgstr "與開發人員及設計師合作，確保政策程式碼與原始碼沒有錯配。"
+msgstr "與開發人員及設計師合作，確保政策法規與程式原始碼之間沒有不相符之處。"
 
 #: ./bundle-policy-and-code.md:block 13 (unordered list)
 msgid ""
@@ -132,9 +133,9 @@ msgid ""
 "which impact the development or the deployment context of the codebase for "
 "your organization."
 msgstr ""
-"提供相關政策內文，以便收錄於[儲存庫](../glossary.md#repository)中；倘若政策內"
-"文沒有英文版本，請提供英文版摘要。務必包含貴組織選擇遵守的標準，以及影響貴組"
-"織代碼庫開發或部署情境的任何組織流程。"
+"提供相關政策內文，以便收錄於[儲存庫](../glossary.md#repository)中；如果政策內"
+"文沒有英文版，請提供英文版摘要。務必也同時包含貴單位組織所選擇遵守的各項標準"
+"，以及影響貴組織代碼庫開發或部署情境的任何組織流程。"
 
 #: ./bundle-policy-and-code.md:block 13 (unordered list)
 msgid "Provide references and links to texts which support the policies."
@@ -159,48 +160,48 @@ msgstr ""
 msgid ""
 "Track policy with [the same version control](version-control-and-history.md)"
 " and documentation used to track source code."
-msgstr "追蹤政策時，請使用與追蹤原始碼[同樣的版本控制](version-control-and-history."
-"md)。"
+msgstr "追蹤政策時，請使用與追蹤原始碼[相同的版本控制](version-control-and-history."
+"md)與文件。"
 
 #: ./bundle-policy-and-code.md:block 13 (unordered list)
 msgid ""
 "Check in regularly to understand how the non-policy code in the codebase has"
 " changed and whether it still matches the [intentions of the "
 "policy](document-objectives.md)."
-msgstr "定期檢查代碼庫中非政策程式碼的變動，以及是否依舊符合[政策意圖](document-"
+msgstr "定期檢查代碼庫中非政策程式碼的變動，以及確認是否仍符合[政策意圖](document-"
 "objectives.md)。"
 
 #: ./bundle-policy-and-code.md:block 14 (header)
 msgid "Management: what you need to do"
-msgstr "管理人員：需要做的事"
+msgstr "管理人員：需要的工作"
 
 #: ./bundle-policy-and-code.md:block 15 (unordered list)
 msgid ""
 "Keep policy makers, developers and designers involved and connected "
 "throughout the whole development process."
-msgstr "讓決策者，開發人員與設計師參與開發並且在整個過程中保持聯繫。"
+msgstr "讓政策制定人員、開發人員與設計師持續參與，並且在整個開發過程中保持聯繫溝通。"
 
 #: ./bundle-policy-and-code.md:block 15 (unordered list)
 msgid ""
 "Make sure policy makers, developers and designers are working to the same "
 "objectives."
-msgstr "確保決策者，開發人員與設計師朝相同目標努力。"
+msgstr "確保政策制定人員、開發人員與設計師朝相同目標努力。"
 
 #: ./bundle-policy-and-code.md:block 16 (header)
 msgid "Developers and designers: what you need to do"
-msgstr "開發人員與設計師：需要做的事"
+msgstr "開發人員與設計師：需要的工作"
 
 #: ./bundle-policy-and-code.md:block 17 (unordered list)
 msgid ""
 "Become familiar with and be able to use the process modelling notation that "
 "the policy makers in your organization use."
-msgstr "熟悉並且學會使用貴組織決策者所使用的流程模型標記法。"
+msgstr "熟悉並且學會貴組織政策制定人員所使用的流程模型標記法。"
 
 #: ./bundle-policy-and-code.md:block 17 (unordered list)
 msgid ""
 "Work together with policy makers to ensure there is no mismatch between "
 "policy code and source code."
-msgstr "與決策者合作，確保政策程式碼與原始碼沒有錯配。"
+msgstr "與政策制定人員一同合作，確保政策法規與程式原始碼之間沒有不相符之處。"
 
 #: ./bundle-policy-and-code.md:block 17 (unordered list)
 msgid "Give feedback on how to make policy documentation more clear."
@@ -214,24 +215,25 @@ msgstr "延伸閱讀"
 msgid ""
 "[Free online tools for building BPMN, CMMN and DMN diagrams at "
 "bmpn.io](https://bpmn.io/) by Camunda."
-msgstr "Camunda [於 bmpn.io "
-"提供免費線上工具，可用於建構BPMN，CMMN與DMN圖表](https://bpmn.io/)。"
+msgstr ""
+"Camunda [於 bmpn.io 網站提供可協助製作業務流程 BPMN、案例管理 CMMN、決策 DMN "
+"等模型與表記法圖表](https://bpmn.io/)。"
 
 #: ./bundle-policy-and-code.md:block 19 (unordered list)
 msgid ""
 "[BPMN Quick Guide](https://www.bpmnquickguide.com/view-bpmn-quick-guide/) by"
 " Trisotech."
 msgstr ""
-"Trisotech的[BPMN快速指南](https://www.bpmnquickguide.com/"
+"Trisotech 提供的 [BPMN 快速指南](https://www.bpmnquickguide.com/"
 "view-bpmn-quick-guide/)。"
 
 #: ./code-in-the-open.md:block 1 (header)
 msgid "order: 1"
-msgstr "順序：1"
+msgstr "order: 1"
 
 #: ./code-in-the-open.md:block 2 (header)
 msgid "Code in the open"
-msgstr "以開放精神編寫原始碼"
+msgstr "原始碼開放"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
@@ -239,36 +241,38 @@ msgid ""
 "[policy](../glossary.md#policy) in use (unless used for fraud detection) "
 "MUST be published and publicly accessible."
 msgstr ""
-"使用中[政策](../glossary.md#policy)的[原始碼](../glossary."
-"md#code)都必須要公開供民眾使用（用於偵測詐欺的原始碼除外）。"
+"任何使用中[政策](../glossary.md#policy)的所有程式[原始碼](../glossary."
+"md#code)都必須要公開（用於偵測詐欺的原始碼除外），且能供民眾取用。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
 "All source code for any software in use (unless used for fraud detection) "
 "MUST be published and publicly accessible."
-msgstr "使用中軟體的所有原始碼都必須要公開供民眾使用（用於偵測詐欺的原始碼除外）。"
+msgstr "任何使用中軟體的所有程式原始碼都必須要公開（用於偵測詐欺的原始碼除外），且供"
+"民眾使用。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
 "Contributors MUST NOT upload sensitive information regarding users, their "
 "organization or third parties to the "
 "[repository](../glossary.md#repository)."
-msgstr "貢獻者絕對不可上傳有關使用者，其組織或第三方的敏感性資訊到[儲存庫](../glossar"
-"y.md#repository)。"
+msgstr "貢獻者絕對禁止上傳與使用者及其單位組織，或與第三方相關的敏感性資訊到[儲存庫]("
+"../glossary.md#repository)中。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
 "Any source code not currently in use (such as new versions, proposals or "
 "older versions) SHOULD be published."
-msgstr "目前非使用中的原始碼（像是新版本，提案或較舊版本）都應該公開。"
+msgstr "目前非使用中的任何原始碼（像是新版本、提案版本，或較舊版本）都應該公開。"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
 "Documenting which source code or policy underpins any specific interaction "
 "the [general public](../glossary.md#general-public) may have with an "
 "organization is OPTIONAL."
-msgstr "您可以選擇是否要紀錄[一般大眾](../glossary.md#general-"
-"public)與組織互動背後所採用的原始碼或政策。"
+msgstr ""
+"可選擇是否要以文件紀錄[一般大眾](../glossary.md#general-public)與單位組織之間"
+"可能發生的任何特定互動，其背後所採用的程式原始碼或支持的政策。"
 
 #: ./code-in-the-open.md:block 7 (paragraph)
 msgid "Coding in the open:"
@@ -291,17 +295,17 @@ msgid ""
 "These aspects together create more opportunities for citizens to understand "
 "how software and policy impact their interactions with a public "
 "organization."
-msgstr "這些面向讓市民更有機會瞭解軟體與政策如何影響其與公共組織的互動。"
+msgstr "這些面向讓公民更有機會瞭解軟體與政策如何影響其與公共組織的互動。"
 
 #: ./code-in-the-open.md:block 11 (unordered list)
 msgid "Make source code or policy reusable."
-msgstr "讓原始碼或政策能重複使用。"
+msgstr "讓原始碼或政策可以重複使用。"
 
 #: ./code-in-the-open.md:block 11 (unordered list)
 msgid ""
 "Make the [codebase](../glossary.md#codebase) and the code within it "
 "understandable to as many people as possible."
-msgstr "讓更多人清楚瞭解[代碼庫](../glossary.md#codebase)以及當中的程式碼。"
+msgstr "讓盡可能越多人能讀懂[代碼庫](../glossary.md#codebase)以及當中的程式碼。"
 
 #: ./code-in-the-open.md:block 13 (unordered list)
 msgid ""
@@ -309,8 +313,8 @@ msgid ""
 "the internet where it can be seen from outside the original contributing "
 "organization and without the need for any form of authentication or "
 "authorization."
-msgstr "確認使用中的每個版本都公布原始碼在網路上，且民眾不需要透過任何驗證或授權，就"
-"能在原始貢獻組織之外查看這些原始碼。"
+msgstr "確認目前使用中的每個版本都有公布原始碼在網際網路上，而且民眾不需要經過任何形"
+"式的身分核對或授權，就能在原始貢獻組織之外，查看這些原始碼。"
 
 #: ./code-in-the-open.md:block 13 (unordered list)
 msgid ""
@@ -324,42 +328,42 @@ msgstr "檢查目前非使用中的原始碼是否有公開。"
 
 #: ./code-in-the-open.md:block 15 (unordered list)
 msgid "Develop policies in the open."
-msgstr "以開放精神開發政策。"
+msgstr "以開放精神發展政策。"
 
 #: ./code-in-the-open.md:block 15 (unordered list)
 msgid "Prioritize open and transparent policies."
-msgstr "以公開透明政策為優先。"
+msgstr "以公開透明的政策為優先。"
 
 #: ./code-in-the-open.md:block 17 (unordered list)
 msgid "Develop a culture that embraces openness, learning and feedback."
-msgstr "孕育一個重視開放，學習與意見回饋的文化。"
+msgstr "孕育擁抱開放、重視學習、歡迎意見回饋的文化。"
 
 #: ./code-in-the-open.md:block 17 (unordered list)
 msgid ""
 "Collaborate with external vendors and freelancers by working in the open."
-msgstr "公開作業，與外部供應商與自由業者合作。"
+msgstr "與外部供應商和自由業者以開放精神的方式協作。"
 
 #: ./code-in-the-open.md:block 19 (unordered list)
 msgid ""
 "As a reviewer, for each commit, verify that content does not include "
 "sensitive information such as configurations, usernames or passwords, public"
 " keys or other real credentials used in production systems."
-msgstr "審查人員提交歷史紀錄時，都應該確認內容沒有包含設定，使用者名稱，密碼，公開金"
-"鑰或其他生產系統中的實名資訊等敏感性資訊。"
+msgstr "審查人員在檢核每次的程式碼提交紀錄時，要確實核對內容沒有包含設定、使用者名稱"
+"或密碼、公開金鑰，或其他產品系統中使用的實名憑證等敏感性資訊。"
 
 #: ./code-in-the-open.md:block 19 (unordered list)
 msgid ""
 "Clearly split data and code, in order to meet the requirement about "
 "sensitive information above."
-msgstr "為符合上述敏感性資訊相關規定，請明確分開資料與程式碼。"
+msgstr "為符合上述敏感性資訊的相關規定，請明確分開資料與程式碼。"
 
 #: ./code-in-the-open.md:block 21 (unordered list)
 msgid ""
 "[Coding in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/)"
 " by the UK Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[以開放精神編寫原始碼](https://gds.blog.gov.uk/2012/10/"
-"12/coding-in-the-open/)。"
+"英國政府數位服務團《[以開放精神編寫原始碼](https://gds.blog.gov.uk/2012/10/"
+"12/coding-in-the-open/)》。"
 
 #: ./code-in-the-open.md:block 21 (unordered list)
 msgid ""
@@ -368,9 +372,9 @@ msgid ""
 "guidance/when-code-should-be-open-or-closed) by the UK Government Digital "
 "Service."
 msgstr ""
-"英國政府數位服務團的[程式碼應該公開或封閉的時機](https://www.gov.uk/"
+"英國政府數位服務團《[程式碼應該開放或封閉的時機](https://www.gov.uk/"
 "government/publications/open-source-guidance/when-code-should-be-open-or-"
-"closed)。"
+"closed)》。"
 
 #: ./code-in-the-open.md:block 21 (unordered list)
 msgid ""
@@ -379,9 +383,9 @@ msgid ""
 "guidance/security-considerations-when-coding-in-the-open) by the UK "
 "Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[以開放精神編寫原始碼的資安考量](https://www.gov.uk/"
+"英國政府數位服務團《[以開放精神編寫原始碼的資安考量](https://www.gov.uk/"
 "government/publications/open-source-guidance/security-considerations-when-"
-"coding-in-the-open)。"
+"coding-in-the-open)》。"
 
 #: ./code-in-the-open.md:block 21 (unordered list)
 msgid ""
@@ -389,20 +393,20 @@ msgid ""
 "manual/technology/deploying-software-regularly) by the UK Government Digital"
 " Service."
 msgstr ""
-"英國政府數位服務團的[定期部署軟體](https://www.gov.uk/service-manual/"
-"technology/deploying-software-regularly)。"
+"英國政府數位服務團《[定期部署軟體](https://www.gov.uk/service-manual/"
+"technology/deploying-software-regularly)》。"
 
 #: ./code-in-the-open.md:block 21 (unordered list)
 msgid ""
 "[How GDS uses GitHub](https://gdstechnology.blog.gov.uk/2014/01/27/how-we-"
 "use-github/) by the UK Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[政府數位服務團如何使用GitHub](https://gdstechnology.blog"
-".gov.uk/2014/01/27/how-we-use-github/)。"
+"英國政府數位服務團《[政府數位服務團如何使用 GitHub](https://gdstechnology."
+"blog.gov.uk/2014/01/27/how-we-use-github/)》。"
 
 #: ./continuous-integration.md:block 1 (header)
 msgid "order: 12"
-msgstr "順序：12"
+msgstr "order: 12"
 
 #: ./continuous-integration.md:block 2 (header)
 msgid "Use continuous integration"
@@ -412,19 +416,19 @@ msgstr "使用持續整合"
 msgid ""
 "All functionality in the source [code](../glossary.md#code) MUST have "
 "automated tests."
-msgstr "[原始碼](../glossary.md#code)的所有功能都必須有自動化測試。"
+msgstr "[原始碼](../glossary.md#code)中的所有功能都必須有自動化測試。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid ""
 "Contributions MUST pass all automated tests before they are admitted into "
 "the [codebase](../glossary.md#codebase)."
-msgstr "所有貢獻內容都必須通過自動化測試，才能上傳至[代碼庫](../glossary."
+msgstr "所有貢獻內容都必須先通過自動化測試，才能上傳至[代碼庫](../glossary."
 "md#codebase)。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid ""
 "The codebase MUST have guidelines explaining how to structure contributions."
-msgstr "代碼庫必須有說明貢獻內容結構的準則。"
+msgstr "代碼庫必須有說明貢獻內容結構的相關準則。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid "The codebase MUST have active contributors."
@@ -434,22 +438,23 @@ msgstr "代碼庫必須有活躍貢獻者。"
 msgid ""
 "The codebase guidelines SHOULD state that each contribution should focus on "
 "a single issue."
-msgstr "代碼庫準則應該規定每份貢獻內容都應只聚焦在單一議題上。"
+msgstr "代碼庫準則應該規定每次做出貢獻時都應只聚焦在單一議題上。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid "Source code test and documentation coverage SHOULD be monitored."
-msgstr "應該監督原始碼測試與文件涵蓋的範圍。"
+msgstr "應該監督原始碼測試與文件的涵蓋範圍。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid ""
 "Testing [policy](../glossary.md#policy) and documentation for consistency "
 "with the source and vice versa is OPTIONAL."
-msgstr "可選擇是否測試[政策](../glossary.md#policy)跟文件與原始碼的一致性。"
+msgstr "可選擇是否測試[政策](../glossary."
+"md#policy)和文件，是否與原始碼間有一致性，或是反之亦然。"
 
 #: ./continuous-integration.md:block 5 (unordered list)
 msgid ""
 "Testing policy and documentation for style and broken links is OPTIONAL."
-msgstr "可選擇是否測試政策跟文件的風格以及失效連結。"
+msgstr "可選擇是否測試政策和文件所採用的樣式，以及連結是否失效。"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid "Using [continuous integration](../glossary.md#continuous-integration):"
@@ -457,19 +462,19 @@ msgstr "使用[持續整合](../glossary.md#continuous-integration)："
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid "allows you to quickly identify problems with the codebase,"
-msgstr "讓您能迅速找出代碼庫的問題，"
+msgstr "可以讓您快速找出代碼庫的問題所在，"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid ""
 "enables risk taking and focusing on problem solving while minimizing stress "
 "for the contributors,"
-msgstr "在減少貢獻者面臨的壓力的同時，允許承擔風險並且專注在解決問題上，"
+msgstr "能在降低貢獻者面臨壓力的同時，允許承擔風險並且專注在解決問題上，"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid ""
 "lowers barriers for new contributors by reducing the amount of understanding"
 " necessary to suggest changes,"
-msgstr "降低新貢獻者對整體內容理解的門檻，讓他們更容易建議變更，"
+msgstr "可降低新貢獻者對整體內容理解的門檻，讓他們更容易提出修改，"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid "leads to more maintainable code,"
@@ -477,25 +482,25 @@ msgstr "讓程式碼更容易維護，"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid "speeds up the development cycle."
-msgstr "加快開發速度。"
+msgstr "能加速開發週期。"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid ""
 "Smaller, more regular contributions are typically easier to evaluate and "
 "lower risk compared to large infrequent changes."
-msgstr "內容較少但更規律提出的貢獻內容，通常較為容易評估，風險也低於內容龐大但鮮少提"
-"出的變更。"
+msgstr "修改內容較少，而時常提出的貢獻，通常較為容易評估，其風險也低於內容龐大，累積"
+"很久才一次提出的變更。"
 
 #: ./continuous-integration.md:block 7 (unordered list)
 msgid ""
 "Codebases in active development more reliably provide opportunities for "
 "collaboration and feedback."
-msgstr "開發中的代碼庫較能提供協作與提供意見回饋的機會。"
+msgstr "活躍開發中的代碼庫較能提供協作與意見回饋的機會。"
 
 #: ./continuous-integration.md:block 9 (unordered list)
 msgid ""
 "Create a fault tolerant infrastructure that will work and scale perfectly."
-msgstr "建立能夠順暢作業，擴展且能容錯的基礎架構。"
+msgstr "建立能夠順暢作業、可擴展，且能容錯的基礎架構。"
 
 #: ./continuous-integration.md:block 9 (unordered list)
 msgid "Create meaningful tests."
@@ -507,7 +512,7 @@ msgstr "測試實際會發生的情境。"
 
 #: ./continuous-integration.md:block 9 (unordered list)
 msgid "Guarantee the code will deliver exactly the same policy result."
-msgstr "保證程式碼的成果會與政策相同。"
+msgstr "保證交付的程式碼與政策期望的成果確實相同。"
 
 #: ./continuous-integration.md:block 11 (unordered list)
 msgid "Confirm that there are tests present."
@@ -516,18 +521,18 @@ msgstr "確認有測試可用。"
 #: ./continuous-integration.md:block 11 (unordered list)
 msgid ""
 "Confirm that code coverage tools check that coverage is at 100% of the code."
-msgstr "確認程式碼覆蓋率工具能檢查100%的程式碼。"
+msgstr "確認程式碼覆蓋率工具能檢查到 100% 的程式碼。"
 
 #: ./continuous-integration.md:block 11 (unordered list)
 msgid ""
 "Confirm that contributions are only admitted into the codebase after all of "
 "the tests are passed."
-msgstr "確認貢獻內容只有在通過所有測試後，才會上傳至代碼庫。"
+msgstr "確認貢獻內容只有在通過所有測試後，才會認可上傳至代碼庫。"
 
 #: ./continuous-integration.md:block 11 (unordered list)
 msgid ""
 "Confirm that contribution guidelines explain how to structure contributions."
-msgstr "確認貢獻準則說明貢獻內容的結構。"
+msgstr "確認有貢獻準則說明貢獻內容的結構。"
 
 #: ./continuous-integration.md:block 11 (unordered list)
 msgid ""
@@ -543,12 +548,13 @@ msgid ""
 "Involve management as well as developers and designers as early in the "
 "process as possible and keep them engaged throughout development of your "
 "policy."
-msgstr "儘早讓管理人員，開發人員與設計師參與，並且讓他們全程參與您政策的開發。"
+msgstr "儘早讓管理人員、開發人員與設計師一同加入，並且讓他們持續參與您政策的發展程序"
+"。"
 
 #: ./continuous-integration.md:block 13 (unordered list)
 msgid ""
 "Make sure there are also automated tests set up for policy documentation."
-msgstr "確保政策文件也有自動化測試。"
+msgstr "確保政策文件也有設好自動化測試。"
 
 #: ./continuous-integration.md:block 13 (unordered list)
 msgid "Fix policy documentation promptly if it fails a test."
@@ -558,49 +564,50 @@ msgstr "如果政策文件未能通過測試，請立即修正。"
 msgid ""
 "Make sure the code reflects any changes to the policy (see [Maintain version"
 " control](version-control-and-history.md))."
-msgstr "確保程式碼能反應出政策的任何變動(請參閱[維持版本控制](version-control-and-"
-"history.md))。"
+msgstr "確保程式碼能反映出政策的任何變動（請參閱[維護版本控制](version-control-and-"
+"history.md)）。"
 
 #: ./continuous-integration.md:block 15 (unordered list)
 msgid ""
 "Make sure to test with real end users as quickly and often as possible."
-msgstr "迅速且頻繁地與真正的終端使用者進行測試。"
+msgstr "確保能儘快且經常給真正的終端使用者進行測試。"
 
 #: ./continuous-integration.md:block 15 (unordered list)
 msgid ""
 "Plan the work to deliver small parts very often instead of large parts less "
 "frequently."
-msgstr "計畫頻繁地提交少量內容，而非久久一次繳交大量內容。"
+msgstr "以頻繁交付少量部分內容的方式做專案規劃，而非久久一次繳交大量部分內容。"
 
 #: ./continuous-integration.md:block 15 (unordered list)
 msgid ""
 "Procure consultancy services that deliver incrementally aligned with the "
 "plan."
-msgstr "聘請能漸進式與計畫同步的顧問服務。"
+msgstr "聘請有能力處理漸進式交付並與跟上規劃進度的顧問服務。"
 
 #: ./continuous-integration.md:block 15 (unordered list)
 msgid ""
 "After a large failure, encourage publication of incident reports and public "
 "discussion of what was learned."
-msgstr "發生嚴重錯誤後，鼓勵公開事故報告以及公開討論事後學到的教訓。"
+msgstr "發生重大失誤後，鼓勵公開事故報告，以及公開討論事後學到的教訓。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid ""
 "Help management structure the work plan such that it can be delivered as "
 "small increments."
-msgstr "鼓勵管理階層擬定工作計畫，逐漸提高提交的內容數量。"
+msgstr "協助管理階層擬定工作規劃，例如規劃成可以拆分成小部分逐次交付。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid ""
 "Help contributors limit the scope of their contributions and feature "
 "requests to be as small as reasonable."
-msgstr "協助貢獻者限制其貢獻內容與功能請求範圍。"
+msgstr "協助貢獻者聚焦其貢獻內容與功能請求，讓涵蓋範圍盡可能合理地縮小。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid ""
 "Help management and policy makers test their contributions, for example by "
 "testing their contributions for broken links or style."
-msgstr "協助管理人員與決策者測試其貢獻內容，例如測試其貢獻內容的失效連結或風格。"
+msgstr "協助管理人員與政策制定人員測試其貢獻內容，例如測試其貢獻內容中的失效連結或樣"
+"式。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid ""
@@ -609,14 +616,16 @@ msgid ""
 "during testing. Forms of resource exhaustion such as running out of storage "
 "space and memory allocation failure are typical examples of difficult to "
 "create conditions."
-msgstr "編排程式碼時，要能夠將難以在測試環境下創造出來的情況，在測試過程中模擬出來。"
-"硬碟空間不足與記憶體配置失敗等資源耗盡情況，都是難以重現的情況。"
+msgstr ""
+"編排程式碼結構時，要將難以在測試環境下創造出來的情況，得以在測試過程中模擬出"
+"來。例如硬碟空間不足、記憶體配置失敗敗等資源耗盡情況，都是難以創造的典型案例"
+"。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid ""
 "Tune the test code coverage tools to avoid false alarms resulting from "
 "inlining or other optimizations."
-msgstr "調整程式碼覆蓋率測試工具，避免在整合入單一檔案或優化時造成假警報。"
+msgstr "調整程式碼覆蓋率測試工具，避免在 inline 過程或其他最佳化處理時得到假警報。"
 
 #: ./continuous-integration.md:block 17 (unordered list)
 msgid "Deploy often."
@@ -632,14 +641,14 @@ msgid ""
 "integration](https://www.martinfowler.com/articles/continuousIntegration.html)"
 " by Martin Fowler."
 msgstr ""
-"Martin Fowler的[什麼是持續整合](https://www.martinfowler.com/articles/"
-"continuousIntegration.html)。"
+"Martin Fowler《[什麼是持續整合](https://www.martinfowler.com/articles/"
+"continuousIntegration.html)》。"
 
 #: ./continuous-integration.md:block 19 (unordered list)
 msgid ""
 "[What is continuous delivery](https://www.continuousdelivery.com/) by Jez "
 "Humble."
-msgstr "Jez Humble的[什麼是持續交付](https://www.continuousdelivery.com/)。"
+msgstr "Jez Humble《[什麼是持續交付](https://www.continuousdelivery.com/)》。"
 
 #: ./continuous-integration.md:block 19 (unordered list)
 msgid ""
@@ -647,8 +656,8 @@ msgid ""
 "way.cloudapps.digital/standards/continuous-delivery.html) by the UK "
 "Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[使用持續交付](https://gds-way.cloudapps.digital/"
-"standards/continuous-delivery.html)。"
+"英國政府數位服務團《[使用持續交付](https://gds-way.cloudapps.digital/"
+"standards/continuous-delivery.html)》。"
 
 #: ./continuous-integration.md:block 19 (unordered list)
 msgid ""
@@ -656,12 +665,13 @@ msgid ""
 "regularly](https://www.gov.uk/service-manual/technology/quality-assurance-"
 "testing-your-service-regularly) by the UK Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[品保：定期測試服務](https://www.gov.uk/service-manual/"
-"technology/quality-assurance-testing-your-service-regularly)。"
+"英國政府數位服務團《[品質保證：定期測試您的服務](https://www.gov.uk/"
+"service-manual/technology/quality-assurance-testing-your-service-"
+"regularly)》。"
 
 #: ./document-maturity.md:block 1 (header)
 msgid "order: 16 redirect_from: - criteria/advertise-maturity"
-msgstr "順序：16 redirect_from: - criteria/advertise-maturity"
+msgstr "order: 16 redirect_from: - criteria/advertise-maturity"
 
 #: ./document-maturity.md:block 2 (header)
 msgid "Document codebase maturity"
@@ -2551,7 +2561,7 @@ msgstr ""
 msgid ""
 "All bundled policy not available in English MUST have an accompanying "
 "summary in English."
-msgstr "同捆政策如果沒有英語版本，則必須提供英語版摘要。"
+msgstr "任何合捆的政策如果沒有英語版本，則必須提供英語版摘要。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
