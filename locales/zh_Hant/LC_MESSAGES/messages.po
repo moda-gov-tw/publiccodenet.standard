@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-17 13:12+0000\n"
+"PO-Revision-Date: 2023-01-17 13:32+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -2914,51 +2914,52 @@ msgid ""
 "[policy](../glossary.md#policy) change, make sure it's clear in the "
 "documentation:"
 msgstr "如果因為[政策](../glossary."
-"md#policy)變動而更新代碼庫版本，請在文件中清楚標示："
+"md#policy)改變而在代碼庫中有新的版本，則請確認有在文件中清楚說明："
 
 #: ./version-control-and-history.md:block 15 (unordered list)
 msgid "what the policy change is,"
-msgstr "政策變動內容，"
+msgstr "政策改變的地方，"
 
 #: ./version-control-and-history.md:block 15 (unordered list)
 msgid "how it's changed the codebase."
-msgstr "代碼庫如何因此而改變。"
+msgstr "代碼庫如何因應而改變。"
 
 #: ./version-control-and-history.md:block 16 (paragraph)
 msgid ""
 "For example, adding a new category of applicant to a codebase that manages "
 "granting permits would be considered a policy change."
-msgstr "舉例來說，管理許可權指派的代碼庫，如果新增申請方類別，就會被視為政策變動。"
+msgstr "舉例來說，在做權限管理賦予取用權的代碼庫中，如果要新增申請方類別，就會視為政"
+"策變動。"
 
 #: ./version-control-and-history.md:block 18 (unordered list)
 msgid ""
 "Support policy makers, developers and designers to be clear about what "
 "improvements they're making to the codebase. Making improvements isn't a "
 "public relations risk."
-msgstr "支持決策者，開發人員與設計師清楚表達其如何改善代碼庫。改善代碼庫不會造成公關"
-"風險。"
+msgstr "支持政策制定者、開發人員與設計師，使其能清楚表達他們對代碼庫做出的改善。確保"
+"改善代碼庫不會有公關風險。"
 
 #: ./version-control-and-history.md:block 20 (unordered list)
 msgid ""
 "Write clear commit messages so that it is easy to understand why the commit "
 "was made."
-msgstr "提交版本時的訊息內容要清楚，讓人一看就能理解提出新版本的原因。"
+msgstr "提交內容的訊息要寫清楚，讓人一看就能瞭解提交修改的原因。"
 
 #: ./version-control-and-history.md:block 20 (unordered list)
 msgid ""
 "Mark different versions so that it is easy to access a specific version, for"
 " example using revision tags or textual labels."
-msgstr "使用修訂標籤或文字標籤標示不同版本，存取特定版本就更容易。"
+msgstr "使用像是修訂版號標記，或文字標籤來標示不同版本，以方便存取特定版本。"
 
 #: ./version-control-and-history.md:block 20 (unordered list)
 msgid "Write clear commit messages so that versions can be usefully compared."
-msgstr "提交版本的訊息要清楚，方便之後比較各版本。"
+msgstr "提交內容的訊息要寫清楚，方便之後比較各版本。"
 
 #: ./version-control-and-history.md:block 20 (unordered list)
 msgid ""
 "Work with policy makers to describe how the source code was updated after a "
 "policy change."
-msgstr "在政策變動後，與決策者合作說明原始碼的更新內容。"
+msgstr "在政策改變以後與政策制定者合作，說明原始碼更新的內容。"
 
 #: ./version-control-and-history.md:block 22 (unordered list)
 msgid ""
@@ -2966,8 +2967,8 @@ msgid ""
 "Vocabulary](https://producingoss.com/en/vc.html#vc-vocabulary) by Karl "
 "Fogel."
 msgstr ""
-"Karl Fogel的[製作開源軟體：版本控制字彙](https://producingoss.com/en/vc.html"
-"#vc-vocabulary)。"
+"Karl Fogel《[製作開源軟體：版本控制字彙](https://producingoss.com/en/vc.html"
+"#vc-vocabulary)》。"
 
 #: ./version-control-and-history.md:block 22 (unordered list)
 msgid ""
@@ -2975,20 +2976,21 @@ msgid ""
 "manual/technology/maintaining-version-control-in-coding) by the UK "
 "Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[維護程式碼版本控制](https://www.gov.uk/service-manual/"
-"technology/maintaining-version-control-in-coding)。"
+"英國政府數位服務團《[維護程式碼的版本控制](https://www.gov.uk/service-manual/"
+"technology/maintaining-version-control-in-coding)》。"
 
 #: ./version-control-and-history.md:block 22 (unordered list)
 msgid ""
 "[GitHub Learning Lab](https://lab.github.com/) by GitHub for learning how to"
 " use it or refresh your skills."
-msgstr "GitHub的[GitHub學習實驗室](https://lab.github.com/"
-")，學習如何使用GitHub或是溫故知新。"
+msgstr ""
+"GitHub 提供的「[GitHub學習實驗室](https://lab.github.com/)」，可學習如何使用 "
+"GitHub，或是重溫您的技巧。"
 
 #: ./version-control-and-history.md:block 22 (unordered list)
 msgid ""
 "[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-"
 "education.pdf) by GitHub, a list with the most common used git commands."
 msgstr ""
-"GitHub的[Git備忘條](https://education.github.com/git-cheat-sheet-education."
-"pdf)，列出最常用的git指令。"
+"GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-"
+"education.pdf)」列出了最常用的 git 指令。"
