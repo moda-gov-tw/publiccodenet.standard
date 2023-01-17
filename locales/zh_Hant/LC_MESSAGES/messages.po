@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-17 10:40+0000\n"
+"PO-Revision-Date: 2023-01-17 13:12+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -21,7 +21,7 @@ msgstr "order: 2"
 
 #: ./bundle-policy-and-code.md:block 2 (header)
 msgid "Bundle policy and source code"
-msgstr "政策與原始碼合捆"
+msgstr "政策與原始碼要合捆"
 
 #: ./bundle-policy-and-code.md:block 4 (header)
 msgid "Requirements"
@@ -233,7 +233,7 @@ msgstr "order: 1"
 
 #: ./code-in-the-open.md:block 2 (header)
 msgid "Code in the open"
-msgstr "原始碼開放"
+msgstr "原始碼要開放"
 
 #: ./code-in-the-open.md:block 5 (unordered list)
 msgid ""
@@ -1149,7 +1149,7 @@ msgstr "order: 14"
 
 #: ./findability.md:block 2 (header)
 msgid "Make the codebase findable"
-msgstr "可查詢得到代碼庫"
+msgstr "代碼庫可查詢得到"
 
 #: ./findability.md:block 5 (unordered list)
 msgid ""
@@ -1511,7 +1511,7 @@ msgstr "order: 13"
 
 #: ./open-licenses.md:block 2 (header)
 msgid "Publish with an open license"
-msgstr "採用開放授權發行"
+msgstr "發行採用開放授權"
 
 #: ./open-licenses.md:block 5 (unordered list)
 msgid ""
@@ -2202,7 +2202,7 @@ msgstr "order: 3"
 
 #: ./reusable-and-portable-codebases.md:block 2 (header)
 msgid "Create reusable and portable code"
-msgstr "程式碼編寫要可重複使用且可攜"
+msgstr "程式碼要可重複使用且可攜"
 
 #: ./reusable-and-portable-codebases.md:block 5 (unordered list)
 msgid ""
@@ -2511,14 +2511,14 @@ msgid ""
 "[policy](../glossary.md#policy) and documentation as well as document this "
 "in the codebase, for example in the `CONTRIBUTING` or `README`."
 msgstr ""
-"為[政策](../glossary.md#policy)與文件建立與遵守風格指南，並且持續改善，同時可"
-"在代碼庫的「`CONTRIBUTING`」或「`README`」檔案中註明。"
+"為[政策](../glossary.md#policy)與文件建立風格指南，遵守並且持續改善，同時記錄"
+"到代碼庫文件中，像是「`CONTRIBUTING`」或「`README`」檔案。"
 
 #: ./style.md:block 15 (unordered list)
 msgid ""
 "Include written language, source, test and policy standards in your "
 "organizational definition of quality."
-msgstr "貴組織單位對品質的定義中，應該涵蓋書面語言，原始碼，測試與政策標準。"
+msgstr "將書面語言、原始碼、測試、政策標準等，包含在貴組織單位對品質的定義當中。"
 
 #: ./style.md:block 17 (paragraph)
 msgid ""
@@ -2533,11 +2533,12 @@ msgid ""
 "Continually improve upon and expand this documentation with the aim of "
 "evolving this documentation into engineering guidelines."
 msgstr ""
-"代碼庫若沒有工程指南或其他貢獻者指南，先在[儲存庫](../glossary.md#repository)"
-"中的「`CONTRIBUTING`」或「`README`」檔案加入文件，描述目前在指南方面的進展。"
-"文件主要目的在於表達設計偏好，命名規則等機器不容易檢查的內容。指南應該包含貢"
-"獻[程式碼](../glossary.md#code)該符合哪些要求，才會被維護人員加入代碼庫，包括"
-"原始碼，測試與文件。持續改善與增加文件內容，目標在於讓該文件成為工程指南。"
+"如果代碼庫還沒有工程指南，或其他貢獻者指南，則請先在[儲存庫](../glossary.md#r"
+"epository)中加入相關文件，像是「`CONTRIBUTING`」或「`README`」檔案，並描述目"
+"前在設立指南方面的進展。上述檔案的重要目的之一，在於宣達設計偏好、命名規則，"
+"以及機器不容易檢查的其他層面。指南應該包含貢獻的[程式碼](../glossary.md#code)"
+"預期該符合哪些要求，才會被維護人員加入代碼庫中，包含原始碼、測試、文件等項目"
+"。請持續改善與擴充這份文件內容，目標讓文件朝向工程指南演進。"
 
 #: ./style.md:block 18 (paragraph)
 msgid "Additionally:"
@@ -2545,72 +2546,74 @@ msgstr "此外："
 
 #: ./style.md:block 19 (unordered list)
 msgid "Use a linter."
-msgstr "使用程式碼品質分析工具。"
+msgstr "使用程式碼品質分析工具 (linter)。"
 
 #: ./style.md:block 19 (unordered list)
 msgid "Add linter configurations to the codebase."
-msgstr "在代碼庫中加入程式碼品質分析工具組態設定。"
+msgstr "在代碼庫中加入程式碼品質分析工具的組態設定。"
 
 #: ./style.md:block 21 (unordered list)
 msgid ""
 "[List of linters](https://github.com/caramelomartins/awesome-linters) by "
 "Hugo Martins."
 msgstr ""
-"Hugo Martins的[程式碼品質分析工具清單](https://github.com/caramelomartins/"
-"awesome-linters)。"
+"Hugo Martins《[程式碼品質分析工具清單](https://github.com/caramelomartins/"
+"awesome-linters)》。"
 
 #: ./style.md:block 21 (unordered list)
 msgid ""
 "[Programming style](https://en.wikipedia.org/wiki/Programming_style) on "
 "Wikipedia."
-msgstr "維基百科上的[代碼風格](https://en.wikipedia.org/wiki/Programming_style)。"
+msgstr "維基百科上的《[代碼風格](https://en.wikipedia.org/wiki/"
+"Programming_style)》條目。"
 
 #: ./understandable-english-first.md:block 1 (header)
 msgid "order: 10"
-msgstr "順序：10"
+msgstr "order: 10"
 
 #: ./understandable-english-first.md:block 2 (header)
 msgid "Use plain English"
-msgstr "使用簡明的英語"
+msgstr "使用白話的英語"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "All [codebase](../glossary.md#codebase) documentation MUST be in English."
-msgstr "[代碼庫](../glossary.md#codebase)所有文件都必須使用英語。"
+msgstr "[代碼庫](../glossary.md#codebase)的所有文件都必須使用英語。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "All [code](../glossary.md#code) MUST be in English, except where "
 "[policy](../glossary.md#policy) is machine interpreted as code."
 msgstr ""
-"所有[程式碼](../glossary.md#code)都必須使用英語，除了[政策](../glossary."
-"md#policy)當中由機器判讀為程式碼的部分。"
+"所有[程式碼](../glossary.md#code)都必須使用英語編寫，其中[政策](../glossary."
+"md#policy)是由機器解讀當作程式碼的部分則除外。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "All bundled policy not available in English MUST have an accompanying "
 "summary in English."
-msgstr "任何合捆的政策如果沒有英語版本，則必須提供英語版摘要。"
+msgstr "任何合捆的政策如果沒有英語版本，則必須隨附英語版摘要。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "Any translation MUST be up to date with the English version and vice versa."
-msgstr "任何翻譯版本與英語版本都必須保持在最新版本狀態。"
+msgstr "任何翻譯版本皆必須跟隨英語版本更新，以維持在最新狀態，反之亦然。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "There SHOULD be no acronyms, abbreviations, puns or legal/non-English/domain"
 " specific terms in the codebase without an explanation preceding it or a "
 "link to an explanation."
-msgstr "代碼庫中，不得使用字首縮寫，縮寫，雙關語或法律/非英語/網域專屬詞彙。若有，則"
-"需要在這些用語前面標註，或是附上解釋該用語的網頁連結。"
+msgstr ""
+"代碼庫中不應該使用首字母縮字、縮寫、雙關語，或法律/非英語/行業特定詞彙；如果"
+"有的話，則需要在這些用語出現之前先行解釋，或是附上解釋該用語的網頁連結。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "The name of the codebase SHOULD be descriptive and free from acronyms, "
 "abbreviations, puns or organizational branding."
-msgstr "代碼庫名稱應該能描述其特性，且不包含任何字首縮寫，縮寫，雙關語或組織單位品牌"
-"文字。"
+msgstr "代碼庫名稱應該要能描述說明其用途，且不包含任何首字母縮寫字、縮寫、雙關語，或"
+"組織單位品牌名稱或抬頭等。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
@@ -2618,23 +2621,23 @@ msgid ""
 "recommended by the [Web Content Accessibility Guidelines "
 "2](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=315#readable)."
 msgstr ""
-"根據[網頁內容無障礙指南2](https://www.w3.org/WAI/WCAG21/quickref/"
-"?showtechniques=315#readable)的建議，文件內容應該以國中閱讀水平為主。"
+"根據《[網頁內容近用性無障礙指南 2](https://www.w3.org/WAI/WCAG21/quickref/"
+"?showtechniques=315#readable)》的建議，文件內容應該以國中識讀程度為主。"
 
 #: ./understandable-english-first.md:block 5 (unordered list)
 msgid ""
 "Providing a translation of any code, documentation or tests is OPTIONAL."
-msgstr "可選擇提供任何程式碼，文件或測試的翻譯版本。"
+msgstr "可選擇是否提供任何程式碼、文件、測試等的翻譯版。"
 
 #: ./understandable-english-first.md:block 7 (unordered list)
 msgid ""
 "Makes the codebase and what it does understandable for a wider variety of "
 "stakeholders in multiple contexts."
-msgstr "讓不同情境的各種利害關係人，都能理解代碼庫以及其功用。"
+msgstr "讓不同情境的廣大利害關係人，都能瞭解代碼庫以及其用途。"
 
 #: ./understandable-english-first.md:block 7 (unordered list)
 msgid "Helps with the discoverability of the codebase."
-msgstr "讓代碼庫更容易被發現。"
+msgstr "讓代碼庫更容易被找到。"
 
 #: ./understandable-english-first.md:block 7 (unordered list)
 msgid ""
@@ -2642,16 +2645,17 @@ msgid ""
 "directive](https://ec.europa.eu/digital-single-market/en/web-accessibility),"
 " which requires most public sector information to be accessible."
 msgstr ""
-"能幫助您遵守[歐盟無障礙指令](https://ec.europa.eu/digital-single-market/en/"
-"web-accessibility)，該指令規定所有人都應該能夠獲得多數公領域資訊。"
+"能幫助您達成《[歐盟無障礙環境命令](https://ec.europa.eu/"
+"digital-single-market/en/web-"
+"accessibility)》，內容要求大多數的公家機關資訊都要能夠近用以滿足無障礙環境。"
 
 #: ./understandable-english-first.md:block 9 (unordered list)
 msgid "Make explanations of the codebase's functionality understandable."
-msgstr "讓代碼庫功能解說更容易理解。"
+msgstr "讓代碼庫功能解說更容易瞭解。"
 
 #: ./understandable-english-first.md:block 9 (unordered list)
 msgid "Make your organization's jargon understandable without an explanation."
-msgstr "幫助他人在沒有額外解釋下就能理解貴組織單位術語。"
+msgstr "幫助他人在沒有額外解釋之下，就能理解貴組織單位的業內用語。"
 
 #: ./understandable-english-first.md:block 11 (unordered list)
 msgid "Confirm that codebase documentation is available in English."
@@ -2661,11 +2665,12 @@ msgstr "確認代碼庫文件有英語版本。"
 msgid ""
 "Confirm that source code is in English, or confirm any non-English is policy"
 " or terms with preceding explanations."
-msgstr "確認原始碼為英語，或是任何非英語內容都是政策或術語，且有加註說明。"
+msgstr "確認原始碼為英語，確認任何非英語內容都是政策，或確認術語在其前方有先行說明等"
+"。"
 
 #: ./understandable-english-first.md:block 11 (unordered list)
 msgid "Confirm any non-English policy has an accompanying summary in English."
-msgstr "確認非英語政策都有英語版摘要。"
+msgstr "確認任何非英語政策都有隨附英語版摘要。"
 
 #: ./understandable-english-first.md:block 11 (unordered list)
 msgid ""
@@ -2676,19 +2681,19 @@ msgstr "確認翻譯版與英語版內容相同。"
 msgid ""
 "Check that no unexplained acronyms, abbreviations, puns or legal/non-"
 "English/domain specific terms are in the documentation."
-msgstr "確認文件當中，任何字首縮寫，縮寫，雙關語或法律/非英語/網域專屬詞彙都有加註說"
-"明。"
+msgstr "確認文件當中，沒有任何未說明的首字母縮寫字、縮寫、雙關語，或法律/非英語/行業"
+"特定詞彙等。"
 
 #: ./understandable-english-first.md:block 11 (unordered list)
 msgid "Check the spelling, grammar and readability of the documentation."
-msgstr "檢查文件的拼字，文法與易讀性。"
+msgstr "檢查文件的拼字、文法與易讀性等。"
 
 #: ./understandable-english-first.md:block 13 (unordered list)
 msgid ""
 "Frequently test with other management, developers and designers in the "
 "process if they understand what you are delivering and how you document it."
-msgstr "在整個過程中，經常與其他管理人員，開發人員與設計師討論，瞭解他們是否理解您程"
-"式碼與其文件的內容。"
+msgstr "在過程中經常與其他管理人員、開發人員與設計師測試，確認他們是否瞭解您們正要交"
+"付的程式碼與其文件的內容。"
 
 #: ./understandable-english-first.md:block 15 (unordered list)
 msgid ""
@@ -2697,27 +2702,29 @@ msgid ""
 "teams and stakeholders. Add any such terms to a glossary and link to it from"
 " the places they are being used."
 msgstr ""
-"在團隊與利害關係人內部以及彼此間的溝通中，試著限制字首縮寫，縮寫，雙關語或法"
-"律/非英語/網域專屬詞彙的使用。將這些詞彙加入至詞彙表，並且在使用這些詞彙的地"
-"方，加上詞彙表連結。"
+"在團隊內部與利害關係人之間的內部溝通中，試著限制首字母縮寫字、縮寫、雙關語，"
+"或法律/非英語/行業特定詞彙的使用。如果有使用到的話，則將這些用語加入詞彙表，"
+"並且在使用這些詞彙的地方加上詞彙表連結。"
 
 #: ./understandable-english-first.md:block 15 (unordered list)
 msgid ""
 "Be critical of documentation and descriptions in proposals and changes. If "
 "you don't understand something, others will probably also struggle with it."
-msgstr "嚴謹看待提案與變更當中的文件與描述。若有東西您看不懂，其他人很可能也一樣。"
+msgstr "嚴謹看待提案與修改當中的文件與描述。如果有您看不懂的內容，很有可能其他人也同"
+"樣迷濛。"
 
 #: ./understandable-english-first.md:block 17 (unordered list)
 msgid ""
 "Frequently test with policy makers and management if they understand what "
 "you are delivering and how you document it."
-msgstr "經常測試決策者與管理人員，瞭解他們是否理解您程式碼與其文件的內容。"
+msgstr "經常與政策制定者和管理人員測試，確認他們是否瞭解您們正要交付的程式碼與其文件"
+"的內容。"
 
 #: ./understandable-english-first.md:block 17 (unordered list)
 msgid ""
 "Ask someone outside of your context if they understand the content (for "
 "example, a developer working on a different codebase)."
-msgstr "請教身處不同情境的人(例如另一個代碼庫的開發人員)是否理解您的程式碼。"
+msgstr "詢問身處不同背景情境的人（像是另一個代碼庫的開發人員）是否能瞭解內容。"
 
 #: ./understandable-english-first.md:block 19 (unordered list)
 msgid ""
@@ -2725,32 +2732,33 @@ msgid ""
 "Readable](https://www.w3.org/TR/WCAG21/#readable) by W3C, make text content "
 "readable and understandable."
 msgstr ""
-"全球資訊網協會的[網頁內容無障礙指南2.1與3.1(可讀性)](https://www.w3.org/TR/"
-"WCAG21/#readable)，讓文字內容更容易閱讀與理解。"
+"根據 W3C 全球資訊網協會的《[網頁內容近用性無障礙指南 2.1 與 3.1 "
+"之可讀性](https://www.w3.org/TR/WCAG21/"
+"#readable)》的內文，撰寫的文字內容要更容易閱讀與理解。"
 
 #: ./understandable-english-first.md:block 19 (unordered list)
 msgid ""
 "[Upgoer 5 text editor](https://splasho.com/upgoer5/) by Theo Sanderson, only"
 " allows 1000 most common English words."
 msgstr ""
-"Theo Sanderson的[Upgoer 5文字編輯軟體](https://splasho.com/upgoer5/"
-")僅允許1,000最常用的英文單字。"
+"Theo Sanderson 所發表的「[Upgoer 5 文字編輯軟體](https://splasho.com/upgoer5/"
+")」只允許使用最常用的 1000 個英文單字。"
 
 #: ./understandable-english-first.md:block 19 (unordered list)
 msgid ""
 "[Definition of plain "
 "language](https://www.plainlanguage.gov/about/definitions/) by United States"
 " General Services Administration."
-msgstr "美國總務署的[簡明語言定義](https://www.plainlanguage.gov/about/definitions/"
-")。"
+msgstr "美國總務署《[白話語言定義](https://www.plainlanguage.gov/about/definitions/"
+")》。"
 
 #: ./version-control-and-history.md:block 1 (header)
 msgid "order: 6"
-msgstr "順序：6"
+msgstr "order: 6"
 
 #: ./version-control-and-history.md:block 2 (header)
 msgid "Maintain version control"
-msgstr "維持版本控制"
+msgstr "維護版本控制"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
@@ -2758,78 +2766,79 @@ msgid ""
 "control](../glossary.md#version-control) for the "
 "[code](../glossary.md#code)."
 msgstr ""
-"社群必須有方法來維持[程式碼](../glossary.md#code)的[版本控制](../glossary.md"
+"社群必須要有方法為[程式碼](../glossary.md#code)維護[版本控制](../glossary.md"
 "#version-control)。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "All files in the [codebase](../glossary.md#codebase) MUST be version "
 "controlled."
-msgstr "必須控制[代碼庫](../glossary.md#codebase)所有檔案的版本。"
+msgstr "[代碼庫](../glossary.md#codebase)中的所有檔案皆必須有版本控制。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid "All decisions MUST be documented in commit messages."
-msgstr "在所有版本訊息中，必須紀錄所有決策。"
+msgstr "所有決定皆必須記錄成提交訊息。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "Every commit message MUST link to discussions and issues wherever possible."
-msgstr "每份版本訊息，都必須盡可能附上討論與議題的連結。"
+msgstr "每份提交訊息皆必須盡可能附上討論與議題連結。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "The codebase SHOULD be maintained in a distributed version control system."
-msgstr "代碼庫應該以分散式版本控制系統來維護。"
+msgstr "代碼庫應該以分散式版本控制系統作維護。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid "Contributors SHOULD group relevant changes in commits."
-msgstr "貢獻者應該在提交的版本中，將相關變動分類。"
+msgstr "貢獻者應該將相關的修改變動提交內容作群組分類。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "Maintainers SHOULD mark released versions of the codebase, for example using"
 " revision tags or textual labels."
-msgstr "維護人員應該使用修訂標籤或文字標籤標示代碼庫的完成版本。"
+msgstr "維護人員應該使用像是修訂版次標記，或文字標籤，來標示代碼庫正式發行的版本。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "Contributors SHOULD prefer file formats where the changes within the files "
 "can be easily viewed and understood in the version control system."
-msgstr "貢獻者應該偏好能在版本控制系統中，輕易看出與理解程式碼變動的檔案格式。"
+msgstr "貢獻者應該偏好使用能在版本控制系統中，輕鬆檢視與瞭解檔案中何處有做出更動的檔"
+"案格式。"
 
 #: ./version-control-and-history.md:block 5 (unordered list)
 msgid ""
 "It is OPTIONAL for contributors to sign their commits and provide an email "
 "address, so that future contributors are able to contact past contributors "
 "with questions about their work."
-msgstr "貢獻者可選擇在提交版本中簽名並附上電子郵件信箱，未來貢獻者如果有疑問可以與其"
-"聯絡。"
+msgstr "貢獻者可選擇是否在提交內容中簽章，並附上電子郵件信箱，以便當未來貢獻者對其內"
+"容有疑問時，可以與之前的貢獻者聯絡。"
 
 #: ./version-control-and-history.md:block 7 (paragraph)
 msgid ""
 "Version control means keeping track of changes to the code over time. This "
 "allows you to create structured documentation of the history of the "
 "codebase. This is essential for collaboration at scale."
-msgstr "版本控制代表追蹤程式碼歷來的變動，讓您能建立代碼庫文件的變動歷史，這是大規模"
-"協作的要素。"
+msgstr "版本控制代表追蹤程式碼歷來的變動。這能讓您為代碼庫製作有條理的變動歷史文件。"
+"這是大規模協作能運作的要素。"
 
 #: ./version-control-and-history.md:block 8 (paragraph)
 msgid "Distributed version control enables you to:"
-msgstr "分散式版本控制系統讓您可以："
+msgstr "分散式版本控制能讓您："
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid "have a full copy of the code and its history"
-msgstr "擁有完整的程式碼與版本歷史"
+msgstr "擁有完整的程式碼副本與其版本歷史"
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid "revert to an earlier version of the codebase whenever you want to"
-msgstr "想要時可以將代碼庫恢復至先前版本"
+msgstr "在需要時可以將代碼庫恢復至先前版本"
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid ""
 "record your changes and the reasons why you made them, to help future "
 "developers understand the process"
-msgstr "紀錄變動與變動原因，幫助未來開發人員瞭解整個流程"
+msgstr "紀錄變動與變動的原因，可幫助未來開發人員瞭解整個過程"
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid "compare two different versions"
@@ -2837,17 +2846,17 @@ msgstr "比較兩個不同版本"
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid "work on changes in parallel as a team before merging them together"
-msgstr "團隊可以平行比對程式碼需要變動的部分，之後再將內容整合"
+msgstr "在將修改內容合併回代碼庫之前，各團隊可以針對修改變動平行作業"
 
 #: ./version-control-and-history.md:block 9 (unordered list)
 msgid ""
 "continue to work when the network is unavailable, merging changes back with "
 "everyone else’s at a later date"
-msgstr "沒有網路時，也能夠持續研究程式碼，之後所有人都上線時再整合程式碼變動部分"
+msgstr "在沒有網路時也能繼續作業，可以日後再將修改變動合併回代碼庫與其他人整合"
 
 #: ./version-control-and-history.md:block 11 (unordered list)
 msgid "Substitute for [advertising maturity](document-maturity.md)."
-msgstr "替代[廣告成熟度](document-maturity.md)。"
+msgstr "可代替[成熟度宣告](document-maturity.md)。"
 
 #: ./version-control-and-history.md:block 11 (unordered list)
 msgid "Guarantee the code executes correctly."
@@ -2855,27 +2864,27 @@ msgstr "保證程式碼能正確執行。"
 
 #: ./version-control-and-history.md:block 11 (unordered list)
 msgid "Guarantee collaborators."
-msgstr "保證會有人協作。"
+msgstr "保證有人加入協作。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
 "Confirm that the codebase is kept in version control using software such as "
 "Git."
-msgstr "確認使用Git等軟體，控制代碼庫的版本。"
+msgstr "確認代碼庫維持在版本控制狀態中，像是使用 Git 之類的軟體。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
 "Review the commit history, confirming that all commit messages explain why "
 "the change was made."
-msgstr "審查提交版本紀錄，確認過去所有訊息都有解釋程式碼變動原因。"
+msgstr "審查提交內容歷史紀錄，確認所有的提交訊息皆有解釋之前程式碼修改變動的原因。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
 "Review the commit history, confirming that where possible all commit "
 "messages include the discussion about the change was or where to find it "
 "(with a URL)."
-msgstr "審查提交版本紀錄，確認過去所有訊息中，都有包含程式碼變動的討論以及資訊位置(提"
-"供連結)。"
+msgstr "審查提交內容歷史紀錄，確認所有提交訊息之中，盡可能在所有討論過修改變更的地方"
+"，包含變動內容以及連結位置（提供網址）。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid "Check if the version control system is distributed."
@@ -2885,19 +2894,19 @@ msgstr "檢查版本控制系統是否為分散式。"
 msgid ""
 "Review the commit history, check if grouping of relevant changes in "
 "accordance with the contributing guidelines."
-msgstr "審查提交版本紀錄，檢查是否有根據分散指南，將相關程式碼變動分類。"
+msgstr "審查提交內容歷史紀錄，檢查是否有根據貢獻指南將相關的程式碼變動以群組分類。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
 "Check that it is possible to access a specific version of the codebase, for "
 "example through a revision tag or a textual label."
-msgstr "檢查是否有可能透過修正標籤或文字標籤存取代碼庫的特定版本。"
+msgstr "檢查是否可能透過像是修訂版號標記，或文字標籤，來存取代碼庫中的特定版本。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
 "Check that the file formats used in the codebase are text formats where "
 "possible."
-msgstr "檢查代碼庫在允許的情況下，是否都採用文字格式。"
+msgstr "檢查代碼庫在可能的情況下，檔案都是採用文字格式。"
 
 #: ./version-control-and-history.md:block 15 (unordered list)
 msgid ""
@@ -2966,7 +2975,7 @@ msgid ""
 "manual/technology/maintaining-version-control-in-coding) by the UK "
 "Government Digital Service."
 msgstr ""
-"英國政府數位服務團的[維持程式碼版本控制](https://www.gov.uk/service-manual/"
+"英國政府數位服務團的[維護程式碼版本控制](https://www.gov.uk/service-manual/"
 "technology/maintaining-version-control-in-coding)。"
 
 #: ./version-control-and-history.md:block 22 (unordered list)
