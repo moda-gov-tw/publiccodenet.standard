@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-19 18:55+0000\n"
+"PO-Revision-Date: 2023-01-19 18:57+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -2899,7 +2899,7 @@ msgstr "審查提交內容歷史紀錄，檢查是否有根據貢獻指南將相
 msgid ""
 "Check that it is possible to access a specific version of the codebase, for "
 "example through a revision tag or a textual label."
-msgstr "檢查是否可能透過像是修訂版號標記，或文字標籤，來存取代碼庫中的特定版本。"
+msgstr "檢查是否可能透過像是修訂版次標記，或文字標籤，來存取代碼庫中的特定版本。"
 
 #: ./version-control-and-history.md:block 13 (unordered list)
 msgid ""
@@ -2948,7 +2948,7 @@ msgstr "提交內容的訊息要寫清楚，讓人一看就能瞭解提交修改
 msgid ""
 "Mark different versions so that it is easy to access a specific version, for"
 " example using revision tags or textual labels."
-msgstr "使用像是修訂版號標記，或文字標籤來標示不同版本，以方便存取特定版本。"
+msgstr "使用像是修訂版次標記，或文字標籤來標示不同版本，以方便存取特定版本。"
 
 #: ./version-control-and-history.md:block 20 (unordered list)
 msgid "Write clear commit messages so that versions can be usefully compared."
