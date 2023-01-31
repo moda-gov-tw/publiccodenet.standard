@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:42+0800\n"
-"PO-Revision-Date: 2023-01-19 18:57+0000\n"
+"PO-Revision-Date: 2023-02-01 08:52+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/standard-for-public-codec/zh_Hant/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #
 #: ./bundle-policy-and-code.md:block 1 (header)
@@ -271,12 +271,12 @@ msgid ""
 "the [general public](../glossary.md#general-public) may have with an "
 "organization is OPTIONAL."
 msgstr ""
-"可選擇是否要以文件紀錄[一般大眾](../glossary.md#general-public)與組織單位之間"
+"可選擇是否要以文件記錄[一般大眾](../glossary.md#general-public)與組織單位之間"
 "可能發生的任何特定互動，其背後所採用的原始碼或支持的政策。"
 
 #: ./code-in-the-open.md:block 7 (paragraph)
 msgid "Coding in the open:"
-msgstr "以開放精神編寫原始碼："
+msgstr "以開放精神編寫原始碼能："
 
 #: ./code-in-the-open.md:block 8 (unordered list)
 msgid "improves transparency"
@@ -295,7 +295,7 @@ msgid ""
 "These aspects together create more opportunities for citizens to understand "
 "how software and policy impact their interactions with a public "
 "organization."
-msgstr "這些面向讓公民更有機會瞭解軟體與政策如何影響其與公共組織的互動。"
+msgstr "這些面向讓公民更有機會能瞭解，軟體與政策如何影響他們與公共組織的互動。"
 
 #: ./code-in-the-open.md:block 11 (unordered list)
 msgid "Make source code or policy reusable."
@@ -674,7 +674,7 @@ msgstr "order: 16 redirect_from: - criteria/advertise-maturity"
 
 #: ./document-maturity.md:block 2 (header)
 msgid "Document codebase maturity"
-msgstr "紀錄代碼庫成熟度"
+msgstr "記錄代碼庫成熟度"
 
 #: ./document-maturity.md:block 5 (unordered list)
 msgid "The [codebase](../glossary.md#codebase) MUST be versioned."
@@ -850,7 +850,7 @@ msgstr "order: 8"
 
 #: ./document-objectives.md:block 2 (header)
 msgid "Document codebase objectives"
-msgstr "代碼庫有目標文件"
+msgstr "代碼庫要有目標文件"
 
 #: ./document-objectives.md:block 5 (unordered list)
 msgid ""
@@ -873,12 +873,12 @@ msgstr "代碼庫文件應該清楚描述[政策](../glossary."
 msgid ""
 "Documenting the objectives of the codebase for the [general "
 "public](../glossary.md#general-public) is OPTIONAL."
-msgstr "可選擇是否以文件紀錄給[一般民眾](../glossary.md#general-"
+msgstr "可選擇是否以文件記錄給[一般民眾](../glossary.md#general-"
 "public)看的代碼庫目標。"
 
 #: ./document-objectives.md:block 7 (paragraph)
 msgid "Documenting codebase objectives:"
-msgstr "以文件紀錄代碼庫目標："
+msgstr "以文件記錄代碼庫目標："
 
 #: ./document-objectives.md:block 8 (unordered list)
 msgid ""
@@ -962,7 +962,7 @@ msgstr "order: 9"
 
 #: ./documenting.md:block 2 (header)
 msgid "Document the code"
-msgstr "程式碼有文件"
+msgstr "程式碼要有文件"
 
 #: ./documenting.md:block 5 (unordered list)
 msgid ""
@@ -1235,7 +1235,7 @@ msgid ""
 "Confirm that the codebase appears in the first set of results on more than "
 "one major search engine when searching by a plain English problem "
 "description."
-msgstr "確認以白話英文敘述相關問題來作搜尋時，有超過一個的常用主流搜尋引擎，都將代碼"
+msgstr "確認以白話英語敘述相關問題來作搜尋時，有超過一個的常用主流搜尋引擎，都將代碼"
 "庫放在搜尋結果的第一頁中。"
 
 #: ./findability.md:block 11 (unordered list)
@@ -1351,7 +1351,7 @@ msgstr ""
 "GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR科學資料管理與盡職治理指導原則](ht"
 "tps://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特"
 "性會讓資料（或中介資料）更容易讓機器採取行動（也因此更容易被找到）。其中的部"
-"分屬性可直接套用到代碼庫上，而其他無法直接套用的，我們還需要再研究代碼庫與其"
+"分特性可直接套用到代碼庫上，而其他無法直接套用的，我們還需要再研究代碼庫與其"
 "對應的特性要怎麼處理。"
 
 #: ./index.md:block 1 (header)
@@ -2065,7 +2065,7 @@ msgstr "代表審查人員必須承擔責任。"
 
 #: ./require-review.md:block 9 (unordered list)
 msgid "Absolve a contributor from writing documentation and tests."
-msgstr "貢獻者從編寫文件與測試中免除責任。"
+msgstr "貢獻者能從編寫文件與測試中免除責任。"
 
 #: ./require-review.md:block 9 (unordered list)
 msgid "Provide you with the right reviewers."
@@ -2475,7 +2475,7 @@ msgstr "代碼庫當中較複雜的程式碼區段，應該包含列內註解與
 msgid ""
 "Including sections on [understandable English](understandable-english-"
 "first.md) in the style guide is OPTIONAL."
-msgstr "可選擇是否將[可理解的英文](understandable-english-first."
+msgstr "可選擇是否將[可理解的白話英語](understandable-english-first."
 "md)小節加入風格指南之中。"
 
 #: ./style.md:block 7 (unordered list)
