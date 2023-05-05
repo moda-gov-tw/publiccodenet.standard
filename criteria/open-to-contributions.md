@@ -57,7 +57,7 @@ order: 4
 
 ## 延伸閱讀
 
-* 開源指南所提供的《[營造友善的社群](https://opensource.guide/building-community/)》。
-* Mike McQuaid《[開源貢獻者瓶頸](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/)》。
-* 開源指南為成長中的[開源](../glossary.md#open-source)社群專案所寫的《[領導與治理](https://opensource.guide/leadership-and-governance/)》。
+* 開放原始碼指南所提供的《[營造友善的社群](https://opensource.guide/building-community/)》。
+* Mike McQuaid《[開放原始碼貢獻者瓶頸](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/)》。
+* 開放原始碼指南為成長中的[開放原始碼](../glossary.md#open-source)社群專案所寫的《[領導與治理](https://opensource.guide/leadership-and-governance/)》。
 * Pieter Hintjens《[打造網路社群](http://hintjens.com/blog:117)》(長篇文章！)。

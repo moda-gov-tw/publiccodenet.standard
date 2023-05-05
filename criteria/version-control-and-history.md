@@ -69,7 +69,7 @@ order: 6
 
 ## 延伸閱讀
 
-* Karl Fogel《[製作開源軟體：版本控制字彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
+* Karl Fogel《[製作開放原始碼軟體：版本控制字彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
 * 英國政府數位服務團《[維護程式碼的版本控制](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)》。
 * GitHub 提供的「[GitHub學習實驗室](https://lab.github.com/)」，可學習如何使用 GitHub，或是重溫您的技巧。
 * GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-education.pdf)」列出了最常用的
