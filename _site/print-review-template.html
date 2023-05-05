@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- written in 2022 by The Foundation for Public Code <info@publiccode.net> -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/github-markdown.css">
+  <title>Standard for Public Code</title>
+  <style>
+    html, .markdown-body {
+      font-family: Mulish;
+      font-size: 11pt;
+    }
+
+    .markdown-body h1, .markdown-body h2 {
+      font-weight: normal;
+      position: relative;
+    }
+    .markdown-body h1 {
+      margin-top: 0;
+      font-size: 1.6rem;
+      border-bottom: none;
+    }
+    .markdown-body h2 {
+      font-size: 1.4em;
+    }
+
+    article>p, article>ul, article>ol {
+      position: relative;
+      max-width: 27rem;
+    }
+
+    article {
+      clear: both;
+    }
+
+    a:link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a[href^="http"]:link {
+      color: black;
+      text-decoration: none;
+      word-wrap: normal;
+    }
+
+    a[href^="#"] {
+      color: black;
+      text-decoration: none;
+    }
+    a[href^="#"]:after {
+      content: "" target-counter(attr(href), page);
+      color: black;
+      background-color: whitesmoke;
+      display: inline;
+      width: 0.6cm;
+      padding: 0.2cm;
+      text-align: right;
+    }
+
+    p {
+      clear: both;
+    }
+    
+    /* Print specific */
+
+    @media print {
+      /* html { page-break-before: left } */
+      @page {
+        /* A4 with a 3mm bleed on every side */
+        size: 21.6cm 30.3cm;
+        margin: 1cm 0;
+        orphans:4;
+        widows:4;
+      }
+      @page :left {
+        @top-left {
+          background: whitesmoke;
+          font-size: 75%;
+          content: counter(page);
+          height: 1cm;
+          width: 1.23cm;
+          text-align: center;
+
+        }
+      }
+      @page :right {
+        @top-right {
+          background: whitesmoke;
+          font-size: 75%;
+          content: counter(page);
+          height: 1cm;
+          width: 1.23cm;
+          text-align: center;
+        }
+      }
+
+      article {
+        margin: 0 2cm;
+        break-before: left;
+      }
+      article:first-of-type {
+        break-before: avoid;
+      }
+      h1, h2 {
+        page-break-after: avoid;
+      }
+      table {
+        font-size: 80%;
+      }
+
+    }
+
+    @media screen {
+      body {
+        background-color: whitesmoke;
+        margin: 0; padding: 0;
+      }
+      article {
+        display: block;
+        background-color: white;
+        padding: 1cm;
+        min-height: 29.7cm;
+        max-width: 50em;
+        max-width: 21cm;
+        box-sizing: border-box;
+        margin: 2cm 0;
+      }
+    }
+
+  </style>
+</head>
+<body class="markdown-body">
+  <article id="review-template">
+
+    <h1 id="________-and-the-standard-for-public-code-version-040">________ and the Standard for Public Code version 0.4.0</h1>
+
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- generated 2022 by The Foundation for Public Code <info@publiccode.net> -->
+
+<p>Link to commitment to meet the Standard for Public Code:</p>
+
+<h2 id="code-in-the-open"><a href="https://standard.publiccode.net/criteria/code-in-the-open.html">Code in the open</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All source code for any policy in use (unless used for fraud detection) MUST be published and publicly accessible.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All source code for any software in use (unless used for fraud detection) MUST be published and publicly accessible.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributors MUST NOT upload sensitive information regarding users, their organization or third parties to the repository.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Any source code not currently in use (such as new versions, proposals or older versions) SHOULD be published.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Documenting which source code or policy underpins any specific interaction the general public may have with an organization is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bundle-policy-and-source-code"><a href="https://standard.publiccode.net/criteria/bundle-policy-and-code.html">Bundle policy and source code</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST include the policy that the source code is based on.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST include all source code that the policy is based on, unless used for fraud detection.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Policy SHOULD be provided in machine readable and unambiguous formats.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Continuous integration tests SHOULD validate that the source code and the policy are executed coherently.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="create-reusable-and-portable-code"><a href="https://standard.publiccode.net/criteria/reusable-and-portable-codebases.html">Create reusable and portable code</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST be developed to be reusable in different contexts.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST be independent from any secret, undisclosed, proprietary or non-open licensed code or services for execution and understanding.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD be in use by multiple parties.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The roadmap SHOULD be influenced by the needs of multiple parties.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Configuration SHOULD be used to make code adapt to context specific needs.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD be localizable.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Code and its documentation SHOULD NOT contain situation-specific information.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Codebase modules SHOULD be documented in such a way as to enable reuse in codebases in other contexts.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="welcome-contributors"><a href="https://standard.publiccode.net/criteria/open-to-contributions.html">Welcome contributors</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST allow anyone to submit suggestions for changes to the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST include contribution guidelines explaining what kinds of contributions are welcome and how contributors can get involved, for example in a <code class="language-plaintext highlighter-rouge">CONTRIBUTING</code> file.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST document the governance of the codebase, contributions and its community, for example in a <code class="language-plaintext highlighter-rouge">GOVERNANCE</code> file.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD advertise the committed engagement of involved organizations in the development and maintenance.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD have a publicly available roadmap.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD publish codebase activity statistics.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Including a code of conduct for contributors in the codebase is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="make-contributing-easy"><a href="https://standard.publiccode.net/criteria/make-contributing-easy.html">Make contributing easy</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST have a public issue tracker that accepts suggestions from anyone.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST include instructions for how to privately report security issues for responsible disclosure.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation MUST link to both the public issue tracker and submitted codebase changes, for example in a <code class="language-plaintext highlighter-rouge">README</code> file.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST have communication channels for users and developers, for example email lists.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation SHOULD include instructions for how to report potentially security sensitive issues on a closed channel.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="maintain-version-control"><a href="https://standard.publiccode.net/criteria/version-control-and-history.html">Maintain version control</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The community MUST have a way to maintain version control for the code.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All files in the codebase MUST be version controlled.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All decisions MUST be documented in commit messages.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Every commit message MUST link to discussions and issues wherever possible.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD be maintained in a distributed version control system.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributors SHOULD group relevant changes in commits.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Maintainers SHOULD mark released versions of the codebase, for example using revision tags or textual labels.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributors SHOULD prefer file formats where the changes within the files can be easily viewed and understood in the version control system.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>It is OPTIONAL for contributors to sign their commits and provide an email address, so that future contributors are able to contact past contributors with questions about their work.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="require-review-of-contributions"><a href="https://standard.publiccode.net/criteria/require-review.html">Require review of contributions</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All contributions that are accepted or committed to release versions of the codebase MUST be reviewed by another contributor.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Reviews MUST include source, policy, tests and documentation.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Reviewers MUST provide feedback on all decisions to not accept a contribution.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributions SHOULD conform to the standards, architecture and decisions set out in the codebase in order to pass review.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Reviews SHOULD include running both the code and the tests of the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributions SHOULD be reviewed by someone in a different context than the contributor.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Version control systems SHOULD NOT accept non-reviewed contributions in release versions.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Reviews SHOULD happen within two business days.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Performing reviews by multiple reviewers is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="document-codebase-objectives"><a href="https://standard.publiccode.net/criteria/document-objectives.html">Document codebase objectives</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST contain documentation of its objectives, like a mission and goal statement, that is understandable by developers and designers so that they can use or contribute to the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Codebase documentation SHOULD clearly describe the connections between policy objectives and codebase objectives.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Documenting the objectives of the codebase for the general public is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="document-the-code"><a href="https://standard.publiccode.net/criteria/documenting.html">Document the code</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All of the functionality of the codebase, policy as well as source, MUST be described in language clearly understandable for those that understand the purpose of the code.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation of the codebase MUST contain a description of how to install and run the source code.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation of the codebase MUST contain examples demonstrating the key functionality.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation of the codebase SHOULD contain a high level description that is clearly understandable for a wide audience of stakeholders, like the general public and journalists.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation of the codebase SHOULD contain a section describing how to install and run a standalone version of the source code, including, if necessary, a test dataset.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation of the codebase SHOULD contain examples for all functionality.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The documentation SHOULD describe the key components or modules of the codebase and their relationships, for example as a high level architectural diagram.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>There SHOULD be continuous integration tests for the quality of the documentation.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Including examples that make users want to immediately start using the codebase in the documentation of the codebase is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Testing the code by using examples in the documentation is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="use-plain-english"><a href="https://standard.publiccode.net/criteria/understandable-english-first.html">Use plain English</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All codebase documentation MUST be in English.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All code MUST be in English, except where policy is machine interpreted as code.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All bundled policy not available in English MUST have an accompanying summary in English.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Any translation MUST be up to date with the English version and vice versa.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>There SHOULD be no acronyms, abbreviations, puns or legal/non-English/domain specific terms in the codebase without an explanation preceding it or a link to an explanation.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The name of the codebase SHOULD be descriptive and free from acronyms, abbreviations, puns or organizational branding.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Documentation SHOULD aim for a lower secondary education reading level, as recommended by the <a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=315#readable">Web Content Accessibility Guidelines 2</a>.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Providing a translation of any code, documentation or tests is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="use-open-standards"><a href="https://standard.publiccode.net/criteria/open-standards.html">Use open standards</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>For features of the codebase that facilitate the exchange of data the codebase MUST use an open standard that meets the <a href="https://opensource.org/osr">Open Source Initiative Open Standard Requirements</a>.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Any non-open standards used MUST be recorded clearly as such in the documentation.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Any standard chosen for use within the codebase MUST be listed in the documentation with a link to where it is available.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Any non-open standards chosen for use within the codebase MUST NOT hinder collaboration and reuse.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>If no existing open standard is available, effort SHOULD be put into developing one.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Standards that are machine testable SHOULD be preferred over those that are not.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="use-continuous-integration"><a href="https://standard.publiccode.net/criteria/continuous-integration.html">Use continuous integration</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All functionality in the source code MUST have automated tests.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributions MUST pass all automated tests before they are admitted into the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST have guidelines explaining how to structure contributions.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST have active contributors.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase guidelines SHOULD state that each contribution should focus on a single issue.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Source code test and documentation coverage SHOULD be monitored.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Testing policy and documentation for consistency with the source and vice versa is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Testing policy and documentation for style and broken links is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="publish-with-an-open-license"><a href="https://standard.publiccode.net/criteria/open-licenses.html">Publish with an open license</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All code and documentation MUST be licensed such that it may be freely reusable, changeable and redistributable.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Software source code MUST be licensed under an <a href="https://spdx.org/licenses/">OSI-approved or FSF Free/Libre license</a>.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All code MUST be published with a license file.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributors MUST NOT be required to transfer copyright of their contributions to the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>All source code files in the codebase SHOULD include a copyright notice and a license header that are machine-readable.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Having multiple licenses for different types of code and documentation is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="make-the-codebase-findable"><a href="https://standard.publiccode.net/criteria/findability.html">Make the codebase findable</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST be findable using a search engine by describing the problem it solves in natural language.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase MUST be findable using a search engine by codebase name.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Maintainers SHOULD submit the codebase to relevant software catalogs.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD have a website which describes the problem the codebase solves using the preferred jargon of different potential users of the codebase (including technologists, policy experts and managers).</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD have a unique and persistent identifier where the entry mentions the major contributors, repository location and website.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD include a machine-readable metadata description, for example in a <a href="https://github.com/publiccodeyml/publiccode.yml">publiccode.yml</a> file.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>A dedicated domain name for the codebase is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Regular presentations at conferences by the community are OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="use-a-coherent-style"><a href="https://standard.publiccode.net/criteria/style.html">Use a coherent style</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Contributions MUST adhere to either a coding or writing style guide, either the codebase community’s own or an existing one that is advertised in or part of the codebase.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contributions SHOULD pass automated tests on style.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD include inline comments and documentation for non-trivial sections.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Including sections on <a href="https://standard.publiccode.net/criteria/understandable-english-first.html">understandable English</a> in the style guide is OPTIONAL.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="document-codebase-maturity"><a href="https://standard.publiccode.net/criteria/document-maturity.html">Document codebase maturity</a></h2>
+
+<p>☐ criterion met.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>meets</th>
+      <th> links and notes </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The codebase MUST be versioned.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase that is ready to use MUST only depend on other codebases that are also ready to use.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase that is not yet ready to use MUST have one of the labels: prototype, alpha, beta or pre-release version.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The codebase SHOULD contain a log of changes from version to version, for example in the <code class="language-plaintext highlighter-rouge">CHANGELOG</code>.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </article>
+</body>
+</html>

@@ -1,0 +1,2716 @@
+#
+msgid ""
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 1 (header)
+msgid "order: 2"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 2 (header)
+msgid "Bundle policy and source code"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 4 (header)
+msgid "Requirements"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST include the "
+"[policy](../glossary.md#policy) that the source [code](../glossary.md#code) "
+"is based on."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST include all source code that the policy is based on, "
+"unless used for fraud detection."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 5 (unordered list)
+msgid "Policy SHOULD be provided in machine readable and unambiguous formats."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 5 (unordered list)
+msgid ""
+"[Continuous integration](../glossary.md#continuous-integration) tests SHOULD"
+" validate that the source code and the policy are executed coherently."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 6 (header)
+msgid "Why this is important"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 7 (paragraph)
+msgid ""
+"Access to both the source code and the policy documents is necessary for "
+"understanding and reuse of, as well as collaboration in, a codebase. "
+"Understanding the context and the policies in that context is fundamental to"
+" understanding what problems a codebase is trying to solve and how it sets "
+"out to solve them. To be able to evaluate whether to adopt a codebase in a "
+"new context, an organization will need to understand what process changes it"
+" must choose to make or how to contribute additional configurability to the "
+"existing solution in order to adapt it to the new context."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 8 (header)
+msgid "What this does not do"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 9 (unordered list)
+msgid "Guarantee that a codebase will reflect the bundled policy."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 9 (unordered list)
+msgid ""
+"Make sure packages comply with the local technical infrastructure or legal "
+"framework of a given public organization."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 10 (header)
+msgid "How to test"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 11 (unordered list)
+msgid ""
+"Confirm with a civil servant that all policy that the source code is based "
+"on is included."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 11 (unordered list)
+msgid ""
+"Confirm with a civil servant that all source code that the policy is based "
+"on is included."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 11 (unordered list)
+msgid "Check if policy can be interpreted by a machine."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 11 (unordered list)
+msgid ""
+"Check the continuous integration tests for coherent execution of source code"
+" and policy pass."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 12 (header)
+msgid "Policy makers: what you need to do"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid ""
+"Collaborate with developers and designers to ensure there is no mismatch "
+"between policy code and source code."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid ""
+"Provide the relevant policy texts for inclusion in the "
+"[repository](../glossary.md#repository); if the text is not available in "
+"English, also provide an English summary. Be sure to include standards that "
+"your organization has chosen to adhere to and any organizational processes "
+"which impact the development or the deployment context of the codebase for "
+"your organization."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid "Provide references and links to texts which support the policies."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid ""
+"Document policy in formats that are unambiguous and machine-readable such as"
+" [Business Process Model and "
+"Notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation),"
+" [Decision Model and "
+"Notation](https://en.wikipedia.org/wiki/Decision_Model_and_Notation) and "
+"[Case Management Model Notation](https://en.wikipedia.org/wiki/CMMN)."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid ""
+"Track policy with [the same version control](version-control-and-history.md)"
+" and documentation used to track source code."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 13 (unordered list)
+msgid ""
+"Check in regularly to understand how the non-policy code in the codebase has"
+" changed and whether it still matches the [intentions of the "
+"policy](document-objectives.md)."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 14 (header)
+msgid "Management: what you need to do"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 15 (unordered list)
+msgid ""
+"Keep policy makers, developers and designers involved and connected "
+"throughout the whole development process."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 15 (unordered list)
+msgid ""
+"Make sure policy makers, developers and designers are working to the same "
+"objectives."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 16 (header)
+msgid "Developers and designers: what you need to do"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 17 (unordered list)
+msgid ""
+"Become familiar with and be able to use the process modelling notation that "
+"the policy makers in your organization use."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 17 (unordered list)
+msgid ""
+"Work together with policy makers to ensure there is no mismatch between "
+"policy code and source code."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 17 (unordered list)
+msgid "Give feedback on how to make policy documentation more clear."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 18 (header)
+msgid "Further reading"
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 19 (unordered list)
+msgid ""
+"[Free online tools for building BPMN, CMMN and DMN diagrams at "
+"bmpn.io](https://bpmn.io/) by Camunda."
+msgstr ""
+
+#: ./bundle-policy-and-code.md:block 19 (unordered list)
+msgid ""
+"[BPMN Quick Guide](https://www.bpmnquickguide.com/view-bpmn-quick-guide/) by"
+" Trisotech."
+msgstr ""
+
+#: ./code-in-the-open.md:block 1 (header)
+msgid "order: 1"
+msgstr ""
+
+#: ./code-in-the-open.md:block 2 (header)
+msgid "Code in the open"
+msgstr ""
+
+#: ./code-in-the-open.md:block 5 (unordered list)
+msgid ""
+"All source [code](../glossary.md#code) for any "
+"[policy](../glossary.md#policy) in use (unless used for fraud detection) "
+"MUST be published and publicly accessible."
+msgstr ""
+
+#: ./code-in-the-open.md:block 5 (unordered list)
+msgid ""
+"All source code for any software in use (unless used for fraud detection) "
+"MUST be published and publicly accessible."
+msgstr ""
+
+#: ./code-in-the-open.md:block 5 (unordered list)
+msgid ""
+"Contributors MUST NOT upload sensitive information regarding users, their "
+"organization or third parties to the "
+"[repository](../glossary.md#repository)."
+msgstr ""
+
+#: ./code-in-the-open.md:block 5 (unordered list)
+msgid ""
+"Any source code not currently in use (such as new versions, proposals or "
+"older versions) SHOULD be published."
+msgstr ""
+
+#: ./code-in-the-open.md:block 5 (unordered list)
+msgid ""
+"Documenting which source code or policy underpins any specific interaction "
+"the [general public](../glossary.md#general-public) may have with an "
+"organization is OPTIONAL."
+msgstr ""
+
+#: ./code-in-the-open.md:block 7 (paragraph)
+msgid "Coding in the open:"
+msgstr ""
+
+#: ./code-in-the-open.md:block 8 (unordered list)
+msgid "improves transparency"
+msgstr ""
+
+#: ./code-in-the-open.md:block 8 (unordered list)
+msgid "increases code quality"
+msgstr ""
+
+#: ./code-in-the-open.md:block 8 (unordered list)
+msgid "facilitates the auditing processes"
+msgstr ""
+
+#: ./code-in-the-open.md:block 9 (paragraph)
+msgid ""
+"These aspects together create more opportunities for citizens to understand "
+"how software and policy impact their interactions with a public "
+"organization."
+msgstr ""
+
+#: ./code-in-the-open.md:block 11 (unordered list)
+msgid "Make source code or policy reusable."
+msgstr ""
+
+#: ./code-in-the-open.md:block 11 (unordered list)
+msgid ""
+"Make the [codebase](../glossary.md#codebase) and the code within it "
+"understandable to as many people as possible."
+msgstr ""
+
+#: ./code-in-the-open.md:block 13 (unordered list)
+msgid ""
+"Confirm that the source for each version currently in use is published on "
+"the internet where it can be seen from outside the original contributing "
+"organization and without the need for any form of authentication or "
+"authorization."
+msgstr ""
+
+#: ./code-in-the-open.md:block 13 (unordered list)
+msgid ""
+"Confirm that the codebase files and commit history do not include sensitive "
+"information."
+msgstr ""
+
+#: ./code-in-the-open.md:block 13 (unordered list)
+msgid "Check for the publication of source code not currently in use."
+msgstr ""
+
+#: ./code-in-the-open.md:block 15 (unordered list)
+msgid "Develop policies in the open."
+msgstr ""
+
+#: ./code-in-the-open.md:block 15 (unordered list)
+msgid "Prioritize open and transparent policies."
+msgstr ""
+
+#: ./code-in-the-open.md:block 17 (unordered list)
+msgid "Develop a culture that embraces openness, learning and feedback."
+msgstr ""
+
+#: ./code-in-the-open.md:block 17 (unordered list)
+msgid ""
+"Collaborate with external vendors and freelancers by working in the open."
+msgstr ""
+
+#: ./code-in-the-open.md:block 19 (unordered list)
+msgid ""
+"As a reviewer, for each commit, verify that content does not include "
+"sensitive information such as configurations, usernames or passwords, public"
+" keys or other real credentials used in production systems."
+msgstr ""
+
+#: ./code-in-the-open.md:block 19 (unordered list)
+msgid ""
+"Clearly split data and code, in order to meet the requirement about "
+"sensitive information above."
+msgstr ""
+
+#: ./code-in-the-open.md:block 21 (unordered list)
+msgid ""
+"[Coding in the open](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/)"
+" by the UK Government Digital Service."
+msgstr ""
+
+#: ./code-in-the-open.md:block 21 (unordered list)
+msgid ""
+"[When code should be open or "
+"closed](https://www.gov.uk/government/publications/open-source-"
+"guidance/when-code-should-be-open-or-closed) by the UK Government Digital "
+"Service."
+msgstr ""
+
+#: ./code-in-the-open.md:block 21 (unordered list)
+msgid ""
+"[Security considerations when coding in the "
+"open](https://www.gov.uk/government/publications/open-source-"
+"guidance/security-considerations-when-coding-in-the-open) by the UK "
+"Government Digital Service."
+msgstr ""
+
+#: ./code-in-the-open.md:block 21 (unordered list)
+msgid ""
+"[Deploying software regularly](https://www.gov.uk/service-"
+"manual/technology/deploying-software-regularly) by the UK Government Digital"
+" Service."
+msgstr ""
+
+#: ./code-in-the-open.md:block 21 (unordered list)
+msgid ""
+"[How GDS uses GitHub](https://gdstechnology.blog.gov.uk/2014/01/27/how-we-"
+"use-github/) by the UK Government Digital Service."
+msgstr ""
+
+#: ./continuous-integration.md:block 1 (header)
+msgid "order: 12"
+msgstr ""
+
+#: ./continuous-integration.md:block 2 (header)
+msgid "Use continuous integration"
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"All functionality in the source [code](../glossary.md#code) MUST have "
+"automated tests."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"Contributions MUST pass all automated tests before they are admitted into "
+"the [codebase](../glossary.md#codebase)."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST have guidelines explaining how to structure contributions."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid "The codebase MUST have active contributors."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"The codebase guidelines SHOULD state that each contribution should focus on "
+"a single issue."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid "Source code test and documentation coverage SHOULD be monitored."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"Testing [policy](../glossary.md#policy) and documentation for consistency "
+"with the source and vice versa is OPTIONAL."
+msgstr ""
+
+#: ./continuous-integration.md:block 5 (unordered list)
+msgid ""
+"Testing policy and documentation for style and broken links is OPTIONAL."
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid "Using [continuous integration](../glossary.md#continuous-integration):"
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid "allows you to quickly identify problems with the codebase,"
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid ""
+"enables risk taking and focusing on problem solving while minimizing stress "
+"for the contributors,"
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid ""
+"lowers barriers for new contributors by reducing the amount of understanding"
+" necessary to suggest changes,"
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid "leads to more maintainable code,"
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid "speeds up the development cycle."
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid ""
+"Smaller, more regular contributions are typically easier to evaluate and "
+"lower risk compared to large infrequent changes."
+msgstr ""
+
+#: ./continuous-integration.md:block 7 (unordered list)
+msgid ""
+"Codebases in active development more reliably provide opportunities for "
+"collaboration and feedback."
+msgstr ""
+
+#: ./continuous-integration.md:block 9 (unordered list)
+msgid ""
+"Create a fault tolerant infrastructure that will work and scale perfectly."
+msgstr ""
+
+#: ./continuous-integration.md:block 9 (unordered list)
+msgid "Create meaningful tests."
+msgstr ""
+
+#: ./continuous-integration.md:block 9 (unordered list)
+msgid "Test for real life situations."
+msgstr ""
+
+#: ./continuous-integration.md:block 9 (unordered list)
+msgid "Guarantee the code will deliver exactly the same policy result."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid "Confirm that there are tests present."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid ""
+"Confirm that code coverage tools check that coverage is at 100% of the code."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid ""
+"Confirm that contributions are only admitted into the codebase after all of "
+"the tests are passed."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid ""
+"Confirm that contribution guidelines explain how to structure contributions."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid ""
+"Confirm that there are contributions from within the last three months."
+msgstr ""
+
+#: ./continuous-integration.md:block 11 (unordered list)
+msgid "Check if code coverage data is published."
+msgstr ""
+
+#: ./continuous-integration.md:block 13 (unordered list)
+msgid ""
+"Involve management as well as developers and designers as early in the "
+"process as possible and keep them engaged throughout development of your "
+"policy."
+msgstr ""
+
+#: ./continuous-integration.md:block 13 (unordered list)
+msgid ""
+"Make sure there are also automated tests set up for policy documentation."
+msgstr ""
+
+#: ./continuous-integration.md:block 13 (unordered list)
+msgid "Fix policy documentation promptly if it fails a test."
+msgstr ""
+
+#: ./continuous-integration.md:block 13 (unordered list)
+msgid ""
+"Make sure the code reflects any changes to the policy (see [Maintain version"
+" control](version-control-and-history.md))."
+msgstr ""
+
+#: ./continuous-integration.md:block 15 (unordered list)
+msgid ""
+"Make sure to test with real end users as quickly and often as possible."
+msgstr ""
+
+#: ./continuous-integration.md:block 15 (unordered list)
+msgid ""
+"Plan the work to deliver small parts very often instead of large parts less "
+"frequently."
+msgstr ""
+
+#: ./continuous-integration.md:block 15 (unordered list)
+msgid ""
+"Procure consultancy services that deliver incrementally aligned with the "
+"plan."
+msgstr ""
+
+#: ./continuous-integration.md:block 15 (unordered list)
+msgid ""
+"After a large failure, encourage publication of incident reports and public "
+"discussion of what was learned."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid ""
+"Help management structure the work plan such that it can be delivered as "
+"small increments."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid ""
+"Help contributors limit the scope of their contributions and feature "
+"requests to be as small as reasonable."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid ""
+"Help management and policy makers test their contributions, for example by "
+"testing their contributions for broken links or style."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid ""
+"Structure code written to handle conditions which are difficult to create in"
+" a test environment in such a way that the conditions can be simulated "
+"during testing. Forms of resource exhaustion such as running out of storage "
+"space and memory allocation failure are typical examples of difficult to "
+"create conditions."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid ""
+"Tune the test code coverage tools to avoid false alarms resulting from "
+"inlining or other optimizations."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid "Deploy often."
+msgstr ""
+
+#: ./continuous-integration.md:block 17 (unordered list)
+msgid "Integrate your work at least once a day."
+msgstr ""
+
+#: ./continuous-integration.md:block 19 (unordered list)
+msgid ""
+"[What is continuous "
+"integration](https://www.martinfowler.com/articles/continuousIntegration.html)"
+" by Martin Fowler."
+msgstr ""
+
+#: ./continuous-integration.md:block 19 (unordered list)
+msgid ""
+"[What is continuous delivery](https://www.continuousdelivery.com/) by Jez "
+"Humble."
+msgstr ""
+
+#: ./continuous-integration.md:block 19 (unordered list)
+msgid ""
+"[Use continuous delivery](https://gds-"
+"way.cloudapps.digital/standards/continuous-delivery.html) by the UK "
+"Government Digital Service."
+msgstr ""
+
+#: ./continuous-integration.md:block 19 (unordered list)
+msgid ""
+"[Quality assurance: testing your service "
+"regularly](https://www.gov.uk/service-manual/technology/quality-assurance-"
+"testing-your-service-regularly) by the UK Government Digital Service."
+msgstr ""
+
+#: ./document-maturity.md:block 1 (header)
+msgid "order: 16 redirect_from: - criteria/advertise-maturity"
+msgstr ""
+
+#: ./document-maturity.md:block 2 (header)
+msgid "Document codebase maturity"
+msgstr ""
+
+#: ./document-maturity.md:block 5 (unordered list)
+msgid "The [codebase](../glossary.md#codebase) MUST be versioned."
+msgstr ""
+
+#: ./document-maturity.md:block 5 (unordered list)
+msgid ""
+"The codebase that is ready to use MUST only depend on other codebases that "
+"are also ready to use."
+msgstr ""
+
+#: ./document-maturity.md:block 5 (unordered list)
+msgid ""
+"The codebase that is not yet ready to use MUST have one of the labels: "
+"prototype, alpha, beta or pre-release version."
+msgstr ""
+
+#: ./document-maturity.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD contain a log of changes from version to version, for "
+"example in the `CHANGELOG`."
+msgstr ""
+
+#: ./document-maturity.md:block 7 (paragraph)
+msgid ""
+"Clearly signalling a codebase's maturity helps others decide whether to "
+"reuse, invest in or contribute to it."
+msgstr ""
+
+#: ./document-maturity.md:block 9 (unordered list)
+msgid "Guarantee that others will use the [code](../glossary.md#code)."
+msgstr ""
+
+#: ./document-maturity.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase has a strategy for versioning which is documented."
+msgstr ""
+
+#: ./document-maturity.md:block 11 (unordered list)
+msgid "Confirm that it is clear where to get the newest version."
+msgstr ""
+
+#: ./document-maturity.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase doesn't depend on any codebases marked with a less"
+" mature status."
+msgstr ""
+
+#: ./document-maturity.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase is ready to use or labeled as prototype, alpha, "
+"beta or pre-release version."
+msgstr ""
+
+#: ./document-maturity.md:block 11 (unordered list)
+msgid "Check that there is a log of changes."
+msgstr ""
+
+#: ./document-maturity.md:block 13 (unordered list)
+msgid ""
+"When developing [policy](../glossary.md#policy), understand that any code "
+"developed needs to be tested and improved before it can be put into service."
+msgstr ""
+
+#: ./document-maturity.md:block 13 (unordered list)
+msgid ""
+"Consider versioning policy changes, especially when they trigger new "
+"versions of the source code."
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid ""
+"Make sure that services only rely on codebases of equal or greater maturity "
+"than the service. For example, don't use a beta codebase in a production "
+"service or a prototype codebase in a beta service."
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid ""
+"If the codebase is not ready for general use, work with the developers to "
+"ensure the codebase is properly labeled:"
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid ""
+"prototype: to test the look and feel, and to internally prove the concept of"
+" the technical possibilities,"
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid "alpha: to do guided tests with a limited set of users,"
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid ""
+"beta: to open up testing to a larger section of the [general "
+"public](../glossary.md#general-public), for example to test if the codebase "
+"works at scale,"
+msgstr ""
+
+#: ./document-maturity.md:block 15 (unordered list)
+msgid ""
+"pre-release version: code that is ready to be released but hasn't received "
+"formal approval yet."
+msgstr ""
+
+#: ./document-maturity.md:block 17 (unordered list)
+msgid ""
+"Add a prominent header to every interface that indicates the maturity level "
+"of the code."
+msgstr ""
+
+#: ./document-maturity.md:block 17 (unordered list)
+msgid "Version all releases."
+msgstr ""
+
+#: ./document-maturity.md:block 17 (unordered list)
+msgid ""
+"Especially in 'rolling release' scenarios, the version may be automatically "
+"derived from the [version control](../glossary.md#version-control) system "
+"metadata (for example by using [git describe](https://git-scm.com/docs/git-"
+"describe))."
+msgstr ""
+
+#: ./document-maturity.md:block 19 (unordered list)
+msgid ""
+"[Service Design and Delivery Process](https://www.dta.gov.au/help-and-"
+"advice/build-and-improve-services/service-design-and-delivery-process) by "
+"the Australian Digital Transformation Agency."
+msgstr ""
+
+#: ./document-maturity.md:block 19 (unordered list)
+msgid ""
+"[Service Manual on Agile Delivery](https://www.gov.uk/service-manual/agile-"
+"delivery) by the UK Government Digital Service."
+msgstr ""
+
+#: ./document-maturity.md:block 19 (unordered list)
+msgid ""
+"[Semantic Versioning Specification](https://semver.org/) used by many "
+"codebases to label versions."
+msgstr ""
+
+#: ./document-maturity.md:block 19 (unordered list)
+msgid ""
+"[What are the Discovery, Alpha, Beta and Live stages in developing a "
+"service? [Video 0'0\"59]](https://www.youtube.com/watch?v=_cyI7DMhgYc) by "
+"the UK Government Digital Service."
+msgstr ""
+
+#: ./document-objectives.md:block 1 (header)
+msgid "order: 8"
+msgstr ""
+
+#: ./document-objectives.md:block 2 (header)
+msgid "Document codebase objectives"
+msgstr ""
+
+#: ./document-objectives.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST contain documentation of its "
+"objectives, like a mission and goal statement, that is understandable by "
+"developers and designers so that they can use or contribute to the codebase."
+msgstr ""
+
+#: ./document-objectives.md:block 5 (unordered list)
+msgid ""
+"Codebase documentation SHOULD clearly describe the connections between "
+"[policy](../glossary.md#policy) objectives and codebase objectives."
+msgstr ""
+
+#: ./document-objectives.md:block 5 (unordered list)
+msgid ""
+"Documenting the objectives of the codebase for the [general "
+"public](../glossary.md#general-public) is OPTIONAL."
+msgstr ""
+
+#: ./document-objectives.md:block 7 (paragraph)
+msgid "Documenting codebase objectives:"
+msgstr ""
+
+#: ./document-objectives.md:block 8 (unordered list)
+msgid ""
+"provides an easy way for people to decide whether this codebase, or one of "
+"its modules, is interesting for them now or in the future."
+msgstr ""
+
+#: ./document-objectives.md:block 8 (unordered list)
+msgid "helps scope your own development."
+msgstr ""
+
+#: ./document-objectives.md:block 8 (unordered list)
+msgid ""
+"clearly communicates to other stakeholders and contributors the purpose of "
+"the codebase and the modules of which it is composed."
+msgstr ""
+
+#: ./document-objectives.md:block 10 (unordered list)
+msgid "Guarantee that the codebase achieves the stated objective(s)."
+msgstr ""
+
+#: ./document-objectives.md:block 10 (unordered list)
+msgid "Guarantee contributions to the codebase."
+msgstr ""
+
+#: ./document-objectives.md:block 10 (unordered list)
+msgid ""
+"Prevent other codebases from attempting to achieve the same objectives."
+msgstr ""
+
+#: ./document-objectives.md:block 12 (unordered list)
+msgid ""
+"Confirm that the codebase documentation includes the codebase objectives, "
+"mission or goal."
+msgstr ""
+
+#: ./document-objectives.md:block 12 (unordered list)
+msgid ""
+"Check for descriptions of connections between policy objectives and codebase"
+" objectives."
+msgstr ""
+
+#: ./document-objectives.md:block 14 (unordered list)
+msgid ""
+"Add the policy objectives to the codebase documentation, for example in the "
+"`README`."
+msgstr ""
+
+#: ./document-objectives.md:block 14 (unordered list)
+msgid ""
+"Include relevant policies which impact the community, codebase, and "
+"development like value and ethics based policies, for example accessibility "
+"or equal opportunity."
+msgstr ""
+
+#: ./document-objectives.md:block 16 (unordered list)
+msgid ""
+"Add the organizational and business objectives to the codebase "
+"documentation, for example in the `README`."
+msgstr ""
+
+#: ./document-objectives.md:block 18 (unordered list)
+msgid ""
+"Add the technology and design objectives to the codebase documentation, for "
+"example in the `README`."
+msgstr ""
+
+#: ./document-objectives.md:block 20 (unordered list)
+msgid ""
+"[How to write project "
+"objectives](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)"
+" by Marek Hajduczenia."
+msgstr ""
+
+#: ./documenting.md:block 1 (header)
+msgid "order: 9"
+msgstr ""
+
+#: ./documenting.md:block 2 (header)
+msgid "Document the code"
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"All of the functionality of the [codebase](../glossary.md#codebase), "
+"[policy](../glossary.md#policy) as well as source, MUST be described in "
+"language clearly understandable for those that understand the purpose of the"
+" [code](../glossary.md#code)."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation of the codebase MUST contain a description of how to "
+"install and run the source code."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation of the codebase MUST contain examples demonstrating the "
+"key functionality."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation of the codebase SHOULD contain a high level description "
+"that is clearly understandable for a wide audience of stakeholders, like the"
+" [general public](../glossary.md#general-public) and journalists."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation of the codebase SHOULD contain a section describing how to"
+" install and run a standalone version of the source code, including, if "
+"necessary, a test dataset."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation of the codebase SHOULD contain examples for all "
+"functionality."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"The documentation SHOULD describe the key components or modules of the "
+"codebase and their relationships, for example as a high level architectural "
+"diagram."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"There SHOULD be [continuous integration](../glossary.md#continuous-"
+"integration) tests for the quality of the documentation."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid ""
+"Including examples that make users want to immediately start using the "
+"codebase in the documentation of the codebase is OPTIONAL."
+msgstr ""
+
+#: ./documenting.md:block 5 (unordered list)
+msgid "Testing the code by using examples in the documentation is OPTIONAL."
+msgstr ""
+
+#: ./documenting.md:block 7 (unordered list)
+msgid "Users can start using and contributing more quickly."
+msgstr ""
+
+#: ./documenting.md:block 7 (unordered list)
+msgid ""
+"You help people discover the codebase, especially people asking 'is there "
+"already code that does something like this'."
+msgstr ""
+
+#: ./documenting.md:block 7 (unordered list)
+msgid "This provides transparency into your organization and processes."
+msgstr ""
+
+#: ./documenting.md:block 9 (unordered list)
+msgid ""
+"Contribute directly to more reusable, portable code (see [Create reusable "
+"and portable code](./reusable-and-portable-codebases.md))."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Confirm that other stakeholders, professionals from other public "
+"organizations and the general public find the documentation clear and "
+"understandable."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Confirm that the documentation describes how to install and run the source "
+"code."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Confirm that the documentation includes examples of the key functionality."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Check with members of the general public and journalists if they can "
+"understand the high level description."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Check that the instructions for how to install and run a standalone version "
+"of the source code result in a running system."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid "Check that all functionality documented contains an example."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Check that the documentation includes a high level architectural diagram or "
+"similar."
+msgstr ""
+
+#: ./documenting.md:block 11 (unordered list)
+msgid ""
+"Check that the documentation quality is part of integration testing, for "
+"example documentation is generated from code, and links and images are "
+"tested."
+msgstr ""
+
+#: ./documenting.md:block 13 (unordered list)
+msgid ""
+"Check in regularly to understand how the non-policy code in the codebase has"
+" changed."
+msgstr ""
+
+#: ./documenting.md:block 13 (unordered list)
+msgid "Give feedback on how to make non-policy documentation more clear."
+msgstr ""
+
+#: ./documenting.md:block 15 (unordered list)
+msgid "Try to use the codebase."
+msgstr ""
+
+#: ./documenting.md:block 15 (unordered list)
+msgid ""
+"Make sure you understand both the policy and source code as well as the "
+"documentation."
+msgstr ""
+
+#: ./documenting.md:block 17 (unordered list)
+msgid ""
+"Check in regularly to understand how the non-source code in the codebase has"
+" changed."
+msgstr ""
+
+#: ./documenting.md:block 17 (unordered list)
+msgid "Give feedback on how to make non-source documentation more clear."
+msgstr ""
+
+#: ./documenting.md:block 19 (unordered list)
+msgid ""
+"[Documentation guide](https://www.writethedocs.org/guide/) by Write the "
+"Docs."
+msgstr ""
+
+#: ./findability.md:block 1 (header)
+msgid "order: 14"
+msgstr ""
+
+#: ./findability.md:block 2 (header)
+msgid "Make the codebase findable"
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST be findable using a search "
+"engine by describing the problem it solves in natural language."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid "The codebase MUST be findable using a search engine by codebase name."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid "Maintainers SHOULD submit the codebase to relevant software catalogs."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD have a website which describes the problem the codebase "
+"solves using the preferred jargon of different potential users of the "
+"codebase (including technologists, policy experts and managers)."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD have a unique and persistent identifier where the entry "
+"mentions the major contributors, [repository](../glossary.md#repository) "
+"location and website."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD include a machine-readable metadata description, for "
+"example in a "
+"[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) file."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid "A dedicated domain name for the codebase is OPTIONAL."
+msgstr ""
+
+#: ./findability.md:block 5 (unordered list)
+msgid "Regular presentations at conferences by the community are OPTIONAL."
+msgstr ""
+
+#: ./findability.md:block 7 (unordered list)
+msgid ""
+"Proactiveness is needed; just publishing a codebase and hoping it's found "
+"doesn't work."
+msgstr ""
+
+#: ./findability.md:block 7 (unordered list)
+msgid "A metadata description file increases discoverability."
+msgstr ""
+
+#: ./findability.md:block 7 (unordered list)
+msgid ""
+"The more findable a codebase is, the more potential new collaborators will "
+"find it."
+msgstr ""
+
+#: ./findability.md:block 7 (unordered list)
+msgid ""
+"By having well-written metadata containing a unique and persistent "
+"identifer, such as a Wikidata item or FSF software directory listing, and "
+"thus being part of the semantic web, it will be easier for other people to "
+"refer, cite, disambiguate and discover the codebase through third party "
+"tools."
+msgstr ""
+
+#: ./findability.md:block 9 (unordered list)
+msgid "Ensure new collaborators or replicators."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase appears in the first set of results on more than "
+"one major search engine when searching by a plain English problem "
+"description."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase appears in the first set of results on more than "
+"one major search engine when searching by a technical problem description."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase appears in the first set of results on more than "
+"one major search engine when searching by the codebase name."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid "Check for the codebase listing in relevant software catalogs."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Check for a codebase website which describes the problem the codebase "
+"solves."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Check unique and persistent identifier entries for mention of the major "
+"contributors."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Check unique and persistent identifier entries for the repository location."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid ""
+"Check unique and persistent identifier entries for the codebase website."
+msgstr ""
+
+#: ./findability.md:block 11 (unordered list)
+msgid "Check for a machine-readable metadata description file."
+msgstr ""
+
+#: ./findability.md:block 13 (unordered list)
+msgid ""
+"Contribute a description of the policy area or problem this codebase acts on"
+" or operates."
+msgstr ""
+
+#: ./findability.md:block 13 (unordered list)
+msgid ""
+"Test your problem description with peers outside of your context who aren't "
+"familiar with the codebase."
+msgstr ""
+
+#: ./findability.md:block 13 (unordered list)
+msgid ""
+"Present on how the codebase implements the [policy](../glossary.md#policy) "
+"at relevent conferences."
+msgstr ""
+
+#: ./findability.md:block 15 (unordered list)
+msgid ""
+"Budget for content design and Search Engine Optimization skills in the team."
+msgstr ""
+
+#: ./findability.md:block 15 (unordered list)
+msgid "Ensure people involved in the project present at relevant conferences."
+msgstr ""
+
+#: ./findability.md:block 15 (unordered list)
+msgid ""
+"Search trademark databases to avoid confusion or infringement before "
+"deciding the name."
+msgstr ""
+
+#: ./findability.md:block 17 (unordered list)
+msgid "Search engine optimization."
+msgstr ""
+
+#: ./findability.md:block 17 (unordered list)
+msgid "Suggest conferences to present at and present at them."
+msgstr ""
+
+#: ./findability.md:block 19 (unordered list)
+msgid ""
+"[Introduction to "
+"Wikidata](https://www.wikidata.org/wiki/Wikidata:Introduction) by the "
+"Wikidata community."
+msgstr ""
+
+#: ./findability.md:block 19 (unordered list)
+msgid ""
+"[FSF software directory listing](https://directory.fsf.org/wiki/Main_Page) "
+"by the Free Softare Foundation."
+msgstr ""
+
+#: ./findability.md:block 19 (unordered list)
+msgid ""
+"The [FAIR Guiding Principles for scientific data management and "
+"stewardship](https://www.go-fair.org/fair-principles/) by the GO FAIR "
+"International Support and Coordination Office provide a nice list of "
+"attributes that make (meta)data more machine actionable (and hence more "
+"findable). Some of these apply directly to codebases, while others may "
+"provoke exploration into what the codebase equivalent would be."
+msgstr ""
+
+#: ./index.md:block 1 (header)
+msgid "Criteria"
+msgstr ""
+
+#: ./index.md:block 3 (paragraph)
+msgid "{% assign sorted = site.pages | sort:\"order\" %}"
+msgstr ""
+
+#: ./index.md:block 4 (paragraph)
+msgid ""
+"{% for page in sorted %}{% if page.dir == \"/criteria/\" %}{% if page.name "
+"!= \"index.md\" %}{% if page.title %}"
+msgstr ""
+
+#: ./index.md:block 5 (ordered list)
+msgid ""
+"[{{page.title}}]({{page.url}}){% endif%} {% endif%} {% endif%}{% endfor %}"
+msgstr ""
+
+#: ./make-contributing-easy.md:block 1 (header)
+msgid "order: 5"
+msgstr ""
+
+#: ./make-contributing-easy.md:block 2 (header)
+msgid "Make contributing easy"
+msgstr ""
+
+#: ./make-contributing-easy.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST have a public issue tracker "
+"that accepts suggestions from anyone."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST include instructions for how to privately report security "
+"issues for responsible disclosure."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 5 (unordered list)
+msgid ""
+"The documentation MUST link to both the public issue tracker and submitted "
+"codebase changes, for example in a `README` file."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST have communication channels for users and developers, for "
+"example email lists."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 5 (unordered list)
+msgid ""
+"The documentation SHOULD include instructions for how to report potentially "
+"security sensitive issues on a closed channel."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 7 (unordered list)
+msgid ""
+"Enables users to fix problems and add features to the shared codebase "
+"leading to better, more reliable and feature rich software."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 7 (unordered list)
+msgid "Allows collaborative uptake of shared digital infrastructure."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 7 (unordered list)
+msgid "Helps users decide to use one codebase over another."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 9 (unordered list)
+msgid "Guarantee others will reuse the codebase."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 11 (unordered list)
+msgid "Confirm that there is a public issue tracker."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 11 (unordered list)
+msgid ""
+"Confirm that there are instructions for privately reporting security issues."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase contains links to the public issue tracker and "
+"submitted codebase changes."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 11 (unordered list)
+msgid ""
+"Confirm that it is possible to participate in a discussion with other users "
+"and developers about the software using channels described in the codebase."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 13 (unordered list)
+msgid ""
+"Track [policy](../glossary.md#policy) issues in the codebase, so that a "
+"relevant external policy expert can volunteer help."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 15 (unordered list)
+msgid ""
+"Track management issues in the codebase, so that external managers with "
+"relevant experience can volunteer help."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 15 (unordered list)
+msgid ""
+"Support your experienced policy makers, developers and designers to keep "
+"contributing to the codebase for as long as possible."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 17 (unordered list)
+msgid "Respond promptly to requests."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 17 (unordered list)
+msgid ""
+"Keep your management informed of the time and resources you require to "
+"support other contributors."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 19 (unordered list)
+msgid ""
+"[How to inspire exceptional contributions to your open-source "
+"project](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-"
+"to-your-open-source-project-1ebf) by Joel Hans."
+msgstr ""
+
+#: ./make-contributing-easy.md:block 19 (unordered list)
+msgid ""
+"[The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-"
+"benefits-of-coding-in-the-open/) by the UK Government Digital Service."
+msgstr ""
+
+#: ./open-licenses.md:block 1 (header)
+msgid "order: 13"
+msgstr ""
+
+#: ./open-licenses.md:block 2 (header)
+msgid "Publish with an open license"
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid ""
+"All [code](../glossary.md#code) and documentation MUST be licensed such that"
+" it may be freely reusable, changeable and redistributable."
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid ""
+"Software source code MUST be licensed under an [OSI-approved or FSF "
+"Free/Libre license](https://spdx.org/licenses/)."
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid "All code MUST be published with a license file."
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid ""
+"Contributors MUST NOT be required to transfer copyright of their "
+"contributions to the [codebase](../glossary.md#codebase)."
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid ""
+"All source code files in the codebase SHOULD include a copyright notice and "
+"a license header that are machine-readable."
+msgstr ""
+
+#: ./open-licenses.md:block 5 (unordered list)
+msgid ""
+"Having multiple licenses for different types of code and documentation is "
+"OPTIONAL."
+msgstr ""
+
+#: ./open-licenses.md:block 7 (unordered list)
+msgid ""
+"Makes it possible for anyone to see the code and know that they can and how "
+"they can reuse it."
+msgstr ""
+
+#: ./open-licenses.md:block 9 (unordered list)
+msgid "Prevent use of the code by any specific actors."
+msgstr ""
+
+#: ./open-licenses.md:block 11 (unordered list)
+msgid "Confirm that the codebase is clearly licensed."
+msgstr ""
+
+#: ./open-licenses.md:block 11 (unordered list)
+msgid ""
+"Confirm that the license for the source code is on the [OSI-approved or FSF "
+"Free/Libre license list](https://spdx.org/licenses/) and the license for "
+"documentation [conforms to the Open "
+"Definition](https://opendefinition.org/licenses/)."
+msgstr ""
+
+#: ./open-licenses.md:block 11 (unordered list)
+msgid "Confirm that the licenses used in the codebase are included as files."
+msgstr ""
+
+#: ./open-licenses.md:block 11 (unordered list)
+msgid ""
+"Confirm that contribution guidelines and "
+"[repository](../glossary.md#repository) configuration do not require "
+"transfer of copyright."
+msgstr ""
+
+#: ./open-licenses.md:block 11 (unordered list)
+msgid ""
+"Check for machine-readable license checking in the codebase [continuous "
+"integration](../glossary.md#continuous-integration) tests."
+msgstr ""
+
+#: ./open-licenses.md:block 13 (unordered list)
+msgid ""
+"Develop [policy](../glossary.md#policy) that requires code to be [open "
+"source](../glossary.md#open-source)."
+msgstr ""
+
+#: ./open-licenses.md:block 13 (unordered list)
+msgid ""
+"Develop policy that disincentivizes non-open source code and technology in "
+"procurement."
+msgstr ""
+
+#: ./open-licenses.md:block 15 (unordered list)
+msgid ""
+"Only work with open source vendors that deliver their code by publishing it "
+"under an open source license."
+msgstr ""
+
+#: ./open-licenses.md:block 15 (unordered list)
+msgid ""
+"Beware that even though [Creative Commons "
+"licenses](https://creativecommons.org/licenses/) are great for "
+"documentation, licenses that stipulate Non-Commercial or No Derivatives are "
+"NOT freely reusable, changeable and redistributable and don't fulfill these "
+"requirements."
+msgstr ""
+
+#: ./open-licenses.md:block 17 (unordered list)
+msgid "Add a new `license` file to every new codebase created."
+msgstr ""
+
+#: ./open-licenses.md:block 17 (unordered list)
+msgid ""
+"Add a copyright notice and a license header to every new source code file "
+"created."
+msgstr ""
+
+#: ./open-licenses.md:block 19 (unordered list)
+msgid ""
+"[Open source definition](https://opensource.org/osd) by the Open Source "
+"Initiative, all open source licenses meet this definition."
+msgstr ""
+
+#: ./open-licenses.md:block 19 (unordered list)
+msgid ""
+"[Animated video introduction to Creative "
+"Commons](https://creativecommons.org/about/videos/creative-commons-kiwi) by "
+"Creative Commons Aotearoa New Zealand."
+msgstr ""
+
+#: ./open-licenses.md:block 19 (unordered list)
+msgid ""
+"[REUSE Initiative specification](https://reuse.software/spec/) by Free "
+"Software Foundation Europe for unambiguous, human-readable and machine-"
+"readable copyright and licensing information."
+msgstr ""
+
+#: ./open-licenses.md:block 19 (unordered list)
+msgid ""
+"[SPDX License List](https://spdx.org/licenses/) by the Linux Foundation with"
+" standardized, machine-readable abbreviations for most licenses."
+msgstr ""
+
+#: ./open-standards.md:block 1 (header)
+msgid "order: 11"
+msgstr ""
+
+#: ./open-standards.md:block 2 (header)
+msgid "Use open standards"
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"For features of the [codebase](../glossary.md#codebase) that facilitate the "
+"exchange of data the codebase MUST use an [open "
+"standard](../glossary.md#open-standard) that meets the [Open Source "
+"Initiative Open Standard Requirements](https://opensource.org/osr)."
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"Any non-open standards used MUST be recorded clearly as such in the "
+"documentation."
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"Any standard chosen for use within the codebase MUST be listed in the "
+"documentation with a link to where it is available."
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"Any non-open standards chosen for use within the codebase MUST NOT hinder "
+"collaboration and reuse."
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"If no existing open standard is available, effort SHOULD be put into "
+"developing one."
+msgstr ""
+
+#: ./open-standards.md:block 5 (unordered list)
+msgid ""
+"Standards that are machine testable SHOULD be preferred over those that are "
+"not."
+msgstr ""
+
+#: ./open-standards.md:block 7 (unordered list)
+msgid "Creates interoperability between systems."
+msgstr ""
+
+#: ./open-standards.md:block 7 (unordered list)
+msgid "Reduces possible vendor lock-in."
+msgstr ""
+
+#: ./open-standards.md:block 7 (unordered list)
+msgid ""
+"Guarantees access to the knowledge required to reuse and contribute to the "
+"codebase."
+msgstr ""
+
+#: ./open-standards.md:block 9 (unordered list)
+msgid "Make it understandable how to use the software."
+msgstr ""
+
+#: ./open-standards.md:block 11 (unordered list)
+msgid "Confirm that data exchange follows an OSI approved open standard."
+msgstr ""
+
+#: ./open-standards.md:block 11 (unordered list)
+msgid ""
+"Confirm that any non-open standards used are clearly documented as such."
+msgstr ""
+
+#: ./open-standards.md:block 11 (unordered list)
+msgid ""
+"Confirm that documentation includes a list of the standards followed within "
+"the codebase, each with a working link, or a statement that no standards "
+"were chosen."
+msgstr ""
+
+#: ./open-standards.md:block 13 (unordered list)
+msgid "Mandate use of open standards everywhere possible."
+msgstr ""
+
+#: ./open-standards.md:block 13 (unordered list)
+msgid "Prohibit procurement of technology that does not use open standards."
+msgstr ""
+
+#: ./open-standards.md:block 15 (unordered list)
+msgid ""
+"Consider including open standard compliance assessment in "
+"[code](../glossary.md#code) reviews."
+msgstr ""
+
+#: ./open-standards.md:block 17 (unordered list)
+msgid ""
+"Add [continuous integration](../glossary.md#continuous-integration) tests "
+"for compliance with the standards."
+msgstr ""
+
+#: ./open-standards.md:block 17 (unordered list)
+msgid ""
+"Review the commits and other [repository](../glossary.md#repository) "
+"resources for references to standards and cross-check those with the "
+"standards listed."
+msgstr ""
+
+#: ./open-standards.md:block 19 (unordered list)
+msgid ""
+"[Open Standards principles](https://www.gov.uk/government/publications/open-"
+"standards-principles/open-standards-principles), "
+"[policy](../glossary.md#policy) paper of the UK Cabinet Office."
+msgstr ""
+
+#: ./open-to-contributions.md:block 1 (header)
+msgid "order: 4"
+msgstr ""
+
+#: ./open-to-contributions.md:block 2 (header)
+msgid "Welcome contributors"
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST allow anyone to submit "
+"suggestions for changes to the codebase."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST include contribution guidelines explaining what kinds of "
+"contributions are welcome and how contributors can get involved, for example"
+" in a `CONTRIBUTING` file."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST document the governance of the codebase, contributions and"
+" its community, for example in a `GOVERNANCE` file."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD advertise the committed engagement of involved "
+"organizations in the development and maintenance."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid "The codebase SHOULD have a publicly available roadmap."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid "The codebase SHOULD publish codebase activity statistics."
+msgstr ""
+
+#: ./open-to-contributions.md:block 5 (unordered list)
+msgid ""
+"Including a code of conduct for contributors in the codebase is OPTIONAL."
+msgstr ""
+
+#: ./open-to-contributions.md:block 7 (unordered list)
+msgid ""
+"Helps newcomers understand and trust the codebase community's leadership."
+msgstr ""
+
+#: ./open-to-contributions.md:block 7 (unordered list)
+msgid ""
+"Prevents the community that works on a codebase splitting because there is "
+"no way to influence its goals and progress, resulting in diverging "
+"communities."
+msgstr ""
+
+#: ./open-to-contributions.md:block 9 (unordered list)
+msgid "Guarantee others will join the community."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid ""
+"Confirm that it is possible to submit suggestions for changes to the "
+"codebase."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid "Confirm there are contribution guidelines."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase governance is clearly explained, including how to "
+"influence codebase governance."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid "Check for a list of involved organizations."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid "Check for a roadmap."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid "Check for published activity statistics."
+msgstr ""
+
+#: ./open-to-contributions.md:block 11 (unordered list)
+msgid "Check for a code of conduct."
+msgstr ""
+
+#: ./open-to-contributions.md:block 13 (unordered list)
+msgid ""
+"Add a list to the codebase of any other resources that "
+"[policy](../glossary.md#policy) experts, non-governmental organizations and "
+"academics would find useful for understanding or reusing your policy."
+msgstr ""
+
+#: ./open-to-contributions.md:block 13 (unordered list)
+msgid ""
+"Consider adding contact details so that other policy makers considering "
+"collaboration can ask you for advice."
+msgstr ""
+
+#: ./open-to-contributions.md:block 15 (unordered list)
+msgid ""
+"Make sure that the documentation of the governance includes the current "
+"process for how to make changes to the governance."
+msgstr ""
+
+#: ./open-to-contributions.md:block 15 (unordered list)
+msgid ""
+"If the community has some consensus about how the governance should change, "
+"then include those ideas stated as ambitions in the documentation."
+msgstr ""
+
+#: ./open-to-contributions.md:block 15 (unordered list)
+msgid ""
+"Make sure the documentation explains how each organization is involved in "
+"the codebase, what resources it has available for it and for how long."
+msgstr ""
+
+#: ./open-to-contributions.md:block 15 (unordered list)
+msgid ""
+"Support your experienced policy makers, developers and designers to stay "
+"part of the community for as long as possible."
+msgstr ""
+
+#: ./open-to-contributions.md:block 19 (unordered list)
+msgid ""
+"[Building welcoming communities](https://opensource.guide/building-"
+"community/) by Open Source Guides."
+msgstr ""
+
+#: ./open-to-contributions.md:block 19 (unordered list)
+msgid ""
+"[The Open Source Contributor Funnel](https://mikemcquaid.com/2018/08/14/the-"
+"open-source-contributor-funnel-why-people-dont-contribute-to-your-open-"
+"source-project/) by Mike McQuaid."
+msgstr ""
+
+#: ./open-to-contributions.md:block 19 (unordered list)
+msgid ""
+"[Leadership and governance](https://opensource.guide/leadership-and-"
+"governance/) for growing [open source](../glossary.md#open-source) community"
+" projects, by Open Source Guides."
+msgstr ""
+
+#: ./open-to-contributions.md:block 19 (unordered list)
+msgid ""
+"[Building online communities](http://hintjens.com/blog:117) by Pieter "
+"Hintjens (long read!)."
+msgstr ""
+
+#: ./require-review.md:block 1 (header)
+msgid "order: 7"
+msgstr ""
+
+#: ./require-review.md:block 2 (header)
+msgid "Require review of contributions"
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"All contributions that are accepted or committed to release versions of the "
+"[codebase](../glossary.md#codebase) MUST be reviewed by another contributor."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Reviews MUST include source, [policy](../glossary.md#policy), tests and "
+"documentation."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Reviewers MUST provide feedback on all decisions to not accept a "
+"contribution."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Contributions SHOULD conform to the standards, architecture and decisions "
+"set out in the codebase in order to pass review."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Reviews SHOULD include running both the [code](../glossary.md#code) and the "
+"tests of the codebase."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Contributions SHOULD be reviewed by someone in a different context than the "
+"contributor."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid ""
+"Version control systems SHOULD NOT accept non-reviewed contributions in "
+"release versions."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid "Reviews SHOULD happen within two business days."
+msgstr ""
+
+#: ./require-review.md:block 5 (unordered list)
+msgid "Performing reviews by multiple reviewers is OPTIONAL."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid "Increases codebase quality."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid "Reduces security risks as well as operational risks."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid "Creates a culture of making every contribution great."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid "Catches the most obvious mistakes that could happen."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid ""
+"Gives contributors the security that their contributions are only accepted "
+"if they really add value."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid ""
+"Assures contributors of a guaranteed time for feedback or collaborative "
+"improvement."
+msgstr ""
+
+#: ./require-review.md:block 7 (unordered list)
+msgid ""
+"Prompt reviews increase both rate of delivery and contributor engagement."
+msgstr ""
+
+#: ./require-review.md:block 9 (unordered list)
+msgid "Guarantee the right solution to a problem."
+msgstr ""
+
+#: ./require-review.md:block 9 (unordered list)
+msgid "Mean that reviewers are liable."
+msgstr ""
+
+#: ./require-review.md:block 9 (unordered list)
+msgid "Absolve a contributor from writing documentation and tests."
+msgstr ""
+
+#: ./require-review.md:block 9 (unordered list)
+msgid "Provide you with the right reviewers."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid ""
+"Confirm that every commit in the history has been reviewed by a different "
+"contributor."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid "Confirm that reviews include source, policy, tests and documentation."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid "Confirm that rejected contributions were appropriately explained."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid ""
+"Check if reviews cover conformance to standards, architecture and codebase "
+"guidelines."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid "Check with reviewers if they run the code and tests during review."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid ""
+"Check with reviewers if commits have been reviewed by a different "
+"contributor in a different context."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid ""
+"Check for use of branch protection in the [version "
+"control](../glossary.md#version-control) system."
+msgstr ""
+
+#: ./require-review.md:block 11 (unordered list)
+msgid "Check the times between contribution submission and review."
+msgstr ""
+
+#: ./require-review.md:block 13 (unordered list)
+msgid ""
+"Institute a 'four eyes' policy where everything, not just code, is reviewed."
+msgstr ""
+
+#: ./require-review.md:block 13 (unordered list)
+msgid ""
+"Use a version control system or methodology that enables review and "
+"feedback."
+msgstr ""
+
+#: ./require-review.md:block 15 (unordered list)
+msgid "Make delivering great code a shared objective."
+msgstr ""
+
+#: ./require-review.md:block 15 (unordered list)
+msgid ""
+"Make sure writing and reviewing contributions to source, policy, "
+"documentation and tests are considered equally valuable."
+msgstr ""
+
+#: ./require-review.md:block 15 (unordered list)
+msgid ""
+"Create a culture where all contributions are welcome and everyone is "
+"empowered to review them."
+msgstr ""
+
+#: ./require-review.md:block 15 (unordered list)
+msgid "Make sure no contributor is ever alone in contributing to a codebase."
+msgstr ""
+
+#: ./require-review.md:block 17 (unordered list)
+msgid ""
+"Ask other contributors on the codebase to review your work, in your "
+"organization or outside of it."
+msgstr ""
+
+#: ./require-review.md:block 17 (unordered list)
+msgid ""
+"Try to respond to others' requests for code review promptly, initially "
+"providing feedback about the concept of the change."
+msgstr ""
+
+#: ./require-review.md:block 19 (unordered list)
+msgid ""
+"[How to review code the GDS way](https://gds-"
+"way.cloudapps.digital/manuals/code-review-guidelines.html#content) by the UK"
+" Government Digital Service."
+msgstr ""
+
+#: ./require-review.md:block 19 (unordered list)
+msgid ""
+"Branch protection on "
+"[GitHub](https://docs.github.com/en/repositories/configuring-branches-and-"
+"merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-"
+"protected-branches) and "
+"[GitLab](https://about.gitlab.com/2014/11/26/keeping-your-code-protected/)."
+msgstr ""
+
+#: ./require-review.md:block 19 (unordered list)
+msgid ""
+"[The Gentle Art of Patch Review](https://sage.thesharps.us/2014/09/01/the-"
+"gentle-art-of-patch-review/) by Sage Sharp."
+msgstr ""
+
+#: ./require-review.md:block 19 (unordered list)
+msgid ""
+"[Measuring "
+"Engagement](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-"
+"mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) by Mozilla."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 1 (header)
+msgid "order: 3"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 2 (header)
+msgid "Create reusable and portable code"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid ""
+"The [codebase](../glossary.md#codebase) MUST be developed to be reusable in "
+"[different contexts](../glossary.md#different-contexts)."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid ""
+"The codebase MUST be independent from any secret, undisclosed, proprietary "
+"or non-open licensed [code](../glossary.md#code) or services for execution "
+"and understanding."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid "The codebase SHOULD be in use by multiple parties."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid "The roadmap SHOULD be influenced by the needs of multiple parties."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid ""
+"Configuration SHOULD be used to make code adapt to context specific needs."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid "The codebase SHOULD be localizable."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid ""
+"Code and its documentation SHOULD NOT contain situation-specific "
+"information."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 5 (unordered list)
+msgid ""
+"Codebase modules SHOULD be documented in such a way as to enable reuse in "
+"codebases in other contexts."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Enables other policy makers, developers and designers to reuse what you've "
+"developed, to test it, to improve it and contribute those improvements back "
+"leading to better quality, cheaper maintenance and higher reliability."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Makes the code easier for new people to understand (as it's more general)."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Makes it easier to control the mission, vision and scope of the codebase "
+"because the codebase is thoughtfully and purposefully designed for "
+"reusability."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Codebases used by multiple parties are more likely to benefit from a self-"
+"sustaining community."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Any contributor is able to test and contribute without relying on the "
+"situation-specific infrastructure of any other contributor or deployment."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"Composing a codebase from well documented modules improves reusability and "
+"maintainability."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 7 (unordered list)
+msgid ""
+"A module is easier to reuse in another context if its purpose is clearly "
+"documented."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 9 (unordered list)
+msgid "Get others to reuse the codebase."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 9 (unordered list)
+msgid "Build a community."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 9 (unordered list)
+msgid ""
+"Shift responsibility for documentation, support, bug-fixing, etc. to another"
+" party."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 9 (unordered list)
+msgid "Guarantee that modules are generic enough to be reused in any context."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 11 (unordered list)
+msgid ""
+"Confirm with someone in a similar role at another organization if they can "
+"reuse the codebase and what that would entail."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 11 (unordered list)
+msgid ""
+"Confirm that the codebase can run without using any proprietary or non open-"
+"licensed code or services."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 11 (unordered list)
+msgid ""
+"Check that the codebase is in use by multiple parties or in multiple "
+"contexts."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 11 (unordered list)
+msgid ""
+"Check that the codebase files and commit history do not include situation-"
+"specific data."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 13 (unordered list)
+msgid ""
+"Document your [policy](../glossary.md#policy) with enough clarity and detail"
+" that it can be understood outside of its original context."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 13 (unordered list)
+msgid "Make sure your organization is listed as a known user by the codebase."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 15 (unordered list)
+msgid ""
+"Make sure that stakeholders and business owners understand that reusability "
+"is an explicit codebase goal as this reduces technical debt and provides "
+"sustainability for the codebase."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 17 (paragraph)
+msgid "Source should be designed:"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 18 (unordered list)
+msgid "for reuse by other users and organizations regardless of locale,"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 18 (unordered list)
+msgid "to solve a general problem instead of a specific one,"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 18 (unordered list)
+msgid "in logically meaningful and isolated modules,"
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 18 (unordered list)
+msgid ""
+"so that someone in a similar organization facing a similar problem would be "
+"able to use (parts of) the solution."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 19 (paragraph)
+msgid ""
+"Ensure that the codebase documentation describes the build-time and runtime "
+"dependencies. If your context requires deploying to proprietary platforms or"
+" using proprietary components, ensure that collaborators can develop, use, "
+"test, and deploy without them."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 20 (paragraph)
+msgid ""
+"For each commit, reviewers verify that content does not include situation-"
+"specific data such as hostnames, personal and organizational data, or tokens"
+" and passwords."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 22 (unordered list)
+msgid ""
+"[Making source code open and reusable](https://www.gov.uk/service-"
+"manual/technology/making-source-code-open-and-reusable) by the UK Government"
+" Digital Service."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 22 (unordered list)
+msgid ""
+"[OpenAPI Specification](https://spec.openapis.org/oas/latest.html) by the "
+"OpenAPI Initiative defines a standard, programming language-agnostic "
+"interface description for human and machine-readable HTTP APIs."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 22 (unordered list)
+msgid ""
+"[Localization vs. "
+"Internationalization](https://www.w3.org/International/questions/qa-i18n) by"
+" the World Wide Web Consortium."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 22 (unordered list)
+msgid ""
+"[Internationalization techniques: Authoring HTML & "
+"CSS](https://www.w3.org/International/techniques/authoring-html) by the "
+"World Wide Web Consortium."
+msgstr ""
+
+#: ./reusable-and-portable-codebases.md:block 22 (unordered list)
+msgid ""
+"[GNU gettext](https://www.gnu.org/software/gettext/gettext.html) of the GNU "
+"Operating System."
+msgstr ""
+
+#: ./style.md:block 1 (header)
+msgid "order: 15"
+msgstr ""
+
+#: ./style.md:block 2 (header)
+msgid "Use a coherent style"
+msgstr ""
+
+#: ./style.md:block 5 (unordered list)
+msgid ""
+"Contributions MUST adhere to either a coding or writing style guide, either "
+"the [codebase](../glossary.md#codebase) community's own or an existing one "
+"that is advertised in or part of the codebase."
+msgstr ""
+
+#: ./style.md:block 5 (unordered list)
+msgid "Contributions SHOULD pass automated tests on style."
+msgstr ""
+
+#: ./style.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD include inline comments and documentation for non-"
+"trivial sections."
+msgstr ""
+
+#: ./style.md:block 5 (unordered list)
+msgid ""
+"Including sections on [understandable English](understandable-english-"
+"first.md) in the style guide is OPTIONAL."
+msgstr ""
+
+#: ./style.md:block 7 (unordered list)
+msgid ""
+"Enables contributors in different environments to work together on a unified"
+" product."
+msgstr ""
+
+#: ./style.md:block 7 (unordered list)
+msgid ""
+"Unifying vocabularies reduces friction in communication between "
+"contributors."
+msgstr ""
+
+#: ./style.md:block 9 (unordered list)
+msgid "Help contributors write well or effectively explain what they do."
+msgstr ""
+
+#: ./style.md:block 11 (unordered list)
+msgid ""
+"Confirm that contributions are in line with the style guides specified in "
+"the documentation."
+msgstr ""
+
+#: ./style.md:block 11 (unordered list)
+msgid "Check for the presence of automated tests on style."
+msgstr ""
+
+#: ./style.md:block 13 (unordered list)
+msgid ""
+"Create, follow and continually improve on a style guide for "
+"[policy](../glossary.md#policy) and documentation as well as document this "
+"in the codebase, for example in the `CONTRIBUTING` or `README`."
+msgstr ""
+
+#: ./style.md:block 15 (unordered list)
+msgid ""
+"Include written language, source, test and policy standards in your "
+"organizational definition of quality."
+msgstr ""
+
+#: ./style.md:block 17 (paragraph)
+msgid ""
+"If the codebase does not already have engineering guidelines or other "
+"contributor guidance, start by adding documentation to the "
+"[repository](../glossary.md#repository) describing whatever is being done "
+"now, for example in the `CONTRIBUTING` or `README`. An important purpose of "
+"the file is to communicate design preferences, naming conventions, and other"
+" aspects machines can't easily check. Guidance should include what would be "
+"expected from [code](../glossary.md#code) contributions in order for them to"
+" be merged by the maintainers, including source, tests and documentation. "
+"Continually improve upon and expand this documentation with the aim of "
+"evolving this documentation into engineering guidelines."
+msgstr ""
+
+#: ./style.md:block 18 (paragraph)
+msgid "Additionally:"
+msgstr ""
+
+#: ./style.md:block 19 (unordered list)
+msgid "Use a linter."
+msgstr ""
+
+#: ./style.md:block 19 (unordered list)
+msgid "Add linter configurations to the codebase."
+msgstr ""
+
+#: ./style.md:block 21 (unordered list)
+msgid ""
+"[List of linters](https://github.com/caramelomartins/awesome-linters) by "
+"Hugo Martins."
+msgstr ""
+
+#: ./style.md:block 21 (unordered list)
+msgid ""
+"[Programming style](https://en.wikipedia.org/wiki/Programming_style) on "
+"Wikipedia."
+msgstr ""
+
+#: ./understandable-english-first.md:block 1 (header)
+msgid "order: 10"
+msgstr ""
+
+#: ./understandable-english-first.md:block 2 (header)
+msgid "Use plain English"
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"All [codebase](../glossary.md#codebase) documentation MUST be in English."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"All [code](../glossary.md#code) MUST be in English, except where "
+"[policy](../glossary.md#policy) is machine interpreted as code."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"All bundled policy not available in English MUST have an accompanying "
+"summary in English."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"Any translation MUST be up to date with the English version and vice versa."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"There SHOULD be no acronyms, abbreviations, puns or legal/non-English/domain"
+" specific terms in the codebase without an explanation preceding it or a "
+"link to an explanation."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"The name of the codebase SHOULD be descriptive and free from acronyms, "
+"abbreviations, puns or organizational branding."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"Documentation SHOULD aim for a lower secondary education reading level, as "
+"recommended by the [Web Content Accessibility Guidelines "
+"2](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=315#readable)."
+msgstr ""
+
+#: ./understandable-english-first.md:block 5 (unordered list)
+msgid ""
+"Providing a translation of any code, documentation or tests is OPTIONAL."
+msgstr ""
+
+#: ./understandable-english-first.md:block 7 (unordered list)
+msgid ""
+"Makes the codebase and what it does understandable for a wider variety of "
+"stakeholders in multiple contexts."
+msgstr ""
+
+#: ./understandable-english-first.md:block 7 (unordered list)
+msgid "Helps with the discoverability of the codebase."
+msgstr ""
+
+#: ./understandable-english-first.md:block 7 (unordered list)
+msgid ""
+"Can help you meet the [European Union accessibility "
+"directive](https://ec.europa.eu/digital-single-market/en/web-accessibility),"
+" which requires most public sector information to be accessible."
+msgstr ""
+
+#: ./understandable-english-first.md:block 9 (unordered list)
+msgid "Make explanations of the codebase's functionality understandable."
+msgstr ""
+
+#: ./understandable-english-first.md:block 9 (unordered list)
+msgid "Make your organization's jargon understandable without an explanation."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid "Confirm that codebase documentation is available in English."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid ""
+"Confirm that source code is in English, or confirm any non-English is policy"
+" or terms with preceding explanations."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid "Confirm any non-English policy has an accompanying summary in English."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid ""
+"Confirm that translations and the English version have the same content."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid ""
+"Check that no unexplained acronyms, abbreviations, puns or legal/non-"
+"English/domain specific terms are in the documentation."
+msgstr ""
+
+#: ./understandable-english-first.md:block 11 (unordered list)
+msgid "Check the spelling, grammar and readability of the documentation."
+msgstr ""
+
+#: ./understandable-english-first.md:block 13 (unordered list)
+msgid ""
+"Frequently test with other management, developers and designers in the "
+"process if they understand what you are delivering and how you document it."
+msgstr ""
+
+#: ./understandable-english-first.md:block 15 (unordered list)
+msgid ""
+"Try to limit the use of acronyms, abbreviations, puns or legal/non-"
+"English/domain specific terms in internal communications in and between "
+"teams and stakeholders. Add any such terms to a glossary and link to it from"
+" the places they are being used."
+msgstr ""
+
+#: ./understandable-english-first.md:block 15 (unordered list)
+msgid ""
+"Be critical of documentation and descriptions in proposals and changes. If "
+"you don't understand something, others will probably also struggle with it."
+msgstr ""
+
+#: ./understandable-english-first.md:block 17 (unordered list)
+msgid ""
+"Frequently test with policy makers and management if they understand what "
+"you are delivering and how you document it."
+msgstr ""
+
+#: ./understandable-english-first.md:block 17 (unordered list)
+msgid ""
+"Ask someone outside of your context if they understand the content (for "
+"example, a developer working on a different codebase)."
+msgstr ""
+
+#: ./understandable-english-first.md:block 19 (unordered list)
+msgid ""
+"Text of the [Web Content Accessibilty Guidelines 2.1, Guideline 3.1 "
+"Readable](https://www.w3.org/TR/WCAG21/#readable) by W3C, make text content "
+"readable and understandable."
+msgstr ""
+
+#: ./understandable-english-first.md:block 19 (unordered list)
+msgid ""
+"[Upgoer 5 text editor](https://splasho.com/upgoer5/) by Theo Sanderson, only"
+" allows 1000 most common English words."
+msgstr ""
+
+#: ./understandable-english-first.md:block 19 (unordered list)
+msgid ""
+"[Definition of plain "
+"language](https://www.plainlanguage.gov/about/definitions/) by United States"
+" General Services Administration."
+msgstr ""
+
+#: ./version-control-and-history.md:block 1 (header)
+msgid "order: 6"
+msgstr ""
+
+#: ./version-control-and-history.md:block 2 (header)
+msgid "Maintain version control"
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"The community MUST have a way to maintain [version "
+"control](../glossary.md#version-control) for the "
+"[code](../glossary.md#code)."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"All files in the [codebase](../glossary.md#codebase) MUST be version "
+"controlled."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid "All decisions MUST be documented in commit messages."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"Every commit message MUST link to discussions and issues wherever possible."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"The codebase SHOULD be maintained in a distributed version control system."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid "Contributors SHOULD group relevant changes in commits."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"Maintainers SHOULD mark released versions of the codebase, for example using"
+" revision tags or textual labels."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"Contributors SHOULD prefer file formats where the changes within the files "
+"can be easily viewed and understood in the version control system."
+msgstr ""
+
+#: ./version-control-and-history.md:block 5 (unordered list)
+msgid ""
+"It is OPTIONAL for contributors to sign their commits and provide an email "
+"address, so that future contributors are able to contact past contributors "
+"with questions about their work."
+msgstr ""
+
+#: ./version-control-and-history.md:block 7 (paragraph)
+msgid ""
+"Version control means keeping track of changes to the code over time. This "
+"allows you to create structured documentation of the history of the "
+"codebase. This is essential for collaboration at scale."
+msgstr ""
+
+#: ./version-control-and-history.md:block 8 (paragraph)
+msgid "Distributed version control enables you to:"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid "have a full copy of the code and its history"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid "revert to an earlier version of the codebase whenever you want to"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid ""
+"record your changes and the reasons why you made them, to help future "
+"developers understand the process"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid "compare two different versions"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid "work on changes in parallel as a team before merging them together"
+msgstr ""
+
+#: ./version-control-and-history.md:block 9 (unordered list)
+msgid ""
+"continue to work when the network is unavailable, merging changes back with "
+"everyone else’s at a later date"
+msgstr ""
+
+#: ./version-control-and-history.md:block 11 (unordered list)
+msgid "Substitute for [advertising maturity](document-maturity.md)."
+msgstr ""
+
+#: ./version-control-and-history.md:block 11 (unordered list)
+msgid "Guarantee the code executes correctly."
+msgstr ""
+
+#: ./version-control-and-history.md:block 11 (unordered list)
+msgid "Guarantee collaborators."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Confirm that the codebase is kept in version control using software such as "
+"Git."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Review the commit history, confirming that all commit messages explain why "
+"the change was made."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Review the commit history, confirming that where possible all commit "
+"messages include the discussion about the change was or where to find it "
+"(with a URL)."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid "Check if the version control system is distributed."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Review the commit history, check if grouping of relevant changes in "
+"accordance with the contributing guidelines."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Check that it is possible to access a specific version of the codebase, for "
+"example through a revision tag or a textual label."
+msgstr ""
+
+#: ./version-control-and-history.md:block 13 (unordered list)
+msgid ""
+"Check that the file formats used in the codebase are text formats where "
+"possible."
+msgstr ""
+
+#: ./version-control-and-history.md:block 15 (unordered list)
+msgid ""
+"If a new version of the codebase is created because of a "
+"[policy](../glossary.md#policy) change, make sure it's clear in the "
+"documentation:"
+msgstr ""
+
+#: ./version-control-and-history.md:block 15 (unordered list)
+msgid "what the policy change is,"
+msgstr ""
+
+#: ./version-control-and-history.md:block 15 (unordered list)
+msgid "how it's changed the codebase."
+msgstr ""
+
+#: ./version-control-and-history.md:block 16 (paragraph)
+msgid ""
+"For example, adding a new category of applicant to a codebase that manages "
+"granting permits would be considered a policy change."
+msgstr ""
+
+#: ./version-control-and-history.md:block 18 (unordered list)
+msgid ""
+"Support policy makers, developers and designers to be clear about what "
+"improvements they're making to the codebase. Making improvements isn't a "
+"public relations risk."
+msgstr ""
+
+#: ./version-control-and-history.md:block 20 (unordered list)
+msgid ""
+"Write clear commit messages so that it is easy to understand why the commit "
+"was made."
+msgstr ""
+
+#: ./version-control-and-history.md:block 20 (unordered list)
+msgid ""
+"Mark different versions so that it is easy to access a specific version, for"
+" example using revision tags or textual labels."
+msgstr ""
+
+#: ./version-control-and-history.md:block 20 (unordered list)
+msgid "Write clear commit messages so that versions can be usefully compared."
+msgstr ""
+
+#: ./version-control-and-history.md:block 20 (unordered list)
+msgid ""
+"Work with policy makers to describe how the source code was updated after a "
+"policy change."
+msgstr ""
+
+#: ./version-control-and-history.md:block 22 (unordered list)
+msgid ""
+"[Producing OSS: Version Control "
+"Vocabulary](https://producingoss.com/en/vc.html#vc-vocabulary) by Karl "
+"Fogel."
+msgstr ""
+
+#: ./version-control-and-history.md:block 22 (unordered list)
+msgid ""
+"[Maintaining version control in coding](https://www.gov.uk/service-"
+"manual/technology/maintaining-version-control-in-coding) by the UK "
+"Government Digital Service."
+msgstr ""
+
+#: ./version-control-and-history.md:block 22 (unordered list)
+msgid ""
+"[GitHub Learning Lab](https://lab.github.com/) by GitHub for learning how to"
+" use it or refresh your skills."
+msgstr ""
+
+#: ./version-control-and-history.md:block 22 (unordered list)
+msgid ""
+"[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-"
+"education.pdf) by GitHub, a list with the most common used git commands."
+msgstr ""
