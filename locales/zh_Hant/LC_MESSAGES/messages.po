@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-08-09 06:44+0000\n"
-"Last-Translator: Tommy JIang <baptist333@yahoo.com.tw>\n"
+"PO-Revision-Date: 2023-08-27 11:44+0000\n"
+"Last-Translator: Wilt <interpreter.wilt@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -16,7 +16,6 @@ msgstr ""
 
 #
 #: ./404.md:block 1 (header)
-#, fuzzy
 msgid "SPDX-License-Identifier: CC0-1.0"
 msgstr "SPDX-License-Identifier: CC0-1.0"
 
@@ -26,8 +25,9 @@ msgid ""
 "[info@publiccode.net](mailto:info@publiccode.net), "
 "https://standard.publiccode.net/AUTHORS"
 msgstr ""
-"SPDX-FileCopyrightText: 2022-2023 公共程式基金會 [info@publiccode."
-"net](mailto:info@publiccode.net), https://standard.publiccode.net/AUTHORS"
+"SPDX-FileCopyrightText: 2022-2023 The Foundation for Public Code "
+"[info@publiccode.net](mailto:info@publiccode.net), https://standard."
+"publiccode.net/AUTHORS"
 
 #: ./404.md:block 3 (header)
 msgid ""
@@ -35,9 +35,9 @@ msgid ""
 "title: Page not found\n"
 "toc: false"
 msgstr ""
-"版型：預設\n"
-"標題：找不到網頁\n"
-"目錄：否"
+"layout: default\n"
+"title: Page not found\n"
+"toc: false"
 
 #: ./404.md:block 4 (header)
 msgid "404 Not Found"
@@ -57,9 +57,8 @@ msgid ""
 "[Foundation for Public Code staff](mailto:info@publiccode.net) so we'll be "
 "able to help you out, as well as correct our mistake."
 msgstr ""
-"若網址正確或是您按下連結或按鈕，請寫信給 "
-"[公共程式基金會人員](mailto:info@publiccode."
-"net)，讓我們能夠協助您，並且修正我們的錯誤。"
+"若網址正確或是您按下連結或按鈕，請寫信給 [the Foundation for Public Code "
+"人員](mailto:info@publiccode.net)，讓我們能夠協助您，並且修正我們的錯誤。"
 
 #: ./AUTHORS.md:block 2 (header)
 msgid ""
@@ -67,8 +66,9 @@ msgid ""
 "[info@publiccode.net](mailto:info@publiccode.net), "
 "https://standard.publiccode.net/AUTHORS"
 msgstr ""
-"SPDX-FileCopyrightText: 2019-2023 公共程式基金會 [info@publiccode."
-"net](mailto:info@publiccode.net), https://standard.publiccode.net/AUTHORS"
+"SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code "
+"[info@publiccode.net](mailto:info@publiccode.net), https://standard."
+"publiccode.net/AUTHORS"
 
 #: ./AUTHORS.md:block 3 (header)
 msgid "Authors"
@@ -76,16 +76,15 @@ msgstr "作者群"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Alba Roza, [The Foundation for Public Code](https://publiccode.net/)"
-msgstr "Alba Roza，[公共程式基金會](https://publiccode.net/)"
+msgstr "Alba Roza，[The Foundation for Public Code](https://publiccode.net/)"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Arnout Engelen"
 msgstr "Arnout Engelen"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Arnout Schuijff, The Foundation for Public Code"
-msgstr "Arnout Schuijff，公共程式基金會"
+msgstr "Arnout Schuijff，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Audrey Tang, [digitalminister.tw](https://digitalminister.tw/)"
@@ -93,28 +92,25 @@ msgstr "唐鳳，[digitalminister.tw](https://digitalminister.tw/)"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Ben Cerveny, The Foundation for Public Code"
-msgstr "Ben Cerveny， 公共程式基金會"
+msgstr "Ben Cerveny，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Bert Spaan"
 msgstr "Bert Spaan"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Boris van Hoytema, The Foundation for Public Code"
-msgstr "Boris van Hoytema，公共程式基金會"
+msgstr "Boris van Hoytema，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Charlotte Heikendorf"
 msgstr "Charlotte Heikendorf"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Claus Mullie, The Foundation for Public Code"
-msgstr "Claus Mullie，公共程式基金會"
+msgstr "Claus Mullie，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "David Barberi"
 msgstr "David Barberi"
 
@@ -124,31 +120,29 @@ msgstr "Edo Plantinga，[Code For NL](https://codefor.nl/)"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Elena Findley-de Regt, The Foundation for Public Code"
-msgstr "Elena Findley-de Regt，公共程式基金會"
+msgstr "Elena Findley-de Regt，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Eric Herman, The Foundation for Public Code"
-msgstr "Eric Herman，公共程式基金會"
+msgstr "Eric Herman，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Felix Faassen, The Foundation for Public Code"
-msgstr "Felix Faassen，公共程式基金會"
+msgstr "Felix Faassen，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Floris Deerenberg"
 msgstr "Floris Deerenberg"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Jan Ainali, The Foundation for Public Code"
-msgstr "Jan Ainali，公共程式基金會"
+msgstr "Jan Ainali，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Johan Groenen, Code For NL"
-msgstr "Johan Groenen，荷蘭程式碼社群"
+msgstr "Johan Groenen，Code For NL"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Marcus Klaas de Vries"
 msgstr "Marcus Klaas de Vries"
 
@@ -166,12 +160,10 @@ msgstr ""
 "com/)，數位媒體與創意產業學院劇場與公民媒體系講師"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Matti Schneider"
 msgstr "Matti Schneider"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Mauko Quiroga"
 msgstr "Mauko Quiroga"
 
@@ -185,15 +177,13 @@ msgstr "Maurits van der Schee，阿姆斯特丹市政府"
 
 #: ./AUTHORS.md:block 4 (unordered list)
 msgid "Mirjam van Tiel, The Foundation for Public Code"
-msgstr "Mirjam van Tiel，公共程式基金會"
+msgstr "Mirjam van Tiel，The Foundation for Public Code"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Ngô Ngọc Đức Huy"
 msgstr "Ngô Ngọc Đức Huy"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Paul Keller"
 msgstr "Paul Keller"
 
@@ -201,10 +191,11 @@ msgstr "Paul Keller"
 msgid ""
 "Petteri Kivimäki, [Nordic Institute for Interoperability Solutions "
 "(NIIS)](https://niis.org)"
-msgstr "Petteri Kivimäki， [北歐互通解決方案機構(NIIS)](https://niis.org)"
+msgstr ""
+"Petteri Kivimäki， [Nordic Institute for Interoperability Solutions "
+"(NIIS)](https://niis.org)"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Sky Bristol"
 msgstr "Sky Bristol"
 
@@ -213,18 +204,16 @@ msgid "Tamas Erkelens, Gemeente Amsterdam"
 msgstr "Tamas Erkelens，阿姆斯特丹市政府"
 
 #: ./AUTHORS.md:block 4 (unordered list)
-#, fuzzy
 msgid "Timo Slinger"
 msgstr "Timo Slinger"
 
 #: ./CC0-1.0.md:block 3 (header)
-#, fuzzy
 msgid "toc: false redirect_from: - license.html - LICENSE.html"
 msgstr "toc: false redirect_from: - license.html - LICENSE.html"
 
 #: ./CC0-1.0.md:block 4 (header)
 msgid "Creative Commons Zero v1.0 Universal"
-msgstr "創用 CC Zero v1.0 Universal授權"
+msgstr "創用 CC Zero v1.0 Universal 授權"
 
 #: ./CC0-1.0.md:block 6 (paragraph)
 msgid ""
@@ -276,11 +265,11 @@ msgstr "「簡介」轉變為「序」。"
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid "Improved contributing guidelines."
-msgstr "改善貢獻指南。"
+msgstr "已改善貢獻指南。"
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid "Improved documentation of scripts."
-msgstr "改善腳本註解。"
+msgstr "已改善腳本註解。"
 
 #: ./CHANGELOG.md:block 8 (header)
 msgid "Version 0.6.0"
@@ -296,7 +285,7 @@ msgstr "2023年4月20日：🔀第十四版新增可移植性與測試的規定�
 msgid ""
 "New requirement in Create reusable and portable code about the development "
 "being a collaboration between multiple parties."
-msgstr "新增規定，針對多方合作的開發案，編寫可重複使用且可移植的程式碼。"
+msgstr "新增規定，針對多方合作的開發案來編寫可重複使用且可移植的程式碼。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
@@ -320,60 +309,61 @@ msgstr "區分兩個安全性規定，一個是有關提供辦法，另一個則
 msgid ""
 "Rephrased requirements to focus on the codebase rather than contributor "
 "behavior."
-msgstr "重新撰寫規定，將焦點放在代碼庫而非貢獻者行為。"
+msgstr "已重新撰寫規定，將焦點放在代碼庫而非貢獻者行為。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Removed the sections Why this is important and What this does not do and "
 "replaced with an introduction in each criterion."
-msgstr "移除「為什麼這非常重要」以及「不具備以下作用」兩個段落，加入每個標準的介紹。"
+msgstr "已移除「為什麼這非常重要」以及「不具備以下作用」兩個段落，加入每個標準的介紹"
+"。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Added general What this does not do section in the introduction of the "
 "Standard."
-msgstr "在標準簡介中，新增「不具備以下作用」段落。"
+msgstr "在標準簡介中，已新增「不具備以下作用」段落。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Added guidance for public policy makers about related policies and license "
 "compatibility."
-msgstr "新增有關相關政策與授權相容性的公共政策決策者指南。"
+msgstr "已新增有關相關政策與授權相容性的公共政策決策者指南。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Added guidance for developers and designers about version controlling files."
-msgstr "新增有關版本控制檔案的開發人員與設計師指南。"
+msgstr "已新增有關版本控制檔案的開發人員與設計師指南。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Clarified guidance for developers and designers about prompt responses and "
 "search engine optimization."
-msgstr "釐清開發人員與設計師指南當中，有關迅速回覆與搜尋引擎優化的內容。"
+msgstr "已釐清開發人員與設計師指南當中，有關迅速回覆與搜尋引擎優化的內容。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Added Further reading about accessibility."
-msgstr "新增「進一步閱讀無障礙」。"
+msgstr "已新增「進一步閱讀無障礙」。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Aligned criteria URLs with criteria names."
-msgstr "將各標準的連結與其名稱同步。"
+msgstr "已將各標準的連結與其名稱同步。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Improved navigation in the web version."
-msgstr "改善網頁版的導覽功能。"
+msgstr "已改善網頁版的導覽功能。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Moved tools in Further reading sections to the community implementation "
 "guide."
-msgstr "將「進一步閱讀」章節的工具移到社群實施指南。"
+msgstr "已將「進一步閱讀」章節的工具移到社群實施指南。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Moved compliance or certification process to "
 "[publiccode.net](https://publiccode.net)."
-msgstr "將「遵循或認證」流程移到[publiccode.net](https://publiccode.net)。"
+msgstr "已將「遵循或認證」流程移到[publiccode.net](https://publiccode.net)。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
@@ -384,19 +374,19 @@ msgstr "變更審查範本格式，讓範本在新版本推出後後更容易更
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
 "Improved the text on the landing page and added links to related resources."
-msgstr "改善到達網頁文字，加入相關資源的連結。"
+msgstr "已改善到達網頁文字，加入相關資源的連結。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Added spell checker automated test."
-msgstr "新增拼字檢查自動化測試。"
+msgstr "已新增拼字檢查自動化測試。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Made minor changes to text for clarity and consistency."
-msgstr "稍微調整文字，讓文字更明確與一致。"
+msgstr "已稍微調整文字，讓文字更明確與一致。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid "Moved SPDX headers to yaml header."
-msgstr "將SPDX標題換成yaml標題。"
+msgstr "將 SPDX 標頭換成 yaml 標頭。"
 
 #: ./CHANGELOG.md:block 11 (header)
 msgid "Version 0.5.0"
@@ -418,13 +408,14 @@ msgstr "調整編碼風格要求，專注在代碼庫上面，而非貢獻者行
 msgid ""
 "Moved requirement for codebase names to Make the codebase findable from Use "
 "plain English."
-msgstr "變更代碼庫名稱規定，用一般英文更容易搜尋到代碼庫。"
+msgstr "已變更代碼庫名稱規定，用一般英文更容易搜尋到代碼庫。"
 
 #: ./CHANGELOG.md:block 13 (unordered list)
 msgid ""
 "Moved requirement about testing the code by using examples to Use continuous"
 " integration from Document the code."
-msgstr "變更使用範例測試程式碼的規定，改為使用持續整合來測試。"
+msgstr "已變更使用範例測試程式碼的規定，改為使用「Document the "
+"code」的範例來持續整合測試。"
 
 #: ./CHANGELOG.md:block 13 (unordered list)
 msgid ""
@@ -456,11 +447,11 @@ msgstr "文件成熟度端看該版本的代碼庫是否已經可以使用。"
 msgid ""
 "Document maturity no longer requires specific labels for codebases that are "
 "not ready to use."
-msgstr "文件成熟度再也不需要看尚未無法使用的代碼庫是否具有特定標籤。"
+msgstr "文件成熟度不再仰賴尚無法使用的代碼庫中的特定標籤。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Audit flow image now generated from an easier to translate format."
-msgstr "現在的審計流程圖格式更容易解讀。"
+msgstr "審計流程圖現在的由更容易轉譯的格式來生成。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Improved guidance on How to test."
@@ -468,7 +459,7 @@ msgstr "改善「測試方式」指南。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add publiccode.yml file."
-msgstr "新增publiccode.yml檔案。"
+msgstr "新增 publiccode.yml 檔案。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add review template."
@@ -476,19 +467,19 @@ msgstr "新增審查範本。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Consistently link glossary terms."
-msgstr "一貫連結詞彙。"
+msgstr "一致連結詞彙。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add practices and standards to follow in CONTRIBUTING."
-msgstr "新增「貢獻」的實務與標準。"
+msgstr "在「貢獻」中新增的實務與標準。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add Matti Schneider to Authors."
-msgstr "Matti Schneider加入作者群。"
+msgstr "加入 Matti Schneider 到作者群。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add remaining SPDX headers to files."
-msgstr "將剩餘SPDX標題加入檔案中。"
+msgstr "將剩餘 SPDX 標頭加入檔案中。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Made additional minor changes to text for clarity."
@@ -496,7 +487,7 @@ msgstr "稍微修改文字，讓文字更明確。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Some hyperlinks updated."
-msgstr "更新部分超連結。"
+msgstr "已更新部分超連結。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid ""
@@ -504,7 +495,7 @@ msgid ""
 "guide](https://publiccodenet.github.io/community-implementation-guide-"
 "standard/)."
 msgstr ""
-"將範例移動到[社群實施指南](https://publiccodenet.github.io/"
+"已將範例移動到[社群實施指南](https://publiccodenet.github.io/"
 "community-implementation-guide-standard/)。"
 
 #: ./CHANGELOG.md:block 17 (header)
@@ -532,31 +523,33 @@ msgstr "「歡迎貢獻者」章節中有關發佈活動統計的新規定。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Removed redundant requirement about portable and reusable code."
-msgstr "移除有關可移植與可重複使用的程式碼的多餘規定。"
+msgstr "已移除有關可移植與可重複使用的程式碼的多餘規定。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid ""
 "Expand open license definition to include both OSI and FSF approved "
 "licenses."
-msgstr "開放授權的定義中，加入OSI與FSF認證的授權。"
+msgstr "在開放授權的定義中，加入 OSI 與 FSF 認證的授權。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Rephrase MAY requirements to use the keyword OPTIONAL for clarity."
-msgstr "重新編寫選擇性規定，加入「非必須」一詞，讓規定更明確。"
+msgstr "重新編寫「可以（May）」的相關規定，加入「選擇性（Optional）」一關鍵字，讓規定"
+"更明確。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid ""
 "Expressed intent that the Standard for Public Code should meet its own "
 "requirements where applicable and added assessment."
-msgstr "表示公共程式標準在適用時應該符合自身規定，並且新增評估。"
+msgstr "已表明 The Standard for Public Code "
+"標準在適用時應該符合自身規定，且已新增評估。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Add SPDX license identifiers to files."
-msgstr "將SPDC license identifier加入檔案中。"
+msgstr "將 SPDC license identifier 加入檔案中。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Introduced new Code of Conduct."
-msgstr "推出新行為守則。"
+msgstr "已推出新行為守則。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Clarify distinction between source code and policy text."
@@ -585,7 +578,7 @@ msgstr "關於建制時期與執行階段相依性的額外指南。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Added roadmap for the development of the Standard for Public Code."
-msgstr "新增公共程式標準開發路徑圖。"
+msgstr "新增 The Standard for Public Code 開發路徑圖。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Update structure of Authors file."
@@ -597,7 +590,7 @@ msgstr "將唐鳳加入作者群。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Added a list of criteria to the print edition."
-msgstr "在印刷版中新增標準清單。"
+msgstr "已新增標準清單到印刷版本中。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid ""
@@ -622,23 +615,23 @@ msgstr "「編寫可重複使用與可移植程式碼」章節有明確的本土
 
 #: ./CHANGELOG.md:block 22 (unordered list)
 msgid "Documentation of governance changed from a SHOULD to a MUST."
-msgstr "治理註解從「應該」變成「必須」。"
+msgstr "治理註解從「應該（Should）」變成「必須（Must）」。"
 
 #: ./CHANGELOG.md:block 22 (unordered list)
 msgid ""
 "Replace the very subjective (and hard to test) \"contributions MUST be "
 "small\" with requirement to document expectation in contributing guidelines "
 "and focus on a single issue."
-msgstr "在貢獻指南中，將非常主觀且難以驗證的「貢獻內容必須有限」規定，改為必須紀錄貢"
-"獻的期望，專注在單一議題上。"
+msgstr "在貢獻指南中，將非常主觀且難以驗證的「貢獻內容必須（Must）有限」規定，改為必"
+"須紀錄貢獻的期望，專注在單一議題上。"
 
 #: ./CHANGELOG.md:block 22 (unordered list)
 msgid "Community translations now linked in the footer."
-msgstr "社群翻譯現在連結到頁尾中。"
+msgstr "社群翻譯現在已連結到頁尾中。"
 
 #: ./CHANGELOG.md:block 22 (unordered list)
 msgid "Revert \"Replace BPMN svg with Mermaid flowchart\"."
-msgstr "還原「用Mermaid流程圖取代BPMN svg」。"
+msgstr "還原「用 Mermaid 流程圖取代 BPMN svg」。"
 
 #: ./CHANGELOG.md:block 22 (unordered list)
 msgid "Many minor clarifications to language and sentences made more simple."
@@ -652,7 +645,7 @@ msgstr "0.2.3版"
 msgid ""
 "March 15th 2022: 📜 the ninth draft allows English summaries for policy "
 "lacking an official translation."
-msgstr "2022年3月15日：📜第九版在沒有官方翻譯的政策加入英文版摘要。"
+msgstr "2022年3月15日：📜第九版允許在沒有官方翻譯的政策中加入英文版摘要。"
 
 #: ./CHANGELOG.md:block 25 (unordered list)
 msgid ""
@@ -996,7 +989,7 @@ msgstr "多方部署建議"
 
 #: ./CHANGELOG.md:block 43 (unordered list)
 msgid "Recommendation for license headers in files"
-msgstr "檔案授權標題建議"
+msgstr "檔案授權標頭建議"
 
 #: ./CHANGELOG.md:block 43 (unordered list)
 msgid "Recommendation for vulnerability reporting"
@@ -1020,7 +1013,7 @@ msgstr "2019年5月9日：🤔第二版修復基本的疏忽以及許多拼字�
 msgid ""
 "Removed references to the Foundation for Public Code, we're going to have to"
 " change the name in becoming an association."
-msgstr "移除出現「公共程式基金會」的地方，我們必須改名才能成為協會。"
+msgstr "移除出現「The Foundation for Public Code」的地方，我們必須改名才能成為協會。"
 
 #: ./CHANGELOG.md:block 46 (unordered list)
 msgid "Updated the introduction."
@@ -1056,7 +1049,8 @@ msgstr "14個標準、其規定以及實施方式。"
 msgid ""
 "An introduction with a high level background, what this standard is, and how"
 " the Foundation for Public Code will use it."
-msgstr "清楚明確的背景介紹、介紹本標準以及公共程式基金會會如何使用此標準。"
+msgstr "清楚明確的背景介紹、介紹本標準以及The Foundation for Public "
+"Code會如何使用此標準。"
 
 #: ./CHANGELOG.md:block 50 (paragraph)
 msgid ""
@@ -1329,8 +1323,9 @@ msgid ""
 "All contributions have to be reviewed by someone. The Foundation for Public "
 "Code has committed to make sure that maintainers are available to review "
 "contributions with an aim to provide feedback within two business days."
-msgstr "所有貢獻都必須接受審查。公共程式基金會承諾將確保有維護人員來審查貢獻，目標是"
-"在兩個工作日內提供意見回饋。"
+msgstr ""
+"所有貢獻都必須接受審查。The Foundation for Public "
+"Code承諾將確保有維護人員來審查貢獻，目標是在兩個工作日內提供意見回饋。"
 
 #: ./CONTRIBUTING.md:block 30 (paragraph)
 msgid ""
@@ -1402,8 +1397,9 @@ msgid ""
 "[info@publiccode.net](mailto:info@publiccode.net), "
 "https://standard.publiccode.net/AUTHORS"
 msgstr ""
-"SPDX-FileCopyrightText: 2019-2022 公共程式基金會[info@publiccode."
-"net](mailto:info@publiccode.net), https://standard.publiccode.net/AUTHORS"
+"SPDX-FileCopyrightText: 2019-2022 The Foundation for Public "
+"Code[info@publiccode.net](mailto:info@publiccode.net), https://standard."
+"publiccode.net/AUTHORS"
 
 #: ./GOVERNANCE.md:block 3 (header)
 msgid "Governance"
@@ -1415,12 +1411,12 @@ msgid ""
 "[Foundation for Public Code](https://publiccode.net/). We decide if a "
 "codebase is ready for community co-development based on this document."
 msgstr ""
-"此標準是[公共程式基金會](https://publiccode.net/"
+"此標準是[The Foundation for Public Code](https://publiccode.net/"
 ")代碼庫管理的核心。我們依照本文件來判斷代碼庫是否已經準備好讓社群參與開發。"
 
 #: ./GOVERNANCE.md:block 5 (paragraph)
 msgid "The standard is maintained by Foundation for Public Code staff."
-msgstr "本標準由公共程式基金會人員負責維護。"
+msgstr "本標準由The Foundation for Public Code人員負責維護。"
 
 #: ./GOVERNANCE.md:block 6 (paragraph)
 msgid ""
@@ -1542,8 +1538,9 @@ msgid ""
 "If there are any breaking changes in a new version of the Standard for "
 "Public Code, the codebase stewards at the Foundation for Public Code will "
 "help any implementers of the standard understand how the gaps can be closed."
-msgstr "若新版的公共程式標準有突破性的修改，公共程式基金會的代碼庫管理人員會幫助公共"
-"程式標準用戶彌補不同版之間的差異。"
+msgstr ""
+"若新版的公共程式標準有突破性的修改，The Foundation for Public "
+"Code的代碼庫管理人員會幫助公共程式標準用戶彌補不同版之間的差異。"
 
 #: ./README.md:block 11 (paragraph)
 msgid ""
@@ -1617,7 +1614,8 @@ msgid ""
 "The Foundation for Public Code is committed to maintaining and developing "
 "the Standard for Public Code at a level of quality that meets the standard "
 "itself."
-msgstr "公共程式基金會致力於維護與開發公共程式標準，且品質也會符合該標準本身的品質。"
+msgstr "The Foundation for Public "
+"Code致力於維護與開發公共程式標準，且品質也會符合該標準本身的品質。"
 
 #: ./README.md:block 20 (paragraph)
 msgid ""
@@ -3189,7 +3187,6 @@ msgstr "criteria/reusable-and-portable-codebases"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 4 (unordered
 #: list)
-#, fuzzy
 msgid "criteria/create-reusable-and-portable-code"
 msgstr "criteria/create-reusable-and-portable-code"
 
@@ -5604,7 +5601,8 @@ msgid ""
 "the background behind the Foundation for Public Code."
 msgstr ""
 "[2019 年 Decidim Fest 的「程式合作是城市的未來」](https://www.youtube.com/"
-"watch?v=cnJtnZ9Cx1o)。主講人 Ben Cerveny 介紹公共程式基金會的背景。"
+"watch?v=cnJtnZ9Cx1o)。主講人 Ben Cerveny 介紹The Foundation for Public "
+"Code的背景。"
 
 #: ./foreword.md:block 63 (unordered list)
 msgid ""
@@ -5636,9 +5634,9 @@ msgid ""
 "can find us at [our website](https://publiccode.net/), email us at "
 "info@publiccode.net, or call us at +31 20 2 444 500."
 msgstr ""
-"若有疑問或想進一步瞭解公共程式基金會，請造訪[我們的官網](https://publiccode."
-"net/)、寄電子郵件到 info@publiccode.net，或是撥打我們的電話（+31 20 2 444 "
-"500）。"
+"若有疑問或想進一步瞭解The Foundation for Public "
+"Code，請造訪[我們的官網](https://publiccode.net/)、寄電子郵件到 "
+"info@publiccode.net，或是撥打我們的電話（+31 20 2 444 500）。"
 
 #: ./glossary.md:block 3 (header)
 msgid "Glossary"
@@ -6017,7 +6015,7 @@ msgid ""
 "template.html) used by Foundation for Public Code stewards for codebase "
 "review"
 msgstr ""
-"公共程式基金會管理人員審查代碼庫時使用的 "
+"The Foundation for Public Code管理人員審查代碼庫時使用的 "
 "[公共程式標準檢查清單](https://github.com/publiccodenet/standard/blob/"
 "develop/docs/review-template.html)"
 
