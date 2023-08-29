@@ -1,10 +1,24 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# script/release-body.sh expects VERSION in the first second-level header
+# script/update-changelog-date.sh expects DATE-OF-RELEASE and a colon
 ---
 # Version history
 
-<!-- script/release-body.sh expects VERSION in the first second-level header -->
+## Version 0.7.1
+
+July 31st 2023: 💄 The sixteenth draft change the name of a criterion and clarifies references to code.
+
+* The criterion "Make the codebase reusable and portable" was renamed from "Create reusable and portable code".
+* Added a glossary entry for "Source Code".
+* References to "code" which only applied to "source code" now reference "source code" explicitly.
+* Clarification of "running code" as "software".
+* Minor changes to clarify "code" vs "codebase".
+* Simplify guidance to policy makers in Bundle policy and source code.
+* Clarify How to test sections of Make the codebase findable and Make the codebase reusable and portable.
+* Add a criteria and requirements checklist to the release artifacts.
+* Increase automation of the release process.
 
 ## Version 0.7.0
 

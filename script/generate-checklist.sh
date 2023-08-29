@@ -1,22 +1,22 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2022-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 
-TEMPLATE=docs/review-template.html
+TEMPLATE=docs/checklist.html
 THIS_YEAR=$(date +%Y)
 STANDARD_VERSION="${1}"
 cat << EOF > $TEMPLATE
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- SPDX-FileCopyrightText: 2022-$THIS_YEAR by The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+<!-- SPDX-FileCopyrightText: $THIS_YEAR by The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
 <head>
 <meta charset="UTF-8">
-<title>________ and the Standard for Public Code</title>
+<title>Standard for Public Code Checklist</title>
 <style>
 html, body {
 font-family: Mulish;
-font-size: 11pt;
+font-size: 8.5pt;
 }
 h1, h2 {
 font-weight: normal;
@@ -24,38 +24,25 @@ position: relative;
 }
 h1 {
 margin-top: 0;
-font-size: 1.5cm;
+font-size: 0.5cm;
 border-bottom: none;
 }
 h2 {
-font-size: 1.5em;
+font-size: 1.0em;
+}
+ul {
+list-style-type: "\2610";
 }
 @media print {
-a {
-color: #111;
-text-decoration: none;
-}
-th {
-font-weight: 600;
-}
-td {
-padding: 6px 13px;
-border: 1px solid #dfe2e5;
-}
-tr {
-background-color: #fff;
-border-top: 1px solid #c6cbd1;
-}
-tr:nth-child(2n) {
-background-color: #f6f8fa;
-}
+  @page {
+    size: 14.8cm 21.0cm;
+    margin: 0.5cm 0.2cm;
+  }
 }
 </style>
 </head>
 <body>
-<h1>________ and the Standard for Public Code version <span class="standard-version">${STANDARD_VERSION}</span></h1>
-
-Link to commitment to meet the Standard for Public Code:
+<h1>Standard for Public Code version <span class="standard-version">${STANDARD_VERSION}</span> checklist</h1>
 EOF
 
 # grep criteria files for "order: ", results in entries like:
@@ -80,12 +67,9 @@ for FILE in $CRITERIA_FILES; do
 	CRITERION_LINK=https://standard.publiccode.net/criteria/${FILE_BASE}.html
 	cat << EOF >> $TEMPLATE
 
-<h2><a href="$CRITERION_LINK">$CRITERION_TITLE</a></h2>
+<h2>&#9744; $CRITERION_TITLE</h2>
 
-&#9744;<!-- &#9745; --> criterion met.
-
-<table id="$FILE_BASE" style="width:100%">
-<tr><th>Meets</th><th>Requirement</th><th style="width:25%">Notes and links</th></tr>
+<ul id="$FILE_BASE">
 EOF
 	# awk will process each line of file
 	# set 'p' to 1 if we are in the "## Requirements" section, or skip line
@@ -94,11 +78,9 @@ EOF
 	awk 'BEGIN {p=0}; /## Requirements/ {p=1 ; next}; /##/ {p=0 ; next}; \
 		p { s = ""; for (i = 2; i <= NF; i++) s = s $i " "; \
 		if (length(s) > 0) print \
-		"<tr>\n<td>\n\n</td>\n<td>\n" \
-		s \
-		"\n</td>\n<td>\n\n</td>\n</tr>\n"}' \
+		"<li>" s "</li>"}' \
 		$FILE >> $TEMPLATE
-	echo "</table>" >> $TEMPLATE
+	echo "</ul>" >> $TEMPLATE
 done
 echo "</body>" >> $TEMPLATE
 echo "</html>" >> $TEMPLATE
@@ -106,14 +88,7 @@ echo "</html>" >> $TEMPLATE
 # remove trailing spaces at end of line
 sed -i -e's/\s\+$//g' $TEMPLATE
 
-# unlink glossary local links in requirement lines
-sed -i -e's@\[\([^]]*\)\](../glossary.md\(#[a-z\-]*\))@\1@g' $TEMPLATE
-
-# fully qualify local criteria links in requirement lines
-# by looking for links lacking a colon
-sed -i -e's@\[\([^]]*\)\](\([^:)]*\).md)@[\1](https://standard.publiccode.net/criteria/\2.html)@g' $TEMPLATE
-
-# convert markdown links to html links
-sed -i -e's@\[\([^]]*\)\](\([^)]*\))@<a href="\2">\1</a>@g' $TEMPLATE
+# remove markdown links
+sed -i -e's@\[\([^]]*\)\](\([^)]*\))@\1@g' $TEMPLATE
 
 ls -l $TEMPLATE

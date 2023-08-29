@@ -11,39 +11,29 @@
     - From 'develop', `git switch -c "release-$MAJOR.$MINOR.$PATCH"`
     - Push the branch, `git push -u origin release-$MAJOR.$MINOR.$PATCH`
 3. Update the new release
-    - [ ] Update version number in `_config.yml`, `README.md` and `publiccode.yml`
-    - [ ] Update `assets/version-badge.svg` with `script/make-version-badge.sh`
-    - [ ] Update releaseDate in `publiccode.yml`
     - [ ] Update [`AUTHORS.md`](../AUTHORS.md) with new contributors
     - [ ] Update [`CHANGELOG.md`](../CHANGELOG.md)
+    - [ ] Update [`roadmap.md`](roadmap.md)
     - [ ] Perform extra pass on diff to the 'main' branch
         - run `script/generate-review-template.sh` and commit updated `docs/review-template.html`
-        - update `docs/standard-for-public-code.md` with the new text from the review template, updating any status changes as a result
+        - update `docs/standard-for-public-code.html` with the new text from the review template, updating any status changes as a result
         - Reread any section or paragraph to ensure wording changes still fit the whole and do not contain grammar or spelling errors
         - Ensure [fonts](https://brand.publiccode.net/typography/) are installed, see: `script/ensure-font.sh`
         - Check the rendered `.pdf` using `script/pdf.sh rc1`
           - Ensure no link collisions exist
           - Check the page breaks, possibly removing or adding page-break CSS, for example: `<p style="page-break-after: always;"></p>`
         - If needed, commit fixes and repeat extra pass
-    - [ ] Push branch, open a pull request to the 'main' branch
+    - [ ] Push branch, compare with 'main' branch, i.e.: `https://github.com/publiccodenet/standard/compare/main...release-$MAJOR.$MINOR.$PATCH`
         - Request review from multiple reviewers, especially a proofreader
         - Reviewers will create issues for shortcomings found which would not prevent release
         - If needed for release, reviewers may create pull requests to resolve issues
         - Re-request reviews if additional pull requests are merged into release branch
     - [ ] Run the to-archive-org.sh script
-    - [ ] Once reviews are complete, merge to 'main'
 4. Create GitHub release with the release notes and version number
-    - [ ] Switch to the 'main' branch, `git pull` and `git status`
-    - [ ] `git tag $MAJOR.$MINOR.$PATCH`
+    - [ ] `git tag trigger-$MAJOR.$MINOR.$PATCH`
     - [ ] `git push --tags` (see: `../.github/workflows/release-on-tag.yml`)
-5. Trigger a rebuild of gh-pages
-    - [ ] `git switch -c rebuild-gh-pages-$MAJOR.$MINOR.$PATCH`
-    - [ ] `git commit --allow-empty -m"Rebuild GH Pages $MAJOR.$MINOR.$PATCH"`
-    - [ ] `git push -u origin rebuild-gh-pages-$MAJOR.$MINOR.$PATCH`
-    - [ ] Open a pull request from this branch to `main`
-    - [ ] Approve and merge PR (containing empty commit)
-6. Update 'develop' with a merge from 'main'
-7. [Send the files for print to the printer](printing.md)
+    - [ ] delete local tag: `git tag -d trigger-$MAJOR.$MINOR.$PATCH`
+5. [Send the files for print to the printer](printing.md)
     - [ ] Cover file
     - [ ] Inside pages PDF
-8. Ping [translation](https://github.com/publiccodenet/community-translations-standard) contributors
+6. Ping [translation](https://github.com/publiccodenet/community-translations-standard) contributors
