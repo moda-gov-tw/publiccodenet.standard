@@ -5,36 +5,37 @@ order: 8
 redirect_from:
   - criteria/document-objectives
 ---
-# Document codebase objectives
+# 記錄代碼庫目標
 
-Clearly documenting [codebase](../glossary.md#codebase) objectives communicates the purpose of the codebase.
-It helps stakeholders and contributors scope the development of the codebase.
-The objectives also provide an easy way for people to decide whether this codebase, or one of its modules, is interesting for them now or in the future.
+清楚記錄[代碼庫](../glossary.md#codebase)目標能傳達代碼庫的目的。這能幫助利害關係人與貢獻者劃定代碼庫的開發範圍。這些目標也能幫助民眾判斷
+目前或未來是否會對此代碼庫（或其模組之一）有興趣。
 
-## Requirements
+## 規定
 
-* The codebase MUST contain documentation of its objectives, like a mission and goal statement, that is understandable by developers and designers so that they can use or contribute to the codebase.
-* Codebase documentation SHOULD clearly describe the connections between [policy](../glossary.md#policy) objectives and codebase objectives.
-* Documenting the objectives of the codebase for the [general public](../glossary.md#general-public) is OPTIONAL.
+* 代碼庫必須包含描寫目標的文件，像是主旨、使命或目標陳述。開發人員與設計師需要能夠瞭解這些，他們才知道可以怎樣使用代碼庫或協助貢獻。
+* 代碼庫文件應該清楚描述[政策](../glossary.md#policy)目標與代碼庫目標之前的關聯。
+* 可選擇是否以文件記錄給[一般民眾](../glossary.md#general-public)看的代碼庫目標。
 
-## How to test
+## 測試方式
 
-* Confirm that the codebase documentation includes the codebase objectives, mission or goal.
-* Check for descriptions of connections between policy objectives and codebase objectives.
+* 確認代碼庫文件有包含代碼庫目標，或主旨、使命等。
+* 查看政策目標與代碼庫目標之間關聯的描述。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：您的責任
 
-* Add the policy objectives to the codebase documentation, for example in the `README`.
-* Make sure that all your codebase objectives have links or references to supporting policy documents added to meet the [Bundle policy and source code](bundle-policy-and-source-code.md) criterion.
+* 將政策目標加入代碼庫文件中，例如「`README`」文件當中。
+* 確保所有代碼庫目標都有相關支持政策文件的連結或參考資料，才能符合[政策與原始碼要合捆](bundle-policy-and-source-code.md)的標
+準。
 
-## Managers: what you need to do
+## 管理人員：您的義務
 
-* Add the organizational and business objectives to the codebase documentation, for example in the `README`.
+* 將單位目標、組織目標或業務目標加入代碼庫文件中，例如「`README`」文件當中。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：您的責任
 
-* Add the technology and design objectives to the codebase documentation, for example in the `README`.
+* 將技術與設計目標加入代碼庫文件中，例如「`README`」文件當中。
 
-## Further reading
+## 延伸閱讀
 
-* [How to write project objectives](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf) by Marek Hajduczenia.
+* Marek Hajduczenia《[如何撰寫專案目
+標](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)》。

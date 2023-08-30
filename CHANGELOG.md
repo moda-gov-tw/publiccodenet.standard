@@ -4,244 +4,247 @@
 # script/release-body.sh expects VERSION in the first second-level header
 # script/update-changelog-date.sh expects DATE-OF-RELEASE and a colon
 ---
-# Version history
+# 版本歷史
 
 ## Version 0.7.1
 
-July 31st 2023: 💄 The sixteenth draft change the name of a criterion and clarifies references to code.
+2023/07/31: 💄 第十六個草案版本變更準則名稱與釐清參照的程式碼。
 
-* The criterion "Make the codebase reusable and portable" was renamed from "Create reusable and portable code".
-* Added a glossary entry for "Source Code".
-* References to "code" which only applied to "source code" now reference "source code" explicitly.
-* Clarification of "running code" as "software".
-* Minor changes to clarify "code" vs "codebase".
-* Simplify guidance to policy makers in Bundle policy and source code.
-* Clarify How to test sections of Make the codebase findable and Make the codebase reusable and portable.
-* Add a criteria and requirements checklist to the release artifacts.
-* Increase automation of the release process.
+* 準則從 "編寫可重複使用與移植的程式碼" 更名為 "使代碼庫可重複使用與移植"。
+* 新增詞彙為 "原始碼"。
+* 對於只適用於 "原始碼" 的 "程式碼"，現在明確的引用 "原始碼"。
+* 釐清 "運作的程式碼" 為 "軟體"。
+* 微調文字使其清楚呈現 "程式碼" 與 "代碼庫"。
+* 簡易的引導參考給政策制定者在同捆政策與原始碼。
+* 解釋使代碼庫可被發現與使代碼庫可重複使用與移植在如何測試章節中。
+* 新增發行成果前，判定標準與必要需求項目的確認清單。
+* 提高發行程序的自動化。
 
-## Version 0.7.0
+## 0.7.0 版
 
-May 31st 2023: 📑 the fifteenth draft adds new requirements for documenting review funding and clarifies review process requirement.
+2023年5月31日：📑第十五版新增募資審查紀錄新規定，並且釐清審查流程規定。
 
-* Add requirement to document who is expected to cover the cost of reviewing contributions.
-* Add requirement to have a short description of the codebase.
-* Change the focus of contributions adhering to standards to focus on the review of contributions.
-* Relaxed MUST requirements to SHOULD in Make the codebase findable.
-* Review template now in HTML format.
-* Introduction converted to foreword.
-* Improved contributing guidelines.
-* Improved documentation of scripts.
+* 新增規定，紀錄由誰負擔審核貢獻內容費用。
+* 新增規定，代碼庫必須要有簡短說明。
+* 原本專注在貢獻內容是否符合標準，現在應該專注在貢獻內容審查。
+* 許多「必須（Must）」的規定變更為「應該（Should）」的規定，讓代碼庫更容易找到。
+* 審查HTML格式的範本。
+* 「簡介」轉變為「序」。
+* 已改善貢獻指南。
+* 已改善腳本註解。
 
-## Version 0.6.0
+## 0.6.0 版
 
-April 20th 2023: 🔀 the fourteenth draft adds new requirements for portability and tests and an introduction to each criterion.
+2023年4月20日：🔀第十四版新增可移植性與測試的規定，並且介紹每個標準。
 
-* New requirement in Create reusable and portable code about the development being a collaboration between multiple parties.
-* New requirement in Create reusable and portable code about being dependent on a single vendor.
-* New requirement in Use continuous integration about publishing results for automated tests.
-* Differentiating the two requirements about security to clearly be about providing a method and having documentation about it.
-* Rephrased requirements to focus on the codebase rather than contributor behavior.
-* Removed the sections Why this is important and What this does not do and replaced with an introduction in each criterion.
-* Added general What this does not do section in the introduction of the Standard.
-* Added guidance for public policy makers about related policies and license compatibility.
-* Added guidance for developers and designers about version controlling files.
-* Clarified guidance for developers and designers about prompt responses and search engine optimization.
-* Added Further reading about accessibility.
-* Aligned criteria URLs with criteria names.
-* Improved navigation in the web version.
-* Moved tools in Further reading sections to the community implementation guide.
-* Moved compliance or certification process to [publiccode.net](https://publiccode.net).
-* Change format of the review template to make it easier to update after a new release.
-* Improved the text on the landing page and added links to related resources.
-* Added spell checker automated test.
-* Made minor changes to text for clarity and consistency.
-* Moved SPDX headers to yaml header.
+* 新增規定，針對多方合作的開發案來編寫可重複使用且可移植的程式碼。
+* 新增規定，針對依賴單一供應商編寫可重複使用且可移植的程式碼。
+* 新增規定，公布自動化測試結果時，必須使用持續整合。
+* 區分兩個安全性規定，一個是有關提供辦法，另一個則是有關安全性的註解。
+* 已重新撰寫規定，將焦點放在代碼庫而非貢獻者行為。
+* 已移除「為什麼這非常重要」以及「不具備以下作用」兩個段落，加入每個標準的介紹。
+* 在標準簡介中，已新增「不具備以下作用」段落。
+* 已新增有關相關政策與授權相容性的公共政策決策者指南。
+* 已新增有關版本控制檔案的開發人員與設計師指南。
+* 已釐清開發人員與設計師指南當中，有關迅速回覆與搜尋引擎優化的內容。
+* 已新增「進一步閱讀無障礙」。
+* 已將各標準的連結與其名稱同步。
+* 已改善網頁版的導覽功能。
+* 已將「進一步閱讀」章節的工具移到社群實施指南。
+* 已將「遵循或認證」流程移到[publiccode.net](https://publiccode.net)。
+* 變更審查範本格式，讓範本在新版本推出後後更容易更新。
+* 已改善到達網頁文字，加入相關資源的連結。
+* 已新增拼字檢查自動化測試。
+* 已稍微調整文字，讓文字更明確與一致。
+* 將 SPDX 標頭換成 yaml 標頭。
 
-## Version 0.5.0
+## 0.5.0 版
 
-January 25th 2023: 🎨 the thirteenth draft focuses on documenting style guidelines.
+2023年1月25日：🎨第十三版焦點在於紀錄風格指南。
 
-* Adjust the coding style requirement to focus on the codebase using a style guide rather than contributor behavior.
-* Moved requirement for codebase names to Make the codebase findable from Use plain English.
-* Moved requirement about testing the code by using examples to Use continuous integration from Document the code.
-* Split requirement about machine testable standards to clarify that open is more important than testable.
-* Adjust how to test findability requirements to be less reliant on search engine algorithms.
-* Made minor changes to text for clarity and consistency.
+* 調整編碼風格要求，專注在代碼庫上面，而非貢獻者行為。
+* 已變更代碼庫名稱規定，用一般英文更容易搜尋到代碼庫。
+* 已變更使用範例測試程式碼的規定，改為使用「Document the code」的範例來持續整合測試。
+* 調整機讀標準規定，強調程式碼的開放性比可測試性更重要。
+* 調整可查找性的測試規定，減少對搜尋引擎演算法的依賴。
+* 已稍微調整文字，讓文字更明確與一致。
 
-## Version 0.4.1
+## 0.4.1 版
 
-December 5th 2022: 📝 the twelfth draft clarifies document maturity.
+2022年12月5日：📝第十二版闡明文件成熟度。
 
-* Document maturity focuses on whether or not versions of the codebase are ready to use.
-* Document maturity no longer requires specific labels for codebases that are not ready to use.
-* Audit flow image now generated from an easier to translate format.
-* Improved guidance on How to test.
-* Add publiccode.yml file.
-* Add review template.
-* Consistently link glossary terms.
-* Add practices and standards to follow in CONTRIBUTING.
-* Add Matti Schneider to Authors.
-* Add remaining SPDX headers to files.
-* Made additional minor changes to text for clarity.
-* Some hyperlinks updated.
-* Moved examples to the [Community implementation guide](https://publiccodenet.github.io/community-implementation-guide-standard/).
+* 文件成熟度端看該版本的代碼庫是否已經可以使用。
+* 文件成熟度不再仰賴尚無法使用的代碼庫中的特定標籤。
+* 審計流程圖現在的由更容易轉譯的格式來生成。
+* 改善「測試方式」指南。
+* 新增 publiccode.yml 檔案。
+* 新增審查範本。
+* 一致連結詞彙。
+* 在「貢獻」中新增的實務與標準。
+* 加入 Matti Schneider 到作者群。
+* 將剩餘 SPDX 標頭加入檔案中。
+* 稍微修改文字，讓文字更明確。
+* 已更新部分超連結。
+* 已將範例移動到[社群實施指
+南](https://publiccodenet.github.io/community-implementation-guide-standard/)。
 
-## Version 0.4.0
+## 0.4.0 版
 
-September 7th 2022: 🔭 the eleventh draft adds a new findability criterion.
+2022年9月7日：🔭第十一版新增全新的可查找性標準。
 
-* Introduce new criterion: Make the codebase findable.
-* Improve How to test section for most criteria.
-* New requirement in Welcome contributors about publishing activity statistics.
-* Removed redundant requirement about portable and reusable code.
-* Expand open license definition to include both OSI and FSF approved licenses.
-* Rephrase MAY requirements to use the keyword OPTIONAL for clarity.
-* Expressed intent that the Standard for Public Code should meet its own requirements where applicable and added assessment.
-* Add SPDX license identifiers to files.
-* Introduced new Code of Conduct.
-* Clarify distinction between source code and policy text.
-* Restructuring of requirements with bullet point lists.
-* Acknowledge the importance of codebase modularity for reuse.
-* Move requirements related to Findability to the new criterion.
-* Clarify the role of non-open standards when used in a codebase.
-* Additional guidance about build-time and runtime dependencies.
-* Added roadmap for the development of the Standard for Public Code.
-* Update structure of Authors file.
-* Add Audrey Tang to Authors.
-* Added a list of criteria to the print edition.
-* Clarify what the standard means with policymakers, managers, developers and designers.
-* Made additional minor changes to text for clarity.
-* Some hyperlinks updated.
+* 推出新標準：使代碼庫變得容易查找。
+* 改善多數標準的「測試方式」章節。
+* 「歡迎貢獻者」章節中有關發佈活動統計的新規定。
+* 已移除有關可移植與可重複使用的程式碼的多餘規定。
+* 在開放授權的定義中，加入 OSI 與 FSF 認證的授權。
+* 重新編寫「得以（May）」的相關規定，加入「選擇性（Optional）」一關鍵字，讓規定更明確。
+* 已表明 The Standard for Public Code 標準在適用時應該符合自身規定，且已新增評估。
+* 將 SPDC license identifier 加入檔案中。
+* 已推出新行為守則。
+* 解釋原始碼與政策內文的差異。
+* 將規定改為要點清單的格式。
+* 承認代碼庫成熟度在重複使用上的重要性。
+* 將可查找性相關規定移動到新標準。
+* 釐清非開放性標準在代碼庫中的角色。
+* 關於建制時期與執行階段相依性的額外指南。
+* 新增 The Standard for Public Code 開發路徑圖。
+* 更新作者檔案結構。
+* 將唐鳳加入作者群。
+* 已新增標準清單到印刷版本中。
+* 釐清標準對政策制定者、管理者、開發人員與設計師的意義。
+* 稍微修改文字，讓文字更明確。
+* 已更新部分超連結。
 
-## Version 0.3.0
+## 0.3.0 版
 
-May 23rd 2022: 🗎 the tenth draft strengthens documentation and localization.
+2022年5月23日：🗎第十版加強註解與本土化。
 
-* Requirement for localization made explicit in Create reusable and portable code.
-* Documentation of governance changed from a SHOULD to a MUST.
-* Replace the very subjective (and hard to test) "contributions MUST be small" with requirement to document expectation in contributing guidelines and focus on a single issue.
-* Community translations now linked in the footer.
-* Revert "Replace BPMN svg with Mermaid flowchart".
-* Many minor clarifications to language and sentences made more simple.
-* Some hyperlinks updated.
+* 「編寫可重複使用與可移植程式碼」章節有明確的本土化規定。
+* 治理註解從「應該（Should）」變成「必須（Must）」。
+* 在貢獻指南中，將非常主觀且難以驗證的「貢獻內容必須（Must）有限」規定，改為必須紀錄貢獻的期望，專注在單一議題上。
+* 社群翻譯現在已連結到頁尾中。
+* 還原「用 Mermaid 流程圖取代 BPMN svg」。
+* 細微調整用詞，讓句子更簡單。
+* 已更新部分超連結。
 
-## Version 0.2.3
+## 0.2.3 版
 
-March 15th 2022: 📜 the ninth draft allows English summaries for policy lacking an official translation.
+2022年3月15日：📜第九版允許在沒有官方翻譯的政策中加入英文版摘要。
 
-* Relax the criterion Use plain English by adding a new requirement allows bundled policy not available in English to have an accompanying summary in English instead of translating the full text.
-* Similarly, allow for English summaries for policies not available in English in Bundle policy and code.
-* Clarify that term 'policy' includes processes which impact development and deployment in Bundle policy and code.
-* Emphasize reusability also on parts of the solutions in Create reusable and portable code.
-* Expand guidance to Developers and designers in Create reusable and portable code about deploying to proprietary platforms.
-* Add nuance to use of non-English terms in what management need to do in Use plain English.
-* Change the pull request process diagram to use Mermaid instead of BPMN to make [community translations](https://github.com/publiccodenet/community-translations-standard) easier.
-* Added Maurice Hendriks to AUTHORS.
-* Added OpenApi Specification to further reading.
-* Made the attributions in further reading sections clearer.
-* Made additional minor changes to text for clarity.
+* 放寬「使用簡單英文」的標準，加入新的規定，允許沒有英文版的同捆政策只需要加入英文版摘要，不用翻譯全文。
+* 同樣地，允許同捆政策與程式碼當中沒有英文版的政策只提供英文版摘要。
+* 釐清「政策」包括能影響同捆政策與程式碼開發與部署的流程。
+* 強調「編寫可重複使用與移植的程式碼」解決方案部分內容的可重複使用性。
+* 將「編寫可重複使用與移植的程式碼」當中的開發人員與設計師指南，加入關於部署到不同專屬平台的內容。
+* 在「使用簡單英文」中，加入管理人員需要使用的非英文詞彙。
+* 變更拉取請求流程圖，從 BPMN 改用 Mermaid，讓[社群翻
+譯](https://github.com/publiccodenet/community-translations-standard)更容易。
+* 將 Maurice Hendriks 加入作者群。
+* 將「OpenApi 規格」加入「深入閱讀」。
+* 將「深入閱讀」當中的歸因變得更明確。
+* 稍微修改文字，讓文字更明確。
 
-## Version 0.2.2
+## 0.2.2 版
 
-November 29th 2021: 🏛 the eighth draft recognizes that policy which executes as code may not be in English.
+2021年11月29日：🏛第八版承認當作程式碼來執行的政策，不一定是英文。
 
-* Document exception to "All code MUST be in English" where policy is interpreted as code.
-* Add MAY requirement regarding committer email addresses in Maintain version control.
-* Expand guidance to Policy Makers in Bundle policy and code.
-* Expand guidance to Developers and designers in Use a coherent style.
-* Add "Different contexts" to glossary.
-* Add Mauko Quiroga and Charlotte Heikendorf to AUTHORS.
-* Add Digital Public Goods approval badge.
-* Added "next" and "previous" links to criteria pages of web version.
-* Add Open Standards principles to further reading.
-* Add Definition of plain language to further reading.
-* Move the Semantic Versioning Specification further reading reference.
-* Clarify that publiccode.yml is one example of a machine-readable metadata description.
-* Changed "your codebase" and "your organization" to be less possessive.
-* Made additional minor changes to text for clarity.
-* Add instructions for creating a print version.
+* 標示當政策被詮釋為程式碼時，則不用遵守「僅限英文程式碼」的規則。
+* 在「版本管控」中，新增關於提交者電子郵件的「得以（May）」規定。
+* 將政策制定者加入「同捆政策與程式碼」指南。
+* 將開發人員與設計師加入「風格一致」指南。
+* 新增「不同脈絡」到詞彙表中。
+* 將 Mauko Quiroga 與 Charlotte Heikendorf 加入作者群。
+* 新增「數位公共財」認證標章。
+* 加入網頁版「標準」頁面的「上一頁」與「下一頁」連結。
+* 將「開放標準原則」加入「深入閱讀」。
+* 將「簡單語言定義」加入「深入閱讀」。
+* 移動「語意化版本規格」引用的「深入閱讀」。
+* 釐清 publiccode.yml 是描述機讀元資料的名稱之一。
+* 將「您的代碼庫」與「貴組織」改為較不具有所有格的寫法。
+* 稍微修改文字，讓文字更明確。
+* 新增印刷版的建立說明。
 
-## Version 0.2.1
+## 0.2.1 版
 
-March 1st 2021: 🧽 the seventh draft has minor cleaning up after version 0.2.0.
+2021年3月1日：🧽跟 0.2.0 版相較之下，第七版做了些微改善。
 
-* New SHOULD requirement on using a distributed version control system and why distributed is important.
-* Feedback requirements for rejected contributions are more strict than accepted ones.
-* Specify that copyright and license notices should also be machine-readable.
-* Advice on how to test that notices be machine-readable.
-* Clarify guidance for rolling releases.
-* Clear up definition of version control in glossary.
-* Add further reading encouraging contribution, SPDX, Git and reviewing contributions.
-* Add links to videos about the concept of public code.
-* Update BPMN link.
-* Reduce link duplication.
-* Add Alba Roza and Ngô Ngọc Đức Huy to authors.
-* Made additional minor changes to text for clarity.
+* 針對使用分散版本控制系統制定新的「應該」規定，並解釋分散的重要性。
+* 針對被拒絕的貢獻的回饋，比被接受的貢獻的回饋規定更嚴苛。
+* 明確指出著作權與授權聲明也應該要可機讀。
+* 聲明是否為可機讀的測試方式建議。
+* 釐清滾動發行的指南。
+* 釐清詞彙表中「版本控制」的定義。
+* 新增「深入閱讀」，鼓勵提交貢獻、SPDX、Git 以及審查貢獻。
+* 新增有關公共程式概念的影片連結。
+* 更新 BPMN 連結。
+* 減少重複連結。
+* 將 Alba Roza 與 Ngô Ngọc Đức Huy 加入作者群。
+* 稍微修改文字，讓文字更明確。
 
-## Version 0.2.0
+## 0.2.0 版
 
-October 26th 2020: 🎊 the sixth draft splits a requirement and adds clarity.
+2020年10月26日：🎊第六版分拆一項規定並且釐清內容。
 
-* Split "Welcome contributions" criterion into "Make contributing easy" and "Welcome contributors".
-* Rename criterion "Pay attention to codebase maturity" to "Document codebase maturity".
-* Changed MUST to SHOULD for requirement of codebase in use by multiple parties.
-* Add MUST NOT requirement regarding copyright assignment.
-* Clarify role of configuration in reusable code requirement.
-* Glossary additions: continuous integration, policy, repository, and version control.
-* Replace references to 'cities' with 'public organizations'.
-* Clarify aspects of sensitive code by separating contributor and reviewer requirements into separate items.
-* Expand further reading, and guidance to policy makers, developers and designers.
-* Add Felix Faassen and Arnout Engelen to authors.
-* Made additional minor changes to text for clarity.
+* 將「歡迎貢獻」標準分拆為「讓貢獻更容易」以及「歡迎貢獻者」。
+* 將「注意代碼庫成熟度」標準改名為「註解代碼庫成熟度」。
+* 針對多方使用的代碼庫，將「必須（Must）」規定調整為「應該（Should）」規定。
+* 針對著作權讓與，新增「不得（Must Not）」規定。
+* 在可重複使用程式碼規定中，釐清組態的角色。
+* 新增詞彙：持續整合、政策、儲存庫與版本控制。
+* 將「城市」都替換成「公共組織」。
+* 將貢獻者與審查規定分開，藉此釐清程式碼敏感的地方。
+* 將政策制定者、開發人員與設計師加入「深入閱讀」與指南中。
+* 將 Felix Faassen 與 Arnout Engelen 加入作者群。
+* 稍微修改文字，讓文字更明確。
 
-## Version 0.1.4
+## 0.1.4 版
 
-November 27th 2019: 🧹 the fifth draft consists mostly of additional minor fixes.
+2019年11月27日：🧹第五版主要內容是額外的細部修復。
 
-* Linked License.md file.
-* Add Sky Bristol, Marcus Klaas de Vries, and Jan Ainali to authors.
-* Made punctuation more consistent, especially for bullet lists.
-* Made some minor changes to text for clarity.
+* 已連結 License.md 檔案。
+* 將 Sky Bristol、Marcus Klaas de Vries 與 Jan Ainali 加入作者群。
+* 讓標點符號更連貫，特別是項目符號列表。
+* 細部調整文字，讓內容更明確。
 
-## Version 0.1.3
+## 0.1.3 版
 
-October 8th 2019: 🍂 the fourth draft only patches and fixes minor things for the autumn cleaning
+2019年10月8日：🍂第四版僅針對秋季的清理修復小問題
 
-* Renamed continuous delivery to continuous integration.
-* Referencing accessibility guidelines in the language standard.
-* A bunch of style and consistency fixes.
+* 將「持續交付」改名為「持續整合」。
+* 在語言標準中引述無障礙指導原則。
+* 改善樣式與一致性。
 
-## Version 0.1.2
+## 0.1.2 版
 
-August 22th 2019: 🌠 the third draft focuses on better text and takes community input
+2019年8月22日：🌠第三版專注在提升文字品質，並且傾聽社群的意見
 
-* With some great new contributors comes a fresh author list.
-* All links are now HTTPS.
-* General proofreading, wording clarifications, and smashed typos.
-* Updated criteria:
-  * Requirement for reuse in different contexts
-  * Recommendation for explicit versioning
-  * Recommendation for multi party development
-  * Recommendation for license headers in files
-  * Recommendation for vulnerability reporting
-  * Recommendation for explicit documentation of governance
+* 一群很棒的貢獻者，讓我們作者群加入許多新血。
+* 所有連結都是 HTTPS。
+* 一般校對、釐清用字與修改拼字錯誤。
+* 已更新標準：
+   * 在不同脈絡下重複使用的規定
+   * 明確版本控制建議
+   * 多方部署建議
+   * 檔案授權標頭建議
+   * 漏洞回報建議
+   * 明確治理註解建議
 
-## Version 0.1.1
+## 0.1.1 版
 
-May 9th 2019: 🤔 the second draft fixes a few basic oversights and fixes a lot of typos
+2019年5月9日：🤔第二版修復基本的疏忽以及許多拼字錯誤
 
-* Removed references to the Foundation for Public Code, we're going to have to change the name in becoming an association.
-* Updated the introduction.
-* Updated the glossary.
-* Added the code of conduct.
-* We've recommended using the publiccode.yml standard for easier reuse.
+* 移除出現「The Foundation for Public Code」的地方，我們必須改名才能成為協會。
+* 已更新前言。
+* 已更新詞彙表。
+* 已新增行為守則。
+* 我們建議使用 publiccode.yml 標準，方便重複使用。
 
-## Version 0.1.0
+## 0.1.0 版
 
-April 16th 2019: 🎉 the first draft is ready, it is all brand new and has snazzy new ideas in it
+2019年4月16日：🎉初版已經就緒，內容全新且有許多有趣的全新構想
 
-* 14 criteria with their requirements and how to operationalize them.
-* An introduction with a high level background, what this standard is, and how the Foundation for Public Code will use it.
+* 14個標準、其規定以及實施方式。
+* 清楚明確的背景介紹、介紹本標準以及 The Foundation for Public Code 會如何使用此標準。
 
-This first version was produced together with the Amsterdam University of Applied Sciences and the City of Amsterdam as a part of the [Smart Cities? Public Code! project](https://smartcities.publiccode.net/).
+第一版是本基金會與阿姆斯特丹應用科學大學以及阿姆斯特丹市政府合作推出，隸屬於[Smart Cities? Public Code! 專
+案](https://smartcities.publiccode.net/)。

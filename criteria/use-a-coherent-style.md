@@ -5,43 +5,44 @@ order: 15
 redirect_from:
   - criteria/style
 ---
-# Use a coherent style
+# 風格要前後一致
 
-Following a consistent and coherent style enables contributors in different environments to work together.
-Unifying vocabularies reduces friction in communication between contributors.
+採用前後一致的風格，讓不同環境的貢獻者能夠合作。用詞統一能減少貢獻者之間在溝通上的摩擦。
 
-## Requirements
+## 規定
 
-* The [codebase](../glossary.md#codebase) MUST use a coding or writing style guide, either the codebase community's own or an existing one referred to in the codebase.
-* Contributions SHOULD pass automated tests on style.
-* The style guide SHOULD include expectations for inline comments and documentation for non-trivial sections.
-* Including expectations for [understandable English](use-plain-english.md) in the style guide is OPTIONAL.
+* [代碼庫](../glossary.md#codebase)必須遵守程式碼撰寫風格指南、或文件寫作風格指南，可以是代碼庫社群自身的風格指南，或是代碼庫有採用的既
+有風格。
+* 貢獻內容應該通過自動化的風格測試。
+* 風格指南應該描述對較複雜的程式碼區段，當中列內註解與說明文件的期望。
+* 可選擇是否將[可理解的白話英語](use-plain-english.md)小節加入風格指南之中。
 
-## How to test
+## 測試方式
 
-* Confirm that contributions are in line with the style guides specified in the documentation.
-* Check for the presence of automated tests on style.
+* 確認貢獻內容有遵循文件中指定的風格指南。
+* 檢查是否有自動化的風格測試。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：您的責任
 
-* Create, follow and continually improve on a style guide for [policy](../glossary.md#policy) and documentation as well as document this in the codebase, for example in the `CONTRIBUTING` or `README`.
+* 為[政策](../glossary.md#policy)與文件建立風格指南，遵守並且持續改善，同時記錄到代碼庫文件中，像是「`CONTRIBUTING`」或
+「`README`」檔案。
 
-## Managers: what you need to do
+## 管理人員：您的義務
 
-* Include written language, source, test and policy standards in your organizational definition of quality.
+* 將書面語言、原始碼、測試、政策標準等，包含在貴組織單位對品質的定義當中。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：您的責任
 
-If the codebase does not already have engineering guidelines or other contributor guidance, start by adding documentation to the [repository](../glossary.md#repository) describing whatever is being done now, for example in the `CONTRIBUTING` or `README`.
-An important purpose of the file is to communicate design preferences, naming conventions, and other aspects machines can't easily check.
-Guidance should include what would be expected from [source code](../glossary.md#source-code) contributions in order for them to be merged by the maintainers, including source, tests and documentation.
-Continually improve upon and expand this documentation with the aim of evolving this documentation into engineering guidelines.
+如果代碼庫還沒有工程指南，或其他貢獻者指南，則請先在[儲存庫](../glossary.md#repository)中加入相關文件，像是
+「`CONTRIBUTING`」或「`README`」檔案，並描述目前在設立指南方面的進展。上述檔案的重要目的之一，在於宣達設計偏好、命名規則，以及機器不容易檢查
+的其他層面。指南應該包含貢獻的[原始碼](../glossary.md#source-code)預期該符合哪些要求，才會被維護人員加入代碼庫中，包含原始碼、測試、
+文件等項目。請持續改善與擴充這份文件內容，目標讓文件朝向工程指南演進。
 
-Additionally:
+此外：
 
-* Use a linter.
-* Add linter configurations to the codebase.
+* 使用程式碼品質分析工具 (linter)。
+* 在代碼庫中加入程式碼品質分析工具的組態設定。
 
-## Further reading
+## 延伸閱讀
 
-* [Programming style](https://en.wikipedia.org/wiki/Programming_style) on Wikipedia.
+* 維基百科上的《[代碼風格](https://en.wikipedia.org/wiki/Programming_style)》條目。

@@ -7,7 +7,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-remote_theme: publiccodenet/jekyll-theme
+repository: publiccodenet/jekyll-theme
+
+remote_theme: Lin-Chia-Cheng/publiccodenet.jekyll-theme
 include:
   - "README.md"
   - "CONTRIBUTING.md"

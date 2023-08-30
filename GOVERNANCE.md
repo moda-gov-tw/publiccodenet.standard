@@ -2,17 +2,17 @@
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 ---
-# Governance
+# 治理
 
-This standard lies at the core of the codebase stewardship provided by the [Foundation for Public Code](https://publiccode.net/).
-We decide if a codebase is ready for community co-development based on this document.
+此標準是[The Foundation for Public Code](https://publiccode.net/)代碼庫管理的核心。我們依照本文件來判斷代碼
+庫是否已經準備好讓社群參與開發。
 
-The standard is maintained by Foundation for Public Code staff.
+本標準由 The Foundation for Public Code 人員負責維護。
 
-[We welcome contributions, such as suggestions for changes or general feedback, from anyone.](/CONTRIBUTING.md)
+[我們歡迎任何人提供修改的建議或是一般意見回饋等貢獻。](/CONTRIBUTING.md)
 
-Because of the important role that the Standard for Public Code has in our core process we require the highest standards from the Standard.
+由於 The Standard for Public Code 在我們的核心流程中，扮演舉足輕重的角色，我們也要求遵守 The Standard for
+Public Code 中最嚴苛的標準。
 
-We will try to respond promptly to all pull requests.
-The pull request is an opportunity to work together to improve our methods and the Standard.
-We may not accept all changes, but we will explain our logic.
+我們會努力儘速回覆所有拉入請求。拉入請求讓我們有機會一起合作，改善我們的方法與 The Standard for Public Code。我們可能不會接受貢獻者提出
+的所有修改，但我們會解釋背後的邏輯。

@@ -6,71 +6,73 @@ redirect_from:
   - criteria/reusable-and-portable-codebases
   - criteria/create-reusable-and-portable-code
 ---
-# Make the codebase reusable and portable
+# 使代碼庫可重複使用且具可攜性
 
-Creating reusable and portable [code](../glossary.md#code) enables policy makers, developers and designers to reuse what has been developed, test it, improve it and contribute those improvements back, leading to better quality, cheaper maintenance and higher reliability.
+編寫可重複使用且具可攜性的[程式碼](../glossary.md#code)，讓政策制定者、開發人員與設計師能重複使用、測試與改善目前已開發的內容，並將改善貢獻回
+代碼庫中，如此可提高品質、降低維護成本、增強可靠性。
 
-Thoughtfully and purposefully designing a [codebase](../glossary.md#codebase) for reusability allows for the mission, vision and scope of the codebase to be shared by multiple parties.
-Codebases developed and used by multiple parties are more likely to benefit from a self-sustaining community.
+以重複利用為前提籌劃設計[代碼庫](../glossary.md#codebase)，更容易與多方分享代碼庫的目標使命、願景與範圍等。多方開發與使用的代碼庫更可以從
+能自我運作的社群中獲益。
 
-Organizing a codebase such that it is composed of well documented modules improves reusability and maintainability.
-A module is easier to reuse in [another context](../glossary.md#different-contexts) if its purpose is clearly documented.
+以文件記錄良好的模組構成代碼庫，能夠改善重複使用與維護的能力。以文件清楚記錄用途的模組，更容易在[另一種情
+境](../glossary.md#different-contexts)中重複利用。
 
-Source code which does not rely on the situation-specific infrastructure of any contributor, vendor or deployment can be tested by any other contributor.
+如果原始碼不依賴任何貢獻者、供應商或部署的特定情況專用基礎架構，任何貢獻者都能測試該原始碼。
 
-## Requirements
+## 規定
 
-* The codebase MUST be developed to be reusable in different contexts.
-* The codebase MUST be independent from any secret, undisclosed, proprietary or non-open licensed software or services for execution and understanding.
-* The codebase SHOULD be in use by multiple parties.
-* The roadmap SHOULD be influenced by the needs of multiple parties.
-* The development of the codebase SHOULD be a collaboration between multiple parties.
-* Configuration SHOULD be used to make [source code](../glossary.md#source-code) adapt to context specific needs.
-* The codebase SHOULD be localizable.
-* Source code and its documentation SHOULD NOT contain situation-specific information.
-* Codebase modules SHOULD be documented in such a way as to enable reuse in codebases in other contexts.
-* The software SHOULD NOT require services or platforms available from only a single vendor.
+* 代碼庫必須開發成能在不同情境中重複使用。
+* 執行與瞭解代碼庫時，不得仰賴於任何採用保密、無法揭露、專有或非開放式授權的程式碼或服務。
+* 代碼庫應該有多方單位使用。
+* 發展路線圖應該有多方單位的需求影響。
+* 代碼庫開發應該由多方單位合作。
+* 應該使用組態設定方式以將[程式碼](../glossary.md#source-code) 調整成能適應各情境的特定需求。
+* 代碼庫應該能夠在地化。
+* 原始碼與其文件不應該包含特定情況專用的資訊。
+* 代碼庫模組應該以使其能夠在其他情境中重複利用的模式撰寫文件。
+* 軟體不應該要求只有單一供應商能提供的服務或平台。
 
-## How to test
+## 測試方式
 
-* Confirm with someone in a similar role at another organization if they can use the codebase and what that would entail.
-* Confirm that the codebase can run without using any proprietary or non open-licensed software or services.
-* If the codebase is in early development before a production-ready release, then check for evidence of ambition to obtain collaborators.
-   * Or if the codebase is very mature and stable with very infrequent fixes, patches, or contributions:
-     * Check that the codebase is in use by multiple parties or in multiple contexts.
-     * Check for documented and budgeted commitments of collaboration.
-   * Otherwise:
-     * Check that the codebase is in use by multiple parties or in multiple contexts.
-     * Check that the codebase contributors are from multiple parties.
-* Check that the codebase files and commit history do not include situation-specific data.
-* Check that the software can be deployed and run without services or platforms available from a single vendor.
+* 與另一組織單位角色與您相似的人確認，看他們是否能利用代碼庫，以及需要怎麼進行。
+* 確認代碼庫不需要用到任何專有或非開放式授權的程式碼或服務，就能夠執行。
+* 若代碼庫處於早期開發階段，尚未準備好正式上線，則檢查是否有想要尋求協作的意願。
+   * 或是如果代碼庫非常成熟與穩定，鮮少需要修復或貢獻：
+      * 檢查是否有多方單位或是有在多種情境下正使用代碼庫。
+      * 檢查是否有文件記錄下合作的承諾以及承諾的預算。
+   * 若是沒有，則：
+      * 檢查是否有多方單位或是有在多種情境下正使用代碼庫。
+      * 檢查代碼庫貢獻者是否來自多方單位。
+* 檢查代碼庫檔案與提交歷史紀錄中，不包含特定情況專用的資料。
+* 檢查軟體是否可以在不使用單一供應商服務或平台的情況下，正常部署與執行。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：您的責任
 
-* Document your [policy](../glossary.md#policy) with enough clarity and detail that it can be understood outside of its original context.
-* Make sure your organization is listed as a known user by the codebase.
-* Identify other organizations for your teams to collaborate with.
+* 為您的[政策](../glossary.md#policy)撰寫清楚且足夠詳細的文件，讓他人即使不是處於同個原始背景情境也能夠理解。
+* 確保代碼庫有將貴組織單位列為已知使用者。
+* 列出貴團隊想要合作的其他組織。
 
-## Managers: what you need to do
+## 管理人員：您的義務
 
-* Make sure that stakeholders and business owners understand that reusability is an explicit codebase goal as this reduces technical debt and provides sustainability for the codebase.
-* Make sure that your teams are collaborating with other teams.
+* 確認利害關係人與業主能夠瞭解，代碼庫是以重複利用為明確目標，因而得以減少程式碼技術債，並讓代碼庫可以永續發展。
+* 確認您的團隊與其他團隊協作。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：您的責任
 
-Source should be designed:
+原始碼應該設計成：
 
-* for reuse by other users and organizations regardless of locale,
-* to solve a general problem instead of a specific one,
-* in logically meaningful and isolated modules,
-* so that someone in a similar organization facing a similar problem would be able to use (parts of) the solution.
+* 能讓其他使用者與組織單位可以重複利用，而不受地方環境影響，
+* 能解決通用性質問題，而非特定問題，
+* 以邏輯上具有意義且獨立的模組構成，
+* 如此讓類似組織單位中要面對近似問題的人，都可以採用這套解決方案（或其中一部份）。
 
-Make sure that the codebase documentation describes the build-time and runtime dependencies.
-If your context requires deploying to proprietary platforms or using proprietary components, make sure that collaborators can develop, use, test, and deploy without them.
+確保代碼庫文件中，有說明程式的組建時間與執行時期的依賴項目。如果您的情境需要將程式部署至專有平臺上，或者要用到專有組件，則請確保協作者可以在不用到這兩者的情況下，就
+能進行開發、使用、測試、部署等。
 
-For each commit, reviewers verify that content does not include situation-specific data such as hostnames, personal and organizational data, or tokens and passwords.
+在每份提交內容中，審查人員要確認其中不含特定情況專用的資料，像是主機名稱、個人與組織單位資料、代符與密碼等。
 
-## Further reading
+## 延伸閱讀
 
-* [Making source code open and reusable](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) by the UK Government Digital Service.
-* [Localization vs. Internationalization](https://www.w3.org/International/questions/qa-i18n) by the World Wide Web Consortium.
+* 英國政府數位服務團《[讓原始碼開放且可重複利
+用](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)》。
+* W3C 全球資訊網協會《[在地化與國際化](https://www.w3.org/International/questions/qa-i18n)》。

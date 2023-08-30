@@ -5,66 +5,67 @@ order: 12
 redirect_from:
   - criteria/continuous-integration
 ---
-# Use continuous integration
+# 使用持續整合
 
-Asynchronous collaboration is enabled by developers merging their work to a shared branch frequently, verified by automated tests.
-The more frequent the merging and the smaller the contribution, the easier it is to resolve merge conflicts.
+開發人員頻繁地將其撰寫的程式碼合併至共享的分支，並且由自動化測試驗證，就能進行非同步協作。合併程式碼的頻率越頻繁且每次貢獻內容越少，合併上的衝突就越容易解決。
 
-Automated testing of all functionality provides confidence that contributions are working as intended and have not introduced errors, and allows reviewers to focus on the structure and approach of the contribution.
-The more focused the test, the easier it is to clearly identify and understand errors as they arise.
+自動化測試所有功能，讓人更能相信貢獻內容發揮其功用且沒有造成任何錯誤，並且允許審查人員專注在貢獻的結構與方式。測試越集中，就越容易發現與瞭解出現的問題。
 
-Documenting a codebase's [continuous integration](../glossary.md#continuous-integration) workflow helps contributors understand the expectations of contributions.
-Continuous integration allows for an easier monitoring of the state of the [codebase](../glossary.md#codebase).
+以文件記錄代碼庫的[持續整合](../glossary.md#continuous-integration)工作流程，能幫助貢獻者瞭解對貢獻內容的期待。透過持續整合
+可以更輕易地監督 [代碼庫](../glossary.md#codebase)狀態。
 
-## Requirements
+## 規定
 
-* All functionality in the [source code](../glossary.md#source-code) MUST have automated tests.
-* Contributions MUST pass all automated tests before they are admitted into the codebase.
-* The codebase MUST have guidelines explaining how to structure contributions.
-* The codebase MUST have active contributors who can review contributions.
-* Automated test results for contributions SHOULD be public.
-* The codebase guidelines SHOULD state that each contribution should focus on a single issue.
-* Source code test and documentation coverage SHOULD be monitored.
-* Testing [policy](../glossary.md#policy) and documentation for consistency with the source and vice versa is OPTIONAL.
-* Testing policy and documentation for style and broken links is OPTIONAL.
-* Testing the software by using examples in the documentation is OPTIONAL.
+* [原始碼](../glossary.md#source-code)中的所有功能都必須有自動化測試。
+* 所有貢獻內容都必須先通過自動化測試，才能上傳至代碼庫。
+* 代碼庫必須有說明貢獻內容結構的相關準則。
+* 代碼庫必須有能夠審查貢獻內容的活躍貢獻者。
+* 應該公開貢獻的自動化測試結果。
+* 代碼庫準則應該規定每次做出貢獻時，都應只聚焦在單一議題上。
+* 應該監督原始碼測試與文件的涵蓋範圍。
+* 可選擇是否測試[政策](../glossary.md#policy)和文件，與原始碼間有無一致性，或是反之亦然。
+* 可選擇是否測試政策和文件所採用的樣式，以及連結有無失效。
+* 可選擇是否使用文件範例來測試軟體。
 
-## How to test
+## 測試方式
 
-* Confirm that there are tests present.
-* Confirm that source code coverage tools check that coverage is at 100% of the source code.
-* Confirm that contributions are only admitted into the codebase after all of the tests are passed.
-* Confirm that contribution guidelines explain how to structure contributions.
-* Confirm that there are contributions from within the last three months.
-* Check that test results are viewable.
-* Check if source code coverage data is published.
+* 確認有測試可用。
+* 確認原始碼覆蓋率工具能檢查到 100% 的原始碼。
+* 確認貢獻內容只有在通過所有測試後，才會認可上傳至代碼庫。
+* 確認有貢獻準則說明貢獻內容的結構。
+* 確認最近三個月內有貢獻內容上傳。
+* 檢查是否可以查看測試結果。
+* 檢查是否已經公佈原始碼覆蓋率數據。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：您的責任
 
-* Involve managers as well as developers and designers as early in the process as possible and keep them engaged throughout development of your policy.
-* Make sure there are also automated tests set up for policy documentation.
-* Fix policy documentation promptly if it fails a test.
-* Make sure the source code reflects any changes to the policy (see [Maintain version control](maintain-version-control.md)).
+* 儘早讓管理人員、開發人員與設計師一同加入，並且讓他們持續參與您政策的制定程序。
+* 確保政策文件也有設好自動化測試。
+* 如果政策文件未能通過測試，請立即修正。
+* 確保原始碼能反映出政策的任何變動（請參閱[維護版本控制](maintain-version-control.md)）。
 
-## Managers: what you need to do
+## 管理人員：您的義務
 
-* Make sure to test with real end users as quickly and often as possible.
-* Plan the work to integrate small parts very often instead of large parts less frequently.
-* Procure consultancy services that deliver incrementally aligned with the plan.
-* After a large failure, encourage publication of incident reports and public discussion of what was learned.
+* 確保能儘快且經常給真正的終端使用者進行測試。
+* 以頻繁整合少量部分內容的方式做專案規劃，而非久久一次繳交大量部分內容。
+* 聘請有能力處理漸進式交付並跟上規劃進度的顧問服務。
+* 發生重大失誤後，鼓勵公開事故報告，以及公開討論事後學到的教訓。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：您的責任
 
-* Help managers structure the work plan such that it can be integrated as small increments.
-* Help contributors limit the scope of their contributions and feature requests to be as small as reasonable.
-* Help managers and policy makers test their contributions, for example by testing their contributions for broken links or style.
-* Structure source code written to handle conditions which are difficult to create in a test environment in such a way that the conditions can be simulated during testing. Forms of resource exhaustion such as running out of storage space and memory allocation failure are typical examples of difficult to create conditions.
-* Tune the test code coverage tools to avoid false alarms resulting from inlining or other optimizations.
-* Deploy often.
-* Integrate your work at least once a day.
+* 協助管理階層擬定工作規劃，例如規劃成可以拆分成小部分逐次整合。
+* 協助貢獻者聚焦其貢獻內容與功能請求，讓涵蓋範圍盡可能合理地縮小。
+* 協助管理人員與政策制定者測試其貢獻內容，例如測試其貢獻內容中的失效連結或樣式。
+* 編排原始碼結構時，要將難以在測試環境下創造出來的情況，得以在測試過程中模擬出來。例如硬碟空間不足、記憶體配置失敗等資源耗盡情況，都是難以創造的典型案例。
+* 調整程式碼覆蓋率測試工具，避免在 inline 過程或其他最佳化處理時得到假警報。
+* 經常部署。
+* 至少每天整合工作內容一次。
 
-## Further reading
+## 延伸閱讀
 
-* [What is continuous integration](https://www.martinfowler.com/articles/continuousIntegration.html) by Martin Fowler.
-* [Use continuous delivery](https://gds-way.cloudapps.digital/standards/continuous-delivery.html) by the UK Government Digital Service.
-* [Quality assurance: testing your service regularly](https://www.gov.uk/service-manual/technology/quality-assurance-testing-your-service-regularly) by the UK Government Digital Service.
+* Martin Fowler《[什麼是持續整
+合](https://www.martinfowler.com/articles/continuousIntegration.html)》。
+* 英國政府數位服務團《[使用持續交
+付](https://gds-way.cloudapps.digital/standards/continuous-delivery.html)》。
+* 英國政府數位服務團《[品質保證：定期測試您的服
+務](https://www.gov.uk/service-manual/technology/quality-assurance-testing-your-service-regularly)》。

@@ -3,44 +3,49 @@
 # SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 toc: false
 ---
-# Guidance for government open source collaboration
+# 政府開源協作指引
 
-The Standard for Public Code is a set of criteria that supports public organizations in developing and maintaining software and policy together.
+The Standard for Public Code 當中的標準，支持公共組織合作開發與維護軟體及政策。
 
-The Standard for Public Code provides guidance to public organizations building their own open source solutions to enable successful future collaboration and reuse by similar organizations in the public sector in other places.
-It includes advice for policy makers, government managers, developers and vendors.
-The Standard for Public Code supports the collaborative creation of codebases that are usable, open, legible, accountable, accessible and sustainable.
-It is meant to be applicable to codebases for all levels of government, from supranational to municipal.
+The Standard for Public Code 指引正在建構自己開源解決方案的公共組織，方便他們未來能跟其他地區的類似公部門組織合作，並讓這些組織能重複利
+用前述開源解決方案。The Standard for Public Code 提供建議給政策制定者、政府管理人員、開發人員與供應商。不同人士可透過The
+Standard for Public Code ，合作建立可用、開放、易讀、負責且永續的代碼庫。The Standard for Public Code 適用於
+各政府層級的代碼庫，從超國家到市政府。
 
-The Standard for Public Code defines ‘[public code](glossary.md#public-code)’ as open source software developed by public organizations, together with the policy and guidance needed for collaboration and reuse.
+The Standard for Public Code 將‘[公共程式](glossary.md#public-code)’定義為由公共組織所開發的開源軟體，並且
+遵照相關政策與指引，方便協作與重複利用。
 
-The criteria of the Standard for Public Code are aligned with guidelines and best practices of open source software development.
+The Standard for Public Code 當中的標準符合開源軟體開發的指引與最佳實務。
 
-{% for page in site.pages %}{% if page.name == "foreword.md" %}
-Additional context and background can be found in the [foreword](foreword.md).
-{% endif%}{% endfor %}
+{% for page in site.pages %}{% if page.name == "foreword.md" %} 額外情境與背景資訊請參閱
+[序](foreword.md). {% endif%}{% endfor %}
 
-## Contents
+## 目錄
 
-* [Readers guide: how to interpret this standard](readers-guide.md)
-* [Glossary](glossary.md)
-* [Criteria](criteria/){% assign sorted = site.pages | sort:"order" %}{% for page in sorted %}{% if page.dir == "/criteria/" %}{% if page.name != "index.md" %}{% if page.title %}
-  * [{{page.title}}]({{page.url}}){% endif%}{% endif%}{% endif%}{% endfor %}
-* [Authors](AUTHORS.md)
-* [Contributing guide](CONTRIBUTING.md)
-* [Code of conduct](CODE_OF_CONDUCT.md)
-* [Governance](GOVERNANCE.md)
-* [Version history](CHANGELOG.md)
-* [License](license.html)
+* [讀者指南：如何詮釋此標準](readers-guide.md)
+* [詞彙表](glossary.md)
+* [標準](criteria/){% assign sorted = site.pages | sort:"order" %}{% for page in
+sorted %}{% if page.dir == "/criteria/" %}{% if page.name != "index.md" %}{%
+if page.title %}
+   * [{{page.title}}]({{page.url}}){% endif%}{% endif%}{% endif%}{% endfor %}
+* [作者群](AUTHORS.md)
+* [貢獻指引](CONTRIBUTING.md)
+* [行為準則](CODE_OF_CONDUCT.md)
+* [治理](GOVERNANCE.md)
+* [版本歷史](CHANGELOG.md)
+* [授權](license.html)
 
-## Community calls
+## 社群會議
 
-We usually have a community call on the first Thursday of the month at 15:00 (CET/CEST).
-[The agenda](https://write.publiccode.net/pads/Community-Call-Standard-for-Public-Code) is updated roughly a week before the call.
-It is possible to [sign up](https://odoo.publiccode.net/survey/start/594b9243-c7e5-4bc1-8714-35137c971842) to get a call invitation emailed to you.
+我們通常在每月第一個週四的 15:00 (CET/CEST) 舉辦社群會議。 [議
+程](https://write.publiccode.net/pads/Community-Call-Standard-for-Public-Code) 在會議
+前約一週的時間更新。您可以 [報
+名](https://odoo.publiccode.net/survey/start/594b9243-c7e5-4bc1-8714-35137c971842)，
+之後舉辦會議時會寄送邀情函給您。
 
-## Other resources
+## 其他資源
 
-* Unofficial [community translations of the Standard](https://publiccodenet.github.io/community-translations-standard/) in other languages
-* [Standard compliance self assessment](https://publiccodenet.github.io/assessment-eligibility/) for public sector open source codebases
-* [Standard criteria checklist](/docs/review-template.html) used by Foundation for Public Code stewards for codebase review
+* [The Standard for Public Code 社群其他語
+言](https://publiccodenet.github.io/community-translations-standard/) 非官方翻譯版
+* 公部門開源代碼庫的 [標準遵循自我評估](https://publiccodenet.github.io/assessment-eligibility/)
+* [標準資格檢查清單](/docs/review-template.html) 由公共程式基金會管理人員用於代碼庫審查
