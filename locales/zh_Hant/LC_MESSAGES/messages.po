@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-06 16:44+0000\n"
+"PO-Revision-Date: 2023-09-08 16:44+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -771,7 +771,7 @@ msgstr "指出 publiccode.yml 是機器可讀中介資料說明的範例之一�
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Changed \"your codebase\" and \"your organization\" to be less possessive."
-msgstr "將「您的代碼庫」與「貴組織」改為較不具有所有格的寫法。"
+msgstr "將「您的代碼庫」與「您的組織單位」改為較不具有所有格的寫法。"
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Add instructions for creating a print version."
@@ -1774,15 +1774,17 @@ msgid ""
 "anyone to implement the codebase in their local context or contribute to the"
 " further development of the [codebase](../glossary.md#codebase)."
 msgstr ""
-"使用[原始碼](../glossary.md#source-"
-"code)以及[政策](../glossary.md#policy)註解，提供基石給想在當地脈絡使用代碼庫的人或是想要對[代碼庫](../glossary.md#codebase)進一步發展有所貢獻的人。"
+"對於想根據所在情境實作代碼庫的人，或是想更進一步貢獻[代碼庫](../glossary."
+"md#codebase)開發的人來說，能同時取用[原始碼](../glossary.md#source-"
+"code)與[政策](../glossary.md#policy)文件兩者，可作為建置成品時的基礎組件。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 7 (paragraph)
 msgid ""
 "Understanding the domain and policies within that domain is fundamental to "
 "understanding what problems a codebase is trying to solve and how it sets "
 "out to solve them."
-msgstr "瞭解網域與其政策，才能瞭解代碼庫想要解決的問題以及解決方式。"
+msgstr "瞭解作用範疇與該範疇的政策是基本原則，才能瞭解代碼庫試圖想解決的問題是什麼，"
+"以及該如何解決這些問題的作法。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 8 (paragraph)
 msgid ""
@@ -1790,7 +1792,8 @@ msgid ""
 "organization needs to understand what process changes it must choose to make"
 " or how to contribute additional configurability to the existing solution in"
 " order to adapt it to the new context."
-msgstr "組織要能夠評估是否在新脈絡中執行代碼庫時，必須先瞭解如何改變其流程或是如何在現有解決方案中提供額外的可配置性，才能在新脈絡中使用該代碼庫。"
+msgstr "為了評估是否需要在新的情境中實作代碼庫，組織單位需要瞭解必須做出改變的程序有"
+"哪些，或是如何對現有解決方案付出額外調整設定，以適應新的情境背景。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 9 (header)
 msgid "Requirements"
@@ -1798,24 +1801,25 @@ msgstr "需求規定"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid "The codebase MUST include the policy that the source code is based on."
-msgstr "代碼庫「必須（Must）」包含做為原始碼基礎的政策。"
+msgstr "代碼庫「必須」包含原始碼所根據的政策。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid ""
 "If a policy is based on source code, that source code MUST be included in "
 "the codebase, unless used for fraud detection."
-msgstr "若一個政策以原始碼為基礎，該原始碼「必須（Must）」包含在代碼庫內（用於詐騙偵測的原始碼除外）。"
+msgstr "如果政策基於原始碼而來，則該原始碼「必須」包含在代碼庫中，用於偵測詐騙的原始"
+"碼則可除外。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid "Policy SHOULD be provided in machine readable and unambiguous formats."
-msgstr "政策格式「應該」機器可讀且明確。"
+msgstr "政策「應該」採用機器可讀且明確的格式。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid ""
 "[Continuous integration](../glossary.md#continuous-integration) tests SHOULD"
 " validate that the source code and the policy are executed coherently."
-msgstr ""
-"[持續整合](../glossary.md#continuous-integration) 測試「應該（Should）」驗證原始碼與政策是否有一致執行。"
+msgstr "[持續整合](../glossary.md#continuous-"
+"integration)測試「應該」驗證原始碼與政策是否有一致執行。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 11 (header)
 msgid "How to test"
@@ -1825,33 +1829,33 @@ msgstr "測試方式"
 msgid ""
 "Confirm with a civil servant that all policy that the source code is based "
 "on is included."
-msgstr "與公務人員確認有收錄做為原始碼基礎的完整政策。"
+msgstr "與公務人員確認原始碼所根據的所有政策內容都有收錄在內。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 12 (unordered list)
 msgid ""
 "Confirm with a civil servant that all source code that the policy is based "
 "on is included."
-msgstr "與公務人員確認有收錄做為政策基礎的完成原始碼。"
+msgstr "與公務人員確認根據政策而來的所有原始碼都有收錄在內。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 12 (unordered list)
 msgid "Check if policy can be interpreted by a machine."
-msgstr "確認政策是否可由機器判讀。"
+msgstr "確認政策內容是否能在機器上解讀。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 12 (unordered list)
 msgid ""
 "Check the continuous integration tests for coherent execution of source code"
 " and policy pass."
-msgstr "透過持續整合測試，確認原始碼與政策的一致執行。"
+msgstr "確認原始碼與政策間的執行一致性能通過持續整合測試。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 13 (header)
 msgid "Public policy makers: what you need to do"
-msgstr "公共政策制定者：您的責任"
+msgstr "公共政策制定者：需要的工作"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
 "Collaborate with developers and designers to make sure there is no mismatch "
 "between policy code and source code."
-msgstr "與開發人員及設計師合作，確認政策程式碼與原始碼沒有錯配。"
+msgstr "與開發人員及設計師合作，確保政策法規與原始碼之間沒有不相符之處。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
@@ -1862,32 +1866,36 @@ msgid ""
 "which impact the development or the deployment context of the codebase for "
 "your organization."
 msgstr ""
-"提供相關政策內文，用來收錄在[存放庫](../glossary.md#repository)中；若內文沒有英文版本，則請提供英文摘要。請務必附上貴機構所遵循的標準，以及影響貴機構代碼庫開發或部署脈絡的組織流程。"
+"提供相關政策內文，以便收錄於[儲存庫](../glossary.md#repository)中；如果政策內"
+"文沒有英文版，請提供英文版摘要。務必也同時包含貴組織單位所選擇遵守的各項標準"
+"，以及影響貴組織單位代碼庫開發或部署情境的任何組織流程。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid "Provide references and links to texts which support the policies."
-msgstr "引用支持政策的文字並附上連結。"
+msgstr "請提供政策相關參考資料與連結。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
 "Document policy in formats that are unambiguous and machine-readable, such "
 "as those published by the [Object Management "
 "Group](https://www.omg.org/spec/)."
-msgstr "用明確且機器可讀的格式（像是[對象管理組織](https://www.omg.org/spec/"
-")發佈的格式）來紀錄政策。"
+msgstr "政策內容請使用明確且機器可讀的格式，像是[物件管理群體](https://www.omg.org/"
+"spec/)所發表的格式。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
 "Track policy with [the same version control](maintain-version-control.md) "
 "and documentation used to track source code."
-msgstr "利用[相同的版本控制l](maintain-version-control.md)以及用來追蹤原始碼的註解，來追蹤政策。"
+msgstr "追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control."
+"md)與文件。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
 "Check in regularly to understand how the source code in the codebase has "
 "changed and whether it still matches the [intentions of the "
 "policy](document-codebase-objectives.md)."
-msgstr "定期檢查，瞭解代碼庫中的原始碼如何變動，以及是否依舊符合[政策意圖](document-codebase-objectives.md)。"
+msgstr "定期檢查，瞭解代碼庫中的原始碼如何變動，以及是否仍然符合[政策意圖](document-"
+"codebase-objectives.md)。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
@@ -1898,45 +1906,46 @@ msgid ""
 "accessibility), or human rights policies, like a public organization's "
 "commitment to equal opportunity."
 msgstr ""
-"納入影響社群、代碼庫與發展的政策，包括[一般資料保護規則](https://eur-"
-"lex.europa.eu/eli/reg/2016/679/oj)或是 [歐盟無障礙指令](https://ec.europa.eu/digital-"
-"single-market/en/web-accessibility)這些法律義務，或是人權政策，像是公共組織對機會平等的承諾。"
+"納入會影響社會群體、代碼庫與開發目標的相關政策，包含[一般資料保護規則](https"
+"://eur-lex.europa.eu/eli/reg/2016/679/oj)或是 [歐盟網頁無障礙命令](https://ec"
+".europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是"
+"人權政策，例如公共組織對機會平等的承諾等。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 15 (header)
 msgid "Managers: what you need to do"
-msgstr "管理人員：您的義務"
+msgstr "管理人員：需要的工作"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 16 (unordered list)
 msgid ""
 "Keep policy makers, developers and designers involved and connected "
 "throughout the whole development process."
-msgstr "在整個開發流程中，讓政策制定者、開發人員與設計師全程參與。"
+msgstr "讓政策制定者、開發人員與設計師持續參與，並且在整個開發過程中保持聯繫溝通。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 16 (unordered list)
 msgid ""
 "Make sure policy makers, developers and designers are working to the same "
 "objectives."
-msgstr "確保政策制定者、開發人員與設計師有同樣的目標。"
+msgstr "確保政策制定者、開發人員與設計師朝相同目標努力。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 17 (header)
 msgid "Developers and designers: what you need to do"
-msgstr "開發人員與設計師：您的責任"
+msgstr "開發人員與設計師：需要的工作"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 18 (unordered list)
 msgid ""
 "Become familiar with and be able to use the process modelling notation that "
 "the policy makers in your organization use."
-msgstr "熟悉並且學會使用貴機構的政策制定者所使用的流程模型標記法。"
+msgstr "熟悉並且學會貴組織單位政策制定者所使用的流程模型標記法。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 18 (unordered list)
 msgid ""
 "Work together with policy makers to make sure there is no mismatch between "
 "policy code and source code."
-msgstr "與政策制定者合作，確保政策程式碼與原始碼沒有錯配。"
+msgstr "與政策制定者一同合作，確保政策法規與原始碼之間沒有不相符之處。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 18 (unordered list)
 msgid "Give feedback on how to make policy documentation more clear."
-msgstr "針對如何讓政策註解更明確提供意見回饋。"
+msgstr "針對如何讓政策文字更清楚提供意見。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 19 (header)
 msgid "Further reading"
@@ -1948,14 +1957,15 @@ msgid ""
 "Notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)"
 " on Wikipedia."
 msgstr ""
-"維基百科的[商業流程模型與標記法](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)。"
+"維基百科上的 [BPMN 業務流程模型與標記法](https://en.wikipedia.org/wiki/"
+"Business_Process_Model_and_Notation)。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 20 (unordered list)
 msgid ""
 "[BPMN Quick Guide](https://www.bpmnquickguide.com/view-bpmn-quick-guide/) by"
 " Trisotech."
 msgstr ""
-"Trisotech的[BPMN快速指引](https://www.bpmnquickguide.com/"
+"Trisotech 提供的 [BPMN 快速指南](https://www.bpmnquickguide.com/"
 "view-bpmn-quick-guide/)。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 20 (unordered list)
@@ -1964,13 +1974,14 @@ msgid ""
 "Notation](https://en.wikipedia.org/wiki/Decision_Model_and_Notation) on "
 "Wikipedia."
 msgstr ""
-"維基百科的[決策模型與標記法](https://en.wikipedia.org/wiki/Decision_Model_and_Notation)。"
+"維基百科上的 [DMN 決策模型與標記法](https://en.wikipedia.org/wiki/"
+"Decision_Model_and_Notation)。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 20 (unordered list)
 msgid ""
 "[Case Management Model Notation](https://en.wikipedia.org/wiki/CMMN) on "
 "Wikipedia."
-msgstr "維基百科的[案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。"
+msgstr "維基百科上的[ CMMN 案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。"
 
 #: ./criteria/code-in-the-open.md:block 3 (header)
 msgid "order: 1"
@@ -1978,7 +1989,7 @@ msgstr "order: 1"
 
 #: ./criteria/code-in-the-open.md:block 4 (header)
 msgid "Code in the open"
-msgstr "以開放精神編寫原始碼"
+msgstr "原始碼要開放"
 
 #: ./criteria/code-in-the-open.md:block 5 (paragraph)
 msgid ""
@@ -1986,45 +1997,51 @@ msgid ""
 "code](../glossary.md#source-code) quality, makes the source code easier to "
 "audit, and enables collaboration."
 msgstr ""
-"開放的編碼能夠提高透明度、改善[原始碼](../glossary.md#source-code)品質、讓原始碼更容易稽查，並且讓協作更容易。"
+"以開放精神編寫原始碼，能改善資訊透明、提高[原始碼](../glossary.md#source-"
+"code)品質、讓原始碼更容易稽核，也能促進互相協作。"
 
 #: ./criteria/code-in-the-open.md:block 6 (paragraph)
 msgid ""
 "Together, this creates more opportunities for citizens to understand how "
 "software and [policy](../glossary.md#policy) impact their interactions with "
 "a public organization."
-msgstr "這讓市民更能夠瞭解軟體與[政策](../glossary.md#policy)如何影響他們與公共組織的互動。"
+msgstr "這些加在一起，讓公民更有機會瞭解軟體與[政策](../glossary."
+"md#policy)如何影響他們與公共組織的互動。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
 "All source code for any policy in use (unless used for fraud detection) MUST"
 " be published and publicly accessible."
-msgstr "任何使用中政策的原始碼（用於偵測詐欺的原始碼除外）都必須公開，且能供民眾取用。"
+msgstr "任何使用中政策的所有原始碼都必須要公開（用於偵測詐欺的原始碼除外），且能供民"
+"眾取用。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
 "All source code for any software in use (unless used for fraud detection) "
 "MUST be published and publicly accessible."
-msgstr "任何使用中軟體的原始碼（用於偵測詐欺的原始碼除外）都必須公開，且能供民眾取用。"
+msgstr "任何使用中軟體的所有原始碼都必須要公開（用於偵測詐欺的原始碼除外），且能供民"
+"眾取用。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST NOT contain sensitive information regarding users, their "
 "organization or third parties."
-msgstr "代碼庫「禁止」包含使用者、使用者機構或第三方的敏感資料。"
+msgstr "代碼庫「禁止」包含與使用者及其組織單位，或與第三方相關的敏感性資訊。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
 "Any source code not currently in use (such as new versions, proposals or "
 "older versions) SHOULD be published."
-msgstr "目前沒有使用的任何原始碼（像是新版本、提案或舊版本）都「應該（Should）」公佈。"
+msgstr "目前非使用中的任何原始碼（像是新版本、提案版本，或較舊版本）都「應該」公開。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
 "Documenting which source code or policy underpins any specific interaction "
 "the [general public](../glossary.md#general-public) may have with an "
 "organization is OPTIONAL."
-msgstr "可選擇是否要紀錄支撐[社會大眾](../glossary.md#general-public)與任何組織互動的原始碼或政策。"
+msgstr ""
+"可選擇是否要以文件記錄[一般大眾](../glossary.md#general-public)與組織單位之間"
+"可能發生的任何特定互動，其背後所採用的原始碼或支持的政策。"
 
 #: ./criteria/code-in-the-open.md:block 10 (unordered list)
 msgid ""
@@ -2032,21 +2049,23 @@ msgid ""
 "the internet where it can be seen from outside the original contributing "
 "organization and without the need for any form of authentication or "
 "authorization."
-msgstr "確認目前使用的所有版本的原始碼，都有公佈在網路上，且非原始貢獻組織的民眾無須任何形式的驗證或認證也可以看到。"
+msgstr "確認目前使用中的每個版本都有公布原始碼在網際網路上，而且民眾不需要經過任何形"
+"式的身分核對或授權，就能在原始貢獻組織以外，查看這些原始碼。"
 
 #: ./criteria/code-in-the-open.md:block 10 (unordered list)
 msgid ""
 "Confirm that the [codebase](../glossary.md#codebase) files and commit "
 "history do not include sensitive information."
-msgstr "確認[代碼庫](../glossary.md#codebase)檔案與提交紀錄不包含敏感性資訊。"
+msgstr "確認[代碼庫](../glossary."
+"md#codebase)檔案與送交版次歷史紀錄，不包含敏感性資訊。"
 
 #: ./criteria/code-in-the-open.md:block 10 (unordered list)
 msgid "Check for the publication of source code not currently in use."
-msgstr "檢查現在沒有使用的原始碼是否有公開。"
+msgstr "檢查目前非使用中的原始碼是否有公開。"
 
 #: ./criteria/code-in-the-open.md:block 12 (unordered list)
 msgid "Develop policies in the open."
-msgstr "以開放精神制定政策。"
+msgstr "制定合乎開放精神的政策。"
 
 #: ./criteria/code-in-the-open.md:block 12 (unordered list)
 msgid "Prioritize open and transparent policies."
@@ -2066,14 +2085,14 @@ msgid ""
 "As a reviewer, for each commit, verify that content does not include "
 "sensitive information such as configurations, usernames or passwords, public"
 " keys or other real credentials used in production systems."
-msgstr ""
-"審查人員在檢核每次的程式碼提交紀錄時，要確實核對內容沒有包含組態設定、使用者名稱或密碼、公開金鑰，或其他產品系統中使用的實名憑證等敏感性資訊。"
+msgstr "審查人員在檢核每次的送交版次紀錄時，要確實核對內容沒有包含組態設定、使用者名"
+"稱或密碼、公開金鑰，或其他產品系統中使用的實名憑證等敏感性資訊。"
 
 #: ./criteria/code-in-the-open.md:block 16 (unordered list)
 msgid ""
 "Clearly split data and source code, in order to meet the requirement about "
 "sensitive information above."
-msgstr "為符合上述敏感性資訊的相關規定，請明確分開資料與程式碼。"
+msgstr "為符合上述敏感性資訊的相關規定，請明確分開資料與原始碼。"
 
 #: ./criteria/code-in-the-open.md:block 18 (unordered list)
 msgid ""
