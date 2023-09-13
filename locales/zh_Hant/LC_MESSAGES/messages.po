@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-13 02:12+0000\n"
+"PO-Revision-Date: 2023-09-14 15:44+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -405,7 +405,7 @@ msgstr "調整程式碼撰寫風格要求，專注於代碼庫上，而非貢獻
 msgid ""
 "Moved requirement for codebase names to Make the codebase findable from Use "
 "plain English."
-msgstr "將代碼庫名稱規定，從〈使用白話的英文〉移動到〈代碼庫可查詢得到〉。"
+msgstr "將代碼庫名稱規定，從〈使用白話的英文〉移到〈代碼庫可查詢得到〉。"
 
 #: ./CHANGELOG.md:block 13 (unordered list)
 msgid ""
@@ -1164,7 +1164,8 @@ msgstr "為文件與程式碼提出拉取請求"
 msgid ""
 "If you want to add to the documentation or code of one of our projects you "
 "should make a pull request."
-msgstr "如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求。"
+msgstr "如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求 (Pull "
+"Request，亦可簡稱 PR)。"
 
 #: ./CONTRIBUTING.md:block 12 (paragraph)
 msgid ""
@@ -1235,7 +1236,7 @@ msgid ""
 msgstr ""
 "將您所作的變更內容加入送交版次，[並附上內容說明](https://robots.thoughtbot."
 "com/5-useful-tips-for-a-better-commit-message)。如果需要作出多種類型的變更，"
-"請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。例如，修正空白，"
+"請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。例如：修正空白、"
 "以及文字內容更動，兩者應該放在不同的送交版次中。當新增檔案時，請選用容易以「`"
 "diff` 」檢視的檔案格式，如「`.svg` 」格式就勝過二進位影像。在送交版次訊息中，"
 "請記錄您所作的選擇與決策，如此未來其他人都能知道您當時的抉擇。"
@@ -1753,7 +1754,7 @@ msgstr ""
 "本標準採用 CC0 "
 "公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。CC0 代表任"
 "何人都能任意使用這些內容。如果您是貢獻者，代表您也將這些權利賦予他人。若要進"
-"一步瞭解如何協助本專案，請參閱[貢獻指引](CONTRIBUTING.md)。"
+"一步瞭解如何協助本專案，請參閱《[貢獻指引](CONTRIBUTING.md)》。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 3 (paragraph)
 msgid "order: 2 redirect_from:"
@@ -5671,7 +5672,7 @@ msgstr "舉例而言，城市的居民視為該城市的服務，以及驅動這
 
 #: ./glossary.md:block 16 (header)
 msgid "Open source"
-msgstr "開源或開放原始碼"
+msgstr "開源或開放原始碼 (Open Source)"
 
 #: ./glossary.md:block 17 (paragraph)
 msgid ""
@@ -5881,7 +5882,7 @@ msgid ""
 "endif%}{% endfor %}"
 msgstr ""
 "{% for page in site.pages %}{% if page.name == \"foreword.md\" %} "
-"其他情境與背景資訊請參閱[序文](foreword.md). {% endif%}{% endfor %}"
+"其他情境與背景資訊請參閱[序文](foreword.md)。 {% endif%}{% endfor %}"
 
 #: ./index.md:block 10 (header)
 msgid "Contents"
@@ -5889,7 +5890,7 @@ msgstr "目次"
 
 #: ./index.md:block 11 (unordered list)
 msgid "[Readers guide: how to interpret this standard](readers-guide.md)"
-msgstr "[讀者指引：如何詮釋此標準](readers-guide.md)"
+msgstr "[讀者指引：如何解讀此標準](readers-guide.md)"
 
 #: ./index.md:block 11 (unordered list)
 msgid "[Glossary](glossary.md)"
