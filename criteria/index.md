@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 order: 0
 ---
-# 標準
+# 準則
 
 {% assign sorted = site.pages | sort:"order" %}
 
