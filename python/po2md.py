@@ -16,10 +16,10 @@ def main():
     md_files = [file for file in md_files if not file.startswith(SOURCE_FOLDER)]
 
     # 3A. backup md file (複製一次)
-    # backup_md_files(md_files)
+    backup_md_files(md_files)
 
-    # 3B. restore md file (複製一次)
-    restore_md_files(md_files)
+    # 3B. restore md file
+    # restore_md_files(md_files)
 
     # 4. run po2md
     for file in md_files:
