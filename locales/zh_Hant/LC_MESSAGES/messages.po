@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-14 15:44+0000\n"
+"PO-Revision-Date: 2023-09-15 15:51+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -239,7 +239,7 @@ msgstr "新增規定，記錄預期由何者負擔審核貢獻內容所需的開
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid "Add requirement to have a short description of the codebase."
-msgstr "新增規定，代碼庫必須要有簡短說明。"
+msgstr "新增規定，程式基底必須要有簡短說明。"
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid ""
@@ -249,7 +249,7 @@ msgstr "原先專注在貢獻內容是否遵循標準，現在則改為注重貢
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid "Relaxed MUST requirements to SHOULD in Make the codebase findable."
-msgstr "將〈代碼庫可查詢得到〉中許多「必須」等級的規定，調降為「應該」等級。"
+msgstr "將〈程式基底可查詢得到〉中許多「必須」等級的規定，調降為「應該」等級。"
 
 #: ./CHANGELOG.md:block 7 (unordered list)
 msgid "Review template now in HTML format."
@@ -306,7 +306,7 @@ msgstr "對安全性區分出兩項規定，一是要有提供方法，另一個
 msgid ""
 "Rephrased requirements to focus on the codebase rather than contributor "
 "behavior."
-msgstr "重新撰寫規定，將焦點放在代碼庫，而非貢獻者行為。"
+msgstr "重新撰寫規定，將焦點放在程式基底，而非貢獻者行為。"
 
 #: ./CHANGELOG.md:block 10 (unordered list)
 msgid ""
@@ -399,13 +399,13 @@ msgstr "2023年1月25日：🎨第十三版草稿焦點著重在文件紀錄風�
 msgid ""
 "Adjust the coding style requirement to focus on the codebase using a style "
 "guide rather than contributor behavior."
-msgstr "調整程式碼撰寫風格要求，專注於代碼庫上，而非貢獻者行為。"
+msgstr "調整程式碼撰寫風格要求，專注於程式基底上，而非貢獻者行為。"
 
 #: ./CHANGELOG.md:block 13 (unordered list)
 msgid ""
 "Moved requirement for codebase names to Make the codebase findable from Use "
 "plain English."
-msgstr "將代碼庫名稱規定，從〈使用白話的英文〉移到〈代碼庫可查詢得到〉。"
+msgstr "將程式基底名稱規定，從〈使用白話的英文〉移到〈程式基底可查詢得到〉。"
 
 #: ./CHANGELOG.md:block 13 (unordered list)
 msgid ""
@@ -437,13 +437,13 @@ msgstr "2022年12月5日：📝第十二版草稿指出要以文件記錄成熟�
 msgid ""
 "Document maturity focuses on whether or not versions of the codebase are "
 "ready to use."
-msgstr "寫下成熟度著重於代碼庫是否已經可供使用，更甚於版本編號。"
+msgstr "寫下成熟度著重於程式基底是否已經可供使用，更甚於版本編號。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid ""
 "Document maturity no longer requires specific labels for codebases that are "
 "not ready to use."
-msgstr "寫下成熟度不再需要為尚未準備好可供使用的代碼庫加上特定標籤。"
+msgstr "寫下成熟度不再需要為尚未準備好可供使用的程式基底加上特定標籤。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Audit flow image now generated from an easier to translate format."
@@ -505,7 +505,7 @@ msgstr "2022年9月7日：🔭第十一版草稿新增可查找性準則。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Introduce new criterion: Make the codebase findable."
-msgstr "導入新準則：代碼庫可查詢得到。"
+msgstr "導入新準則：程式基底可查詢得到。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Improve How to test section for most criteria."
@@ -556,7 +556,7 @@ msgstr "將規定重新調整為項目要點清單格式。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Acknowledge the importance of codebase modularity for reuse."
-msgstr "告知代碼庫成熟度對於重複使用時的重要性。"
+msgstr "告知程式基底成熟度對於重複使用時的重要性。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Move requirements related to Findability to the new criterion."
@@ -564,7 +564,7 @@ msgstr "將可查找性相關規定移動到新準則中。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Clarify the role of non-open standards when used in a codebase."
-msgstr "釐清非開放標準在代碼庫中的角色。"
+msgstr "釐清非開放標準在程式基底中的角色。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Additional guidance about build-time and runtime dependencies."
@@ -770,7 +770,7 @@ msgstr "指出 publiccode.yml 是機器可讀中介資料說明的範例之一�
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Changed \"your codebase\" and \"your organization\" to be less possessive."
-msgstr "將「您的代碼庫」與「您的組織單位」改為較不具有所有格的寫法。"
+msgstr "將「您的程式基底」與「您的組織單位」改為較不具有所有格的寫法。"
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Add instructions for creating a print version."
@@ -856,13 +856,13 @@ msgstr "將〈歡迎貢獻〉準則拆分為〈貢獻要容易〉以及〈歡迎
 msgid ""
 "Rename criterion \"Pay attention to codebase maturity\" to \"Document "
 "codebase maturity\"."
-msgstr "將〈注意代碼庫成熟度〉準則改名為〈記錄代碼庫成熟度〉。"
+msgstr "將〈注意程式基底成熟度〉準則改名為〈記錄程式基底成熟度〉。"
 
 #: ./CHANGELOG.md:block 34 (unordered list)
 msgid ""
 "Changed MUST to SHOULD for requirement of codebase in use by multiple "
 "parties."
-msgstr "針對多方使用的代碼庫，將「必須」等級規定調降為「應該」。"
+msgstr "針對多方使用的程式基底，將「必須」等級規定調降為「應該」。"
 
 #: ./CHANGELOG.md:block 34 (unordered list)
 msgid "Add MUST NOT requirement regarding copyright assignment."
@@ -1133,8 +1133,8 @@ msgid ""
 "Issues for the Standard for Public "
 "Code](https://github.com/publiccodenet/standard/issues)."
 msgstr ""
-"[發展路線圖](/docs/roadmap.md)中可查看我們勾勒的精要概覽。歡迎回報問題、建議"
-"修改，以及發問等，來協助發展。您可以到 [Standard for Public Code 的 GitHub "
+"在[發展路線圖](/docs/roadmap.md)中可查看我們勾勒的精要概覽。歡迎回報問題、建"
+"議修改，以及發問等，來協助發展。您可以到 [Standard for Public Code 的 GitHub "
 "Issue](https://github.com/publiccodenet/standard/issues) 頁面中，為本專案["
 "提出 GitHub 議題](https://docs.github.com/en/issues/"
 "tracking-your-work-with-issues/creating-an-issue)。"
@@ -1418,8 +1418,8 @@ msgid ""
 "[Foundation for Public Code](https://publiccode.net/). We decide if a "
 "codebase is ready for community co-development based on this document."
 msgstr ""
-"本標準是 [Foundation for Public Code](https://publiccode.net/) 在代碼庫盡職管"
-"理領域作監督時的核心。我們依照這份文件來判斷，某個代碼庫是否已經準備好讓社群"
+"本標準是 [Foundation for Public Code](https://publiccode.net/) 在程式基底盡職"
+"管理作監督時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群"
 "共同參與開發。"
 
 #: ./GOVERNANCE.md:block 5 (paragraph)
@@ -1512,11 +1512,11 @@ msgid ""
 " version 1.0 release. Currently, we are testing it on a small number of "
 "codebases."
 msgstr "《Standard for Public Code》目前為草稿階段。我們正在準備發行 1.0 "
-"版，目前仍在幾個代碼庫中作測試。"
+"版，目前仍在幾個程式基底中作測試。"
 
 #: ./README.md:block 7 (header)
 msgid "Applying the Standard for Public Code to your codebase"
-msgstr "將《Standard for Public Code》套用您的代碼庫"
+msgstr "將《Standard for Public Code》套用您的程式基底"
 
 #: ./README.md:block 8 (paragraph)
 msgid ""
@@ -1527,9 +1527,9 @@ msgid ""
 "will give you a rough idea of how much work you may need to do to meet all "
 "criteria."
 msgstr ""
-"若您想要將《Standard for Public Code》套用您的代碼庫，就請放心去做，因為它是"
-"人人都能自由採用的開放標準。若要瞭解您代碼庫所達成的程度，可以做[自我資格評估"
-"](https://publiccodenet.github.io/assessment-"
+"若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它"
+"是人人都能自由採用的開放標準。若要瞭解您程式基底所達成的程度，可以做[自我資格"
+"評估](https://publiccodenet.github.io/assessment-"
 "eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。"
 
 #: ./README.md:block 9 (paragraph)
@@ -1541,9 +1541,9 @@ msgid ""
 "guide](https://publiccodenet.github.io/community-implementation-guide-"
 "standard/) which contains examples and other tips."
 msgstr ""
-"本標準 *應該* 足以自我解釋要如何套用到您的代碼庫中。若標準中有任何不明確的地"
-"方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。如"
-"果需要一點靈感啟發，請參閱[社群製作的《實踐指引》](https://publiccodenet."
+"本標準 *應該* 足以自我解釋要如何套用到您的程式基底中。若標準中有任何不明確的"
+"地方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。"
+"如果需要一點靈感啟發，請參閱[社群製作的《實踐指引》](https://publiccodenet."
 "github.io/community-implementation-guide-standard/)，其中包括範例與其他提示。"
 
 #: ./README.md:block 10 (paragraph)
@@ -1554,7 +1554,7 @@ msgid ""
 msgstr ""
 "若新版的《Standard for Public Code》有任何導致過去作法不再適用的改動，則 "
 "Foundation for Public Code "
-"的代碼庫管事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
+"的程式基底管事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
 
 #: ./README.md:block 11 (paragraph)
 msgid ""
@@ -1564,8 +1564,8 @@ msgid ""
 "[assessment](https://about.publiccode.net/activities/codebase-"
 "stewardship/lifecycle-diagram.html#assessment)."
 msgstr ""
-"若您致力讓您的代碼庫完全遵循此標準，並想在未來能取得認證，請寫信與我們聯繫：["
-"info@publiccode.net](mailto:info@publiccode."
+"若您致力讓您的程式基底完全遵循此標準，並想在未來能取得認證，請寫信與我們聯繫"
+"：[info@publiccode.net](mailto:info@publiccode."
 "net)，以展開正式[評估](https://about.publiccode.net/activities/"
 "codebase-stewardship/lifecycle-diagram.html#assessment)。"
 
@@ -1589,8 +1589,8 @@ msgid ""
 "This standard sets a quality level for codebases that meets the needs of "
 "public organizations, institutions and administrations as well as other "
 "critical infrastructural services."
-msgstr "本標準為代碼庫設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以及"
-"其他重大基礎設施服務的需求。"
+msgstr "本標準為程式基底設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以"
+"及其他重大基礎設施服務的需求。"
 
 #: ./README.md:block 15 (paragraph)
 msgid ""
@@ -1775,7 +1775,7 @@ msgid ""
 "anyone to implement the codebase in their local context or contribute to the"
 " further development of the [codebase](../glossary.md#codebase)."
 msgstr ""
-"對於想根據所在情境實作代碼庫的人，或是想更進一步貢獻[代碼庫](../glossary."
+"對於想根據所在情境實作程式基底的人，或是想更進一步貢獻[程式基底](../glossary."
 "md#codebase)開發的人來說，能同時取用[原始碼](../glossary.md#source-"
 "code)與[政策](../glossary.md#policy)文件兩者，可作為建置成品時的基礎組件。"
 
@@ -1784,8 +1784,8 @@ msgid ""
 "Understanding the domain and policies within that domain is fundamental to "
 "understanding what problems a codebase is trying to solve and how it sets "
 "out to solve them."
-msgstr "瞭解作用範疇與該範疇的政策是基本原則，才能瞭解代碼庫試圖想解決的問題是什麼，"
-"以及該如何解決這些問題的作法。"
+msgstr "瞭解作用範疇與該範疇的政策是基本原則，才能瞭解程式基底試圖想解決的問題是什麼"
+"，以及該如何解決這些問題的作法。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 8 (paragraph)
 msgid ""
@@ -1793,8 +1793,9 @@ msgid ""
 "organization needs to understand what process changes it must choose to make"
 " or how to contribute additional configurability to the existing solution in"
 " order to adapt it to the new context."
-msgstr "為了評估是否需要在新的情境中實作代碼庫，組織單位需要瞭解必須做出改變的程序有"
-"哪些，或是如何對現有解決方案付出額外調整設定，以適應新的情境背景。"
+msgstr ""
+"為了評估是否需要在新的情境中實作程式基底，組織單位需要瞭解必須做出改變的程序"
+"有哪些，或是如何對現有解決方案付出額外調整設定，以適應新的情境背景。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 9 (header)
 msgid "Requirements"
@@ -1802,14 +1803,14 @@ msgstr "需求規定"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid "The codebase MUST include the policy that the source code is based on."
-msgstr "代碼庫「必須」包含原始碼所根據的政策。"
+msgstr "程式基底「必須」包含原始碼所根據的政策。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid ""
 "If a policy is based on source code, that source code MUST be included in "
 "the codebase, unless used for fraud detection."
-msgstr "如果政策根據原始碼而來，則該原始碼「必須」包含在代碼庫中，用於偵測詐騙的原始"
-"碼則可除外。"
+msgstr "如果政策根據原始碼而來，則該原始碼「必須」包含在程式基底中，用於偵測詐騙的原"
+"始碼則可除外。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 10 (unordered list)
 msgid "Policy SHOULD be provided in machine readable and unambiguous formats."
@@ -1869,7 +1870,7 @@ msgid ""
 msgstr ""
 "提供相關政策內文，以便收錄於[儲存庫](../glossary.md#repository)中；如果政策內"
 "文沒有英文版，請提供英文版摘要。務必也同時包含貴組織單位所選擇遵守的各項標準"
-"，以及影響貴組織單位代碼庫開發或部署情境的任何組織單位流程。"
+"，以及影響貴組織單位程式基底開發或部署情境的任何組織單位流程。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid "Provide references and links to texts which support the policies."
@@ -1895,8 +1896,8 @@ msgid ""
 "Check in regularly to understand how the source code in the codebase has "
 "changed and whether it still matches the [intentions of the "
 "policy](document-codebase-objectives.md)."
-msgstr "定期檢查，瞭解代碼庫中的原始碼如何變動，以及是否仍然符合[政策意圖](document-"
-"codebase-objectives.md)。"
+msgstr "定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合[政策意圖"
+"](document-codebase-objectives.md)。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
 msgid ""
@@ -1907,7 +1908,7 @@ msgid ""
 "accessibility), or human rights policies, like a public organization's "
 "commitment to equal opportunity."
 msgstr ""
-"納入會影響社會群體、代碼庫與開發目標的相關政策，包含 [GDPR "
+"納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR "
 "一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是 "
 "[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-access"
 "ibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承諾等。"
@@ -2006,7 +2007,7 @@ msgid ""
 "Together, this creates more opportunities for citizens to understand how "
 "software and [policy](../glossary.md#policy) impact their interactions with "
 "a public organization."
-msgstr "這些加在一起，讓公民更有機會瞭解軟體與[政策](../glossary."
+msgstr "這些合在一起，讓公民更有機會瞭解軟體與[政策](../glossary."
 "md#policy)如何影響他們與公家機關的互動。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
@@ -2027,7 +2028,7 @@ msgstr "任何使用中軟體的所有原始碼都「必須」要公開（用於
 msgid ""
 "The codebase MUST NOT contain sensitive information regarding users, their "
 "organization or third parties."
-msgstr "代碼庫「禁止」包含與使用者及其組織單位，或與第三方相關的敏感性資訊。"
+msgstr "程式基底「禁止」包含與使用者及其組織單位，或與第三方相關的敏感性資訊。"
 
 #: ./criteria/code-in-the-open.md:block 8 (unordered list)
 msgid ""
@@ -2057,7 +2058,7 @@ msgstr "確認目前使用中的每個版本都有公布原始碼在網際網路
 msgid ""
 "Confirm that the [codebase](../glossary.md#codebase) files and commit "
 "history do not include sensitive information."
-msgstr "確認[代碼庫](../glossary."
+msgstr "確認[程式基底](../glossary."
 "md#codebase)檔案與送交版次歷史紀錄，不包含敏感性資訊。"
 
 #: ./criteria/code-in-the-open.md:block 10 (unordered list)
@@ -2150,7 +2151,7 @@ msgstr ""
 
 #: ./criteria/document-codebase-maturity.md:block 4 (header)
 msgid "Document codebase maturity"
-msgstr "記錄代碼庫成熟度"
+msgstr "記錄程式基底成熟度"
 
 #: ./criteria/document-codebase-maturity.md:block 5 (paragraph)
 msgid ""
@@ -2160,32 +2161,32 @@ msgid ""
 "codebase has evolved is key to understanding the codebase and how to "
 "contribute to it."
 msgstr ""
-"清楚標示[代碼庫](../glossary.md#codebase)的成熟度，有助於他人決定是否要使用，"
-"或為該代碼庫做出貢獻。代碼庫版本的成熟度，包含其依賴項目的成熟度。瞭解代碼庫"
-"演進到什麼程度，是理解該代碼庫並知道如何做出貢獻的關鍵。"
+"清楚標示[程式基底](../glossary.md#codebase)的成熟度，有助於他人決定是否要使用"
+"，或為該程式基底做出貢獻。程式基底版本的成熟度，包含其依賴項目的成熟度。瞭解"
+"程式基底演進到什麼程度，是理解該程式基底並知道如何做出貢獻的關鍵。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid "The codebase MUST be versioned."
-msgstr "代碼庫「必須」註明版本編號。"
+msgstr "程式基底「必須」註明版本編號。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid ""
 "The codebase MUST prominently document whether or not there are versions of "
 "the codebase that are ready to use."
-msgstr "代碼庫「必須」明確以文件記錄，是否有已經準備好可供使用的版本。"
+msgstr "程式基底「必須」明確以文件記錄，是否有已經準備好可供使用的版本。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid ""
 "Codebase versions that are ready to use MUST only depend on versions of "
 "other codebases that are also ready to use."
-msgstr "準備好可供使用的代碼庫版本，「必須」只能依賴其他也已經準備好可供使用的代碼庫"
-"版本。"
+msgstr "準備好可供使用的程式基底版本，「必須」只能依賴其他也已經準備好可供使用的程式"
+"基底版本。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid ""
 "The codebase SHOULD contain a log of changes from version to version, for "
 "example in the `CHANGELOG`."
-msgstr "代碼庫「應該」包含每次版本的變動紀錄，像是以「`CHANGELOG`」日誌格式檔記錄。"
+msgstr "程式基底「應該」包含每次版本的變動紀錄，像是以「`CHANGELOG`」日誌格式檔記錄。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid "The method for assigning version identifiers SHOULD be documented."
@@ -2193,31 +2194,31 @@ msgstr "「應該」要以文件記錄分配版本識別碼的方法。"
 
 #: ./criteria/document-codebase-maturity.md:block 7 (unordered list)
 msgid "It is OPTIONAL to use semantic versioning."
-msgstr "「可選擇」是否使用語意化版本控制編號。"
+msgstr "「可選擇」是否採用語意化版本控制編號。"
 
 #: ./criteria/document-codebase-maturity.md:block 9 (unordered list)
 msgid ""
 "Confirm that the codebase has a strategy for versioning which is documented."
-msgstr "確認代碼庫有版本編號策略，且有文件記載該策略。"
+msgstr "確認程式基底有版本編號策略，且有文件記載該策略。"
 
 #: ./criteria/document-codebase-maturity.md:block 9 (unordered list)
 msgid ""
 "Confirm that it is obvious to policy makers, managers, developers and "
 "designers whether the codebase has versions that are ready to use."
-msgstr "確認政策制定者、管理人員、開發人員與設計師等，都能清楚知道代碼庫是否有準備好"
-"可供使用的版本。"
+msgstr "確認政策制定者、管理人員、開發人員與設計師等，都能清楚知道程式基底是否有準備"
+"好可供使用的版本。"
 
 #: ./criteria/document-codebase-maturity.md:block 9 (unordered list)
 msgid ""
 "Confirm that ready to use versions of the codebase do not depend on any "
 "versions of other codebases that are not ready to use."
-msgstr "確認準備好可供使用的代碼庫版本，並不依賴任何尚未準備好可供使用的其他代碼庫的"
-"版本。"
+msgstr "確認準備好可供使用的程式基底版本，並不依賴任何尚未準備好可供使用的其他程式基"
+"底的版本。"
 
 #: ./criteria/document-codebase-maturity.md:block 9 (unordered list)
 msgid ""
 "Check that the versioning scheme of the codebase is documented and followed."
-msgstr "確認有文件記錄代碼庫的版本編號方法，並且確實遵守。"
+msgstr "確認有文件記錄程式基底的版本編號方法，並且確實遵守。"
 
 #: ./criteria/document-codebase-maturity.md:block 9 (unordered list)
 msgid "Check that there is a log of changes."
@@ -2229,34 +2230,34 @@ msgid ""
 " code](../glossary.md#source-code) developed needs to be tested and improved"
 " before it can be put into service."
 msgstr ""
-"制定[政策](../glossary.md#policy)時，請記住任何開發出來的 "
-"[原始碼](../glossary.md#source-code) 都必須先經過測試與改善，才能夠投入服務。"
+"制定[政策](../glossary.md#policy)時，請記住任何開發出來的[原始碼](../glossary"
+".md#source-code)都必須先經過測試與改善，才能夠投入服務。"
 
 #: ./criteria/document-codebase-maturity.md:block 11 (unordered list)
 msgid ""
 "Consider versioning policy changes, especially when they trigger new "
 "versions of the source code."
-msgstr "考慮將政策的變動註明版本編號，尤其是因而觸發開發新版本原始碼的情況。"
+msgstr "考慮將政策的變動註明版本編號，尤其是因而觸發新版本原始碼開發的情況。"
 
 #: ./criteria/document-codebase-maturity.md:block 13 (unordered list)
 msgid ""
 "Make sure that services only rely on versions of codebases of equal or "
 "greater maturity than the service. For example, don't use a beta version of "
 "a codebase in a production service."
-msgstr "要確認服務依賴的代碼庫版本成熟度，等同或高於該服務本身。舉例來說，"
-"正式上線的服務不要使用 beta 公測版代碼庫。"
+msgstr "要確認服務依賴的程式基底版本成熟度，等同或高於該服務本身。舉例來說，"
+"正式上線的服務不要使用 beta 公測版程式基底。"
 
 #: ./criteria/document-codebase-maturity.md:block 15 (unordered list)
 msgid ""
 "Make sure that the codebase versioning approach is followed for all "
 "releases."
-msgstr "確認所有發行版，都有遵守代碼庫的版本控制編號作法。"
+msgstr "確認所有發行版，都有遵守程式基底的版本控制編號作法。"
 
 #: ./criteria/document-codebase-maturity.md:block 17 (unordered list)
 msgid ""
 "[Semantic Versioning Specification](https://semver.org/) used by many "
 "codebases to label versions."
-msgstr "許多代碼庫使用「[語意化版本編號規範](https://semver.org/)」來標示版本。"
+msgstr "許多程式基底使用「[語意化版本編號規範](https://semver.org/)」來標示版本。"
 
 #: ./criteria/document-codebase-maturity.md:block 17 (unordered list)
 msgid ""
@@ -2290,7 +2291,7 @@ msgstr "criteria/document-objectives"
 
 #: ./criteria/document-codebase-objectives.md:block 5 (header)
 msgid "Document codebase objectives"
-msgstr "代碼庫要有目標文件"
+msgstr "程式基底要有目標文件"
 
 #: ./criteria/document-codebase-objectives.md:block 6 (paragraph)
 msgid ""
@@ -2300,49 +2301,49 @@ msgid ""
 "provide an easy way for people to decide whether this codebase, or one of "
 "its modules, is interesting for them now or in the future."
 msgstr ""
-"以文件清楚記錄[代碼庫](../glossary.md#codebase)目標，來傳達代碼庫的用途目標。"
-"這能幫助利害關係人與貢獻者劃定代碼庫的開發範圍。這些目標也能方便人們判斷，是"
-"否在當下或未來，會對此代碼庫或其模組感興趣。"
+"以文件清楚記錄[程式基底](../glossary.md#codebase)目標，來傳達程式基底的用途目"
+"標。這能幫助利害關係人與貢獻者劃定程式基底的開發範圍。這些目標也能方便人們判"
+"斷，是否在當下或未來，會對此程式基底或其模組感興趣。"
 
 #: ./criteria/document-codebase-objectives.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST contain documentation of its objectives, like a mission "
 "and goal statement, that is understandable by developers and designers so "
 "that they can use or contribute to the codebase."
-msgstr "代碼庫「必須」包含描寫目標的文件，像是主旨、使命或目標陳述。開發人員與設計師"
-"需要能夠瞭解這些，他們才知道可以怎樣使用代碼庫或協助貢獻。"
+msgstr "程式基底「必須」包含描寫目標的文件，像是主旨、使命或目標陳述。開發人員與設計"
+"師需要能夠瞭解這些，他們才知道可以怎樣使用程式基底或協助貢獻。"
 
 #: ./criteria/document-codebase-objectives.md:block 8 (unordered list)
 msgid ""
 "Codebase documentation SHOULD clearly describe the connections between "
 "[policy](../glossary.md#policy) objectives and codebase objectives."
-msgstr "代碼庫文件「應該」清楚描述[政策](../glossary."
-"md#policy)目標與代碼庫目標之前的關聯。"
+msgstr "程式基底文件「應該」清楚描述[政策](../glossary."
+"md#policy)目標與程式基底目標之間的關聯。"
 
 #: ./criteria/document-codebase-objectives.md:block 8 (unordered list)
 msgid ""
 "Documenting the objectives of the codebase for the [general "
 "public](../glossary.md#general-public) is OPTIONAL."
 msgstr "「可選擇」是否以文件記錄給[一般大眾](../glossary.md#general-"
-"public)看的代碼庫目標。"
+"public)看的程式基底目標。"
 
 #: ./criteria/document-codebase-objectives.md:block 10 (unordered list)
 msgid ""
 "Confirm that the codebase documentation includes the codebase objectives, "
 "mission or goal."
-msgstr "確認代碼庫文件有包含代碼庫目標，或主旨、使命等。"
+msgstr "確認程式基底文件有包含程式基底目標，或主旨、使命等。"
 
 #: ./criteria/document-codebase-objectives.md:block 10 (unordered list)
 msgid ""
 "Check for descriptions of connections between policy objectives and codebase"
 " objectives."
-msgstr "查看政策目標與代碼庫目標之間關聯的描述。"
+msgstr "查看政策目標與程式基底目標之間關聯的描述。"
 
 #: ./criteria/document-codebase-objectives.md:block 12 (unordered list)
 msgid ""
 "Add the policy objectives to the codebase documentation, for example in the "
 "`README`."
-msgstr "將政策目標加入代碼庫文件中，例如「`README`」文件當中。"
+msgstr "將政策目標加入程式基底文件中，例如「`README`」文件當中。"
 
 #: ./criteria/document-codebase-objectives.md:block 12 (unordered list)
 msgid ""
@@ -2350,20 +2351,20 @@ msgid ""
 "supporting policy documents added to meet the [Bundle policy and source "
 "code](bundle-policy-and-source-code.md) criterion."
 msgstr ""
-"確保所有代碼庫目標，有連結或引用為了符合[政策與原始碼要合捆](bundle-policy-"
-"and-source-code.md)準則而加入的支持政策文件。"
+"確保所有程式基底目標，有連結或引用為了符合〈[政策與原始碼要合捆](bundle-"
+"policy-and-source-code.md)〉準則而加入的支持政策文件。"
 
 #: ./criteria/document-codebase-objectives.md:block 14 (unordered list)
 msgid ""
 "Add the organizational and business objectives to the codebase "
 "documentation, for example in the `README`."
-msgstr "將單位目標、組織目標或業務目標加入代碼庫文件中，例如「`README`」文件當中。"
+msgstr "將單位目標、組織目標或業務目標加入程式基底文件中，例如「`README`」文件當中。"
 
 #: ./criteria/document-codebase-objectives.md:block 16 (unordered list)
 msgid ""
 "Add the technology and design objectives to the codebase documentation, for "
 "example in the `README`."
-msgstr "將技術與設計目標加入代碼庫文件中，例如「`README`」文件當中。"
+msgstr "將技術與設計目標加入程式基底文件中，例如「`README`」文件當中。"
 
 #: ./criteria/document-codebase-objectives.md:block 18 (unordered list)
 msgid ""
@@ -2394,8 +2395,8 @@ msgid ""
 "and contributing to it more quickly."
 msgstr ""
 "文件記錄周全的[原始碼](../glossary.md#source-code)能幫助人們瞭解該原始碼的作"
-"用與使用方式。文件紀錄是幫助人們快速上手[代碼庫](../glossary."
-"md#codebase)的使用並做出貢獻的關鍵。"
+"用與使用方式。文件紀錄是幫助人們快速上手如何使用[程式基底](../glossary."
+"md#codebase)，並做出貢獻的關鍵。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
@@ -2403,20 +2404,20 @@ msgid ""
 " well as source code, MUST be described in language clearly understandable "
 "for those that understand the purpose of the codebase."
 msgstr ""
-"代碼庫的所有功能、[政策](../glossary.md#policy)及原始碼，都「必須」以可清楚瞭"
-"解的用語描述，讓懂代碼庫目的用途的人也能夠理解。"
+"程式基底的所有功能、[政策](../glossary.md#policy)及原始碼，都「必須」以可清楚"
+"瞭解的用語描述，讓懂程式基底目的用途的人也能夠理解。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
 "The documentation of the codebase MUST contain a description of how to "
 "install and run the software."
-msgstr "代碼庫文件「必須」說明如何安裝與執行軟體。"
+msgstr "程式基底文件「必須」說明如何安裝與執行軟體。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
 "The documentation of the codebase MUST contain examples demonstrating the "
 "key functionality."
-msgstr "代碼庫文件「必須」為關鍵功能舉出範例。"
+msgstr "程式基底文件「必須」為關鍵功能舉出範例。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
@@ -2424,7 +2425,7 @@ msgid ""
 "that is clearly understandable for a wide audience of stakeholders, like the"
 " [general public](../glossary.md#general-public) and journalists."
 msgstr ""
-"代碼庫文件「應該」包含精要的說明，讓[一般大眾](../glossary.md#general-"
+"程式基底文件「應該」包含精要的說明，讓[一般大眾](../glossary.md#general-"
 "public)和記者等廣泛的利害關係人都能清楚明白。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
@@ -2432,22 +2433,22 @@ msgid ""
 "The documentation of the codebase SHOULD contain a section describing how to"
 " install and run a standalone version of the source code, including, if "
 "necessary, a test dataset."
-msgstr "代碼庫文件「應該」有一部分用來說明，如何安裝與執行單機版的原始碼；如果有必要"
-"，也應該包含測試資料集。"
+msgstr "程式基底文件「應該」有一部分用來說明，如何安裝與執行原始碼的單機版；如果有必"
+"要，也應該包含測試資料集。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
 "The documentation of the codebase SHOULD contain examples for all "
 "functionality."
-msgstr "代碼庫文件「應該」包含所有功能的範例。"
+msgstr "程式基底文件「應該」包含所有功能的範例。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
 "The documentation SHOULD describe the key components or modules of the "
 "codebase and their relationships, for example as a high level architectural "
 "diagram."
-msgstr "程式碼文件「應該」描述代碼庫的主要組件或模組，以及其彼此之間的關係，例如以高"
-"層架構圖表示。"
+msgstr "程式碼文件「應該」描述程式基底的主要組件或模組，以及其彼此之間的關係，例如以"
+"高層架構圖表示。"
 
 #: ./criteria/document-the-code.md:block 8 (unordered list)
 msgid ""
@@ -2460,7 +2461,7 @@ msgstr "「應該」要有針對文件品質的[持續整合](../glossary.md#con
 msgid ""
 "Including examples that make users want to immediately start using the "
 "codebase in the documentation of the codebase is OPTIONAL."
-msgstr "「可選擇」是否在代碼庫文件中，包含讓使用者想要立即使用代碼庫的範例。"
+msgstr "「可選擇」是否在程式基底文件中，包含讓使用者想要立即使用程式基底的範例。"
 
 #: ./criteria/document-the-code.md:block 10 (unordered list)
 msgid ""
@@ -2515,7 +2516,7 @@ msgstr "確認整合測試有包含到程式碼文件品質，例如確認生成
 msgid ""
 "Check in regularly to understand how the non-policy code in the codebase has"
 " changed."
-msgstr "定期查看代碼庫中非政策程式碼的變動情況。"
+msgstr "定期查看程式基底中非政策程式碼的變動情況。"
 
 #: ./criteria/document-the-code.md:block 12 (unordered list)
 msgid "Give feedback on how to make non-policy documentation more clear."
@@ -2527,8 +2528,10 @@ msgid ""
 " and source code are documented. For example, is the current documentation "
 "sufficient to persuade a manager at another public organization to use this "
 "codebase?"
-msgstr "嘗試使用代碼庫，並提供您的意見回饋來讓政策與原始碼文件改善得更加清楚。舉例來"
-"說，目前的文件是否足以說服另一個公家機關的管理人員使用這個代碼庫？"
+msgstr ""
+"嘗試使用程式基底，並提供您的意見回饋來讓政策與原始碼文件改善得更加清楚。舉例"
+"來說，可以自問目前的文件是否足以說服另一個公家機關的管理人員使用這個程式基底"
+"？"
 
 #: ./criteria/document-the-code.md:block 14 (unordered list)
 msgid ""
@@ -2540,7 +2543,7 @@ msgstr "確保您同時瞭解政策、原始碼以及文件內容。"
 msgid ""
 "Check in regularly to understand how the non-source code in the codebase has"
 " changed."
-msgstr "定期查看代碼庫中非原始碼部分的變動情況。"
+msgstr "定期查看程式基底中非原始碼部分的變動情況。"
 
 #: ./criteria/document-the-code.md:block 16 (unordered list)
 msgid "Give feedback on how to make non-source documentation more clear."
@@ -2600,14 +2603,14 @@ msgid ""
 "changes in parallel and helps future developers to understand the reasons "
 "for changes."
 msgstr ""
-"[版本控制](../glossary.md#version-control)代表追蹤[原始碼](../glossary.md"
-"#source-code)以及其他[代碼庫](../glossary.md#codebase)檔案歷來的變動。這能讓"
-"您為代碼庫維護有條理的變動歷史文件。這是大規模協作能運作的要素，使開發人員得"
-"以針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。"
+"[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md"
+"#source-code)以及其他[程式基底](../glossary.md#codebase)檔案歷來的變動。這能"
+"讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發"
+"人員可以針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。"
 
 #: ./criteria/maintain-version-control.md:block 8 (unordered list)
 msgid "All files in the codebase MUST be version controlled."
-msgstr "代碼庫中的所有檔案皆「必須」有版本控制。"
+msgstr "程式基底中的所有檔案皆「必須」有版本控制。"
 
 #: ./criteria/maintain-version-control.md:block 8 (unordered list)
 msgid "All decisions MUST be documented in commit messages."
@@ -2621,7 +2624,7 @@ msgstr "每份送交版次訊息皆「必須」盡可能附上討論與議題連
 #: ./criteria/maintain-version-control.md:block 8 (unordered list)
 msgid ""
 "The codebase SHOULD be maintained in a distributed version control system."
-msgstr "代碼庫「應該」以分散式版本控制系統作維護。"
+msgstr "程式基底「應該」以分散式版本控制系統作維護。"
 
 #: ./criteria/maintain-version-control.md:block 8 (unordered list)
 msgid ""
@@ -2633,8 +2636,8 @@ msgstr "貢獻守則「應該」要求貢獻者，將相關的修改變動以群
 msgid ""
 "Maintainers SHOULD mark released versions of the codebase, for example using"
 " revision tags or textual labels."
-msgstr "維護人員「應該」使用像是修訂版次標記，或文字標籤，來標示代碼庫正式發行的版本"
-"。"
+msgstr "維護人員「應該」使用像是修訂版次標記，或文字標籤，來標示程式基底正式發行的版"
+"本。"
 
 #: ./criteria/maintain-version-control.md:block 8 (unordered list)
 msgid ""
@@ -2656,7 +2659,7 @@ msgstr "貢獻者「可選擇」是否在提交內容中簽章，並附上電子
 msgid ""
 "Confirm that the codebase is kept in version control using software such as "
 "Git."
-msgstr "確認代碼庫維持在版本控制狀態中，像是使用 Git 之類的軟體。"
+msgstr "確認程式基底維持在版本控制狀態中，像是使用 Git 之類的軟體。"
 
 #: ./criteria/maintain-version-control.md:block 10 (unordered list)
 msgid ""
@@ -2686,20 +2689,21 @@ msgstr "審查送交版次歷史紀錄，檢查是否有根據貢獻指引將相
 msgid ""
 "Check that it is possible to access a specific version of the codebase, for "
 "example through a revision tag or a textual label."
-msgstr "檢查是否可能透過像是修訂版次標記，或文字標籤，來存取代碼庫中的特定版本。"
+msgstr "檢查是否可能透過像是修訂版次標記，或文字標籤，來取用程式基底中的特定版本。"
 
 #: ./criteria/maintain-version-control.md:block 10 (unordered list)
 msgid ""
 "Check that the file formats used in the codebase are text formats where "
 "possible."
-msgstr "檢查代碼庫在可能的情況下，檔案都是採用文字格式。"
+msgstr "檢查程式基底在盡可能的情況下，檔案都是採用文字格式。"
 
 #: ./criteria/maintain-version-control.md:block 12 (unordered list)
 msgid ""
 "If a new version of the codebase is created because of a "
 "[policy](../glossary.md#policy) change, make sure it's clear in the "
 "documentation:"
-msgstr "如果因為[政策](../glossary.md#policy)改變而在代碼庫中有新的版本，則請確認有在文件中清楚說明："
+msgstr "如果因為[政策](../glossary."
+"md#policy)改變而在程式基底中有新的版本，則請確認有在文件中清楚說明："
 
 #: ./criteria/maintain-version-control.md:block 12 (unordered list)
 msgid "what the policy change is,"
@@ -2707,26 +2711,28 @@ msgstr "政策改變的地方，"
 
 #: ./criteria/maintain-version-control.md:block 12 (unordered list)
 msgid "how it's changed the codebase."
-msgstr "代碼庫如何因應而改變。"
+msgstr "程式基底如何因應而改變。"
 
 #: ./criteria/maintain-version-control.md:block 13 (paragraph)
 msgid ""
 "For example, adding a new category of applicant to a codebase that manages "
 "granting permits would be considered a policy change."
-msgstr "舉例來說，在做權限管理賦予取用權的代碼庫中，如果要新增申請方類別，就會視為政策變動。"
+msgstr "舉例來說，為程式基底作權限管理時，如果要新增申請方類別來賦予取用權，應視為一"
+"種政策變動。"
 
 #: ./criteria/maintain-version-control.md:block 15 (unordered list)
 msgid ""
 "Support policy makers, developers and designers to be clear about what "
 "improvements they're making to the codebase. Making improvements isn't a "
 "public relations risk."
-msgstr "支持政策制定者、開發人員與設計師，使其能清楚表達他們對代碼庫做出的改善。確保改善代碼庫不會有公關風險。"
+msgstr "支持政策制定者、開發人員與設計師，使其能清楚表達他們對程式基底做出的改善。確"
+"保改善程式基底不會有公關風險。"
 
 #: ./criteria/maintain-version-control.md:block 17 (unordered list)
 msgid ""
 "Make sure that all files required to understand the code, build and deploy "
 "are in the version control system."
-msgstr "確認版本控制系統中，有瞭解程式碼、建置與部署所需的所有檔案。"
+msgstr "確認版本控制系統中，有瞭解程式碼、建置與部署所需要用到的所有檔案。"
 
 #: ./criteria/maintain-version-control.md:block 17 (unordered list)
 msgid ""
@@ -2738,7 +2744,7 @@ msgstr "送交版次訊息要寫清楚，讓人一看就能瞭解送交修改的
 msgid ""
 "Mark different versions so that it is easy to access a specific version, for"
 " example using revision tags or textual labels."
-msgstr "使用像是修訂版次標記，或文字標籤來標示不同版本，以方便存取特定版本。"
+msgstr "使用像是修訂版次標記，或文字標籤來標示不同版本，以方便取用特定版本。"
 
 #: ./criteria/maintain-version-control.md:block 17 (unordered list)
 msgid "Write clear commit messages so that versions can be usefully compared."
@@ -2782,7 +2788,7 @@ msgid ""
 "education.pdf) by GitHub, a list with the most common used git commands."
 msgstr ""
 "GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-"
-"education.pdf)」列出了最常用的 git 指令。"
+"education.pdf)」，列出了最常用的 git 命令。"
 
 #: ./criteria/make-contributing-easy.md:block 3 (header)
 msgid "order: 5"
@@ -2798,36 +2804,36 @@ msgid ""
 " able to fix problems, add features, and address security issues of the "
 "shared [codebase](../glossary.md#codebase)."
 msgstr ""
-"若要開發更好、更可靠且功能更豐富的軟體，使用者需要能夠為共享的[代碼庫](../glo"
-"ssary.md#codebase)修正問題、新增功能，以及提出安全性議題等。"
+"若要開發更好、更可靠且功能更豐富的軟體，使用者需要能夠為共享的[程式基底](../g"
+"lossary.md#codebase)修正問題、新增功能，以及提出安全性議題等。"
 
 #: ./criteria/make-contributing-easy.md:block 6 (paragraph)
 msgid ""
 "A shared digital infrastructure makes it easier to make collaborative "
 "contributions. The less effort it takes to make contributions that are "
 "accepted by the codebase, the more likely users are to become contributors."
-msgstr "共享的數位基礎建設讓協作貢獻更容易。使用者讓代碼庫接受貢獻時所需付出的心力越"
-"少，則使用者越可能成為貢獻者。"
+msgstr "共享的數位基礎建設讓協作貢獻更容易。使用者讓程式基底接受貢獻時所需付出的心力"
+"越少，則使用者越可能成為貢獻者。"
 
 #: ./criteria/make-contributing-easy.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST have a public issue tracker that accepts suggestions from "
 "anyone."
-msgstr "代碼庫「必須」有個可以公開接受任何人建議的議題追蹤器。"
+msgstr "程式基底「必須」有個可以公開接受任何人建議的議題追蹤器。"
 
 #: ./criteria/make-contributing-easy.md:block 8 (unordered list)
 msgid ""
 "The documentation MUST link to both the public issue tracker and submitted "
 "codebase changes, for example in a `README` file."
-msgstr "文件中「必須」同時有公開的議題追蹤器連結，以及提交的代碼庫變動的連結，例如記"
-"錄在「`README`」檔案中。"
+msgstr "文件中「必須」同時有公開的議題追蹤器連結，以及提交的程式基底變動的連結，例如"
+"記錄在「`README`」檔案中。"
 
 #: ./criteria/make-contributing-easy.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST have communication channels for users and developers, for "
 "example email lists."
-msgstr "代碼庫「必須」要有能與使用者以及開發人員溝通的管道，像是設立電子郵件列表（郵"
-"遞論壇）。"
+msgstr "程式基底「必須」要有能與使用者以及開發人員溝通的管道，像是設立電子郵件列表（"
+"郵遞論壇）。"
 
 #: ./criteria/make-contributing-easy.md:block 8 (unordered list)
 msgid ""
@@ -2849,13 +2855,13 @@ msgstr "確認有公開的議題追蹤器。"
 msgid ""
 "Confirm that the codebase contains links to the public issue tracker and "
 "submitted codebase changes."
-msgstr "確認代碼庫有公開的議題追蹤器連結，以及已提交的代碼庫變動的連結。"
+msgstr "確認程式基底有公開的議題追蹤器連結，以及已提交的程式基底變動的連結。"
 
 #: ./criteria/make-contributing-easy.md:block 10 (unordered list)
 msgid ""
 "Confirm that it is possible to participate in a discussion with other users "
 "and developers about the software using channels described in the codebase."
-msgstr "確認可以使用代碼庫中提到的管道，與其他使用者以及開發人員一同討論該軟體。"
+msgstr "確認可以使用程式基底中提到的管道，與其他使用者以及開發人員一同討論該軟體。"
 
 #: ./criteria/make-contributing-easy.md:block 10 (unordered list)
 msgid "Confirm that there is a closed channel for reporting security issues."
@@ -2870,19 +2876,21 @@ msgstr "確認有說明如何私下通報安全性問題。"
 msgid ""
 "Track [policy](../glossary.md#policy) issues in the codebase, so that a "
 "relevant external policy expert can volunteer help."
-msgstr "追蹤代碼庫中的[政策](../glossary.md#policy)問題，讓相關的外部政策專家如果自願也能夠協助。"
+msgstr "追蹤程式基底中的[政策](../glossary."
+"md#policy)問題，讓相關的外部政策專家如果自願也能夠協助。"
 
 #: ./criteria/make-contributing-easy.md:block 14 (unordered list)
 msgid ""
 "Track management issues in the codebase, so that external managers with "
 "relevant experience can volunteer help."
-msgstr "追蹤代碼庫中的管理問題，讓有相關經驗的外部管理人員如果自願也能夠協助。"
+msgstr "追蹤程式基底中的管理問題，讓有相關經驗的外部管理人員如果自願也能夠協助。"
 
 #: ./criteria/make-contributing-easy.md:block 14 (unordered list)
 msgid ""
 "Support your experienced policy makers, developers and designers to keep "
 "contributing to the codebase for as long as possible."
-msgstr "支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能為代碼庫持續做出長久貢獻。"
+msgstr "支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能為程式基底持續做出長"
+"久貢獻。"
 
 #: ./criteria/make-contributing-easy.md:block 16 (unordered list)
 msgid ""
@@ -2936,7 +2944,7 @@ msgstr "criteria/findability"
 
 #: ./criteria/make-the-codebase-findable.md:block 5 (header)
 msgid "Make the codebase findable"
-msgstr "代碼庫可查詢得到"
+msgstr "程式基底可查詢得到"
 
 #: ./criteria/make-the-codebase-findable.md:block 6 (paragraph)
 msgid ""
@@ -2944,8 +2952,9 @@ msgid ""
 "potential new collaborators will find it. Just publishing a codebase and "
 "hoping it is found does not work, instead proactiveness is needed."
 msgstr ""
-"一旦[代碼庫](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得到"
-"它。不能只是發表個代碼庫，然後就盼望他人找得到這個代碼庫，更需要主動積極。"
+"一旦[程式基底](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得"
+"到它。不能只是發表個程式基底，然後就盼望他人找得到這個程式基底，更需要主動積"
+"極。"
 
 #: ./criteria/make-the-codebase-findable.md:block 7 (paragraph)
 msgid ""
@@ -2955,45 +2964,47 @@ msgid ""
 "the codebase easier for people to refer, cite, disambiguate and discover "
 "through third party tools."
 msgstr ""
-"有中介資料說明檔案會讓代碼庫更容易被發現。良好且包含永久唯一識別碼的中介資料，例如寫成 Wikidata 維基數據條目，或是放到 FSF "
-"自由軟體基金會的軟體目錄列表之中（使代碼庫成為語意網路中的一部份），他人就能更容易透過第三方工具參考、引用、辨別、發現代碼庫。"
+"有中介資料說明檔的話，會讓程式基底更容易被發現。良好且包含永久唯一識別碼的中"
+"介資料，例如寫成 Wikidata 維基數據條目，或是放到 FSF 自由軟體基金會的軟體目錄"
+"列表之中（使程式基底成為語意網路中的一部份），他人就能更容易透過第三方工具參"
+"考、引用、辨別、發現程式基底。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
 "The name of the codebase SHOULD be descriptive and free from acronyms, "
 "abbreviations, puns or organizational branding."
-msgstr "代碼庫名稱「應該」要能描述說明其用途，且不包含任何首字母縮寫字、縮寫、雙關語"
-"，或組織單位品牌名稱或抬頭等。"
+msgstr "程式基底名稱「應該」要能描述說明其用途，且不包含任何首字母縮寫字、縮寫、雙關"
+"語，或組織單位品牌名稱或抬頭等。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
 "The codebase SHOULD have a short description that helps someone understand "
 "what the codebase is for or what it does."
-msgstr "代碼庫說明「應該」要簡短，幫助他人瞭解代碼庫的目的與作用。"
+msgstr "程式基底說明「應該」要簡短，幫助他人瞭解程式基底的目的與作用。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid "Maintainers SHOULD submit the codebase to relevant software catalogs."
-msgstr "維護人員「應該」將代碼庫提交至相關的軟體目錄上。"
+msgstr "維護人員「應該」將程式基底提交至相關的軟體目錄上。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
 "The codebase SHOULD have a website which describes the problem the codebase "
 "solves using the preferred jargon of different potential users of the "
 "codebase (including technologists, policy experts and managers)."
-msgstr "代碼庫「應該」要架設網站，內容中以代碼庫各類潛在使用者（技術人員、政策專家、"
-"管理人員等）偏好的業內用語，描述代碼庫所能解決的問題。"
+msgstr "程式基底「應該」要架設網站，內容中以程式基底各類潛在使用者（技術人員、政策專"
+"家、管理人員等）偏好的業內用語，描述程式基底所能解決的問題。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
 "The codebase SHOULD be findable using a search engine by codebase name."
-msgstr "在搜尋引擎查找代碼庫名稱時，「應該」能搜尋得到代碼庫。"
+msgstr "在搜尋引擎查找程式基底名稱時，「應該」能搜尋得到程式基底。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
 "The codebase SHOULD be findable using a search engine by describing the "
 "problem it solves in natural language."
-msgstr "在使用搜尋引擎時，如果以自然語言描述代碼庫所能解決的問題，「應該」能搜尋得到"
-"代碼庫。"
+msgstr "在使用搜尋引擎時，如果以自然語言描述程式基底所能解決的問題，「應該」能搜尋得"
+"到程式基底。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
@@ -3001,8 +3012,8 @@ msgid ""
 "mentions the major contributors, [repository](../glossary.md#repository) "
 "location and website."
 msgstr ""
-"代碼庫「應該」具備永久唯一識別碼，而且該項條目要提及主要貢獻者、[儲存庫](../g"
-"lossary.md#repository)、位置、網站等。"
+"程式基底「應該」具備永久唯一識別碼，而且該項條目要提及主要貢獻者、[儲存庫](.."
+"/glossary.md#repository)、位置、網站等。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid ""
@@ -3010,12 +3021,12 @@ msgid ""
 "example in a "
 "[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) file."
 msgstr ""
-"代碼庫「應該」包含機器可讀的中介資料說明，例如採用[publiccode."
+"程式基底「應該」包含機器可讀的中介資料說明，例如採用[publiccode."
 "yml](https://github.com/publiccodeyml/publiccode.yml)格式的檔案。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid "A dedicated domain name for the codebase is OPTIONAL."
-msgstr "「可選擇」是否為代碼庫設置專用的網域名稱。"
+msgstr "「可選擇」是否為程式基底設置專用的網域名稱。"
 
 #: ./criteria/make-the-codebase-findable.md:block 9 (unordered list)
 msgid "Regular presentations at conferences by the community are OPTIONAL."
@@ -3023,52 +3034,52 @@ msgstr "「可選擇」是否在社群舉辦的會議中定期進行簡報。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid "Check that the codebase name is descriptive and free of puns."
-msgstr "檢查代碼庫名稱是否描述說明其用途，且不包含雙關語。"
+msgstr "檢查程式基底名稱是否描述說明其用途，且不包含雙關語。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check that the codebase name is free of acronyms and abbreviations or that "
 "the acronyms or abbreviations in the name are more universally known than "
 "the longer forms."
-msgstr "檢查代碼庫名稱是否不包含任何首字母縮寫字或縮寫，或是其首字母縮寫字或縮寫比完"
-"整名稱更熟為人知。"
+msgstr "檢查程式基底名稱是否不包含任何首字母縮寫字或縮寫，或是其首字母縮寫字或縮寫比"
+"完整名稱更熟為人知。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check that the codebase name is free of organizational branding, unless that"
 " organization is of the codebase community itself."
-msgstr "檢查代碼庫是否不包含組織單位品牌名稱或抬頭等，除非該組織單位也是代碼庫社群成"
-"員。"
+msgstr "檢查程式基底是否不包含組織單位品牌名稱或抬頭等，除非該組織單位也是程式基底社"
+"群成員。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check that the codebase repository has a short description of the codebase."
-msgstr "檢查代碼庫儲存庫是否包含代碼庫的簡短描述。"
+msgstr "檢查程式基底儲存庫是否包含程式基底的簡短描述。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid "Check for the codebase listing in relevant software catalogs."
-msgstr "檢查代碼庫有刊登在相關軟體型錄上。"
+msgstr "檢查程式基底有刊登在相關軟體型錄上。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check for a codebase website which describes the problem the codebase "
 "solves."
-msgstr "檢查代碼庫的網站有描述代碼庫能夠解決的問題。"
+msgstr "檢查程式基底的網站有描述程式基底能夠解決的問題。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check that the codebase appears in the results on more than one major search"
 " engine when searching by the codebase name."
-msgstr "檢查以代碼庫名稱來作搜尋時，有超過一個的常用主流搜尋引擎，都有將代碼庫列在搜"
-"尋結果中。"
+msgstr "檢查以程式基底名稱來作搜尋時，有超過一個的常用主流搜尋引擎，都有將程式基底列"
+"在搜尋結果中。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check that the codebase appears in the results on more than one major search"
 " engine when searching by using natural language, for instance, using the "
 "short description."
-msgstr "檢查以自然語言來作搜尋，例如使用代碼庫的簡短描述時，有超過一個的常用主流搜尋"
-"引擎，都將代碼庫放在搜尋結果中。"
+msgstr "檢查以自然語言來作搜尋，例如使用程式基底的簡短描述時，有超過一個的常用主流搜"
+"尋引擎，都將程式基底放在搜尋結果中。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
@@ -3084,29 +3095,29 @@ msgstr "檢查永久唯一識別碼條目中有包含儲存庫位置。"
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid ""
 "Check unique and persistent identifier entries for the codebase website."
-msgstr "檢查永久唯一識別碼條目有列出代碼庫網站。"
+msgstr "檢查永久唯一識別碼條目有列出程式基底網站。"
 
 #: ./criteria/make-the-codebase-findable.md:block 11 (unordered list)
 msgid "Check for a machine-readable metadata description file."
-msgstr "檢查中介資料說明檔案是機器可讀的格式。"
+msgstr "檢查中介資料說明檔是機器可讀的格式。"
 
 #: ./criteria/make-the-codebase-findable.md:block 13 (unordered list)
 msgid ""
 "Contribute a description of the policy area or problem this codebase acts on"
 " or operates."
-msgstr "貢獻一段說明此代碼庫作用的政策領域，或處理的問題的描述。"
+msgstr "貢獻一段說明此程式基底作用的政策領域，或所處理問題的描述。"
 
 #: ./criteria/make-the-codebase-findable.md:block 13 (unordered list)
 msgid ""
 "Test your problem description with peers outside of your context who aren't "
 "familiar with the codebase."
-msgstr "請那些對代碼庫不熟悉且不同領域背景的同事，來測試您的問題描述。"
+msgstr "請那些對程式基底不熟悉且不同領域背景的同事，來測試您的問題描述。"
 
 #: ./criteria/make-the-codebase-findable.md:block 13 (unordered list)
 msgid ""
 "Present on how the codebase implements the [policy](../glossary.md#policy) "
 "at relevant conferences."
-msgstr "在相關會議上作簡報，介紹代碼庫如何執行[政策](../glossary.md#policy)。"
+msgstr "在相關會議上作簡報，介紹程式基底如何執行[政策](../glossary.md#policy)。"
 
 #: ./criteria/make-the-codebase-findable.md:block 15 (unordered list)
 msgid ""
@@ -3118,12 +3129,12 @@ msgstr "在決定專案名稱之前，先搜尋過商標資料庫，以避免名
 msgid ""
 "Use the short description wherever the codebase is referenced, for instance,"
 " as social media account descriptions."
-msgstr "在引用到代碼庫的地方，都使用簡短描述，例如放到社交媒體帳號中的說明。"
+msgstr "在引用到程式基底的地方，都使用簡短描述，例如放到社交媒體帳號中的說明。"
 
 #: ./criteria/make-the-codebase-findable.md:block 15 (unordered list)
 msgid ""
 "Budget for content design and Search Engine Optimization skills in the team."
-msgstr "為團隊編列內容設計與 SEO 搜尋引擎最佳化技能的預算。"
+msgstr "為團隊編列內容設計與實作 SEO 搜尋引擎最佳化技能的預算。"
 
 #: ./criteria/make-the-codebase-findable.md:block 15 (unordered list)
 msgid ""
@@ -3134,13 +3145,14 @@ msgstr "確保專案參與人員出席相關會議，或作簡報介紹。"
 msgid ""
 "Search engine optimization, for instance adding a "
 "[sitemap](https://www.sitemaps.org/protocol.html)."
-msgstr "搜尋引擎最佳化，例如加入[網站地圖](https://www.sitemaps.org/protocol.html)。"
+msgstr "實作搜尋引擎最佳化，例如加入[網站地圖](https://www.sitemaps.org/protocol."
+"html)。"
 
 #: ./criteria/make-the-codebase-findable.md:block 17 (unordered list)
 msgid ""
 "Use the short description wherever the codebase is referenced, for instance,"
 " as the repository description."
-msgstr "在引用到代碼庫的地方，都使用簡短描述，例如放到儲存庫中的說明。"
+msgstr "在引用到程式基底的地方，都使用簡短描述，例如放到儲存庫中的說明。"
 
 #: ./criteria/make-the-codebase-findable.md:block 17 (unordered list)
 msgid "Suggest conferences to present at and present at them."
@@ -3170,8 +3182,11 @@ msgid ""
 "findable). Some of these apply directly to codebases, while others may "
 "provoke exploration into what the codebase equivalent would be."
 msgstr ""
-"GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR科學資料管理與盡職治理指導原則](https://www.go-fair.org/fair-"
-"principles/)》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓機器採取行動（也因此更容易被找到）。其中的部分特性可直接套用到代碼庫上，而其他無法直接套用的，我們還需要再研究代碼庫與其對應的特性要怎麼處理。"
+"GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR科學資料管理與盡職治理指導原則](ht"
+"tps://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特"
+"性會讓資料（或中介資料）更容易讓機器採取行動（也因此更容易被找到）。其中的部"
+"分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底"
+"與其對應的特性要怎麼處理。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 3 (paragraph)
 msgid "order: 3 redirect_from:"
@@ -3189,7 +3204,7 @@ msgstr "criteria/create-reusable-and-portable-code"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 5 (header)
 msgid "Make the codebase reusable and portable"
-msgstr "代碼庫要可重複使用且可移植"
+msgstr "程式基底要可重複使用且可移植"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 6 (paragraph)
 msgid ""
@@ -3199,8 +3214,8 @@ msgid ""
 "quality, cheaper maintenance and higher reliability."
 msgstr ""
 "編寫可重複使用且可移植的[程式碼](../glossary.md#code)，讓政策制定者、開發人員"
-"與設計師等，能重複使用、測試與改善目前已開發的內容，並將改善貢獻回代碼庫中，"
-"如此可提高品質、降低維護成本、增強可靠性。"
+"與設計師等，能重複使用、測試與改善目前已開發的內容，並將改善貢獻回程式基底中"
+"，如此可提高品質、降低維護成本、增強可靠性。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 7 (paragraph)
 msgid ""
@@ -3210,9 +3225,9 @@ msgid ""
 " developed and used by multiple parties are more likely to benefit from a "
 "self-sustaining community."
 msgstr ""
-"以重複利用為前提籌劃設計[代碼庫](../glossary.md#codebase)，更容易與多方共享代"
-"碼庫的目標使命、願景與範圍等。多方開發與使用的代碼庫，更可以從能自我運作的社"
-"群中獲益。"
+"以重複利用為前提籌劃設計[程式基底](../glossary.md#codebase)，更容易與多方共享"
+"程式基底的目標使命、願景與範圍等。多方開發與使用的程式基底，更可以從能自我運"
+"作的社群中獲益。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 8 (paragraph)
 msgid ""
@@ -3221,8 +3236,8 @@ msgid ""
 "[another context](../glossary.md#different-contexts) if its purpose is "
 "clearly documented."
 msgstr ""
-"以文件記錄周全的模組構成代碼庫，能夠改善重複使用與維護的能力。以文件清楚記錄"
-"用途的模組，更容易在[另一種情境](../glossary.md#different-"
+"以文件記錄周全的模組構成程式基底，能夠改善重複使用與維護的能力。以文件清楚記"
+"錄用途的模組，更容易在[另一種情境](../glossary.md#different-"
 "contexts)中重複利用。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 9 (paragraph)
@@ -3236,20 +3251,20 @@ msgstr "原始碼不依賴任何貢獻者、供應商或部署底下的特定情
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
 msgid "The codebase MUST be developed to be reusable in different contexts."
-msgstr "代碼庫「必須」開發成能在不同情境中重複使用。"
+msgstr "程式基底「必須」開發成能在不同情境中重複使用。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
 msgid ""
 "The codebase MUST be independent from any secret, undisclosed, proprietary "
 "or non-open licensed software or services for execution and understanding."
-msgstr "代碼庫「必須」獨立於任何採用保密、無法揭露、專有或非開放式授權的軟體或服務，"
-"以供執行與瞭解。"
+msgstr "程式基底「必須」獨立於任何採用保密、無法揭露、專有或非開放式授權的軟體或服務"
+"，以供執行與瞭解。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
 msgid "The codebase SHOULD be in use by multiple parties."
-msgstr "代碼庫「應該」有多方單位使用。"
+msgstr "程式基底「應該」有多方單位使用。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
@@ -3261,7 +3276,7 @@ msgstr "發展路線圖「應該」有多方單位的需求影響。"
 msgid ""
 "The development of the codebase SHOULD be a collaboration between multiple "
 "parties."
-msgstr "代碼庫開發「應該」由多方單位協作。"
+msgstr "程式基底開發「應該」由多方單位協作。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
@@ -3274,7 +3289,7 @@ msgstr "「應該」使用組態設定方式以將[原始碼](../glossary.md#sou
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
 msgid "The codebase SHOULD be localizable."
-msgstr "代碼庫「應該」能夠在地化。"
+msgstr "程式基底「應該」能夠在地化。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
@@ -3288,7 +3303,7 @@ msgstr "原始碼與其文件「不應該」包含特定情況專用的資訊。
 msgid ""
 "Codebase modules SHOULD be documented in such a way as to enable reuse in "
 "codebases in other contexts."
-msgstr "代碼庫模組「應該」以使其能夠在其他情境中重複利用的模式撰寫文件。"
+msgstr "程式基底模組「應該」以使其能夠在其他情境中重複利用的模式撰寫文件。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
@@ -3302,36 +3317,37 @@ msgstr "軟體「不應該」要求僅有單一供應商能提供的服務或平
 msgid ""
 "Confirm with someone in a similar role at another organization if they can "
 "use the codebase and what that would entail."
-msgstr "與另一組織單位角色與您相似的人確認，看他們是否能利用代碼庫，以及需要怎麼進行。"
+msgstr "與另一組織單位角色與您相似的人確認，看他們是否能利用程式基底，以及需要怎麼進"
+"行。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid ""
 "Confirm that the codebase can run without using any proprietary or non open-"
 "licensed software or services."
-msgstr "確認代碼庫不需要用到任何專有或非開放式授權的軟體或服務，就能夠執行。"
+msgstr "確認程式基底不需要用到任何專有或非開放式授權的軟體或服務，就能夠執行。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid ""
 "If the codebase is in early development before a production-ready release, "
 "then check for evidence of ambition to obtain collaborators."
-msgstr "若代碼庫處於早期開發階段，尚未準備好正式上線，則檢查是否有想要尋求協作者的意"
-"圖跡象。"
+msgstr "若程式基底處於早期開發階段，尚未準備好正式上線，則檢查是否有想要尋求協作者的"
+"意圖跡象。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid ""
 "Or if the codebase is very mature and stable with very infrequent fixes, "
 "patches, or contributions:"
-msgstr "或是如果代碼庫非常成熟與穩定，鮮少需要修正、改善或貢獻："
+msgstr "或是如果程式基底非常成熟與穩定，鮮少需要修正、改善或貢獻："
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid ""
 "Check that the codebase is in use by multiple parties or in multiple "
 "contexts."
-msgstr "檢查是否有多方單位，或是有在多種情境下正使用代碼庫。"
+msgstr "檢查是否有多方單位，或是有在多種情境下正使用程式基底。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
@@ -3346,14 +3362,14 @@ msgstr "若是沒有，則："
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid "Check that the codebase contributors are from multiple parties."
-msgstr "檢查代碼庫貢獻者是否來自多方單位。"
+msgstr "檢查程式基底貢獻者是否來自多方單位。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
 msgid ""
 "Check that the codebase files and commit history do not include situation-"
 "specific data."
-msgstr "檢查代碼庫檔案與送交版次歷史紀錄中，不包含特定情況專用的資料。"
+msgstr "檢查程式基底檔案與送交版次歷史紀錄中，不包含特定情況專用的資料。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 13 (unordered
 #: list)
@@ -3372,7 +3388,7 @@ msgstr "為您的[政策](../glossary.md#policy)撰寫清楚且足夠詳細的�
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 15 (unordered
 #: list)
 msgid "Make sure your organization is listed as a known user by the codebase."
-msgstr "確保代碼庫有將貴組織單位列為已知使用者。"
+msgstr "確保程式基底有將貴組織單位列為已知使用者。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 15 (unordered
 #: list)
@@ -3385,7 +3401,8 @@ msgid ""
 "Make sure that stakeholders and business owners understand that reusability "
 "is an explicit codebase goal as this reduces technical debt and provides "
 "sustainability for the codebase."
-msgstr "確認利害關係人與業主能夠瞭解，代碼庫是以重複利用為明確目標，因而得以減少程式碼技術債，並讓代碼庫可以永續發展。"
+msgstr "確認利害關係人與業主能夠瞭解，程式基底是以重複利用為明確目標，因而得以減少程"
+"式碼技術債，並讓程式基底可以永續發展。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 17 (unordered
 #: list)
@@ -3425,9 +3442,9 @@ msgid ""
 "platforms or using proprietary components, make sure that collaborators can "
 "develop, use, test, and deploy without them."
 msgstr ""
-"確保代碼庫文件中，有說明程式的組建日期與執行時期的依賴項目。如果您的情境需要"
-"部署至專有平臺上，或者要用到專有組件，則請確保協作者可以在不用到這兩者的情況"
-"下，就能進行開發、使用、測試、部署等。"
+"確保程式基底文件中，有說明程式的組建日期與執行時期的依賴項目。如果您的情境需"
+"要部署至專有平臺上，或者要用到專有組件，則請確保協作者可以在不用到這兩者的情"
+"況下，就能進行開發、使用、測試、部署等。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 22 (paragraph)
 msgid ""
@@ -3477,15 +3494,15 @@ msgid ""
 "emerge around the codebase."
 msgstr ""
 "採用開放且為人熟知的授權，讓任何人都可以查看[原始碼](../glossary.md#source-"
-"code)，使其能瞭解運作方式、自由使用，並且能為[代碼庫](../glossary."
-"md#codebase)做出貢獻。這也能促進供應商建立出以代碼庫為中心的生態系。"
+"code)，使其能瞭解運作方式、自由使用，並且能為[程式基底](../glossary."
+"md#codebase)做出貢獻。這也能促進供應商建立出以程式基底為中心的生態系。"
 
 #: ./criteria/publish-with-an-open-license.md:block 7 (paragraph)
 msgid ""
 "Clearly indicating the license for each file within a codebase facilitates "
 "correct reuse and attribution of parts of a codebase."
-msgstr "明確指出代碼庫中每一個檔案的授權，讓使用者能正確重複利用代碼庫的部分內容，並"
-"表彰作者名稱。"
+msgstr "明確指出程式基底中每一個檔案的授權，讓使用者能正確重複利用程式基底的部分內容"
+"，並表彰作者名稱。"
 
 #: ./criteria/publish-with-an-open-license.md:block 9 (unordered list)
 msgid ""
@@ -3510,14 +3527,14 @@ msgstr "所有原始碼皆「必須」搭配授權條款檔案一併發行。"
 msgid ""
 "Contributors MUST NOT be required to transfer copyright of their "
 "contributions to the codebase."
-msgstr "「禁止」要求貢獻者將其貢獻的程式碼著作權轉讓給代碼庫。"
+msgstr "「禁止」要求貢獻者將其貢獻的程式碼著作權轉讓給程式基底。"
 
 #: ./criteria/publish-with-an-open-license.md:block 9 (unordered list)
 msgid ""
 "All source code files in the codebase SHOULD include a copyright notice and "
 "a license header that are machine-readable."
-msgstr "代碼庫中所有原始碼檔案，皆「應該」包含機器可讀的著作權聲明與授權條款標頭內容"
-"。"
+msgstr "程式基底中所有原始碼檔案，皆「應該」包含機器可讀的著作權聲明與授權條款標頭內"
+"容。"
 
 #: ./criteria/publish-with-an-open-license.md:block 9 (unordered list)
 msgid ""
@@ -3527,7 +3544,7 @@ msgstr "「可選擇」是否為不同類型的原始碼與文件採用多重授
 
 #: ./criteria/publish-with-an-open-license.md:block 11 (unordered list)
 msgid "Confirm that the codebase is clearly licensed."
-msgstr "確認代碼庫有清楚給予授權條款。"
+msgstr "確認程式基底有清楚給予授權條款。"
 
 #: ./criteria/publish-with-an-open-license.md:block 11 (unordered list)
 msgid ""
@@ -3541,7 +3558,7 @@ msgstr ""
 
 #: ./criteria/publish-with-an-open-license.md:block 11 (unordered list)
 msgid "Confirm that the licenses used in the codebase are included as files."
-msgstr "確認代碼庫中有包含其採用的授權條款檔案。"
+msgstr "確認程式基底中有包含其採用的授權條款檔案。"
 
 #: ./criteria/publish-with-an-open-license.md:block 11 (unordered list)
 msgid ""
@@ -3549,14 +3566,15 @@ msgid ""
 "[repository](../glossary.md#repository) configuration do not require "
 "transfer of copyright."
 msgstr "確認貢獻指引中，以及[儲存庫](../glossary."
-"md#repository)的組態設定中，沒有求貢獻者轉讓著作權。"
+"md#repository)的組態設定中，沒有要求貢獻者轉讓著作權。"
 
 #: ./criteria/publish-with-an-open-license.md:block 11 (unordered list)
 msgid ""
 "Check for machine-readable license checking in the codebase [continuous "
 "integration](../glossary.md#continuous-integration) tests."
 msgstr ""
-"在代碼庫[持續整合](../glossary.md#continuous-integration)測試中，確認是否有檢查授權內容為機器可讀的檢查項目。"
+"在程式基底[持續整合](../glossary.md#continuous-"
+"integration)測試中，確認是否有檢查授權內容為機器可讀的檢查項目。"
 
 #: ./criteria/publish-with-an-open-license.md:block 13 (unordered list)
 msgid ""
@@ -3576,7 +3594,7 @@ msgstr "制定抑制採購非開放原始碼授權程式碼，與非開放科技
 msgid ""
 "Only work with open source vendors that deliver their source code by "
 "publishing it under an open source license."
-msgstr "只與能採用開放原始碼授權，交付與發行其原始碼的開放原始碼軟體供應商合作。"
+msgstr "只與能採用開放原始碼授權交付與發行其原始碼的開放原始碼軟體供應商合作。"
 
 #: ./criteria/publish-with-an-open-license.md:block 15 (unordered list)
 msgid ""
@@ -3590,7 +3608,7 @@ msgstr ""
 
 #: ./criteria/publish-with-an-open-license.md:block 17 (unordered list)
 msgid "Add a new `license` file to every new codebase created."
-msgstr "每當建立新的代碼庫時，都要加入新的「`license`」授權條款檔案。"
+msgstr "每當建立新的程式基底時，都要加入新的「`license`」授權條款檔案。"
 
 #: ./criteria/publish-with-an-open-license.md:block 17 (unordered list)
 msgid ""
@@ -3602,7 +3620,7 @@ msgstr "每當建立新的原始碼檔案時，都要加入著作權聲明與授
 msgid ""
 "When source code is being reused by the codebase, make sure that it has a "
 "license that is compatible with the license or licenses of the codebase."
-msgstr "當代碼庫重複利用原始碼時，確認原始碼的授權與代碼庫的授權相容。"
+msgstr "每當程式基底重複利用原始碼時，都要確認原始碼的授權與程式基底的授權相容。"
 
 #: ./criteria/publish-with-an-open-license.md:block 19 (unordered list)
 msgid ""
@@ -3626,16 +3644,16 @@ msgid ""
 "Software Foundation Europe for unambiguous, human-readable and machine-"
 "readable copyright and licensing information."
 msgstr ""
-"歐洲自由軟體基金會所發表的《[REUSE "
-"倡議規範](https://reuse.software/spec/)》提供規範明確、人類可讀以及機器可讀的著作權與授權資訊。"
+"歐洲自由軟體基金會所發表的《[REUSE 倡議規範](https://reuse.software/spec/"
+")》，提供規範明確、人類可讀以及機器可讀的著作權與授權資訊。"
 
 #: ./criteria/publish-with-an-open-license.md:block 19 (unordered list)
 msgid ""
 "[SPDX License List](https://spdx.org/licenses/) by the Linux Foundation with"
 " standardized, machine-readable abbreviations for most licenses."
 msgstr ""
-"Linux 基金會所發表的 [SPDX "
-"授權條款清單](https://spdx.org/licenses/)提供經標準化、且機器可讀的大多數授權條款縮寫表示法。"
+"Linux 基金會所發表的 [SPDX 授權條款清單](https://spdx.org/licenses/"
+")，提供經標準化、且機器可讀的大多數授權條款縮寫表示法。"
 
 #: ./criteria/require-review-of-contributions.md:block 3 (paragraph)
 msgid "order: 7 redirect_from:"
@@ -3667,9 +3685,9 @@ msgid ""
 "individuals, and encourages a culture of focusing on solutions."
 msgstr ""
 "要求仔細審查貢獻，能孕育出確保貢獻都是優質、完整且能帶來價值的文化。審查原始"
-"碼能提高在原始碼加入[代碼庫](../glossary.md#codebase)之前，就發現與修正潛在臭"
-"蟲與出錯的機率。得知所有原始碼都會被審查，就不會孕育出習慣怪罪他人的文化，反"
-"倒是鼓勵每個人都專注在解決方案上。"
+"碼能提高在原始碼加入[程式基底](../glossary.md#codebase)之前，就發現與修正潛在"
+"臭蟲與出錯的機率。得知所有原始碼都會被審查，就不會孕育出習慣怪罪他人的文化，"
+"反倒是鼓勵每個人都專注在解決方案上。"
 
 #: ./criteria/require-review-of-contributions.md:block 8 (paragraph)
 msgid ""
@@ -3684,8 +3702,8 @@ msgstr ""
 msgid ""
 "All contributions that are accepted or committed to release versions of the "
 "codebase MUST be reviewed by another contributor."
-msgstr "所有被接受或是送交給代碼庫正式發行版本中的貢獻內容，都「必須」經過另一位貢獻"
-"者審查。"
+msgstr "所有被接受或是送交給程式基底正式發行版本中的貢獻內容，都「必須」經過另一位貢"
+"獻者審查。"
 
 #: ./criteria/require-review-of-contributions.md:block 10 (unordered list)
 msgid "Reviews MUST include source, policy, tests and documentation."
@@ -3702,13 +3720,14 @@ msgid ""
 "The review process SHOULD confirm that a contribution conforms to the "
 "standards, architecture and decisions set out in the codebase in order to "
 "pass review."
-msgstr "審查流程「應該」確認貢獻內容遵循代碼庫的標準、架構、決策安排等，以通過審查。"
+msgstr "審查流程「應該」確認貢獻內容遵循程式基底的標準、架構、決策安排等，以通過審查"
+"。"
 
 #: ./criteria/require-review-of-contributions.md:block 10 (unordered list)
 msgid ""
 "Reviews SHOULD include running both the software and the tests of the "
 "codebase."
-msgstr "審查內容「應該」包含執行軟體與執行代碼庫測試。"
+msgstr "審查內容「應該」包含執行軟體與執行程式基底測試。"
 
 #: ./criteria/require-review-of-contributions.md:block 10 (unordered list)
 msgid ""
@@ -3720,7 +3739,7 @@ msgstr "貢獻內容「應該」由與貢獻者不同背景情境的人來審查
 msgid ""
 "Version control systems SHOULD NOT accept non-reviewed contributions in "
 "release versions."
-msgstr "版本控制系統「不應該」在代碼庫的正式發行版本中，接受未經審查的貢獻內容。"
+msgstr "版本控制系統「不應該」在程式基底的正式發行版本中，接受未經審查的貢獻內容。"
 
 #: ./criteria/require-review-of-contributions.md:block 10 (unordered list)
 msgid "Reviews SHOULD happen within two business days."
@@ -3748,7 +3767,7 @@ msgstr "針對未被採用的貢獻內容，確認有適當解釋原因。"
 msgid ""
 "Check if guidelines for reviewers include instructions to review for "
 "conformance to standards, architecture and codebase guidelines."
-msgstr "檢查審查人員指引中，有包含是否遵循標準、架構、代碼庫指引等指示。"
+msgstr "檢查審查人員指引中，有包含是否遵循標準、架構、程式基底指引等指示。"
 
 #: ./criteria/require-review-of-contributions.md:block 12 (unordered list)
 msgid "Check with reviewers if they run the software and tests during review."
@@ -3780,7 +3799,7 @@ msgstr "制定進行任何審查時，含原始碼與其他一切事物，都要
 msgid ""
 "Use a version control system or methodology that enables review and "
 "feedback."
-msgstr "採用具有審查與意見回饋功能的版本控制系統或作業流程。"
+msgstr "採用具有審查與意見回饋功能的版本控制系統，或作業流程。"
 
 #: ./criteria/require-review-of-contributions.md:block 16 (unordered list)
 msgid "Make delivering great software a shared objective."
@@ -3790,7 +3809,7 @@ msgstr "將交付妥善軟體作為共同目標。"
 msgid ""
 "Make sure writing and reviewing contributions to source, policy, "
 "documentation and tests are considered equally valuable."
-msgstr "確保如原始碼、政策、文件、測試等的撰寫與審查貢獻，皆受到同等重視。"
+msgstr "確保如原始碼、政策、文件、測試等的貢獻內容撰寫與審查，皆受到同等重視。"
 
 #: ./criteria/require-review-of-contributions.md:block 16 (unordered list)
 msgid ""
@@ -3800,13 +3819,13 @@ msgstr "創造歡迎所有形式的貢獻，而且每個人都能夠審查貢獻
 
 #: ./criteria/require-review-of-contributions.md:block 16 (unordered list)
 msgid "Make sure no contributor is ever alone in contributing to a codebase."
-msgstr "確保貢獻者在貢獻內容給代碼庫時，不是獨自一人埋頭苦幹。"
+msgstr "確保貢獻者在貢獻內容給程式基底時，不是獨自一人埋頭苦幹。"
 
 #: ./criteria/require-review-of-contributions.md:block 18 (unordered list)
 msgid ""
 "Ask other contributors on the codebase to review your work, in your "
 "organization or outside of it."
-msgstr "請代碼庫的其他貢獻者，審查您在貴組織單位內外的工作成果。"
+msgstr "請程式基底的其他貢獻者，審查您在貴組織單位內外的工作成果。"
 
 #: ./criteria/require-review-of-contributions.md:block 18 (unordered list)
 msgid ""
@@ -3881,8 +3900,8 @@ msgid ""
 "guide, either the codebase community's own or an existing one referred to in"
 " the codebase."
 msgstr ""
-"[代碼庫](../glossary.md#codebase)「必須」遵守程式碼撰寫風格指引、或文件寫作風"
-"格指引，可以是代碼庫社群自身的風格指引，或是代碼庫有採用的既有風格。"
+"[程式基底](../glossary.md#codebase)「必須」遵守程式碼撰寫風格指引、或文件寫作"
+"風格指引，可以是程式基底社群自身的風格指引，或是程式基底有採用的既有風格。"
 
 #: ./criteria/use-a-coherent-style.md:block 8 (unordered list)
 msgid "Contributions SHOULD pass automated tests on style."
@@ -3892,8 +3911,8 @@ msgstr "貢獻內容「應該」通過自動化的風格測試。"
 msgid ""
 "The style guide SHOULD include expectations for inline comments and "
 "documentation for non-trivial sections."
-msgstr "風格指引「應該」描述對於較複雜的程式碼區段，如何作列內註解與寫下說明文件的期"
-"待。"
+msgstr "風格指引「應該」描述對於較複雜的程式碼區段，如何作列內註解與為其寫下說明文件"
+"的期待。"
 
 #: ./criteria/use-a-coherent-style.md:block 8 (unordered list)
 msgid ""
@@ -3919,7 +3938,7 @@ msgid ""
 "in the codebase, for example in the `CONTRIBUTING` or `README`."
 msgstr ""
 "為[政策](../glossary.md#policy)與文件建立風格指引，遵守並且持續改善，同時記錄"
-"到代碼庫文件中，像是「`CONTRIBUTING`」或「`README`」檔案。"
+"到程式基底文件中，像是「`CONTRIBUTING`」或「`README`」檔案。"
 
 #: ./criteria/use-a-coherent-style.md:block 14 (unordered list)
 msgid ""
@@ -3940,12 +3959,12 @@ msgid ""
 "documentation. Continually improve upon and expand this documentation with "
 "the aim of evolving this documentation into engineering guidelines."
 msgstr ""
-"如果代碼庫還沒有工程指引，或其他貢獻者指引，則請先在[儲存庫](../glossary.md#r"
-"epository)中加入相關文件，像是「`CONTRIBUTING`」或「`README`」檔案，並描述目"
-"前在設立指引方面的進展。上述檔案的重要目的之一，在於宣達設計偏好、命名規則，"
-"以及機器不容易檢查的其他層面。指引應該包含貢獻的[原始碼](../glossary.md"
-"#source-code)預期該符合哪些要求，才會被維護人員合併至代碼庫中，包括原始碼、測"
-"試、文件等項目。請持續改善與擴充這份文件內容，目標讓文件朝向工程指引演進。"
+"如果程式基底還沒有工程指引，或其他貢獻者指引，則請先在[儲存庫](../glossary.md"
+"#repository)中加入相關文件，像是「`CONTRIBUTING`」或「`README`」檔案，並描述"
+"目前在設立指引方面的進展。上述檔案的重要目的之一，在於宣達設計偏好、命名規則"
+"，以及機器不容易檢查的其他層面。指引應該包含貢獻的[原始碼](../glossary.md"
+"#source-code)預期該符合哪些要求，才會被維護人員合併至程式基底中，包括原始碼、"
+"測試、文件等項目。請持續改善與擴充這份文件內容，目標讓文件朝向工程指引演進。"
 
 #: ./criteria/use-a-coherent-style.md:block 17 (paragraph)
 msgid "Additionally:"
@@ -3957,13 +3976,14 @@ msgstr "使用 linter 程式碼品質梳理工具。"
 
 #: ./criteria/use-a-coherent-style.md:block 18 (unordered list)
 msgid "Add linter configurations to the codebase."
-msgstr "在代碼庫中加入 linter 梳理工具的組態設定。"
+msgstr "在程式基底中加入 linter 梳理工具的組態設定。"
 
 #: ./criteria/use-a-coherent-style.md:block 20 (unordered list)
 msgid ""
 "[Programming style](https://en.wikipedia.org/wiki/Programming_style) on "
 "Wikipedia."
-msgstr "維基百科上的《[代碼風格](https://en.wikipedia.org/wiki/Programming_style)》條目。"
+msgstr "維基百科上的《[程式碼風格](https://en.wikipedia.org/wiki/"
+"Programming_style)》條目。"
 
 #: ./criteria/use-continuous-integration.md:block 3 (paragraph)
 msgid "order: 12 redirect_from:"
@@ -3985,7 +4005,7 @@ msgid ""
 " conflicts."
 msgstr ""
 "透過自動化測試驗證，開發人員能更頻繁地將其工作成果合併至共享的分支，達成非同"
-"步協作。合併的頻率越頻繁，貢獻的規模越小，在合併時所發生的衝突就越容易解決。"
+"步協作。合併的頻率越頻繁、貢獻的規模越小，在合併時所發生的衝突就越容易解決。"
 
 #: ./criteria/use-continuous-integration.md:block 7 (paragraph)
 msgid ""
@@ -4005,8 +4025,8 @@ msgid ""
 "contributions. Continuous integration allows for an easier monitoring of the"
 " state of the [codebase](../glossary.md#codebase)."
 msgstr ""
-"以文件記錄代碼庫的[持續整合](../glossary.md#continuous-integration)工作流程，"
-"能協助貢獻者瞭解對貢獻內容的期待。持續整合讓監督[代碼庫](../glossary."
+"以文件記錄程式基底的[持續整合](../glossary.md#continuous-integration)工作流程"
+"，能協助貢獻者瞭解對貢獻內容的期待。持續整合讓監督[程式基底](../glossary."
 "md#codebase)狀態變得更為簡單。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
@@ -4019,17 +4039,17 @@ msgstr "[原始碼](../glossary.md#source-code)中的所有功能，都「必須
 msgid ""
 "Contributions MUST pass all automated tests before they are admitted into "
 "the codebase."
-msgstr "所有貢獻內容都「必須」先通過自動化測試，才能上傳至代碼庫。"
+msgstr "所有貢獻內容都「必須」先通過自動化測試，才能上傳至程式基底。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid ""
 "The codebase MUST have guidelines explaining how to structure contributions."
-msgstr "代碼庫「必須」有解說如何撰寫貢獻內容結構的相關指引。"
+msgstr "程式基底「必須」有解說如何撰寫貢獻內容結構的相關指引。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid ""
 "The codebase MUST have active contributors who can review contributions."
-msgstr "代碼庫「必須」有能夠審查貢獻內容的活躍貢獻者。"
+msgstr "程式基底「必須」有能夠審查貢獻內容的活躍貢獻者。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid "Automated test results for contributions SHOULD be public."
@@ -4039,7 +4059,7 @@ msgstr "「應該」公開貢獻內容的自動化測試結果。"
 msgid ""
 "The codebase guidelines SHOULD state that each contribution should focus on "
 "a single issue."
-msgstr "代碼庫指引「應該」指出，每次的貢獻內容都只應聚焦在單一議題上。"
+msgstr "程式基底指引「應該」指出，每次的貢獻內容都只應聚焦在單一議題上。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid "Source code test and documentation coverage SHOULD be monitored."
@@ -4076,7 +4096,7 @@ msgstr "確認原始碼覆蓋率工具能檢查到 100% 的原始碼。"
 msgid ""
 "Confirm that contributions are only admitted into the codebase after all of "
 "the tests are passed."
-msgstr "確認貢獻內容只有在通過所有測試後，才會認可上傳至代碼庫。"
+msgstr "確認貢獻內容只有在通過所有測試後，才會認可上傳至程式基底。"
 
 #: ./criteria/use-continuous-integration.md:block 12 (unordered list)
 msgid ""
@@ -4133,7 +4153,7 @@ msgstr "以頻繁整合少量部分內容的方式做專案規劃，而非久久
 msgid ""
 "Procure consultancy services that deliver incrementally aligned with the "
 "plan."
-msgstr "聘請有能力處理漸進式交付並跟上規劃進度的顧問服務。"
+msgstr "聘請有能力處理漸進式交付，並跟得上規劃進度的顧問服務。"
 
 #: ./criteria/use-continuous-integration.md:block 16 (unordered list)
 msgid ""
@@ -4233,9 +4253,9 @@ msgid ""
 "exchange."
 msgstr ""
 "[開放標準](../glossary.md#open-"
-"standard)保證可以取得使用與貢獻[代碼庫](../glossary.md#codebase)所需的知識。"
-"不僅能為不同的系統之間建立互通性，更降低廠商套牢的可能性。開放標準如果明確，"
-"不同方就可以各自獨立開發作資料交換。"
+"standard)保證可以取得使用與貢獻[程式基底](../glossary.md#codebase)所需的知識"
+"。不僅能為不同的系統之間建立互通性，更能降低廠商套牢的可能性。開放標準如果明"
+"確，不同方就可以各自獨立開發作資料交換。"
 
 #: ./criteria/use-open-standards.md:block 8 (unordered list)
 msgid ""
@@ -4243,8 +4263,9 @@ msgid ""
 "codebase MUST use an open standard that meets the [Open Source Initiative "
 "Open Standard Requirements](https://opensource.org/osr)."
 msgstr ""
-"代碼庫如要促進資料交換的特性，就「必須」採用符合[OSI "
-"開放原始碼促進會其開放標準需求規範](https://opensource.org/osr)的開放標準。"
+"程式基底如要促進資料交換的特性，就「必須」採用符合 [OSI "
+"開放原始碼促進會其《開放標準需求規範](https://opensource.org/"
+"osr)》的開放標準。"
 
 #: ./criteria/use-open-standards.md:block 8 (unordered list)
 msgid ""
@@ -4256,14 +4277,14 @@ msgstr "如果有使用到任何非開放標準，則「必須」在文件中清
 msgid ""
 "Any standard chosen for use within the codebase MUST be listed in the "
 "documentation with a link to where it is available."
-msgstr "代碼庫選擇採用的任何標準，皆「必須」在文件中列出，並且只要有的話，就附上該標"
-"準的連結。"
+msgstr "程式基底選擇採用的任何標準，皆「必須」在文件中列出，並且只要有的話，就附上該"
+"標準的連結。"
 
 #: ./criteria/use-open-standards.md:block 8 (unordered list)
 msgid ""
 "Any non-open standards chosen for use within the codebase MUST NOT hinder "
 "collaboration and reuse."
-msgstr "代碼庫選擇採用的任何非開放標準，皆「禁止」妨礙代碼庫的協作與重複使用。"
+msgstr "程式基底選擇採用的任何非開放標準，皆「禁止」妨礙程式基底的協作與重複使用。"
 
 #: ./criteria/use-open-standards.md:block 8 (unordered list)
 msgid ""
@@ -4297,7 +4318,8 @@ msgid ""
 "Confirm that documentation includes a list of the standards followed within "
 "the codebase, each with a working link, or a statement that no standards "
 "were chosen."
-msgstr "確認文件有清單列出代碼庫所採用的標準，其中各標準有對應的有效連結；或沒有採用任何標準時，則留下聲明。"
+msgstr "確認文件有清單列出程式基底所採用的標準，其中各標準有對應的有效連結；或沒有採"
+"用任何標準時，則留下聲明。"
 
 #: ./criteria/use-open-standards.md:block 12 (unordered list)
 msgid "Mandate use of open standards everywhere possible."
@@ -4311,7 +4333,7 @@ msgstr "禁止採購不採用開放標準的技術科技。"
 msgid ""
 "Consider including open standard compliance assessment in [source "
 "code](../glossary.md#source-code) reviews."
-msgstr "考慮在 [原始碼](../glossary.md#source-code)審查中納入開放標準依循評估。"
+msgstr "考慮在[原始碼](../glossary.md#source-code)審查中納入開放標準依循評估。"
 
 #: ./criteria/use-open-standards.md:block 16 (unordered list)
 msgid ""
@@ -4353,7 +4375,7 @@ msgstr "使用白話的英語"
 msgid ""
 "English is the <i>de facto</i> language of collaboration in software "
 "development."
-msgstr "英語是軟體開發領域中的<i>實際</i>協作語言。"
+msgstr "英語是軟體開發領域中的<i>實際</i> 協作語言。"
 
 #: ./criteria/use-plain-english.md:block 7 (paragraph)
 msgid ""
@@ -4368,12 +4390,12 @@ msgid ""
 "Translations further increase the possible reach of a "
 "[codebase](../glossary.md#codebase). Language that is easy to understand "
 "lowers the cost of creating and maintaining translations."
-msgstr "翻譯可以讓更多人有機會認識[代碼庫](../glossary."
+msgstr "翻譯可以讓更多人有機會認識[程式基底](../glossary."
 "md#codebase)。用語越是簡單明暸，製作與維護翻譯的成本就越低。"
 
 #: ./criteria/use-plain-english.md:block 10 (unordered list)
 msgid "All codebase documentation MUST be in English."
-msgstr "代碼庫的所有文件都「必須」使用英語。"
+msgstr "程式基底的所有文件都「必須」使用英語。"
 
 #: ./criteria/use-plain-english.md:block 10 (unordered list)
 msgid ""
@@ -4400,8 +4422,9 @@ msgid ""
 " specific terms in the codebase without an explanation preceding it or a "
 "link to an explanation."
 msgstr ""
-"代碼庫中「不應該」使用首字母縮字、縮寫、雙關語，或法律/非英語/行業特定詞彙；"
-"如果有的話，則需要在這些用語出現之前先行解釋，或是附上解釋該用語的網頁連結。"
+"程式基底中「不應該」使用首字母縮字、縮寫、雙關語，或法律/非英語/行業特定詞彙"
+"；如果有的話，則需要在這些用語出現之前先行解釋，或是附上解釋該用語的網頁連結"
+"。"
 
 #: ./criteria/use-plain-english.md:block 10 (unordered list)
 msgid ""
@@ -4419,7 +4442,7 @@ msgstr "「可選擇」是否提供任何程式碼、文件、測試等的翻譯
 
 #: ./criteria/use-plain-english.md:block 12 (unordered list)
 msgid "Confirm that codebase documentation is available in English."
-msgstr "確認代碼庫文件有英語版本。"
+msgstr "確認程式基底文件有英語版本。"
 
 #: ./criteria/use-plain-english.md:block 12 (unordered list)
 msgid ""
@@ -4477,7 +4500,7 @@ msgstr "經常與政策制定者和管理人員測試，確認他們是否瞭解
 msgid ""
 "Ask someone outside of your context if they understand the content (for "
 "example, a developer working on a different codebase)."
-msgstr "詢問身處不同背景情境的人（像是另一個代碼庫的開發人員）是否能瞭解內容。"
+msgstr "詢問身處不同背景情境的人（像是另一個程式基底的開發人員）是否能瞭解內容。"
 
 #: ./criteria/use-plain-english.md:block 20 (unordered list)
 msgid ""
@@ -4528,31 +4551,31 @@ msgid ""
 " communities. Newcomers need to understand and trust the codebase "
 "community’s governance."
 msgstr ""
-"[代碼庫](../glossary.md#codebase)的社群氛圍會影響使用者選擇所要使用的代碼庫。"
-"歡迎任何人成為貢獻者的社群，才能夠不斷茁壯並且持續自我運作。若貢獻者有明確的"
-"方法可以影響代碼庫、社群目標與進展，則該社群分裂成分歧的社群的機率也較低。新"
-"參與者需要瞭解並信任代碼庫社群的治理方式。"
+"[程式基底](../glossary.md#codebase)社群的氛圍，會影響使用者選擇所要使用的程式"
+"基底。歡迎任何人成為貢獻者的社群，才能夠不斷茁壯並且持續自我運作。若貢獻者有"
+"明確的方法可以影響程式基底、社群目標與進展，則該社群分裂成分歧的社群的機率也"
+"較低。新參與者需要瞭解並信任程式基底社群的治理方式。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST allow anyone to submit suggestions for changes to the "
 "codebase."
-msgstr "代碼庫必須「允許」任何人對代碼庫提出修改建議。"
+msgstr "程式基底必須「允許」任何人對程式基底提出修改建議。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST include contribution guidelines explaining what kinds of "
 "contributions are welcome and how contributors can get involved, for example"
 " in a `CONTRIBUTING` file."
-msgstr "代碼庫「必須」包含貢獻指引，說明歡迎貢獻的內容類型，以及貢獻者可如何參與開發"
-"，例如以「`CONTRIBUTING`」檔案說明。"
+msgstr "程式基底「必須」包含貢獻指引，說明歡迎貢獻的內容類型，以及貢獻者可如何參與開"
+"發，例如以「`CONTRIBUTING`」檔案說明。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid ""
 "The codebase MUST document the governance of the codebase, contributions and"
 " its community, for example in a `GOVERNANCE` file."
-msgstr "代碼庫「必須」以文件記錄代碼庫、貢獻內容與社群互動等的治理方式，例如以「`GOVE"
-"RNANCE`」檔案來說明。"
+msgstr "程式基底「必須」以文件記錄程式基底、貢獻內容與社群互動等的治理方式，例如以「`"
+"GOVERNANCE`」檔案來說明。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid ""
@@ -4564,36 +4587,36 @@ msgstr "貢獻指引「應該」以文件記錄預期由何者負擔審查貢獻
 msgid ""
 "The codebase SHOULD advertise the committed engagement of involved "
 "organizations in the development and maintenance."
-msgstr "代碼庫「應該」宣布投入其開發與維護工作的參與組織單位。"
+msgstr "程式基底「應該」宣布投入其開發與維護工作的參與組織單位。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid "The codebase SHOULD have a publicly available roadmap."
-msgstr "代碼庫「應該」要有可公開取得的發展路線圖。"
+msgstr "程式基底「應該」要有可公開取得的發展路線圖。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid "The codebase SHOULD publish codebase activity statistics."
-msgstr "代碼庫「應該」公布代碼庫的活動統計數據。"
+msgstr "程式基底「應該」公布程式基底的活動統計數據。"
 
 #: ./criteria/welcome-contributors.md:block 8 (unordered list)
 msgid ""
 "Including a code of conduct for contributors in the codebase is OPTIONAL."
-msgstr "「可選擇」是否為代碼庫加入貢獻者的行為守則。"
+msgstr "「可選擇」是否為程式基底加入貢獻者的行為守則。"
 
 #: ./criteria/welcome-contributors.md:block 10 (unordered list)
 msgid ""
 "Confirm that it is possible to submit suggestions for changes to the "
 "codebase."
-msgstr "確認可以提交修改建議給代碼庫。"
+msgstr "確認可以提交修改建議給程式基底。"
 
 #: ./criteria/welcome-contributors.md:block 10 (unordered list)
 msgid "Confirm there are contribution guidelines."
-msgstr "確認代碼庫有貢獻指引。"
+msgstr "確認程式基底有貢獻指引。"
 
 #: ./criteria/welcome-contributors.md:block 10 (unordered list)
 msgid ""
 "Confirm that the codebase governance is clearly explained, including how to "
 "influence codebase governance."
-msgstr "確認代碼庫有清楚解釋治理架構，並包含如何影響代碼庫治理的方法。"
+msgstr "確認程式基底有清楚解釋治理架構，並包含如何影響程式基底治理的方法。"
 
 #: ./criteria/welcome-contributors.md:block 10 (unordered list)
 msgid ""
@@ -4623,7 +4646,8 @@ msgid ""
 "[policy](../glossary.md#policy) experts, non-governmental organizations and "
 "academics would find useful for understanding or reusing your policy."
 msgstr ""
-"為代碼庫加入其他資源的清單，而這些資源可幫助[政策](../glossary.md#policy)專家、非政府組織、學者等，更能瞭解或可重複利用您的政策。"
+"為程式基底加入其他資源的清單，而這些資源可幫助[政策](../glossary."
+"md#policy)專家、非政府組織、學者等，更能瞭解或可重複利用您的政策。"
 
 #: ./criteria/welcome-contributors.md:block 12 (unordered list)
 msgid ""
@@ -4647,13 +4671,14 @@ msgstr "如果社群對於治理架構應該如何改變有共識，則應該將
 msgid ""
 "If needed, make sure you have allocated budget for the contributions review "
 "process as agreed by the codebase community."
-msgstr "若有需要，確認您有編列貢獻內容審查流程的預算，且通過代碼庫社群同意。"
+msgstr "若有需要，確認您有編列貢獻內容審查流程的預算，且通過程式基底社群同意。"
 
 #: ./criteria/welcome-contributors.md:block 14 (unordered list)
 msgid ""
 "Make sure the documentation explains how each organization is involved in "
 "the codebase, what resources it has available for it and for how long."
-msgstr "確認文件有解釋每個參與組織單位所投入的內容，例如提供代碼庫哪些資源，以及參與的時間長度等。"
+msgstr "確認文件有解釋每個參與組織單位所投入的內容，例如提供程式基底哪些資源，以及參"
+"與的時間長度等。"
 
 #: ./criteria/welcome-contributors.md:block 14 (unordered list)
 msgid ""
@@ -4669,7 +4694,7 @@ msgstr "快速回應請求。"
 msgid ""
 "Communicate clearly to contributors what they need to do make sure their "
 "contribution can be integrated."
-msgstr "清楚告知貢獻者他們該如何做，才能讓貢獻內容整合到代碼庫中。"
+msgstr "清楚告知貢獻者他們該如何做，才能讓貢獻內容整合到程式基底中。"
 
 #: ./criteria/welcome-contributors.md:block 18 (unordered list)
 msgid ""
@@ -4694,7 +4719,7 @@ msgid ""
 "governance/) for growing [open source](../glossary.md#open-source) community"
 " projects, by Open Source Guides."
 msgstr ""
-"《開放原始碼指引》針對推動[開放原始碼](../glossary.md#open-"
+"開放原始碼指引針對推動[開放原始碼](../glossary.md#open-"
 "source)社群專案所寫的《[領導與治理](https://opensource.guide/"
 "leadership-and-governance/)》。"
 
@@ -4811,7 +4836,7 @@ msgstr "建立發行用分支"
 
 #: ./docs/releasing.md:block 3 (ordered list)
 msgid "From 'develop', `git switch -c \"release-$MAJOR.$MINOR.$PATCH\"`"
-msgstr "從「develop」分支下指令，`git switch -c \"release-$MAJOR.$MINOR.$PATCH\"`"
+msgstr "從「develop」分支下命令，`git switch -c \"release-$MAJOR.$MINOR.$PATCH\"`"
 
 #: ./docs/releasing.md:block 3 (ordered list)
 msgid "Push the branch, `git push -u origin release-$MAJOR.$MINOR.$PATCH`"
@@ -5013,8 +5038,8 @@ msgid ""
 " session](https://about.publiccode.net/activities/standard-"
 "maintenance/backlog-pruning.html)."
 msgstr ""
-"代碼庫管事人員每月會定期審查發展路線圖，這是我們[積累事項修整作業](https://ab"
-"out.publiccode.net/activities/standard-maintenance/backlog-pruning."
+"程式基底管事人員每月會定期審查發展路線圖，這是我們[積累事項修整作業](https://"
+"about.publiccode.net/activities/standard-maintenance/backlog-pruning."
 "html)環節的一部份。"
 
 #: ./docs/roadmap.md:block 6 (header)
@@ -5037,7 +5062,7 @@ msgstr "分離執行摘要"
 msgid ""
 "Clarify \"code\" as \"source code\" or \"policy code\" when specific to one,"
 " issue #208"
-msgstr "#208號議題：將代碼或規則之「code」清楚區分為「原始碼」或是「政策法規」"
+msgstr "#208號議題：將程式碼或規則之「code」清楚區分為「原始碼」或是「政策法規」"
 
 #: ./docs/roadmap.md:block 9 (unordered list)
 msgid "Possibly: add in the illustrations for each criterion"
@@ -5063,11 +5088,11 @@ msgstr "實體紙張檢查清單"
 
 #: ./docs/roadmap.md:block 11 (unordered list)
 msgid "Becoming validated by multiple codebases"
-msgstr "通過多個代碼庫驗證"
+msgstr "通過多個程式基底驗證"
 
 #: ./docs/roadmap.md:block 11 (unordered list)
 msgid "Release version 1.0.0 after a few codebases are compliant"
-msgstr "在幾個代碼庫遵循標準後，發行 1.0.0 版"
+msgstr "在幾個程式基底遵循標準後，發行 1.0.0 版"
 
 #: ./docs/roadmap.md:block 11 (unordered list)
 msgid "Linkable requirements"
@@ -5238,10 +5263,10 @@ msgid ""
 " Citizens and civil society actors need this software to be transparent and "
 "accountable."
 msgstr ""
-"我們相信支持社會運作的軟體，再也不能是黑箱，任由外部公司依隱藏在專有代碼庫之"
-"下的秘密邏輯作控制。反過來說，政府，以及政府所要服務的人民，需要掌控技術自主"
-"權。技術自主讓他們能主導設定與控制公共軟體的運作，正如同他們能依法制定與調整"
-"政策一樣。人民與公民社會的參與者，都需要這類軟體能夠透明，且可以課責。"
+"我們相信支持社會運作的軟體，再也不能是黑箱，任由外部公司依隱藏在專有程式基底"
+"之下的秘密邏輯作控制。反過來說，政府，以及政府所要服務的人民，需要掌控技術自"
+"主權。技術自主讓他們能主導設定與控制公共軟體的運作，正如同他們能依法制定與調"
+"整政策一樣。人民與公民社會的參與者，都需要這類軟體能夠透明，且可以課責。"
 
 #: ./foreword.md:block 25 (paragraph)
 msgid ""
@@ -5428,8 +5453,8 @@ msgid ""
 "describe the service or outcome in your contract."
 msgstr ""
 "若要使用既有的公共程式，您將需要在預算以及專案設計中，明確指出新的解決方案將"
-"會使用該代碼庫。為了鼓勵創新，將公共程式依據您的情境背景作調整，您可在合約中"
-"描述說明服務內容或預期成果。"
+"會使用該程式基底。為了鼓勵創新，將公共程式依據您的情境背景作調整，您可在合約"
+"中描述說明服務內容或預期成果。"
 
 #: ./foreword.md:block 47 (header)
 msgid "The goals for the Standard for Public Code"
@@ -5450,7 +5475,7 @@ msgstr "開發出高品質的軟體與政策，來改善公共服務的交付"
 msgid ""
 "develop codebases that can be reused across contexts and collaboratively "
 "maintained"
-msgstr "開發出能在各種情境下重複使用，且以協作方式維護的代碼庫"
+msgstr "開發出能在各種情境下重複使用，且以協作方式維護的程式基底"
 
 #: ./foreword.md:block 49 (unordered list)
 msgid "reduce technical debt and project failure rate"
@@ -5471,8 +5496,8 @@ msgid ""
 "Potential users of codebases tested against the Standard for Public Code can"
 " expect them to be highly reusable, easily maintainable and of high quality."
 msgstr ""
-"如果有潛在使用者想採用經由《Standard for Public Code》測試過的代碼庫，便可以"
-"預期這些代碼庫具有方便重複利用、容易維護、高品質的特性。"
+"如果有潛在使用者想採用經由《Standard for Public Code》測試過的程式基底，便可"
+"以預期這些程式基底具有方便重複利用、容易維護、高品質的特性。"
 
 #: ./foreword.md:block 51 (paragraph)
 msgid "The Standard for Public Code does this by:"
@@ -5617,18 +5642,18 @@ msgstr ""
 
 #: ./glossary.md:block 6 (header)
 msgid "Codebase"
-msgstr "代碼庫"
+msgstr "程式基底"
 
 #: ./glossary.md:block 7 (paragraph)
 msgid ""
 "Any discrete package of code (both source and policy), the tests and the "
 "documentation required to implement a piece of policy or software."
-msgstr "執行部分政策或軟體所需，任何獨立分離的程式（包含原始碼與政策）、測試與文件的"
-"整套統合包。"
+msgstr "執行部分政策或軟體所需，任何獨立分離的程式（包含原始碼與政策）、測試與文件等"
+"的整套內容統合包。"
 
 #: ./glossary.md:block 8 (paragraph)
 msgid "This can be, for example, a document or a version-control repository."
-msgstr "例如，這可以是文件，或是版本控制的儲存庫。"
+msgstr "舉例來說，這可以是用文件，或是版本控制的儲存庫來存放。"
 
 #: ./glossary.md:block 9 (header)
 msgid "Continuous integration"
@@ -5639,8 +5664,8 @@ msgid ""
 "In software engineering, continuous integration (CI) is the practice of "
 "merging all developers' working copies to a development branch of a codebase"
 " as frequently as reasonable."
-msgstr "在軟體工程中，持續整合 (CI) "
-"是盡可能頻繁地將所有開發人員工作中的副本，合併回代碼庫開發中分支的實務作法。"
+msgstr "在軟體工程中，持續整合 (CI) 是盡可能頻繁地將所有開發人員工作中的副本，合併回"
+"程式基底開發中分支的實務作法。"
 
 #: ./glossary.md:block 11 (header)
 msgid "Different contexts"
@@ -5732,7 +5757,7 @@ msgstr "在本標準當中，「政策」一詞指的是公家機關，例如政
 
 #: ./glossary.md:block 25 (header)
 msgid "Public code"
-msgstr "公共程式"
+msgstr "公共程式 (Public code)"
 
 #: ./glossary.md:block 26 (paragraph)
 msgid ""
@@ -5795,8 +5820,8 @@ msgid ""
 " on the same set of files. Repositories are able to store multiple versions "
 "of sets of files."
 msgstr ""
-"儲存庫是版本控制工具，用於存放檔案與代碼庫中介資料的儲存位置。儲存庫允許多位"
-"貢獻者，得以同時對同一組檔案作業。儲存庫可以儲存一組檔案的多個版本。"
+"儲存庫是版本控制工具，用於存放檔案與程式基底中介資料的儲存位置。儲存庫允許多"
+"位貢獻者，得以同時對同一組檔案作業。儲存庫可以儲存一組檔案的多個版本。"
 
 #: ./glossary.md:block 34 (header)
 msgid "Source Code"
@@ -5823,9 +5848,9 @@ msgid ""
 "time."
 msgstr ""
 "版本控制，是對原始碼及其相關檔案的變動行為作管理的流程。變動行為，通常是以稱"
-"為「*修訂編號*」（或「版次」等類似名稱）的代號作識別。每次修訂都會標示其改動"
-"時間以及作者，方便追溯程式碼的演進。修訂控制系統可用來比較不同版本之間的差異"
-"，以及查看內容隨著時間的變動。"
+"為「*修訂編號*」（或版次等類似名稱）的代號作識別。每次修訂都會標示其改動時間"
+"以及作者，方便追溯程式碼的演進。修訂控制系統可用來比較不同版本之間的差異，以"
+"及查看內容隨著時間的變動。"
 
 #: ./index.md:block 3 (header)
 msgid "toc: false"
@@ -5857,8 +5882,8 @@ msgstr ""
 "以便他們未來能成功與其他地方的類似公部門單位互相協作，並且重複使用各自的成果"
 "。這份標準涵蓋寫給政策制定者、政府管理人員、開發人員與供應商的建議。《"
 "Standard for Public Code》支持公家機關透過協作方式，創造出好用、開放、易懂、"
-"課責、近用、永續的代碼庫。這份標準從設計之初，就是要用於各種不同政府層級的代"
-"碼庫，小從市政府，大到超國家組織都行。"
+"課責、近用、永續的程式基底。這份標準從設計之初，就是要用於各種不同政府層級的"
+"程式基底，小從市政府，大到超國家組織都行。"
 
 #: ./index.md:block 7 (paragraph)
 msgid ""
@@ -5951,8 +5976,8 @@ msgid ""
 msgstr ""
 "我們通常在每月第一個週四的 15:00 (CET/CEST) "
 "舉辦社群會議。[議程](https://write.publiccode.net/pads/Community-Call-"
-"Standard-for-Public-Code) 在會議前約一週的時間更新。您可以[註冊](https://odoo"
-".publiccode.net/survey/start/"
+"Standard-for-Public-Code)在會議前約一週的時間更新。您可以[註冊](https://odoo."
+"publiccode.net/survey/start/"
 "594b9243-c7e5-4bc1-8714-35137c971842)報名，會再寄送會議通話邀請函給您。"
 
 #: ./index.md:block 14 (header)
@@ -5974,8 +5999,8 @@ msgid ""
 "assessment](https://publiccodenet.github.io/assessment-eligibility/) for "
 "public sector open source codebases"
 msgstr ""
-"公部門開源代碼庫的〈[標準遵循自我評估](https://publiccodenet.github.io/"
-"assessment-eligibility/)〉"
+"公部門開源程式基底的《[標準遵循自我評估](https://publiccodenet.github.io/"
+"assessment-eligibility/)》"
 
 #: ./index.md:block 15 (unordered list)
 msgid ""
@@ -5985,8 +6010,8 @@ msgid ""
 "review"
 msgstr ""
 "Foundation for Public Code "
-"管事人員審查代碼庫時所使用的〈[本標準準則檢查清單](https://github.com/"
-"publiccodenet/standard/blob/develop/docs/review-template.html)〉"
+"管事人員審查程式基底時所使用的《[本標準準則檢查清單](https://github.com/"
+"publiccodenet/standard/blob/develop/docs/review-template.html)》"
 
 #: ./readers-guide.md:block 3 (header)
 msgid "Readers guide"
@@ -6022,8 +6047,8 @@ msgstr "前言"
 msgid ""
 "This section explains what the criterion aims to achieve and why it is "
 "important for a codebase's users and contributors."
-msgstr "本小節說明這些準則想達成的目的，以及為何會對代碼庫使用者與貢獻者來說這麼重要"
-"的原因。"
+msgstr "本小節說明這些準則想達成的目的，以及為何會對程式基底使用者與貢獻者來說這麼重"
+"要的原因。"
 
 #: ./readers-guide.md:block 10 (paragraph)
 msgid ""
@@ -6147,8 +6172,8 @@ msgid ""
 "implementers how to comply with their organization's local technical "
 "infrastructure or legal framework."
 msgstr ""
-"《Standard for Public Code》不是為了涵蓋代碼庫的個別實作而撰寫。這代表本標準"
-"不是要告訴實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。"
+"《Standard for Public Code》不是為了涵蓋程式基底的個別實作而撰寫。這代表本標"
+"準不是要告訴實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。"
 
 #: ./readers-guide.md:block 27 (paragraph)
 msgid ""
@@ -6172,8 +6197,8 @@ msgid ""
 "proactiveness and ambition beyond making the codebase collaboration ready."
 msgstr ""
 "《Standard for Public Code》的目在於促進協作，但也無法保證能夠催生出一個社群"
-"。若要建立社群，除了代碼庫需要準備好進行協作以外，也需要積極主動，以及做到超"
-"越協作以外的企圖心。"
+"。若要建立社群，除了程式基底需要準備好進行協作以外，也需要積極主動，以及做到"
+"超越協作以外的企圖心。"
 
 msgid ""
 "script/release-body.sh expects VERSION in the first second-level header"
@@ -6193,7 +6218,7 @@ msgstr "2023/07/31: 💄 第十六版草稿修改準則名稱，並釐清程式 
 msgid ""
 "The criterion \"Make the codebase reusable and portable\" was renamed from "
 "\"Create reusable and portable code\"."
-msgstr "〈程式碼要可重複使用且可攜〉準則改名為〈代碼庫要可重複使用且可移植〉。"
+msgstr "〈程式碼要可重複使用且可攜〉準則改名為〈程式基底要可重複使用且可移植〉。"
 
 msgid "Added a glossary entry for \"Source Code\"."
 msgstr "新增詞彙條目「原始碼」。"
@@ -6207,7 +6232,7 @@ msgid "Clarification of \"running code\" as \"software\"."
 msgstr "將「運作的程式碼」釐清稱為「軟體」。"
 
 msgid "Minor changes to clarify \"code\" vs \"codebase\"."
-msgstr "細微修改以清楚區分「程式碼」與「代碼庫」。"
+msgstr "細微修改以清楚區分「程式碼」與「程式基底」。"
 
 msgid "Simplify guidance to policy makers in Bundle policy and source code."
 msgstr "簡化給政策制定者在〈政策與原始碼要合捆〉中的指引。"
@@ -6215,7 +6240,8 @@ msgstr "簡化給政策制定者在〈政策與原始碼要合捆〉中的指引
 msgid ""
 "Clarify How to test sections of Make the codebase findable and Make the "
 "codebase reusable and portable."
-msgstr "釐清〈代碼庫可查詢得到〉與〈代碼庫要可重複使用且可移植〉的「測試方式」小節。"
+msgstr "釐清〈程式基底可查詢得到〉與〈程式基底要可重複使用且可移植〉的「測試方式」小"
+"節。"
 
 msgid "Add a criteria and requirements checklist to the release artifacts."
 msgstr "在發行成品前的要求中，加入準則與需求規定檢查清單。"
@@ -6246,12 +6272,12 @@ msgid ""
 "eligibility) that will give you a rough idea of how much work you may need "
 "to do to meet all criteria."
 msgstr ""
-"若您想要將《Standard for Public Code》套用您的代碼庫，就請放心去做，因為它是"
-"人人都能自由採用的開放標準。如果您希望宣傳代碼庫社群達成《Standard for "
+"若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它"
+"是人人都能自由採用的開放標準。如果您希望宣傳程式基底社群達成《Standard for "
 "Public Code》準則要求時的熱誠，請使用 [standard-for-public-code-commitment "
 "徽章](assets/standard-for-public-code-commitment.svg)連結到這份承諾文件。若要"
-"瞭解您代碼庫所達成的程度，可以做[自我資格評估](https://publiccodenet.github."
-"io/assessment-"
+"瞭解您程式基底所達成的程度，可以做[自我資格評估](https://publiccodenet.github"
+".io/assessment-"
 "eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。"
 
 msgid "Update [`roadmap.md`](roadmap.md)"
@@ -6283,5 +6309,5 @@ msgid ""
 "[Standard criteria checklist](/docs/review-template.html) used by Foundation"
 " for Public Code stewards for codebase review"
 msgstr ""
-"Foundation for Public Code 管事人員用於代碼庫審查的〈[標準準則檢查清單](/"
+"Foundation for Public Code 管事人員用於程式基底審查的〈[標準準則檢查清單](/"
 "docs/review-template.html)〉"
