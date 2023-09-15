@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-15 15:51+0000\n"
+"PO-Revision-Date: 2023-09-16 03:32+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -463,7 +463,7 @@ msgstr "新增審查範本。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Consistently link glossary terms."
-msgstr "一致性連動詞彙表。"
+msgstr "一致性連結詞彙表。"
 
 #: ./CHANGELOG.md:block 16 (unordered list)
 msgid "Add practices and standards to follow in CONTRIBUTING."
@@ -535,7 +535,7 @@ msgstr "重新編寫「得以」等級的相關規定，加入使用「可選擇
 msgid ""
 "Expressed intent that the Standard for Public Code should meet its own "
 "requirements where applicable and added assessment."
-msgstr "表明《Standard for Public "
+msgstr "表達《Standard for Public "
 "Code》應該盡可能符合其自身規定的立場，並加入評估措施。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
@@ -744,7 +744,7 @@ msgstr "將 Mauko Quiroga 與 Charlotte Heikendorf 加入 AUTHORS。"
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Add Digital Public Goods approval badge."
-msgstr "新增「數位公共財」核可徽章。"
+msgstr "新增「數位公共財」認可標章。"
 
 #: ./CHANGELOG.md:block 28 (unordered list)
 msgid "Added \"next\" and \"previous\" links to criteria pages of web version."
@@ -958,7 +958,7 @@ msgstr "2019年8月22日：🌠第三版草稿專注在提升文字品質，並�
 
 #: ./CHANGELOG.md:block 43 (unordered list)
 msgid "With some great new contributors comes a fresh author list."
-msgstr "好幾位很棒的新貢獻者加入我們的作者群名單，讓氣象一新。"
+msgstr "有好幾位很棒的新貢獻者加入我們的作者群名單，讓氣象一新。"
 
 #: ./CHANGELOG.md:block 43 (unordered list)
 msgid "All links are now HTTPS."
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: ./GOVERNANCE.md:block 3 (header)
 msgid "Governance"
-msgstr "治理"
+msgstr "治理方式"
 
 #: ./GOVERNANCE.md:block 4 (paragraph)
 msgid ""
@@ -1418,9 +1418,9 @@ msgid ""
 "[Foundation for Public Code](https://publiccode.net/). We decide if a "
 "codebase is ready for community co-development based on this document."
 msgstr ""
-"本標準是 [Foundation for Public Code](https://publiccode.net/) 在程式基底盡職"
-"管理作監督時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群"
-"共同參與開發。"
+"本標準是 [Foundation for Public Code](https://publiccode.net/) 在監督程式基底"
+"盡職管理時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群共"
+"同參與開發。"
 
 #: ./GOVERNANCE.md:block 5 (paragraph)
 msgid "The standard is maintained by Foundation for Public Code staff."
@@ -1516,7 +1516,7 @@ msgstr "《Standard for Public Code》目前為草稿階段。我們正在準備
 
 #: ./README.md:block 7 (header)
 msgid "Applying the Standard for Public Code to your codebase"
-msgstr "將《Standard for Public Code》套用您的程式基底"
+msgstr "將《Standard for Public Code》套用到您的程式基底"
 
 #: ./README.md:block 8 (paragraph)
 msgid ""
@@ -1527,9 +1527,9 @@ msgid ""
 "will give you a rough idea of how much work you may need to do to meet all "
 "criteria."
 msgstr ""
-"若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它"
-"是人人都能自由採用的開放標準。若要瞭解您程式基底所達成的程度，可以做[自我資格"
-"評估](https://publiccodenet.github.io/assessment-"
+"若您想要將《Standard for Public Code》套用到您的程式基底，就請放心去做，因為"
+"它是人人都能自由採用的開放標準。若要瞭解您程式基底所達成的程度，可以做[自我資"
+"格評估](https://publiccodenet.github.io/assessment-"
 "eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。"
 
 #: ./README.md:block 9 (paragraph)
@@ -1754,7 +1754,7 @@ msgstr ""
 "本標準採用 CC0 "
 "公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。CC0 代表任"
 "何人都能任意使用這些內容。如果您是貢獻者，代表您也將這些權利賦予他人。若要進"
-"一步瞭解如何協助本專案，請參閱《[貢獻指引](CONTRIBUTING.md)》。"
+"一步瞭解如何協助本專案，請參閱〈[貢獻指引](CONTRIBUTING.md)〉。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 3 (paragraph)
 msgid "order: 2 redirect_from:"
@@ -1888,7 +1888,7 @@ msgstr "政策內容請使用明確且機器可讀的格式，像是[物件管�
 msgid ""
 "Track policy with [the same version control](maintain-version-control.md) "
 "and documentation used to track source code."
-msgstr "追蹤政策時，請使用與追蹤原始碼[相同的版本控制系統](maintain-version-control."
+msgstr "追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control."
 "md)與文件。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 14 (unordered list)
@@ -1909,9 +1909,10 @@ msgid ""
 "commitment to equal opportunity."
 msgstr ""
 "納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR "
-"一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是 "
-"[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-access"
-"ibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承諾等。"
+"一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/"
+"oj)或是[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/"
+"web-accessibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承"
+"諾等。"
 
 #: ./criteria/bundle-policy-and-source-code.md:block 15 (header)
 msgid "Managers: what you need to do"
@@ -3182,11 +3183,11 @@ msgid ""
 "findable). Some of these apply directly to codebases, while others may "
 "provoke exploration into what the codebase equivalent would be."
 msgstr ""
-"GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR科學資料管理與盡職治理指導原則](ht"
-"tps://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特"
-"性會讓資料（或中介資料）更容易讓機器採取行動（也因此更容易被找到）。其中的部"
-"分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底"
-"與其對應的特性要怎麼處理。"
+"GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR "
+"科學資料管理與盡職監督指導原則](https://www.go-fair.org/fair-principles/)》，"
+"提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓機器採取行"
+"動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直"
+"接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 3 (paragraph)
 msgid "order: 3 redirect_from:"
@@ -4766,7 +4767,7 @@ msgstr "直向或橫向：直向 (Staand)"
 
 #: ./docs/printing.md:block 5 (unordered list)
 msgid "Printing inside: 4/4 dual sided full color"
-msgstr "內頁印刷：正四反四，雙面全色印刷"
+msgstr "內頁印刷：正四反四 4/4，雙面全色印刷"
 
 #: ./docs/printing.md:block 5 (unordered list)
 msgid "Inside material: 90 grams biotop"
@@ -4778,7 +4779,7 @@ msgstr "封面：350 克封面"
 
 #: ./docs/printing.md:block 5 (unordered list)
 msgid "Printing cover: 4/0 one sided full cover"
-msgstr "封面印刷：正四反空，單面滿版印刷"
+msgstr "封面印刷：正四反空 4/0，單面滿版印刷"
 
 #: ./docs/printing.md:block 5 (unordered list)
 msgid "Cover treatment: one sided matt foliated (Enke)"
@@ -5584,7 +5585,7 @@ msgid ""
 "2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o). Talk by Ben Cerveny on "
 "the background behind the Foundation for Public Code."
 msgstr ""
-"[〈程式協作是城市的未來〉@ DecidimFest 2019](https://www.youtube.com/"
+"[「程式協作是城市的未來」@ DecidimFest 2019](https://www.youtube.com/"
 "watch?v=cnJtnZ9Cx1o)。主講人 Ben Cerveny，講述 Foundation for Public Code "
 "的背景。"
 
@@ -5594,7 +5595,7 @@ msgid ""
 "2019](https://youtube.com/watch?v=QHFkD4xfd6c). Touches on topics like "
 "procurement, law and more."
 msgstr ""
-"[ 〈用公共的納稅錢？做公共的程式吧！〉專題討論 @ Nextcloud 大會 "
+"[ 「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 "
 "2019](https://youtube.com/watch?v=QHFkD4xfd6c)。討論採購、法律等主題。"
 
 #: ./foreword.md:block 64 (header)
@@ -5605,7 +5606,7 @@ msgstr "參與我們"
 msgid ""
 "This standard is a living document. [Read our contributor "
 "guide](/CONTRIBUTING.md) to learn how you can make it better."
-msgstr "本標準是持續成長的文件。[請讀我們的〈貢獻者指引〉](/CONTRIBUTING."
+msgstr "本標準是持續成長的文件。[請讀我們的《貢獻者指引》](/CONTRIBUTING."
 "md)，瞭解您可以怎麼做來讓本標準變得更好。"
 
 #: ./foreword.md:block 66 (header)
@@ -5648,12 +5649,12 @@ msgstr "程式基底"
 msgid ""
 "Any discrete package of code (both source and policy), the tests and the "
 "documentation required to implement a piece of policy or software."
-msgstr "執行部分政策或軟體所需，任何獨立分離的程式（包含原始碼與政策）、測試與文件等"
-"的整套內容統合包。"
+msgstr "任何獨立分離的統合包，內含執行部分政策或軟體所需的程式（包含原始碼與政策）、"
+"測試與文件等的整套內容。"
 
 #: ./glossary.md:block 8 (paragraph)
 msgid "This can be, for example, a document or a version-control repository."
-msgstr "舉例來說，這可以是用文件，或是版本控制的儲存庫來存放。"
+msgstr "舉例而言，這個具體形式可以是文件，或是版本控制的儲存庫。"
 
 #: ./glossary.md:block 9 (header)
 msgid "Continuous integration"
@@ -5692,8 +5693,8 @@ msgstr "整體民眾：程式碼與其所建立的服務的終端使用者。"
 msgid ""
 "For example, a city's residents are considered end users of a city's "
 "services and of all code that powers these services."
-msgstr "舉例而言，城市的居民視為該城市的服務，以及驅動這些服務運作的程式碼的終端使用"
-"者。"
+msgstr "舉例而言，城市的居民即視為該城市的服務、以及驅動這些服務運作的程式碼的終端使"
+"用者。"
 
 #: ./glossary.md:block 16 (header)
 msgid "Open source"
@@ -5704,7 +5705,7 @@ msgid ""
 "Open source is defined by the Open Source Initiative in their [Open Source "
 "Definition](https://opensource.org/osd-annotated)."
 msgstr ""
-"所謂「開源」，是根據 OSI "
+"所謂「開源」或「開放原始碼」，是根據 OSI "
 "開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-"
 "annotated)》而來。"
 
@@ -5717,7 +5718,7 @@ msgid ""
 "An open standard is any standard that meets the Open Source Initiative's "
 "[Open Standard Requirements](https://opensource.org/osr)."
 msgstr "任何符合 OSI 開放原始碼促進會《[開放標準需求規範](https://opensource.org/"
-"osr)》的標準就是開放標準。"
+"osr)》的標準，就是開放標準。"
 
 #: ./glossary.md:block 20 (header)
 msgid "Policy"
@@ -5820,7 +5821,7 @@ msgid ""
 " on the same set of files. Repositories are able to store multiple versions "
 "of sets of files."
 msgstr ""
-"儲存庫是版本控制工具，用於存放檔案與程式基底中介資料的儲存位置。儲存庫允許多"
+"儲存庫是版本控制工具，用於存放程式基底的檔案與中介資料的儲存位置。儲存庫讓多"
 "位貢獻者，得以同時對同一組檔案作業。儲存庫可以儲存一組檔案的多個版本。"
 
 #: ./glossary.md:block 34 (header)
@@ -5850,7 +5851,7 @@ msgstr ""
 "版本控制，是對原始碼及其相關檔案的變動行為作管理的流程。變動行為，通常是以稱"
 "為「*修訂編號*」（或版次等類似名稱）的代號作識別。每次修訂都會標示其改動時間"
 "以及作者，方便追溯程式碼的演進。修訂控制系統可用來比較不同版本之間的差異，以"
-"及查看內容隨著時間的變動。"
+"及查看內容隨著時間經歷的變動。"
 
 #: ./index.md:block 3 (header)
 msgid "toc: false"
@@ -6062,7 +6063,7 @@ msgid ""
 "in [IETF RFC 2119](https://tools.ietf.org/html/rfc2119):"
 msgstr ""
 "本文件中的下列關鍵字，請以《[IETF RFC 2119](https://tools.ietf.org/html/"
-"rfc2119)》的描述作詮釋："
+"rfc2119)》的描述作解釋："
 
 #: ./readers-guide.md:block 12 (unordered list)
 msgid "MUST"
@@ -6147,7 +6148,7 @@ msgid ""
 msgstr ""
 "管理人員負責監督專案的準時交付、利害關係人管理，以及服務的持續交付。因此，他"
 "們得完全依賴政策制定者、開發人員與設計師。他們需要塑造正確的文化、籌備合適的"
-"資源、提供正確的架構等，才能交付優良的服務。"
+"資源、提供適當的架構等，才能交付優良的服務。"
 
 #: ./readers-guide.md:block 23 (paragraph)
 msgid ""
@@ -6309,5 +6310,5 @@ msgid ""
 "[Standard criteria checklist](/docs/review-template.html) used by Foundation"
 " for Public Code stewards for codebase review"
 msgstr ""
-"Foundation for Public Code 管事人員用於程式基底審查的〈[標準準則檢查清單](/"
-"docs/review-template.html)〉"
+"Foundation for Public Code 管事人員用於程式基底審查的《[標準準則檢查清單](/"
+"docs/review-template.html)》"
