@@ -3,10 +3,10 @@
 # SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 ---
 
-# 治理
+# 治理方式
 
-本標準是 [Foundation for Public Code](https://publiccode.net/) 在程式基底盡職管理作監督時的核心。我們依照這份
-文件來判斷，某個程式基底是否已經準備好讓社群共同參與開發。
+本標準是 [Foundation for Public Code](https://publiccode.net/) 在監督程式基底盡職管理時的核心。我們依照這份文
+件來判斷，某個程式基底是否已經準備好讓社群共同參與開發。
 
 這份標準由 Foundation for Public Code 職員負責維護。
 

@@ -21,7 +21,7 @@ badge](https://publiccodenet.github.io/publiccodenet-url-check/badges/standard.p
 
 《Standard for Public Code》目前為草稿階段。我們正在準備發行 1.0 版，目前仍在幾個程式基底中作測試。
 
-## 將《Standard for Public Code》套用您的程式基底
+## 將《Standard for Public Code》套用到您的程式基底
 
 若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它是人人都能自由採用的開放標準。如果您希望宣傳程式基底社群達成
 《Standard for Public Code》準則要求時的熱誠，請使用 [standard-for-public-code-commitment 徽
@@ -111,4 +111,4 @@ script/pdf.sh
 © [作者與貢獻者](AUTHORS.md)
 
 本標準採用 CC0 公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。CC0 代表任何人都能任意使用這些內容。如果您是貢獻者，代表您也將
-這些權利賦予他人。若要進一步瞭解如何協助本專案，請參閱《[貢獻指引](CONTRIBUTING.md)》。
+這些權利賦予他人。若要進一步瞭解如何協助本專案，請參閱〈[貢獻指引](CONTRIBUTING.md)〉。

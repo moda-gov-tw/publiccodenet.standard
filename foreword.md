@@ -149,14 +149,14 @@ redirect_from:
 
 ### 探討公共程式的影片
 
-* [〈程式協作是城市的未來〉@ DecidimFest 2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o)。主講
+* [「程式協作是城市的未來」@ DecidimFest 2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o)。主講
 人 Ben Cerveny，講述 Foundation for Public Code 的背景。
-* [ 〈用公共的納稅錢？做公共的程式吧！〉專題討論 @ Nextcloud 大會 2019](https://youtube.com/watch?
+* [ 「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 2019](https://youtube.com/watch?
 v=QHFkD4xfd6c)。討論採購、法律等主題。
 
 ## 參與我們
 
-本標準是持續成長的文件。[請讀我們的〈貢獻者指引〉](/CONTRIBUTING.md)，瞭解您可以怎麼做來讓本標準變得更好。
+本標準是持續成長的文件。[請讀我們的《貢獻者指引》](/CONTRIBUTING.md)，瞭解您可以怎麼做來讓本標準變得更好。
 
 ## 聯絡方式
 

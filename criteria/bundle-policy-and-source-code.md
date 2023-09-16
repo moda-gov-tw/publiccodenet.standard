@@ -36,10 +36,10 @@ redirect_from:
 位所選擇遵守的各項標準，以及影響貴組織單位程式基底開發或部署情境的任何組織單位流程。
 * 請提供政策相關參考資料與連結。
 * 政策內容請使用明確且機器可讀的格式，像是[物件管理群體](https://www.omg.org/spec/)所發表的格式。
-* 追蹤政策時，請使用與追蹤原始碼[相同的版本控制系統](maintain-version-control.md)與文件。
+* 追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control.md)與文件。
 * 定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合[政策意圖](document-codebase-objectives.md)。
 * 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR 一般資料保護規
-則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是 [歐盟網頁無障礙命
+則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命
 令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政
 策，例如公家機關對機會平等的承諾等。
 

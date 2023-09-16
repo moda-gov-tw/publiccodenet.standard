@@ -48,5 +48,5 @@ if page.title %}
 譯](https://publiccodenet.github.io/community-translations-standard/)
 * 公部門開源程式基底的《[標準遵循自我評
 估](https://publiccodenet.github.io/assessment-eligibility/)》
-* Foundation for Public Code 管事人員用於程式基底審查的〈[標準準則檢查清
-單](/docs/review-template.html)〉
+* Foundation for Public Code 管事人員用於程式基底審查的《[標準準則檢查清
+單](/docs/review-template.html)》
