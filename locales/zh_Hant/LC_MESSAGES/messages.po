@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-16 03:32+0000\n"
+"PO-Revision-Date: 2023-09-17 09:44+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -568,7 +568,7 @@ msgstr "釐清非開放標準在程式基底中的角色。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Additional guidance about build-time and runtime dependencies."
-msgstr "加入建置時期與執行時期依賴項目的額外指引。"
+msgstr "加入組建日期與執行時期依賴項目的額外指引。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Added roadmap for the development of the Standard for Public Code."
@@ -1418,9 +1418,9 @@ msgid ""
 "[Foundation for Public Code](https://publiccode.net/). We decide if a "
 "codebase is ready for community co-development based on this document."
 msgstr ""
-"本標準是 [Foundation for Public Code](https://publiccode.net/) 在監督程式基底"
-"盡職管理時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群共"
-"同參與開發。"
+"本標準是 [Foundation for Public Code](https://publiccode.net/) 在為程式基底提"
+"供督導時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群共同"
+"參與開發。"
 
 #: ./GOVERNANCE.md:block 5 (paragraph)
 msgid "The standard is maintained by Foundation for Public Code staff."
@@ -1554,7 +1554,7 @@ msgid ""
 msgstr ""
 "若新版的《Standard for Public Code》有任何導致過去作法不再適用的改動，則 "
 "Foundation for Public Code "
-"的程式基底管事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
+"的程式基底執事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
 
 #: ./README.md:block 11 (paragraph)
 msgid ""
@@ -2531,7 +2531,7 @@ msgid ""
 "codebase?"
 msgstr ""
 "嘗試使用程式基底，並提供您的意見回饋來讓政策與原始碼文件改善得更加清楚。舉例"
-"來說，可以自問目前的文件是否足以說服另一個公家機關的管理人員使用這個程式基底"
+"來說，可以自問目前的文件是否足以說服另一個公家機關的管理人員使用這套程式基底"
 "？"
 
 #: ./criteria/document-the-code.md:block 14 (unordered list)
@@ -2653,7 +2653,7 @@ msgid ""
 "It is OPTIONAL for contributors to sign their commits and provide an email "
 "address, so that future contributors are able to contact past contributors "
 "with questions about their work."
-msgstr "貢獻者「可選擇」是否在提交內容中簽章，並附上電子郵件信箱，以便當未來貢獻者對"
+msgstr "貢獻者「可選擇」是否對送交內容作簽章，並附上電子郵件信箱，以便當未來貢獻者對"
 "其內容有疑問時，可以與之前的貢獻者聯絡。"
 
 #: ./criteria/maintain-version-control.md:block 10 (unordered list)
@@ -2755,7 +2755,7 @@ msgstr "送交版次訊息要寫清楚，方便之後比較各版本。"
 msgid ""
 "Work with policy makers to describe how the source code was updated after a "
 "policy change."
-msgstr "在政策改變以後與政策制定者合作，說明原始碼更新的內容。"
+msgstr "在政策改變以後，與政策制定者合作說明原始碼更新的部分。"
 
 #: ./criteria/maintain-version-control.md:block 19 (unordered list)
 msgid ""
@@ -2826,8 +2826,8 @@ msgstr "程式基底「必須」有個可以公開接受任何人建議的議題
 msgid ""
 "The documentation MUST link to both the public issue tracker and submitted "
 "codebase changes, for example in a `README` file."
-msgstr "文件中「必須」同時有公開的議題追蹤器連結，以及提交的程式基底變動的連結，例如"
-"記錄在「`README`」檔案中。"
+msgstr "文件中「必須」同時有公開的議題追蹤器連結，以及已提交的程式基底變動的連結，例"
+"如記錄在「`README`」檔案中。"
 
 #: ./criteria/make-contributing-easy.md:block 8 (unordered list)
 msgid ""
@@ -2866,7 +2866,7 @@ msgstr "確認可以使用程式基底中提到的管道，與其他使用者以
 
 #: ./criteria/make-contributing-easy.md:block 10 (unordered list)
 msgid "Confirm that there is a closed channel for reporting security issues."
-msgstr "確認有封閉的管道通報安全性問題。"
+msgstr "確認有封閉的管道可通報安全性問題。"
 
 #: ./criteria/make-contributing-easy.md:block 10 (unordered list)
 msgid ""
@@ -2954,7 +2954,7 @@ msgid ""
 "hoping it is found does not work, instead proactiveness is needed."
 msgstr ""
 "一旦[程式基底](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得"
-"到它。不能只是發表個程式基底，然後就盼望他人找得到這個程式基底，更需要主動積"
+"到它。不能只是發表個程式基底，然後就盼望他人找得到這套程式基底，更需要主動積"
 "極。"
 
 #: ./criteria/make-the-codebase-findable.md:block 7 (paragraph)
@@ -3184,10 +3184,10 @@ msgid ""
 "provoke exploration into what the codebase equivalent would be."
 msgstr ""
 "GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR "
-"科學資料管理與盡職監督指導原則](https://www.go-fair.org/fair-principles/)》，"
-"提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓機器採取行"
-"動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直"
-"接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。"
+"科學資料管理與監督指導原則](https://www.go-fair.org/fair-principles/)》，提供"
+"一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓機器採取行動（"
+"也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直接套"
+"用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 3 (paragraph)
 msgid "order: 3 redirect_from:"
@@ -3284,8 +3284,8 @@ msgstr "程式基底開發「應該」由多方單位協作。"
 msgid ""
 "Configuration SHOULD be used to make [source code](../glossary.md#source-"
 "code) adapt to context specific needs."
-msgstr "「應該」使用組態設定方式以將[原始碼](../glossary.md#source-code) "
-"調整成能適應各情境的特定需求。"
+msgstr "「應該」使用組態設定方式以將[原始碼](../glossary.md#source-"
+"code)調整成能適應各情境的特定需求。"
 
 #: ./criteria/make-the-codebase-reusable-and-portable.md:block 11 (unordered
 #: list)
@@ -3595,7 +3595,7 @@ msgstr "制定抑制採購非開放原始碼授權程式碼，與非開放科技
 msgid ""
 "Only work with open source vendors that deliver their source code by "
 "publishing it under an open source license."
-msgstr "只與能採用開放原始碼授權交付與發行其原始碼的開放原始碼軟體供應商合作。"
+msgstr "只與能採用開放原始碼授權交付、與發行其原始碼的開放原始碼軟體供應商合作。"
 
 #: ./criteria/publish-with-an-open-license.md:block 15 (unordered list)
 msgid ""
@@ -4027,7 +4027,7 @@ msgid ""
 " state of the [codebase](../glossary.md#codebase)."
 msgstr ""
 "以文件記錄程式基底的[持續整合](../glossary.md#continuous-integration)工作流程"
-"，能協助貢獻者瞭解對貢獻內容的期待。持續整合讓監督[程式基底](../glossary."
+"，能協助貢獻者瞭解對貢獻內容的期待。持續整合讓監管[程式基底](../glossary."
 "md#codebase)狀態變得更為簡單。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
@@ -4064,7 +4064,7 @@ msgstr "程式基底指引「應該」指出，每次的貢獻內容都只應聚
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid "Source code test and documentation coverage SHOULD be monitored."
-msgstr "「應該」監督原始碼測試與文件的涵蓋範圍。"
+msgstr "「應該」監管原始碼測試與文件的涵蓋範圍。"
 
 #: ./criteria/use-continuous-integration.md:block 10 (unordered list)
 msgid ""
@@ -4404,7 +4404,8 @@ msgid ""
 "where [policy](../glossary.md#policy) is machine interpreted as code."
 msgstr ""
 "所有[原始碼](../glossary.md#source-"
-"code)都必須使用英語編寫，其中[政策](../glossary.md#policy)是由機器解讀當作程式碼的部分則除外。"
+"code)都「必須」使用英語編寫，其中[政策](../glossary."
+"md#policy)是由機器解讀當作程式碼的部分則除外。"
 
 #: ./criteria/use-plain-english.md:block 10 (unordered list)
 msgid ""
@@ -4434,7 +4435,7 @@ msgid ""
 "2](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=315#readable)."
 msgstr ""
 "根據《[網頁內容近用性無障礙指引 2](https://www.w3.org/WAI/WCAG21/quickref/"
-"?showtechniques=315#readable)》的建議，文件內容應該以國中識讀程度為主。"
+"?showtechniques=315#readable)》的建議，文件內容「應該」以國中識讀程度為主。"
 
 #: ./criteria/use-plain-english.md:block 10 (unordered list)
 msgid ""
@@ -4672,7 +4673,7 @@ msgstr "如果社群對於治理架構應該如何改變有共識，則應該將
 msgid ""
 "If needed, make sure you have allocated budget for the contributions review "
 "process as agreed by the codebase community."
-msgstr "若有需要，確認您有編列貢獻內容審查流程的預算，且通過程式基底社群同意。"
+msgstr "若有需要，確認您有編列貢獻內容審查流程的預算，且經過程式基底社群同意。"
 
 #: ./criteria/welcome-contributors.md:block 14 (unordered list)
 msgid ""
@@ -5039,7 +5040,7 @@ msgid ""
 " session](https://about.publiccode.net/activities/standard-"
 "maintenance/backlog-pruning.html)."
 msgstr ""
-"程式基底管事人員每月會定期審查發展路線圖，這是我們[積累事項修整作業](https://"
+"程式基底執事人員每月會定期審查發展路線圖，這是我們[積累事項修整作業](https://"
 "about.publiccode.net/activities/standard-maintenance/backlog-pruning."
 "html)環節的一部份。"
 
@@ -5139,7 +5140,7 @@ msgid ""
 "Anyone developing public-purpose software or policy can use this standard to"
 " work towards higher quality public services that are more cost effective, "
 "with less risk and more control."
-msgstr "任何想開發具有公眾用途的軟體或政策的人，可以利用此標準來提升公共服務品質，使"
+msgstr "任何想開發具有公眾用途的軟體或政策的人，可以利用本標準來提升公共服務品質，使"
 "其更具成本效益、風險更低，還能對系統更有掌控權。"
 
 #: ./foreword.md:block 8 (paragraph)
@@ -5606,7 +5607,7 @@ msgstr "參與我們"
 msgid ""
 "This standard is a living document. [Read our contributor "
 "guide](/CONTRIBUTING.md) to learn how you can make it better."
-msgstr "本標準是持續成長的文件。[請讀我們的《貢獻者指引》](/CONTRIBUTING."
+msgstr "本標準是持續成長的文件。[請讀我們的〈貢獻者指引〉](/CONTRIBUTING."
 "md)，瞭解您可以怎麼做來讓本標準變得更好。"
 
 #: ./foreword.md:block 66 (header)
@@ -5643,7 +5644,7 @@ msgstr ""
 
 #: ./glossary.md:block 6 (header)
 msgid "Codebase"
-msgstr "程式基底"
+msgstr "程式基底 (Codebase)"
 
 #: ./glossary.md:block 7 (paragraph)
 msgid ""
@@ -5826,7 +5827,7 @@ msgstr ""
 
 #: ./glossary.md:block 34 (header)
 msgid "Source Code"
-msgstr "原始碼"
+msgstr "原始碼 (Source Code)"
 
 #: ./glossary.md:block 35 (paragraph)
 msgid ""
@@ -5916,7 +5917,7 @@ msgstr "目次"
 
 #: ./index.md:block 11 (unordered list)
 msgid "[Readers guide: how to interpret this standard](readers-guide.md)"
-msgstr "[讀者指引：如何解讀此標準](readers-guide.md)"
+msgstr "[讀者指引：如何解讀本標準](readers-guide.md)"
 
 #: ./index.md:block 11 (unordered list)
 msgid "[Glossary](glossary.md)"
@@ -6011,7 +6012,7 @@ msgid ""
 "review"
 msgstr ""
 "Foundation for Public Code "
-"管事人員審查程式基底時所使用的《[本標準準則檢查清單](https://github.com/"
+"執事人員審查程式基底時所使用的《[本標準準則檢查清單](https://github.com/"
 "publiccodenet/standard/blob/develop/docs/review-template.html)》"
 
 #: ./readers-guide.md:block 3 (header)
@@ -6310,5 +6311,5 @@ msgid ""
 "[Standard criteria checklist](/docs/review-template.html) used by Foundation"
 " for Public Code stewards for codebase review"
 msgstr ""
-"Foundation for Public Code 管事人員用於程式基底審查的《[標準準則檢查清單](/"
+"Foundation for Public Code 執事人員用於程式基底審查的《[標準準則檢查清單](/"
 "docs/review-template.html)》"
