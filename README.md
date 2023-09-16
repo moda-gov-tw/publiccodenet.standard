@@ -19,25 +19,25 @@ badge](https://publiccodenet.github.io/publiccodenet-url-check/badges/standard.p
 [![standard develop
 badge](https://publiccodenet.github.io/publiccodenet-url-check/badges/standard.publiccode.net-develop.svg)](https://publiccodenet.github.io/publiccodenet-url-check/standard.publiccode.net-develop-url-check-look.json)
 
-《Standard for Public Code》目前為草稿階段。我們正在準備發行 1.0 版，目前仍在幾個代碼庫中作測試。
+《Standard for Public Code》目前為草稿階段。我們正在準備發行 1.0 版，目前仍在幾個程式基底中作測試。
 
-## 將《Standard for Public Code》套用您的代碼庫
+## 將《Standard for Public Code》套用您的程式基底
 
-若您想要將《Standard for Public Code》套用您的代碼庫，就請放心去做，因為它是人人都能自由採用的開放標準。如果您希望宣傳代碼庫社群達成
+若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它是人人都能自由採用的開放標準。如果您希望宣傳程式基底社群達成
 《Standard for Public Code》準則要求時的熱誠，請使用 [standard-for-public-code-commitment 徽
-章](assets/standard-for-public-code-commitment.svg)連結到這份承諾文件。若要瞭解您代碼庫所達成的程度，可以做[自我
-資格評估](https://publiccodenet.github.io/assessment-eligibility)；它能幫助您大略瞭解，如果想要滿足所有準
-則，還需要下多少功夫。
+章](assets/standard-for-public-code-commitment.svg)連結到這份承諾文件。若要瞭解您程式基底所達成的程度，可以做[自
+我資格評估](https://publiccodenet.github.io/assessment-eligibility)；它能幫助您大略瞭解，如果想要滿足所有
+準則，還需要下多少功夫。
 
-本標準 *應該* 足以自我解釋要如何套用到您的代碼庫中。若標準中有任何不明確的地方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。如果需要一
-點靈感啟發，請參閱[社群製作的《實踐指
+本標準 *應該* 足以自我解釋要如何套用到您的程式基底中。若標準中有任何不明確的地方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。如果需要
+一點靈感啟發，請參閱[社群製作的《實踐指
 引》](https://publiccodenet.github.io/community-implementation-guide-standard/)，其中包
 括範例與其他提示。
 
-若新版的《Standard for Public Code》有任何導致過去作法不再適用的改動，則 Foundation for Public Code 的代碼庫管事
-人員，會協助標準的實踐者理解該如何銜接之間的落差。
+若新版的《Standard for Public Code》有任何導致過去作法不再適用的改動，則 Foundation for Public Code 的程式基底管
+事人員，會協助標準的實踐者理解該如何銜接之間的落差。
 
-若您致力讓您的代碼庫完全遵循此標準，並想在未來能取得認證，請寫信與我們聯繫：
+若您致力讓您的程式基底完全遵循此標準，並想在未來能取得認證，請寫信與我們聯繫：
 [info@publiccode.net](mailto:info@publiccode.net)，以展開正式[評
 估](https://about.publiccode.net/activities/codebase-stewardship/lifecycle-diagram.html#assessment)。
 
@@ -45,7 +45,7 @@ badge](https://publiccodenet.github.io/publiccodenet-url-check/badges/standard.p
 
 我們相信公共政策與公共軟體，應該具備涵容、好用、開放、易懂、課責、近用、永續等特質。這代表我們需要一種新的方式，來設計、開發，以及付出心力育成原始碼和政策文件。
 
-本標準為代碼庫設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以及其他重大基礎設施服務的需求。
+本標準為程式基底設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以及其他重大基礎設施服務的需求。
 
 本標準放在線上：[standard.publiccode.net](https://standard.publiccode.net/)。請參閱
 [`index.md`](index.md) 查看整體內容概覽。
@@ -111,4 +111,4 @@ script/pdf.sh
 © [作者與貢獻者](AUTHORS.md)
 
 本標準採用 CC0 公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。CC0 代表任何人都能任意使用這些內容。如果您是貢獻者，代表您也將
-這些權利賦予他人。若要進一步瞭解如何協助本專案，請參閱[貢獻指引](CONTRIBUTING.md)。
+這些權利賦予他人。若要進一步瞭解如何協助本專案，請參閱《[貢獻指引](CONTRIBUTING.md)》。

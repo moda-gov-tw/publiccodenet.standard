@@ -11,7 +11,7 @@
 冊](https://en.wikipedia.org/wiki/Dash#En_dash_versus_em_dash)》的規範。
 
 1. 建立發行用分支
-   - 從「develop」分支下指令，`git switch -c "release-$MAJOR.$MINOR.$PATCH"`
+   - 從「develop」分支下命令，`git switch -c "release-$MAJOR.$MINOR.$PATCH"`
    - 推送分支，`git push -u origin release-$MAJOR.$MINOR.$PATCH`
 
 1. 更新本次新發行

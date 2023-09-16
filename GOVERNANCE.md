@@ -5,8 +5,8 @@
 
 # 治理
 
-本標準是 [Foundation for Public Code](https://publiccode.net/) 在代碼庫盡職管理領域作監督時的核心。我們依照這
-份文件來判斷，某個代碼庫是否已經準備好讓社群共同參與開發。
+本標準是 [Foundation for Public Code](https://publiccode.net/) 在程式基底盡職管理作監督時的核心。我們依照這份
+文件來判斷，某個程式基底是否已經準備好讓社群共同參與開發。
 
 這份標準由 Foundation for Public Code 職員負責維護。
 

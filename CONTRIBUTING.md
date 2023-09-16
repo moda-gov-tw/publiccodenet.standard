@@ -13,9 +13,9 @@
 
 ## 問題、建議與議題等
 
-[發展路線圖](/docs/roadmap.md)中可查看我們勾勒的精要概覽。歡迎回報問題、建議修改，以及發問等，來協助發展。您可以到 [Standard for
-Public Code 的 GitHub Issue](https://github.com/publiccodenet/standard/issues) 頁面
-中，為本專案[提出 GitHub 議
+在[發展路線圖](/docs/roadmap.md)中可查看我們勾勒的精要概覽。歡迎回報問題、建議修改，以及發問等，來協助發展。您可以到 [Standard
+for Public Code 的 GitHub
+Issue](https://github.com/publiccodenet/standard/issues) 頁面中，為本專案[提出 GitHub 議
 題](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)。
 
 或者，註冊加入[郵遞論壇列
@@ -26,7 +26,7 @@ Public Code 的 GitHub Issue](https://github.com/publiccodenet/standard/issues) 
 
 ## 為文件與程式碼提出拉取請求
 
-如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求。
+如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求 (Pull Request，亦可簡稱 PR)。
 
 若您從未使用過 GitHub，歡迎先[認識 GitHub 作業流
 程](https://docs.github.com/en/get-started/quickstart/github-flow)，或是參加 [GitHub
@@ -47,7 +47,7 @@ MarkDown 是本專案文件所採用的撰寫語法。
 
 將您所作的變更內容加入送交版次，[並附上內容說
 明](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)。如果需要作
-出多種類型的變更，請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。例如，修正空白，以及文字內容更動，兩者應該放在不同的送交版次中。當新增檔案時，請選用
+出多種類型的變更，請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。例如：修正空白、以及文字內容更動，兩者應該放在不同的送交版次中。當新增檔案時，請選用
 容易以「`diff` 」檢視的檔案格式，如「`.svg` 」格式就勝過二進位影像。在送交版次訊息中，請記錄您所作的選擇與決策，如此未來其他人都能知道您當時的抉
 擇。
 
