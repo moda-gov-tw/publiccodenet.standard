@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-17 09:44+0000\n"
+"PO-Revision-Date: 2023-09-19 15:44+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -535,8 +535,7 @@ msgstr "重新編寫「得以」等級的相關規定，加入使用「可選擇
 msgid ""
 "Expressed intent that the Standard for Public Code should meet its own "
 "requirements where applicable and added assessment."
-msgstr "表達《Standard for Public "
-"Code》應該盡可能符合其自身規定的立場，並加入評估措施。"
+msgstr "表達《公共程式標準》應該盡可能符合其自身規定的立場，並加入評估措施。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Add SPDX license identifiers to files."
@@ -572,7 +571,7 @@ msgstr "加入組建日期與執行時期依賴項目的額外指引。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Added roadmap for the development of the Standard for Public Code."
-msgstr "新增《Standard for Public Code》的發展路線圖。"
+msgstr "新增《公共程式標準》的發展路線圖。"
 
 #: ./CHANGELOG.md:block 19 (unordered list)
 msgid "Update structure of Authors file."
@@ -1206,10 +1205,10 @@ msgid ""
 "[standards](#standards-to-follow) and remains coherent with the overall "
 "work."
 msgstr ""
-"貢獻內容應該[遵守](docs/standard-for-public-code.html)《Standard for Public C"
-"ode》自身所列出的準則規定。審查人員同時也會確保貢獻內容，符合[公共程式的價值]"
-"(foreword.md#values-of-public-code)。此外，他們也會審查貢獻是否遵循[標準"
-"](#standards-to-follow)，且與整體作品有所連貫。"
+"貢獻內容應該[遵守](docs/standard-for-public-code.html)《公共程式標準》自身所"
+"列出的準則規定。審查人員同時也會確保貢獻內容，符合[公共程式的價值](foreword."
+"md#values-of-public-code)。此外，他們也會審查貢獻是否遵循[標準](#standards-"
+"to-follow)，且與整體作品有所連貫。"
 
 #: ./CONTRIBUTING.md:block 16 (paragraph)
 msgid ""
@@ -1257,7 +1256,7 @@ msgstr "適用政策"
 msgid ""
 "Currently, the Standard for Public Code is not implementing any specific "
 "public policy."
-msgstr "就目前而言，《Standard for Public Code》並非在執行任何特定的公共政策。"
+msgstr "就目前而言，《公共程式標準》並非在執行任何特定的公共政策。"
 
 #: ./CONTRIBUTING.md:block 21 (header)
 msgid "Style"
@@ -1274,11 +1273,11 @@ msgid ""
 "also have a separate quality check before [making a new "
 "release](docs/releasing.md)."
 msgstr ""
-"《Standard for Public Code》目標[使用白話的英語](criteria/use-plain-english.m"
-"d)，而拼字採用美式英文。文字內容基本上以每句一行為原則，沒有文繞圖換行，來讓"
-"「`diff`」輸出更容易檢視。然而，我們想要強調更重要的是，您應該專注在貢獻內容"
-"上，而不是擔心拼字與排版。我們的審查流程會協助修正這一部分，也會另外再次檢查"
-"品質才[推出新發行版本](docs/releasing.md)。"
+"《公共程式標準》目標[使用白話的英語](criteria/use-plain-english.md)，而拼字採"
+"用美式英文。文字內容基本上以每句一行為原則，沒有文繞圖換行，來讓「`diff`」輸"
+"出更容易檢視。然而，我們想要強調更重要的是，您應該專注在貢獻內容上，而不是擔"
+"心拼字與排版。我們的審查流程會協助修正這一部分，也會另外再次檢查品質才[推出新"
+"發行版本](docs/releasing.md)。"
 
 #: ./CONTRIBUTING.md:block 23 (header)
 msgid "Standards to follow"
@@ -1289,8 +1288,8 @@ msgid ""
 "These are the standards that the Standard for Public Code uses. Please make "
 "sure that your contributions are aligned with them so that they can be "
 "merged more easily."
-msgstr "這些是《Standard for Public "
-"Code》所採用的標準。請確保您的貢獻內容也遵守這些標準，才會更容易合併。"
+msgstr "這些是《公共程式標準》所採用的標準。請確保您的貢獻內容也遵守這些標準，才會更"
+"容易合併。"
 
 #: ./CONTRIBUTING.md:block 25 (unordered list)
 msgid ""
@@ -1377,8 +1376,8 @@ msgid ""
 "maintain existing and add new [community translations of the "
 "Standard](https://github.com/publiccodenet/community-translations-standard)."
 msgstr ""
-"《Standard for Public Code》沒有官方版本的翻譯，您仍可以協助本標準維護已有的["
-"社群翻譯](https://github.com/publiccodenet/community-translations-"
+"《公共程式標準》沒有官方版本的翻譯，您仍可以協助本標準維護已有的[社群翻譯](ht"
+"tps://github.com/publiccodenet/community-translations-"
 "standard)，或是新增翻譯。"
 
 #: ./CONTRIBUTING.md:block 37 (header)
@@ -1437,10 +1436,8 @@ msgstr "[我們歡迎任何人貢獻，例如提供修改建議，或是給予�
 msgid ""
 "Because of the important role that the Standard for Public Code has in our "
 "core process we require the highest standards from the Standard."
-msgstr ""
-"由於《Standard for Public "
-"Code》在我們的核心流程中，扮演至關重要的角色，所以我們會以《Standard for "
-"Public Code》的最高標準作要求。"
+msgstr "由於《公共程式標準》在我們的核心流程中，扮演至關重要的角色，所以我們會以《公"
+"共程式標準》的最高標準作要求。"
 
 #: ./GOVERNANCE.md:block 8 (paragraph)
 msgid ""
@@ -1454,7 +1451,7 @@ msgstr ""
 
 #: ./README.md:block 1 (header)
 msgid "Standard for Public Code"
-msgstr "Standard for Public Code"
+msgstr "公共程式標準"
 
 #: ./README.md:block 3 (paragraph)
 msgid ""
@@ -1463,9 +1460,8 @@ msgid ""
 " organizations in other places. It includes guidance for policy makers, city"
 " administrators, developers and vendors."
 msgstr ""
-"《Standard for Public Code》提供公家機關一套準備開源解決方案的模型，讓他們能"
-"與其他地方相似的公家機關協作。該標準包含給政策制定者、市行政官、開發人員與供"
-"應商的指引。"
+"《公共程式標準》提供公家機關一套準備開源解決方案的模型，讓他們能與其他地方相"
+"似的公家機關協作。該標準包含給政策制定者、市行政官、開發人員與供應商的指引。"
 
 #: ./README.md:block 4 (paragraph)
 msgid ""
@@ -1511,12 +1507,12 @@ msgid ""
 "The Standard for Public Code is in a draft format. We are preparing it for a"
 " version 1.0 release. Currently, we are testing it on a small number of "
 "codebases."
-msgstr "《Standard for Public Code》目前為草稿階段。我們正在準備發行 1.0 "
+msgstr "《公共程式標準》目前為草稿階段。我們正在準備發行 1.0 "
 "版，目前仍在幾個程式基底中作測試。"
 
 #: ./README.md:block 7 (header)
 msgid "Applying the Standard for Public Code to your codebase"
-msgstr "將《Standard for Public Code》套用到您的程式基底"
+msgstr "將《公共程式標準》套用到您的程式基底"
 
 #: ./README.md:block 8 (paragraph)
 msgid ""
@@ -1527,9 +1523,9 @@ msgid ""
 "will give you a rough idea of how much work you may need to do to meet all "
 "criteria."
 msgstr ""
-"若您想要將《Standard for Public Code》套用到您的程式基底，就請放心去做，因為"
-"它是人人都能自由採用的開放標準。若要瞭解您程式基底所達成的程度，可以做[自我資"
-"格評估](https://publiccodenet.github.io/assessment-"
+"若您想要將《公共程式標準》套用到您的程式基底，就請放心去做，因為它是人人都能"
+"自由採用的開放標準。若要瞭解您程式基底所達成的程度，可以做[自我資格評估](http"
+"s://publiccodenet.github.io/assessment-"
 "eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。"
 
 #: ./README.md:block 9 (paragraph)
@@ -1552,9 +1548,8 @@ msgid ""
 "Public Code, the codebase stewards at the Foundation for Public Code will "
 "help any implementers of the standard understand how the gaps can be closed."
 msgstr ""
-"若新版的《Standard for Public Code》有任何導致過去作法不再適用的改動，則 "
-"Foundation for Public Code "
-"的程式基底執事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
+"若新版的《公共程式標準》有任何導致過去作法不再適用的改動，則 Foundation for "
+"Public Code 的程式基底執事人員，會協助標準的實踐者理解該如何銜接之間的落差。"
 
 #: ./README.md:block 11 (paragraph)
 msgid ""
@@ -1608,9 +1603,9 @@ msgid ""
 "hands](https://img.youtube.com/vi/QWt6vB-"
 "cipE/mqdefault.jpg)](https://www.youtube.com/watch?v=QWt6vB-cipE)"
 msgstr ""
-"[![《Standard for Public "
-"Code》的影片縮圖：兩隻手中間放著本標準的印刷本](https://img.youtube.com/vi/"
-"QWt6vB-cipE/mqdefault.jpg)](https://www.youtube.com/watch?v=QWt6vB-cipE)"
+"[![《公共程式標準》的影片縮圖：兩隻手中間放著本標準的印刷本](https://img."
+"youtube.com/vi/QWt6vB-cipE/mqdefault.jpg)](https://www.youtube.com/watch?v"
+"=QWt6vB-cipE)"
 
 #: ./README.md:block 17 (paragraph)
 msgid ""
@@ -1618,9 +1613,8 @@ msgid ""
 "Code](https://www.youtube.com/watch?v=QWt6vB-cipE) from Creative Commons "
 "Global Summit 2020 (4:12) on YouTube."
 msgstr ""
-"[《Standard for Public Code》的影片介紹](https://www.youtube.com/watch?v"
-"=QWt6vB-cipE)，出自 Creative Commons Global Summit 2020 (4:12)，放在 YouTube "
-"上。"
+"[《公共程式標準》的影片介紹](https://www.youtube.com/watch?v=QWt6vB-cipE)，"
+"出自 Creative Commons Global Summit 2020 (4:12)，放在 YouTube 上。"
 
 #: ./README.md:block 18 (header)
 msgid "Help improve this standard"
@@ -1631,9 +1625,8 @@ msgid ""
 "The Foundation for Public Code is committed to maintaining and developing "
 "the Standard for Public Code at a level of quality that meets the standard "
 "itself."
-msgstr ""
-"Foundation for Public Code 致力於維護與開發《Standard for Public "
-"Code》，且使其同時符合該標準自身的品質水準。"
+msgstr "Foundation for Public Code "
+"致力於維護與開發《公共程式標準》，且使其同時符合該標準自身的品質水準。"
 
 #: ./README.md:block 20 (paragraph)
 msgid ""
@@ -1710,7 +1703,7 @@ msgstr ""
 
 #: ./README.md:block 30 (header)
 msgid "Generating a PDF of the Standard for Public Code"
-msgstr "生成《Standard for Public Code》的 PDF 檔案"
+msgstr "生成《公共程式標準》的 PDF 檔案"
 
 #: ./README.md:block 31 (paragraph)
 msgid ""
@@ -4740,9 +4733,8 @@ msgid ""
 "The printed Standard for Public Code is printed by Reclameland. This guide "
 "tries to provide the relevant information to print it there or somewhere "
 "else."
-msgstr ""
-"《Standard for Public Code》是由 Reclameland "
-"負責印刷。本指引試著提供印刷相關資訊，方便您到 Reclameland 或其他地方印刷。"
+msgstr "《公共程式標準》是由 Reclameland 負責印刷。本指引試著提供印刷相關資訊，"
+"方便您到 Reclameland 或其他地方印刷。"
 
 #: ./docs/printing.md:block 4 (paragraph)
 msgid ""
@@ -4805,7 +4797,7 @@ msgstr "一旦選定這些印刷的詳細資訊，封面與內頁就會上傳，
 
 #: ./docs/releasing.md:block 1 (header)
 msgid "Releasing a new version of the Standard for public code"
-msgstr "發行新版本的《Standard for Public Code》"
+msgstr "發行新版本的《公共程式標準》"
 
 #: ./docs/releasing.md:block 3 (ordered list)
 msgid "Review state of the 'develop' branch"
@@ -5132,8 +5124,7 @@ msgstr "序文"
 msgid ""
 "The Standard for Public Code is a set of criteria that support public "
 "organizations in developing and maintaining software and policy together."
-msgstr "《Standard for Public "
-"Code》提供一套準則規範，支持公家機關一同開發與維護軟體及政策。"
+msgstr "《公共程式標準》提供一套準則規範，支持公家機關一同開發與維護軟體及政策。"
 
 #: ./foreword.md:block 7 (paragraph)
 msgid ""
@@ -5460,7 +5451,7 @@ msgstr ""
 
 #: ./foreword.md:block 47 (header)
 msgid "The goals for the Standard for Public Code"
-msgstr "《Standard for Public Code》目標"
+msgstr "《公共程式標準》目標"
 
 #: ./foreword.md:block 48 (paragraph)
 msgid ""
@@ -5497,13 +5488,12 @@ msgstr "以更好的經濟模型改善供應商關係"
 msgid ""
 "Potential users of codebases tested against the Standard for Public Code can"
 " expect them to be highly reusable, easily maintainable and of high quality."
-msgstr ""
-"如果有潛在使用者想採用經由《Standard for Public Code》測試過的程式基底，便可"
-"以預期這些程式基底具有方便重複利用、容易維護、高品質的特性。"
+msgstr "如果有潛在使用者想採用經由《公共程式標準》測試過的程式基底，便可以預期這些程"
+"式基底具有方便重複利用、容易維護、高品質的特性。"
 
 #: ./foreword.md:block 51 (paragraph)
 msgid "The Standard for Public Code does this by:"
-msgstr "《Standard for Public Code》能有此效果是基於："
+msgstr "《公共程式標準》能有此效果是基於："
 
 #: ./foreword.md:block 52 (unordered list)
 msgid "setting out a common terminology for public code development"
@@ -5522,7 +5512,7 @@ msgstr "提出該如何符合準則並實作遵循的指引"
 #: ./foreword.md:block 53 (paragraph)
 msgid ""
 "The Standard for Public Code is meant to be time and technology independent."
-msgstr "《Standard for Public Code》設計精神就是要跨越時間與科技，不受其限制。"
+msgstr "《公共程式標準》設計精神就是要跨越時間與科技，不受其限制。"
 
 #: ./foreword.md:block 54 (header)
 msgid "Who this is for"
@@ -5532,7 +5522,7 @@ msgstr "適用對象"
 msgid ""
 "The Standard for Public Code is for the people who create and reuse public "
 "code:"
-msgstr "《Standard for Public Code》適用於開發與重複使用公共程式的人："
+msgstr "《公共程式標準》適用於開發與重複使用公共程式的人："
 
 #: ./foreword.md:block 56 (unordered list)
 msgid "public policy makers"
@@ -5866,8 +5856,7 @@ msgstr "政府開源協作指引"
 msgid ""
 "The Standard for Public Code is a set of criteria that supports public "
 "organizations in developing and maintaining software and policy together."
-msgstr "《Standard for Public "
-"Code》是一套支持公家機關一同協作開發軟體與政策，以及維護的準則。"
+msgstr "《公共程式標準》是一套支持公家機關一同協作開發軟體與政策，以及維護的準則。"
 
 #: ./index.md:block 6 (paragraph)
 msgid ""
@@ -5880,12 +5869,12 @@ msgid ""
 "accountable, accessible and sustainable. It is meant to be applicable to "
 "codebases for all levels of government, from supranational to municipal."
 msgstr ""
-"《Standard for Public Code》為那些在建構自身開源解決方案的公家機關提供指引，"
-"以便他們未來能成功與其他地方的類似公部門單位互相協作，並且重複使用各自的成果"
-"。這份標準涵蓋寫給政策制定者、政府管理人員、開發人員與供應商的建議。《"
-"Standard for Public Code》支持公家機關透過協作方式，創造出好用、開放、易懂、"
-"課責、近用、永續的程式基底。這份標準從設計之初，就是要用於各種不同政府層級的"
-"程式基底，小從市政府，大到超國家組織都行。"
+"《公共程式標準》為那些在建構自身開源解決方案的公家機關提供指引，以便他們未來"
+"能成功與其他地方的類似公部門單位互相協作，並且重複使用各自的成果。這份標準涵"
+"蓋寫給政策制定者、政府管理人員、開發人員與供應商的建議。《公共程式標準》支持"
+"公家機關透過協作方式，創造出好用、開放、易懂、課責、近用、永續的程式基底。這"
+"份標準從設計之初，就是要用於各種不同政府層級的程式基底，小從市政府，大到超國"
+"家組織都行。"
 
 #: ./index.md:block 7 (paragraph)
 msgid ""
@@ -5893,14 +5882,14 @@ msgid ""
 "code)’ as open source software developed by public organizations, together "
 "with the policy and guidance needed for collaboration and reuse."
 msgstr ""
-"《Standard for Public Code》將「[公共程式](glossary.md#public-code)」定義為："
-"由公家機關所開發的開源軟體，同時包含協作與重複使用所需的政策與指引。"
+"《公共程式標準》將「[公共程式](glossary.md#public-code)」定義為：由公家機關所"
+"開發的開源軟體，同時包含協作與重複使用所需的政策與指引。"
 
 #: ./index.md:block 8 (paragraph)
 msgid ""
 "The criteria of the Standard for Public Code are aligned with guidelines and"
 " best practices of open source software development."
-msgstr "《Standard for Public Code》當中的準則，符合開源軟體開發的指引與最佳實務。"
+msgstr "《公共程式標準》當中的準則，符合開源軟體開發的指引與最佳實務。"
 
 #: ./index.md:block 9 (paragraph)
 msgid ""
@@ -6173,9 +6162,8 @@ msgid ""
 "implementations of a codebase. This means the standard does not tell "
 "implementers how to comply with their organization's local technical "
 "infrastructure or legal framework."
-msgstr ""
-"《Standard for Public Code》不是為了涵蓋程式基底的個別實作而撰寫。這代表本標"
-"準不是要告訴實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。"
+msgstr "《公共程式標準》不是為了涵蓋程式基底的個別實作而撰寫。這代表本標準不是要告訴"
+"實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。"
 
 #: ./readers-guide.md:block 27 (paragraph)
 msgid ""
@@ -6186,9 +6174,9 @@ msgid ""
 "Badge](https://github.com/coreinfrastructure/best-practices-badge), but to "
 "synergize well with them."
 msgstr ""
-"此外，雖然《Standard for Public Code》有引用一些標準，並且與其他標準有滿多重"
-"疊的部分，但本標準的目的是要推動協作。因此，本標準目標不在於取代品質標準，"
-"像是 ISO 25000 認證系列，或是取代那些聚焦於安全性的標準，例如 [OpenSSF "
+"此外，雖然《公共程式標準》有引用一些標準，並且與其他標準有滿多重疊的部分，但"
+"本標準的目的是要推動協作。因此，本標準目標不在於取代品質標準，像是 ISO 25000 "
+"認證系列，或是取代那些聚焦於安全性的標準，例如 [OpenSSF "
 "最佳實務標章](https://github.com/coreinfrastructure/best-practices-"
 "badge)等，而是希望能與它們能良好協同搭配。"
 
@@ -6198,9 +6186,9 @@ msgid ""
 " that a community will spring into existence. That still requires "
 "proactiveness and ambition beyond making the codebase collaboration ready."
 msgstr ""
-"《Standard for Public Code》的目在於促進協作，但也無法保證能夠催生出一個社群"
-"。若要建立社群，除了程式基底需要準備好進行協作以外，也需要積極主動，以及做到"
-"超越協作以外的企圖心。"
+"《公共程式標準》的目在於促進協作，但也無法保證能夠催生出一個社群。若要建立社"
+"群，除了程式基底需要準備好進行協作以外，也需要積極主動，以及做到超越協作以外"
+"的企圖心。"
 
 msgid ""
 "script/release-body.sh expects VERSION in the first second-level header"
@@ -6274,12 +6262,11 @@ msgid ""
 "eligibility) that will give you a rough idea of how much work you may need "
 "to do to meet all criteria."
 msgstr ""
-"若您想要將《Standard for Public Code》套用您的程式基底，就請放心去做，因為它"
-"是人人都能自由採用的開放標準。如果您希望宣傳程式基底社群達成《Standard for "
-"Public Code》準則要求時的熱誠，請使用 [standard-for-public-code-commitment "
-"徽章](assets/standard-for-public-code-commitment.svg)連結到這份承諾文件。若要"
-"瞭解您程式基底所達成的程度，可以做[自我資格評估](https://publiccodenet.github"
-".io/assessment-"
+"若您想要將《公共程式標準》套用您的程式基底，就請放心去做，因為它是人人都能自"
+"由採用的開放標準。如果您希望宣傳程式基底社群達成《公共程式標準》準則要求時的"
+"熱誠，請使用 [standard-for-public-code-commitment 徽章](assets/standard-for-"
+"public-code-commitment.svg)連結到這份承諾文件。若要瞭解您程式基底所達成的程度"
+"，可以做[自我資格評估](https://publiccodenet.github.io/assessment-"
 "eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。"
 
 msgid "Update [`roadmap.md`](roadmap.md)"
