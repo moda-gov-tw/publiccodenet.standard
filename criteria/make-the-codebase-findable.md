@@ -8,7 +8,7 @@ redirect_from:
 
 # 程式基底可查詢得到
 
-一旦[程式基底](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得到它。不能只是發表個程式基底，然後就盼望他人找得到這個程式基
+一旦[程式基底](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得到它。不能只是發表個程式基底，然後就盼望他人找得到這套程式基
 底，更需要主動積極。
 
 有中介資料說明檔的話，會讓程式基底更容易被發現。良好且包含永久唯一識別碼的中介資料，例如寫成 Wikidata 維基數據條目，或是放到 FSF 自由軟體基金會的軟體
@@ -69,6 +69,6 @@ redirect_from:
 * Wikidata 維基數據社群《[維基數據簡
 介](https://www.wikidata.org/wiki/Wikidata:Introduction)》。
 * FSF 自由軟體基金會《[FSF 軟體目錄列表](https://directory.fsf.org/wiki/Main_Page)》。
-* GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR 科學資料管理與盡職監督指導原
+* GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR 科學資料管理與監督指導原
 則](https://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓
 機器採取行動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。

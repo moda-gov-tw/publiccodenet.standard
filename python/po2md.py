@@ -15,11 +15,11 @@ def main():
     # 2. filter origin file
     md_files = [file for file in md_files if not file.startswith(SOURCE_FOLDER)]
 
-    # 3A. backup md file (複製一次)
-    backup_md_files(md_files)
+    # 3A. backup md file (只有主程式更新的時候，才需要複製一次)
+    # backup_md_files(md_files)
 
     # 3B. restore md file
-    # restore_md_files(md_files)
+    restore_md_files(md_files)
 
     # 4. run po2md
     for file in md_files:

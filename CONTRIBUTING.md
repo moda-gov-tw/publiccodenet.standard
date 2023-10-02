@@ -38,8 +38,8 @@ MarkDown 是本專案文件所採用的撰寫語法。
 
 ### 1. 作出您的修改
 
-貢獻內容應該[遵守](docs/standard-for-public-code.html)《Standard for Public Code》自身所列出的準則規
-定。審查人員同時也會確保貢獻內容，符合[公共程式的價值](foreword.md#values-of-public-code)。此外，他們也會審查貢獻是否遵循[標
+貢獻內容應該[遵守](docs/standard-for-public-code.html)《公共程式標準》自身所列出的準則規定。審查人員同時也會確保貢獻內容，符合
+[公共程式的價值](foreword.md#values-of-public-code)。此外，他們也會審查貢獻是否遵循[標
 準](#standards-to-follow)，且與整體作品有所連貫。
 
 本專案使用 [GitFlow 分支與工作流程](https://nvie.com/posts/a-successful-git-branching-model/)。
@@ -55,17 +55,15 @@ MarkDown 是本專案文件所採用的撰寫語法。
 
 #### 適用政策
 
-就目前而言，《Standard for Public Code》並非在執行任何特定的公共政策。
+就目前而言，《公共程式標準》並非在執行任何特定的公共政策。
 
 #### 風格
 
-《Standard for Public Code》目標[使用白話的英語](criteria/use-plain-english.md)，而拼字採用美式英文。文字內
-容基本上以每句一行為原則，沒有文繞圖換行，來讓「`diff`」輸出更容易檢視。然而，我們想要強調更重要的是，您應該專注在貢獻內容上，而不是擔心拼字與排版。我們的審
-查流程會協助修正這一部分，也會另外再次檢查品質才[推出新發行版本](docs/releasing.md)。
+《公共程式標準》目標[使用白話的英語](criteria/use-plain-english.md)，而拼字採用美式英文。文字內容基本上以每句一行為原則，沒有文繞圖換行，來讓「`diff`」輸出更容易檢視。然而，我們想要強調更重要的是，您應該專注在貢獻內容上，而不是擔心拼字與排版。我們的審查流程會協助修正這一部分，也會另外再次檢查品質才[推出新發行版本](docs/releasing.md)。
 
 #### 遵守的標準
 
-這些是《Standard for Public Code》所採用的標準。請確保您的貢獻內容也遵守這些標準，才會更容易合併。
+這些是《公共程式標準》所採用的標準。請確保您的貢獻內容也遵守這些標準，才會更容易合併。
 
 * [IETF RFC 2119](https://tools.ietf.org/html/rfc2119) - 要求等級關鍵字
 * [網頁內容可近用無障礙指引 2.1](https://www.w3.org/TR/WCAG21/#readable) - 易讀性
@@ -92,8 +90,7 @@ MarkDown 是本專案文件所採用的撰寫語法。
 
 ## 翻譯成其他語言
 
-《Standard for Public Code》沒有官方版本的翻譯，您仍可以協助本標準維護已有的[社群翻
-譯](https://github.com/publiccodenet/community-translations-standard)，或是新增翻譯。
+《公共程式標準》沒有官方版本的翻譯，您仍可以協助本標準維護已有的[社群翻譯](https://github.com/publiccodenet/community-translations-standard)，或是新增翻譯。
 
 ## 發行版本
 

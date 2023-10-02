@@ -3,8 +3,7 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
 
-《Standard for Public Code》是由 Reclameland 負責印刷。本指引試著提供印刷相關資訊，方便您到 Reclameland 或其他地方
-印刷。
+《公共程式標準》是由 Reclameland 負責印刷。本指引試著提供印刷相關資訊，方便您到 Reclameland 或其他地方印刷。
 
 印刷詳細資訊（多數依照 Reclameland 網頁上的順序，依需要附上荷蘭語）：
 

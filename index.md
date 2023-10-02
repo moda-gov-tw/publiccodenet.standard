@@ -5,23 +5,22 @@ toc: false
 ---
 # 政府開源協作指引
 
-《Standard for Public Code》是一套支持公家機關一同協作開發軟體與政策，以及維護的準則。
+《公共程式標準》是一套支持公家機關一同協作開發軟體與政策，以及維護的準則。
 
-《Standard for Public Code》為那些在建構自身開源解決方案的公家機關提供指引，以便他們未來能成功與其他地方的類似公部門單位互相協作，並且重複使
-用各自的成果。這份標準涵蓋寫給政策制定者、政府管理人員、開發人員與供應商的建議。《Standard for Public Code》支持公家機關透過協作方式，創造
-出好用、開放、易懂、課責、近用、永續的程式基底。這份標準從設計之初，就是要用於各種不同政府層級的程式基底，小從市政府，大到超國家組織都行。
+《公共程式標準》為那些在建構自身開源解決方案的公家機關提供指引，以便他們未來能成功與其他地方的類似公部門單位互相協作，並且重複使用各自的成果。這份標準涵蓋寫給政策制
+定者、政府管理人員、開發人員與供應商的建議。《公共程式標準》支持公家機關透過協作方式，創造出好用、開放、易懂、課責、近用、永續的程式基底。這份標準從設計之初，就是
+要用於各種不同政府層級的程式基底，小從市政府，大到超國家組織都行。
 
-《Standard for Public Code》將「[公共程式](glossary.md#public-code)」定義為：由公家機關所開發的開源軟體，同時包含
-協作與重複使用所需的政策與指引。
+《公共程式標準》將「[公共程式](glossary.md#public-code)」定義為：由公家機關所開發的開源軟體，同時包含協作與重複使用所需的政策與指引。
 
-《Standard for Public Code》當中的準則，符合開源軟體開發的指引與最佳實務。
+《公共程式標準》當中的準則，符合開源軟體開發的指引與最佳實務。
 
 {% for page in site.pages %}{% if page.name == "foreword.md" %} 其他情境與背景資訊請參閱[序
 文](foreword.md)。 {% endif%}{% endfor %}
 
 ## 目次
 
-* [讀者指引：如何解讀此標準](readers-guide.md)
+* [讀者指引：如何解讀本標準](readers-guide.md)
 * [詞彙表](glossary.md)
 * [準則](criteria/){% assign sorted = site.pages | sort:"order" %}{% for page in
 sorted %}{% if page.dir == "/criteria/" %}{% if page.name != "index.md" %}{%
@@ -44,4 +43,4 @@ if page.title %}
 
 * 本標準非官方的其他語言[社群翻譯](https://publiccodenet.github.io/community-translations-standard/)
 * 公部門開源程式基底的《[標準遵循自我評估](https://publiccodenet.github.io/assessment-eligibility/)》
-* Foundation for Public Code 管事人員用於程式基底審查的《[標準準則檢查清單](/docs/review-template.html)》
+* Foundation for Public Code 執事人員用於程式基底審查的《[標準準則檢查清單](/docs/review-template.html)》

@@ -7,8 +7,7 @@
 
 本文件旨在闡明團隊目前的開發計畫。隨著團隊吸收新資訊，這些計畫也會持續變動。
 
-程式基底管事人員每月會定期審查發展路線圖，這是我們[積累事項修整作
-業](https://about.publiccode.net/activities/standard-maintenance/backlog-pruning.html)
+程式基底執事人員每月會定期審查發展路線圖，這是我們[積累事項修整作業](https://about.publiccode.net/activities/standard-maintenance/backlog-pruning.html)
 環節的一部份。
 
 ## 目前任務

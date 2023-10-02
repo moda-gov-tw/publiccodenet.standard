@@ -1,4 +1,4 @@
-# 發行新版本的《Standard for Public Code》
+# 發行新版本的《公共程式標準》
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
