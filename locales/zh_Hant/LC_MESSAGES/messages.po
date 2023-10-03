@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-30 22:44+0800\n"
-"PO-Revision-Date: 2023-09-19 15:44+0000\n"
+"PO-Revision-Date: 2023-10-04 16:44+0000\n"
 "Last-Translator: Cheng-Chia Tseng <zerngjia@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/"
 "standard-for-public-code/standard-for-public-code/zh_Hant/>\n"
@@ -1115,7 +1115,7 @@ msgid ""
 "[info@publiccode.net](mailto:info@publiccode.net)."
 msgstr ""
 "我們歡迎每個人提出的議題，以及拉取請求。如果您不大習慣 GitHub ，"
-"也歡迎將意見回饋用電子郵件計送到 [info@publiccode.net](mailto:info@publiccode"
+"也歡迎將意見回饋用電子郵件寄送到 [info@publiccode.net](mailto:info@publiccode"
 ".net)。"
 
 #: ./CONTRIBUTING.md:block 6 (header)
@@ -5749,7 +5749,7 @@ msgstr "在本標準當中，「政策」一詞指的是公家機關，例如政
 
 #: ./glossary.md:block 25 (header)
 msgid "Public code"
-msgstr "公共程式 (Public code)"
+msgstr "公共程式 (Public Code)"
 
 #: ./glossary.md:block 26 (paragraph)
 msgid ""
