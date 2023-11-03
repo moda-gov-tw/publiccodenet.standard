@@ -3,7 +3,7 @@
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
 
-《公共程式標準》提供公家機關一套準備開源解決方案的模型，讓他們能與其他地方相似的公家機關協作。該標準包含給政策制定者、市行政官、開發人員與供應商的指引。
+《公共程式標準》提供公家機關一套準備開放原始碼解決方案的模型，讓他們能與其他地方相似的公家機關協作。該標準包含給政策制定者、市行政官、開發人員與供應商的指引。
 
 ![version 0.7.1](assets/version-badge.svg) [![License:
 CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
