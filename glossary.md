@@ -32,7 +32,7 @@
 
 ## 開源或開放原始碼 (Open Source)
 
-所謂「開放原始碼」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-annotated)》而來。
+所謂「開源」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-annotated)》而來。
 
 ## 開放標準
 

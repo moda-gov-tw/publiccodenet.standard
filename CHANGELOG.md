@@ -4,6 +4,7 @@
 # script/release-body.sh expects VERSION in the first second-level header
 # script/update-changelog-date.sh expects DATE-OF-RELEASE and a colon
 ---
+
 # 版本歷史
 
 ## 0.7.1 版
