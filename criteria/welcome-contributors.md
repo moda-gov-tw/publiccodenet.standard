@@ -47,7 +47,8 @@ redirect_from:
 * 支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能長久參與社群。
 
 <p style="page-break-after: always;"></p>
-## Developers and designers: what you need to do
+
+## 開發人員與設計師：需要的工作
 
 * 快速回應請求。
 * 告知管理人員，您在支援其他貢獻者時所需的時間與資源。

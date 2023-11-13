@@ -64,7 +64,8 @@ redirect_from:
 * 推薦適合出席或作簡報介紹的會議，並且在這些會議中出席或作簡報。
 
 <p style="page-break-after: always;"></p>
-## Further reading
+
+## 延伸閱讀
 
 * Wikidata 維基數據社群《[維基數據簡
 介](https://www.wikidata.org/wiki/Wikidata:Introduction)》。

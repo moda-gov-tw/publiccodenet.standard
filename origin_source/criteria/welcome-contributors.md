@@ -48,6 +48,7 @@ Newcomers need to understand and trust the codebase community’s governance.
 * Support your experienced policy makers, developers and designers to stay part of the community for as long as possible.
 
 <p style="page-break-after: always;"></p>
+
 ## Developers and designers: what you need to do
 
 * Respond promptly to requests.

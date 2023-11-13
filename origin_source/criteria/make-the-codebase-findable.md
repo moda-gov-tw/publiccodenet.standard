@@ -63,6 +63,7 @@ Well-written metadata containing a unique and persistent identifier, such as a W
 * Suggest conferences to present at and present at them.
 
 <p style="page-break-after: always;"></p>
+
 ## Further reading
 
 * [Introduction to Wikidata](https://www.wikidata.org/wiki/Wikidata:Introduction) by the Wikidata community.

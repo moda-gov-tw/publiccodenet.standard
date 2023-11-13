@@ -51,7 +51,8 @@ showtechniques=315#readable)》的建議，文件內容「應該」以國中識�
 * 詢問身處不同背景情境的人（像是另一個程式基底的開發人員）是否能瞭解內容。
 
 <p style="page-break-after: always;"></p>
-## Further reading
+
+## 延伸閱讀
 
 * 符合 W3C 全球資訊網協會《[網頁內容近用性無障礙指引 2.1、3.1 之可讀
 性](https://www.w3.org/TR/WCAG21/#readable)》要求，撰寫的文字內容要容易閱讀與理解。
