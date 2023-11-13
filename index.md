@@ -13,8 +13,7 @@ toc: false
 
 《公共程式標準》當中的準則，符合開放原始碼軟體開發的指引與最佳實務。
 
-{% for page in site.pages %}{% if page.name == "foreword.md" %} 其他情境與背景資訊請參閱[序
-文](foreword.md)。 {% endif%}{% endfor %}
+{% for page in site.pages %}{% if page.name == "foreword.md" %} 其他情境與背景資訊請參閱[序文](foreword.html)。 {% endif%}{% endfor %}
 
 ## 目次
 
