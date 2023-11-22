@@ -1,56 +1,70 @@
-# Readers guide
+---
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+---
 
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- written in 2019 - 2022 by The Foundation for Public Code <info@publiccode.net> -->
+# 讀者指引
 
-The Standard describes a number of criteria.
-All criteria have consistent sections that make it clear how to create great public code.
+本標準描述說明許多準則。所有準則各小節結構維持一致，來讓讀者清楚明白如何開發良好的公共程式。
 
-References to "policy makers", "management", and "developers and designers" apply to anyone performing duties associated with these roles, regardless of their job title.
-It is common for individuals to have duties which span multiple roles.
+「政策制定者」、「管理人員」以及「開發人員與設計師」的稱呼，係指任何履行這些角色職責的人，不受其職稱限制。常見同時承擔多個角色職責的人。
 
-Below is a brief explanation of each of these sections and how they are used within the criteria of the Standard.
+以下是各小節的簡要介紹，以及在本標準準則中的作用。
 
-## Requirements
+## 前言
 
-This section lists what needs to be done in order to comply with the standard.
+本小節說明這些準則想達成的目的，以及為何會對程式基底使用者與貢獻者來說這麼重要的原因。
 
-In order to limit ambiguity, the key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
-NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [IETF RFC 2119](https://tools.ietf.org/html/rfc2119).
+## 需求規定
 
-## Why this is important
+這個小節列出如果要遵循本標準，需要完成哪些事項。
 
-This section explains why it is important for the users and contributors of this codebase that these requirements are followed.
+本文件中的下列關鍵字，請以《[IETF RFC 2119](https://tools.ietf.org/html/rfc2119)》的描述作解釋：
 
-## What this does not do
+* 必須
+* 禁止
+* 要求
+* 應當
+* 不得
+* 應該
+* 不該
+* 建議
+* 得以
+* 可選擇
 
-This section manages expectations by explaining what following the requirements will not save you from.
+## 測試方式
 
-This helps:
+本小節提供您可採取的行動，來確認貢獻內容是否遵循本標準。如果您想要務實操作本標準，這部分很關鍵。
 
-* with applying the Standard correctly
-* make sure no unexpected things pop up
+我們已嘗試調整用字，讓即使是不熟悉這類主題內容的讀者，看完之後也能夠進行基本的遵循檢查。
 
-## How to test
+## 公共政策制定者：需要的工作
 
-This section offers actions you can take to see if a contribution is compliant with the Standard. This is key if you want to operationalize the Standard.
+本小節主要對象是政策制定者，列出他們的角色所能採取的具體行動。
 
-We've tried to word it so that someone who is not intimately acquainted with the subject matter can still do a basic check for compliance.
+公共政策制定者設定專案的優先順序與目標，而在科技上的經驗可能沒那麼多。
 
-## Policy makers: what you need to do
+## 管理人員：需要的工作
 
-This section tries to specifically speak to policy makers by offering them concrete actions they can perform in their role.
+本小節主要對象是管理人員，列出他們的角色所能採取的具體行動。
 
-Policy makers set the priorities and goals of projects and may be less technologically experienced.
+管理人員負責監督專案的準時交付、利害關係人管理，以及服務的持續交付。因此，他們得完全依賴政策制定者、開發人員與設計師。他們需要塑造正確的文化、籌備合適的資源、提供適
+當的架構等，才能交付優良的服務。
 
-## Management: what you need to do
+## 開發人員與設計師：需要的工作
 
-This section tries to specifically speak to management by offering concrete actions they can perform in their role.
+本小節主要對象是開發人員與設計師，列出他們的角色能採取的具體行動。
 
-Management is responsible for on-time project delivery, stakeholder management and continued delivery of the service. For this they are wholly reliant on both policy makers as well as developers and designers. They need to create the right culture, line up the right resources and provide the right structures to deliver great services.
+開發人員通常對技術比較在行，與其他角色類別相比，對服務交付的影響更大。
 
-## Developers and designers: what you need to do
+## 作用範圍限制
 
-This section tries to specifically speak to developers and designers by offering them concrete actions they can perform in their role.
+《公共程式標準》不是為了涵蓋程式基底的個別實作而撰寫。這代表本標準不是要告訴實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。
 
-Developers are usually more technically aligned and have more impact on the delivery of services than the previous groups.
+此外，雖然《公共程式標準》有引用一些標準，並且與其他標準有滿多重疊的部分，但本標準的目的是要推動協作。因此，本標準目標不在於取代品質標準，像是 ISO 25000
+認證系列，或是取代那些聚焦於安全性的標準，例如 [OpenSSF 最佳實務標
+章](https://github.com/coreinfrastructure/best-practices-badge)等，而是希望能與它們能良好協同搭
+配。
+
+《公共程式標準》的目在於促進協作，但也無法保證能夠催生出一個社群。若要建立社群，除了程式基底需要準備好進行協作以外，也需要積極主動，以及做到超越協作以外的企圖
+心。

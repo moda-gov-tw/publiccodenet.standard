@@ -1,0 +1,7 @@
+(use docker)
+1. 切換branch: i18n
+2. 更新翻譯: git pull
+3. 合併到: branch: ru8tp6
+4. 執行腳本: po2md.py(移除上一次的_site)
+5. 處理jekyll-theme
+6. 用github, git remote fetch

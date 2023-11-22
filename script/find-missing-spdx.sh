@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# 2022 by The Foundation for Public Code <info@publiccode.net>
+# SPDX-FileCopyrightText: 2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 
 function git_list_files() {
 		# -r Recurse into sub-trees.
@@ -11,7 +11,7 @@ function git_list_files() {
 		HEAD
 }
 
-IGNORE_PATTERN='\.svg\|\.json\|CNAME\|Gemfile\|LICENSE'
+IGNORE_PATTERN='\.svg\|\.json\|CNAME\|Gemfile\|LICENSE\|jargon.txt'
 
 MISSING=0
 for FILE in $(git_list_files | grep --invert-match $IGNORE_PATTERN); do

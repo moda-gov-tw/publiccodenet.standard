@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# 2022 Foundation for Public Code <info@publiccode.net>
+# SPDX-FileCopyrightText: 2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 
 # This script extracts the glossary terms from glossary.md
 # for each file in the criteria directory, it looks for the use of a term
@@ -35,23 +35,29 @@ function glossary_pass_list() {
 	# "version control" correctly links to the criterion
 	# rather than the glossary entry
 	if [ "$GLOSSARY_ANCHOR" == "version-control" ] &&
-	   [ "$FILE" == "criteria/bundle-policy-and-code.md" ]; then
+	   [ "$FILE" == "criteria/bundle-policy-and-source-code.md" ]; then
 		return 0
 	fi
 	if [ "$GLOSSARY_ANCHOR" == "version-control" ] &&
-	   [ "$FILE" == "criteria/continuous-integration.md" ]; then
+	   [ "$FILE" == "criteria/use-continuous-integration.md" ]; then
 		return 0
 	fi
 
 	# "Open Source Initiative" would be a false positive
 	if [ "$GLOSSARY_ANCHOR" == "open-source" ] &&
-	   [ "$FILE" == "criteria/open-standards.md" ]; then
+	   [ "$FILE" == "criteria/use-open-standards.md" ]; then
 		return 0
 	fi
 
 	# repository inside of a link would be a false positive
 	if [ "$GLOSSARY_ANCHOR" == "repository" ] &&
-	   [ "$FILE" == "criteria/require-review.md" ]; then
+	   [ "$FILE" == "criteria/require-review-of-contributions.md" ]; then
+		return 0
+	fi
+
+	# link to "bundle policy and source code" is a false positive
+	if [ "$GLOSSARY_ANCHOR" == "source-code" ] &&
+	   [ "$FILE" == "criteria/document-codebase-objectives.md" ]; then
 		return 0
 	fi
 
