@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>序文, Standard for Public Code</title>
+  <meta name="description" content="A Foundation for Public Code jekyll theme for use with GitHub pages.">
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+  
+  <link rel="canonical" href="/foreword.html">
+  
+
+  <link rel="icon" href="https://brand.publiccode.net/logo/mark-128w128h.png">
+
+  
+  
+
+  <script async defer data-domain="publiccode.net" src="https://plausible.io/js/plausible.js"></script>
+</head>
+
+
+  <body class="with-toc ">
+
+    <nav class="theme-nav">
+  <a href="https://publiccode.net/" title="Foundation for Public Code 首頁" class="logo-mark">
+    <img src="https://brand.publiccode.net/logo/mark.svg" alt="Foundation for Public Code 的標誌，看起來像是小間的希臘神廟，或是六角形的政府大樓" aria-hidden="true">
+    <p>Foundation&nbsp;for Public&nbsp;Code</p>
+  </a>
+  <ul>
+    <li><a href="https://publiccode.net/codebase-stewardship/" title="代碼基底盡職管理">代碼基底盡職管理</a></li>
+    <li><a href="https://projects.publiccode.net/" title="Project Resources">專案資源</a></li>
+    <li><a href="https://publiccode.net/team/">基金會簡介</a></li>
+    <li><a href="https://about.publiccode.net/CONTRIBUTING.html">加入我們</a></li>
+    <li><a href="https://floss.social/@publiccode"  title="Foundation for Public Code 的 Mastodon 頁面"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" style="overflow:visible;enable-background:new 0 0 24 24;" xml:space="preserve"><style type="text/css">.mastodon-logo{fill-rule:evenodd;clip-rule:evenodd;fill:#24292E;transform:translateY(6px);}</style><path
+     style="stroke-width:1" class="mastodon-logo" d="m 15.48675,0.6259278 -0.338293,0.0286534 c -0.733449,0.4231435 -1.49511,0.8743875 -2.256768,1.2975314 -0.253885,0.1410477 -0.536093,0.2253467 -0.818189,0.3663943 -0.310304,0.141048 -0.620943,0.3105265 -0.903039,0.5079943 -0.141048,0.1128375 -0.281985,0.1972461 -0.451241,0.1972461 -0.197469,0 -0.366727,0.028653 -0.564194,0.028653 C 9.0830622,3.0241881 8.0396346,2.9958702 6.9676708,2.9394521 6.770204,2.9112396 6.6288248,2.967444 6.4877772,3.1366983 5.9800047,3.7291003 5.5007715,4.2931826 4.992999,4.8573741 4.0902924,5.872919 3.1309441,6.775849 2.0871896,7.6221359 1.8615135,7.7913931 1.7487846,7.9889719 1.7769942,8.2992766 c 0.084627,0.7334487 0.1693683,1.4666813 0.2539968,2.1719204 0.028213,0.394934 0.112617,0.790199 0.1972464,1.185134 0.056415,0.282096 0.028213,0.648491 0,0.930584 2.395e-4,9.61e-4 3.104e-4,0.0011 5.643e-4,0.0021 0.1410476,0.451352 0.5594538,3.823613 0.6440824,4.133918 0.225677,0.902707 0.4513542,1.833405 0.70524,2.736112 0.056415,0.169257 0.1977981,0.338846 0.3388459,0.479894 0.3385153,0.310304 0.7331199,0.563971 1.0716344,0.902486 0.8462876,0.846287 1.9789705,1.675056 2.7124202,2.634184 0.056415,0 0.084628,1.1e-4 0.1410475,-0.02811 1.0155455,-0.423145 2.0871811,-0.733119 3.1873559,-0.930585 0.282095,-0.05642 0.56452,-0.169479 0.62094,-0.507994 0.169259,-0.874498 0.338295,-1.720679 0.479343,-2.566965 -0.789869,-0.479564 -1.607948,-0.507994 -2.3978171,-0.507994 0.112842,0.592402 -0.1689258,1.071965 -0.3663931,1.551528 -0.056417,0.08464 -0.2260074,0.140939 -0.3388464,0.169148 -0.2256753,0.05642 -0.4795626,0.02831 -0.7052397,0.112956 C 8.067529,20.852246 7.898381,20.796042 7.7291228,20.570371 7.3623992,20.090863 6.9957835,19.639284 6.5726397,19.216143 6.3187538,18.962256 6.4034927,18.313325 6.4034927,18.256905 9.0220695,15.607439 9.5529675,15.821151 12.77874,15.097651 c 0.253886,0.197467 0.535761,0.366615 0.761438,0.592291 0.479562,0.423143 1.3826,1.636046 1.467232,1.720677 0.169255,0.169257 0.342453,-0.252332 0.229614,-0.02665 3.840633,-5.909872 4.736073,-7.17506 7.838222,-11.1161427 -1.015547,0 -2.059304,-0.027991 -3.103057,-0.056196 -0.122118,0.0131 -0.353847,0.028453 -0.423145,0.028097 C 19.136684,6.1920712 18.359917,6.1435607 18.068591,5.6362484 17.871124,5.3541522 15.768847,0.99266896 15.48675,0.6259441 Z"/></svg></a></li>
+    <li><a href="https://twitter.com/publiccodenet" title="Foundation for Public Code 的 Twitter 頁面"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" style="overflow:visible;enable-background:new 0 0 24 24;" xml:space="preserve"><style type="text/css">#path172{fill-rule:evenodd;clip-rule:evenodd;fill:#24292E;transform:translateY(6px);}</style><path d="m 9.9653138,4.2421956 c -1.6089791,-1.989512 -5.260932,-1.871851 -7.3020383,0.793517 -0.3681602,0.480686 -0.656245,1.104014 -0.873826,1.811853 L 0.427,7.4162646 1.4938942,8.0795126 C 1.0031695,10.772662 1.2884528,14.095209 1.9757474,15.713059 4.0810541,20.668631 10.890267,22.078472 14.842211,20.519452 20.576825,18.256796 23.573,13.677089 23.573,13.677089 c 0,0 -6.694119,-0.0712 -13.6076862,-9.4348934 z m -4.71161,2.266391 c -0.078441,0.384969 -0.5117356,0.62613 -0.9679087,0.538117 -0.4561732,-0.08778 -0.7624675,-0.471348 -0.6840263,-0.856317 0.078208,-0.384969 0.5117357,-0.626129 0.9679088,-0.53835 0.4561731,0.08801 0.762234,0.471348 0.6840262,0.85655 z M 18.751666,15.522325 c -0.561696,1.484548 -3.161229,1.876987 -5.805352,0.876394 -2.644357,-1.000592 -4.3327107,-3.015318 -3.7710154,-4.500332 0.5616952,-1.48478 3.1609944,-1.87722 5.8055854,-0.876394 2.644123,1.000593 4.332477,3.015552 3.770782,4.500332 z" id="path172" style="stroke-width:1" /></svg></a></li>
+    <li><a href="https://github.com/publiccodenet/" title="Foundation for Public Code 的 Github 頁面"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" style="overflow:visible;enable-background:new 0 0 24 24;" xml:space="preserve"><style type="text/css">.github-logo{fill-rule:evenodd;clip-rule:evenodd;fill:#24292E;transform:translateY(6px);}</style><path class="github-logo" d="M12,0C5.4,0,0,5.5,0,12.3c0,5.4,3.5,10,8.2,11.7C8.8,24.1,9,23.7,9,23.4c0-0.3,0-1.1,0-2.1 c-3.3,0.8-4-1.7-4-1.7c-0.5-1.4-1.3-1.8-1.3-1.8c-1.1-0.8,0.1-0.8,0.1-0.8c1.2,0.1,1.8,1.3,1.8,1.3c1.1,1.9,2.8,1.4,3.5,1.1 c0.1-0.8,0.4-1.4,0.7-1.7c-2.7-0.3-5.4-1.4-5.4-6.1c0-1.4,0.4-2.4,1.3-3.3C5.4,8.1,5,6.8,5.7,5.1c0,0,1-0.3,3.3,1.3 c1-0.3,2-0.4,3-0.4s2.1,0.2,3,0.4c2.3-1.6,3.3-1.3,3.3-1.3c0.7,1.7,0.2,2.9,0.1,3.2c0.7,0.8,1.3,2,1.3,3.3c0,4.8-2.8,5.7-5.4,6 c0.4,0.4,0.8,1.1,0.8,2.3c0,1.7,0,2.9,0,3.4c0,0.3,0.2,0.7,0.8,0.6c4.8-1.7,8.2-6.3,8.2-11.7C24,5.5,18.6,0,12,0z"/></svg></a></li>
+  </ul>
+</nav>
+
+
+    <header>
+  
+    <section class="site-title ">
+      <a href="">Standard for Public Code</a>
+    </section>
+  
+
+  
+</header>
+
+
+<hr>
+
+<main>
+
+   
+
+  
+
+  
+
+  <section class="page-information">
+
+  
+
+
+
+
+
+
+  
+    
+
+    
+      <h3 id="page-table-of-contents">目次</h3>
+      <ol class="table-of-contents">
+  <li><a href="#公共程式定義">公共程式定義</a></li>
+  <li><a href="#採用公共程式的原因">採用公共程式的原因</a>
+    <ol>
+      <li><a href="#軟體程式碼--法律條文">軟體程式碼 == 法律條文</a></li>
+      <li><a href="#傳統的公共軟體採購">傳統的公共軟體採購</a></li>
+      <li><a href="#技術自主權與民主課責">技術自主權與民主課責</a></li>
+      <li><a href="#設計真正的公共軟體">設計真正的公共軟體</a></li>
+      <li><a href="#公共程式的價值">公共程式的價值</a></li>
+    </ol>
+  </li>
+  <li><a href="#公共程式運作方式">公共程式運作方式</a>
+    <ol>
+      <li><a href="#公共程式的經濟效應">公共程式的經濟效應</a></li>
+      <li><a href="#購置公共程式">購置公共程式</a></li>
+    </ol>
+  </li>
+  <li><a href="#公共程式標準目標">《公共程式標準》目標</a>
+    <ol>
+      <li><a href="#適用對象">適用對象</a></li>
+    </ol>
+  </li>
+  <li><a href="#延伸閱讀">延伸閱讀</a>
+    <ol>
+      <li><a href="#探討公共程式的影片">探討公共程式的影片</a></li>
+    </ol>
+  </li>
+  <li><a href="#參與我們">參與我們</a></li>
+  <li><a href="#聯絡方式">聯絡方式</a></li>
+</ol>
+
+    
+  
+
+  
+
+  
+    <h3 id="page-edit-links">到 GitHub 貢獻</h3>
+    <ul class="edit-links">
+      <!-- The default branch is master, while site.github.source.branch is gh-pages -->
+      <li><a href="https://github.com/publiccodenet/jekyll-theme/edit/master/foreword.md"><svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+ 編輯此頁面</a></li>
+      <li><a href="https://github.com/publiccodenet/jekyll-theme/issues/new?body=I'd like to report an issue in `foreword.md`"><svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+ 通報問題</a></li>
+    </ul>
+  
+
+</section>
+
+  
+  <section class="content">
+  
+  <article class="markdown-body">
+    <h1 id="序文">序文</h1>
+
+<p>《公共程式標準》提供一套準則規範，支持公家機關一同開發與維護軟體及政策。</p>
+
+<p>任何想開發具有公眾用途的軟體或政策的人，可以利用本標準來提升公共服務品質，使其更具成本效益、風險更低，還能對系統更有掌控權。</p>
+
+<p>本序文在介紹何謂「公共程式」以及解說其重要性。</p>
+
+<h2 id="公共程式定義">公共程式定義</h2>
+
+<p>公共程式，英文為 Public Code，是指人類或機器在公共情境下，所執行的電腦原始碼（像是軟體與演算法）與公共政策。公共程式的範疇，涵蓋搭配公共基礎建設一同作業
+的軟體、作為公共基礎建設運作而建置的軟體，以及產生公共程式的過程安排等。公共程式與一般軟體有明顯區別，因為其作業的環境與期待全然不同。</p>
+
+<h2 id="採用公共程式的原因">採用公共程式的原因</h2>
+
+<p>公共程式現在如此重要，背後有幾個原因。</p>
+
+<h3 id="軟體程式碼--法律條文">軟體程式碼 == 法律條文</h3>
+
+<p>軟體是公共基礎建設。</p>
+
+<p>在 21 世紀，軟體可被視為重要的公共基礎建設。軟體越來越常被用於實現既有政策，甚至成為新政策的制定來源。舉例來說，演算法可以決定哪些地區需要額外的社會服務或警力
+等。</p>
+
+<p>在公共政策的執行上，軟體運作機制、演算法與資料蒐集等，已成為關鍵要素。今日的電腦程式碼，正執行著透過民主程序制定的法規政策。程式碼與政策這兩種形式的程式，都根據民主
+程序而確立的公共價值，設立出社會的運作環境；前者由機器執行，後者則是由人類執行。換句話說，軟體程式碼，已經越來越實質趨近於法律條文的地位。</p>
+
+<p>因此軟體也應該接受民主治理原則的約束。</p>
+
+<h3 id="傳統的公共軟體採購">傳統的公共軟體採購</h3>
+
+<p>目前公共軟體的生產模式，在交付公共服務上的效率並不高。</p>
+
+<p>過去近十年來，購置完整軟體解決方案的公家機關，有時甚至會很訝異地發現：</p>
+
+<ul>
+  <li>他們無法修改軟體來反映政策的變動，或是改變軟體來利用新科技</li>
+  <li>他們的資料都套牢在專有系統中，無法取用</li>
+  <li>他們所需繳交的授權費變得越來越貴</li>
+</ul>
+
+<h3 id="技術自主權與民主課責">技術自主權與民主課責</h3>
+
+<p>公家機關、公務員與居民都值得更好的。</p>
+
+<p>我們相信支持社會運作的軟體，再也不能是黑箱，任由外部公司依隱藏在專有程式基底之下的秘密邏輯作控制。反過來說，政府，以及政府所要服務的人民，需要掌控技術自主權。技術自
+主讓他們能主導設定與控制公共軟體的運作，正如同他們能依法制定與調整政策一樣。人民與公民社會的參與者，都需要這類軟體能夠透明，且可以課責。</p>
+
+<p>作為必要公民基礎建設的軟體，其設計應該尊重公民的數位權利。</p>
+
+<h3 id="設計真正的公共軟體">設計真正的公共軟體</h3>
+
+<p>公共程式是現代公家機構的核心，型塑了公務員的工作樣態，並且影響了幾乎所有居民的生活。</p>
+
+<p>因此公共軟體必須：</p>
+
+<ul>
+  <li>透明</li>
+  <li>可課責</li>
+  <li>讓選民能夠理解</li>
+</ul>
+
+<p>必須能反映其所服務的社會價值觀，像是涵容與不歧視。</p>
+
+<p>目前公家機關使用的大多數專有軟體系統，都不符合這些要求；而公共程式能夠做到。</p>
+
+<h3 id="公共程式的價值">公共程式的價值</h3>
+
+<p>我們認為公共程式應具有下列核心價值：</p>
+
+<ul>
+  <li>涵容</li>
+  <li>好用</li>
+  <li>開放</li>
+  <li>易懂</li>
+  <li>課責</li>
+  <li>近用</li>
+  <li>永續</li>
+</ul>
+
+<h2 id="公共程式運作方式">公共程式運作方式</h2>
+
+<p>公共程式是旨在協助公家機關，履行其必要職責時所採用的開放原始碼軟體。透過使用，其他行政單位也能為軟體做出貢獻，因此公共程式的開發與維護，可說是真正互相協作的成果。</p>
+
+<p>開放的精神能開創許多可能性。</p>
+
+<p>公家機關在執行與維護其自身的公共程式時，就是在確保能為地方負責，並履行民主課責。開放且貢獻者眾多的軟體，得利於有許多人在看，更容易發現潛在缺陷，因此安全性會更高。許
+多貢獻者會分攤維護工作，讓公共程式能持續運作與更新，減少未來技術債的可能。因為能有多人分攤維護工作，使得現在與未來都會更加永續。而公共程式的開放性，代表其程式碼與
+資料，在未來也更容易改寫與調整。程式碼也更容易重新利用、重新調整目標，或甚至淘汰。這一切特性都讓公共基礎建設可能遭遇的風險降到更低。</p>
+
+<p>這種將資源集中的作法，能讓公共行政單位可以有額外心力關注如何客製化軟體，來使軟體最適合當地情境的需求，為終端使用者（居民或市民）創造更佳的使用體驗。</p>
+
+<h3 id="公共程式的經濟效應">公共程式的經濟效應</h3>
+
+<p>公共程式為公家機關以及商業公司，提供更好的經濟模型。公共程式作為替代傳統軟體採購的方案，更能提升當地的掌控權並促進經濟機會。</p>
+
+<p>公共程式從設計之初，就是要開放、適應力強、資料可攜，能夠由內部員工或信任的供應商來開發。由於原始碼開放，公共行政單位在有需要時可以更換供應商。開放原始碼讓社會大眾更
+有機會瞭解與監督公共程式，使公共行政單位得以採購小規模的合約，而地方性的中小企業就更容易參與這些小型採購案的競標。如此一來，公共行政單位就可以透過他們所需的軟體採
+購案，刺激當地經濟的創新與競爭。</p>
+
+<p>這可視為對未來經濟成長的投資。隨著科技需求成長，也將需要更多供應商。</p>
+
+<h3 id="購置公共程式">購置公共程式</h3>
+
+<p>公共程式可由常駐的內部研發團隊、承包商或外包供應商開發。公家機關的供應商，在投標時可以在標案中納入公共程式。</p>
+
+<p>若要使用既有的公共程式，您將需要在預算以及專案設計中，明確指出新的解決方案將會使用該程式基底。為了鼓勵創新，將公共程式依據您的情境背景作調整，您可在合約中描述說明服
+務內容或預期成果。</p>
+
+<h2 id="公共程式標準目標">《公共程式標準》目標</h2>
+
+<p>本標準在於支持開發人員、設計師、管理人員、公共政策制定者：</p>
+
+<ul>
+  <li>開發出高品質的軟體與政策，來改善公共服務的交付</li>
+  <li>開發出能在各種情境下重複使用，且以協作方式維護的程式基底</li>
+  <li>減少技術債與專案失敗率</li>
+  <li>更能精細控制其 IT 系統粒度，並做出系統相關決策</li>
+  <li>以更好的經濟模型改善供應商關係</li>
+</ul>
+
+<p>如果有潛在使用者想採用經由《公共程式標準》測試過的程式基底，便可以預期這些程式基底具有方便重複利用、容易維護、高品質的特性。</p>
+
+<p>《公共程式標準》能有此效果是基於：</p>
+
+<ul>
+  <li>為公共程式開發訂立通用術語</li>
+  <li>制定措施協助高品質公共程式的開發</li>
+  <li>提出該如何符合準則並實作遵循的指引</li>
+</ul>
+
+<p>《公共程式標準》設計精神就是要跨越時間與科技，不受其限制。</p>
+
+<h3 id="適用對象">適用對象</h3>
+
+<p>《公共程式標準》適用於開發與重複使用公共程式的人：</p>
+
+<ul>
+  <li>公共政策制定者</li>
+  <li>業務與專案經理</li>
+  <li>開發人員與設計師</li>
+</ul>
+
+<p>在以下單位服務的人：</p>
+
+<ul>
+  <li>社會機構、公家機關的組織與行政單位</li>
+  <li>公家機關在資訊科技與政策服務上的顧問與供應商</li>
+</ul>
+
+<p>適用對象不含公家機關的終端使用者（居民或市民）、記者或學者等。</p>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>歐洲自由軟體基金會所發表的<a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pdf">《透過自由軟體實現公共基礎設施現代化》白皮
+書</a> 》。</li>
+</ul>
+
+<h3 id="探討公共程式的影片">探討公共程式的影片</h3>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=cnJtnZ9Cx1o">「程式協作是城市的未來」@ DecidimFest 2019</a>。主講
+人 Ben Cerveny，講述 Foundation for Public Code 的背景。</li>
+  <li><a href="https://youtube.com/watch?
+v=QHFkD4xfd6c"> 「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 2019</a>。討論採購、法律等主題。</li>
+</ul>
+
+<h2 id="參與我們">參與我們</h2>
+
+<p>本標準是持續成長的文件。<a href="/CONTRIBUTING.html">請讀我們的〈貢獻者指引〉</a>，瞭解您可以怎麼做來讓本標準變得更好。</p>
+
+<h2 id="聯絡方式">聯絡方式</h2>
+
+<p>若有疑問，或想進一步瞭解 Foundation for Public Code，請造訪<a href="https://publiccode.net/">我們的網站</a>，或是寄電子郵
+件到 info@publiccode.net，或撥打我們的電話 +31 20 2 444 500。</p>
+
+  </article>
+</section>
+
+
+</main>
+
+
+<hr>
+
+<footer id="site-footer">
+  <!-- Release information -->
+  
+
+  <!-- GitHub repository information -->
+  
+    <section>
+      <h3>本站在 GitHub 的頁面</h3>
+      <p>本站最近一次是在 15 November 2023 根據 <a href="https://github.com/publiccodenet/jekyll-theme">publiccodenet/jekyll-theme</a> GitHub 的儲存庫版本發表。</p>
+
+      <form id="search-repository" action="https://github.com/publiccodenet/jekyll-theme/search" method="GET">
+        <input name="q" type="text" placeholder="搜尋 GitHub 的原始碼">
+        <button type="Submit"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg> 搜尋</button>
+      </form>
+
+    </section>
+  
+
+  <!-- License information -->
+  
+    <section>
+      <h3>著作權與授權</h3>
+      <p>
+        © 2023
+        
+        <a href="https://publiccode.net/">
+          公共程式基金會
+        </a>
+        
+      </p>
+      <p>
+        
+        
+        European Union Public License 1.2
+        
+      </p>
+    </section>
+  
+</footer>
+
+
+    <nav class="theme-nav">
+  <a href="https://publiccode.net/" title="Foundation for Public Code 首頁" class="logo-mark">
+    <img src="https://brand.publiccode.net/logo/mark.svg" alt="Foundation for Public Code 的標誌，看起來像是小間的希臘神廟，或是六角形的政府大樓">
+    <p>公共程式基金會</p>
+  </a>
+</nav>
+
+
+    
+<footer id="foundation-footer">
+
+  <div class="footer-trio">
+    <section>
+      <div class="footer-section-content">
+        <h2>關於我們</h2>
+        <p>本基金會人員資訊、決策規則與流程。本基金會的員工手冊，是與社群協作共同編寫，任何人都可再利用。</p>
+        <p>深入瞭解我們的活動、組織、術語詞彙表與觀念等。</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://about.publiccode.net">我們的運作方式</a>
+      </div>
+    </section>
+    <section>
+      <div class="footer-section-content">
+        <h2>專案資源</h2>
+        <p>為了推動本基金會使命而研究或開發的開放成品。我們每天的工作都依靠這些資源。您也可以喔！</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://projects.publiccode.net">請自由使用與修改</a>
+        <a href="https://github.com/publiccodenet">到 Github 查看我們的成品</a>
+      </div>
+    </section>
+    <section>
+      <div class="footer-section-content">
+        <h2>徵才</h2>
+        <p>呼叫熱心公益的開源人才！瞭解與我們共事的樣貌，並且成為我們的一員。</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://publiccode.net/careers/">職缺</a>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer-duo">
+    <section class="footer-contact">
+      <h2>聯絡方式</h2>
+      <dl>
+          <dt>電子報：</dt>
+          <dd><a href="https://odoo.publiccode.net/survey/start/594b9243-c7e5-4bc1-8714-35137c971842">加入我們的郵遞論壇清單</a></dd>
+
+          <dt>電話號碼：</dt>
+          <dd><a href="tel:+31202444500">+31 20 2 444 500</a></dd>
+
+          <dt>電子信箱：</dt>
+          <dd><a href="mailto:info@publiccode.net">info@publiccode.net</a></dd>
+
+          <dt>地址：</dt>
+          <dd><address>Keizersgracht 617, 1017 DS, Amsterdam, the Netherlands</address>
+          <a href="https://www.openstreetmap.org/node/2736377676" title="OpenStreetMap">OpenStreetMap</a> | <a href="https://www.google.com/maps/place/Keizersgracht+617,+1017+DS+Amsterdam,+Netherlands" title="Google 地圖">Google</a>
+          </dd>
+      </dl>
+    </section>
+
+    <section class="footer-notes">
+      <h2>機構資訊</h2>
+      <p>Foundation for Public Code（法人）<a href="https://about.publiccode.net/organization/governance-model.html" title="治理模型">是由其成員所有的協會</a>，且在<a href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=74996452" title="荷蘭商會註冊">荷蘭商會 (KvK)</a> 底下註冊，註冊編號為 74996452，識別碼為 (RSIN) 860102294。</p>
+      <p>荷蘭稅務與海關管理局視本機構為 <a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/business-public-benefit-organisations/public_benefit_organisations/what_is_pbo/what_is_a_pbo" title="公益組織 (ANBI)">公益組織 (ANBI)</a>。請參見 <a href="https://about.publiccode.net/organization/" title="本基金會 ANBI 資訊">請參見本基金會 ANBI 資訊</a>. </p>
+      <div class="footer-note-cluster"></div>
+        <p class="footer-last-updated">上次更新時間： 15 November 2023</p>
+        <p class="footer-copyright">2023 <a href="https://publiccode.net">Foundation for Public Code</a></p>
+        <p class="footer-license">本網站所有內容，皆以<a href="https://creativecommons.org/publicdomain/zero/1.0/" title="創用 CC0 1.0 通用授權" rel="license">創用 CC0 1.0 通用授權</a>, 通用之公眾領域貢獻宣告給予授權，另有說明者除外</p>
+        </div>
+    </section>
+  </div>
+
+</footer>
+
+
+
+  </body>
+
+</html>

@@ -1,19 +1,22 @@
 # SPDX-License-Identifier: CC0-1.0
-# 2019-2022 by The Foundation for Public Code <info@publiccode.net>
+# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 
 title: Standard for Public Code
-version: 0.4.0
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
-remote_theme: publiccodenet/jekyll-theme
+repository: publiccodenet/jekyll-theme
+
+remote_theme: Lin-Chia-Cheng/publiccodenet.jekyll-theme
 include:
   - "README.md"
   - "CONTRIBUTING.md"
   - "LICENSE"
+  - "CC0-1.0.md"
   - "CODE_OF_CONDUCT.md"
-  - "docs/review-template.md"
+  - "docs/review-template.html"
 
 toc: true
 
@@ -23,17 +26,6 @@ include_translations: true
 defaults:
   -
     scope:
-      # ignore criteria/index.html, but match all other criteria pages
-      # (match all criteria pages not starting with an 'i')
-      path: '/criteria/[!i]*'
+      path: '/criteria/*'
     values:
-      breadcrumbs:
-        - name: 'Criteria'
-          path: '/criteria/'
       show_prev_next: true
-
-  -
-    scope:
-      path: '/'
-    values:
-      breadcrumbs: true

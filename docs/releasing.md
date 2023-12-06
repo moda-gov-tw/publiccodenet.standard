@@ -1,56 +1,48 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- written in 2021 - 2022 by The Foundation for Public Code <info@publiccode.net> -->
-# Releasing a new version of the Standard for public code
+# 發行新版本的《公共程式標準》
 
-1. Review state of the 'develop' branch
-    - Ensure all changes intended for release are merged
-    - Invite a proofread of the current state of the branch
-        - If new dashes are introduced, check if the language can be simplified to remove them in favor of more simple sentences. If a complex sentece is needed, see if the dash can be replaced with other punction. If a dash is truly the best expression of ideas, then follow the [Chicago Manual of Style](https://en.wikipedia.org/wiki/Dash#En_dash_versus_em_dash).
-2. Create a release branch
-    - From 'develop', `git checkout -b "release-$MAJOR.$MINOR.$PATCH"`
-    - Push the branch, `git push -u origin release-$MAJOR.$MINOR.$PATCH`
-3. Update the new release
-    - [ ] Update version number in `_config.yml` and `README.md`
-    - [ ] Update [`AUTHORS.md`](../AUTHORS.md) with new contributors
-    - [ ] Update [`CHANGELOG.md`](../CHANGELOG.md)
-    - [ ] Perform extra pass on diff to the 'main' branch
-        - run `script/generate-review-template.sh` and commit updated `docs/review-template.md`
-        - Reread any section or paragraph to ensure wording changes still fit the whole and do not contain grammar or spelling errors
-        - Ensure no link collisions exist in the rendered pdf using `script/pdf.sh`
-        - If needed, commit fixes and repeat extra pass
-    - [ ] Push branch, open a pull request to the 'main' branch
-        - Request review from multiple reviewers, especially a proofreader
-        - Reviewers will create issues for shortcomings found which would not prevent release
-        - If needed for release, reviewers may create PRs to resolve issues
-        - Re-request reviews if additional PRs are merged into release branch
-    - [ ] Run the to-archive-org.sh script
-    - [ ] Once reviews are complete, merge to 'main'
-4. Create GitHub release with the release notes and version number
-    - [ ] Switch to the 'main' branch, `git pull` and `git status`
-    - [ ] `git tag $MAJOR.$MINOR.$PATCH`
-    - [ ] `git push --tags`
-    - [ ] From [tags](https://github.com/publiccodenet/standard/tags) select "create release"
-        - Title the release: 'Nth update'
-        - Add changelog bullets
-5. Trigger a rebuild of gh-pages
-    - [ ] `git checkout -b rebuild-gh-pages-$MAJOR.$MINOR.$PATCH`
-    - [ ] `git commit --allow-empty -m"Rebuild GH Pages $MAJOR.$MINOR.$PATCH"`
-    - [ ] `git push -u origin rebuild-gh-pages-$MAJOR.$MINOR.$PATCH`
-    - [ ] Open a pull request from this branch to `main`
-    - [ ] Approve and merge PR (containing empty commit)
-6. PDF Generation
-    - [ ] Generate new PDFs
-        - Ensure [fonts](https://brand.publiccode.net/typography/) are installed
-        - Serve html content with `script/serve.sh`
-        - Optionally, for a visual pre-check, navigate to [http://127.0.0.1:4000](http://127.0.0.1:4000/) in a browser
-        - In a separate terminal than `script/serve.sh`, generate `standard.pdf`, `standard-cover.pdf` and `review-template.pdf` with `script/pdf.sh`
-        - Rename `standard.pdf` to `standard-for-public-code-$MAJOR.$MINOR.$PATCH.pdf`
-        - Rename `standard-cover.pdf` to `standard-cover-$MAJOR.$MINOR.$PATCH.pdf`
-        - Rename `review-template.pdf` to `review-template-$MAJOR.$MINOR.$PATCH.pdf`
-    - [ ] Add PDFs to release
-        - In a browser navigate to the release and 'edit'
-        - Drag-and-drop the three generated .pdfs into the assets
-7. Update 'develop' with a merge from 'main'
-8. [Send the files for print to the printer](printing.md)
-    - [ ] Cover file
-    - [ ] Inside pages PDF
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+
+1. 審查「develop」分支的狀態
+   - 確認預計收入該次發行版的所有變更都已完成合併
+   - 邀請校對該分支目前的狀態
+      - 如果有引入新的破折號，檢查是否能簡化文字並且移除破折號，例如改用較簡易的句子。如果需要用到複雜的句子，檢查是否能用其他標點符號來取代破折號。如果破折號最適合用來
+表達該句子的涵義，則請遵守《[芝加哥格式手
+冊](https://en.wikipedia.org/wiki/Dash#En_dash_versus_em_dash)》的規範。
+
+1. 建立發行用分支
+   - 從「develop」分支下命令，`git switch -c "release-$MAJOR.$MINOR.$PATCH"`
+   - 推送分支，`git push -u origin release-$MAJOR.$MINOR.$PATCH`
+
+1. 更新本次新發行
+   - [ ] 在 [`AUTHORS.md`](../AUTHORS.md) 中加入新貢獻者的資料
+   - [ ] 更新 [`CHANGELOG.md`](../CHANGELOG.md)
+   - [ ] 更新 [`roadmap.md`](roadmap.md)
+   - [ ] 透過 diff 進行額外傳輸到「main」分支
+      - 執行 `script/generate-review-template.sh` 並送交更新後的 `docs/review-template.html` 版次記
+錄
+      - 使用審查範本中的新文字來更新 `docs/standard-for-public-code.html`，會將任何狀態變更作為結果更新
+      - 重新檢查用字有變更的任何小節或段落，確保變更的字詞適合該整體內容，並且沒有文法或拼字錯誤
+      - 確認有安裝[字型](https://brand.publiccode.net/typography/)，請參見：`script/ensure-font.sh`
+      - 使用 `script/pdf.sh rc1` 檢查轉譯出的 `.pdf` 檔
+         - 確認沒有連結相衝的問題
+         - 檢查文字分頁之處，可能需要移除或新增 CSS 分頁語法，像是：`<p style="page-break-after: always;"></p>`
+      - 如果有需要，送交修正版次，並重複進行額外傳輸
+   - [ ] 推送分支，與「main」分支比較，範例：
+`https://github.com/publiccodenet/standard/compare/main...release-$MAJOR.$MINOR.$PATCH`
+      - 請多位審查人員（特別是校對人員）進行審查
+      - 審查人員若發現不會阻礙發行的缺失，則會建立議題
+      - 如果是發行所需處理的缺失，審查人員可以提交拉取請求來解決問題
+      - 若有額外的拉取請求合併至發行分支，則再次請求審查
+   - [ ] 執行 to-archive-org.sh 命令稿
+
+1. 在 GItHub 上發行，附上發行備註與版本編號
+   - [ ] `git tag trigger-$MAJOR.$MINOR.$PATCH`
+   - [ ] `git push --tags`（請參見：`../.github/workflows/release-on-tag.yml`）
+   - [ ] 移除本地端的 tag 標記：`git tag -d trigger-$MAJOR.$MINOR.$PATCH`
+
+1. [將檔案傳送給印刷廠商印刷](printing.md)
+   - [ ] 封面檔案
+   - [ ] 內頁 PDF
+
+1. 通知[翻譯](https://github.com/publiccodenet/community-translations-standard)貢獻者

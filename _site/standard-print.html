@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/github-markdown.css">
+  <link rel="stylesheet" href="assets/print.css">
+  <title>Standard for Public Code</title>
+  <style>
+    /* Print specific */
+    @media print {
+      @page :left {
+        @top-left {
+          content: counter(page);
+        }
+      }
+      @page :right {
+        @top-right {
+          content: counter(page);
+        }
+      }
+    }
+  </style>
+</head>
+<body class="markdown-body">
+
+  <article id="section-first-page">
+    <p>Request for contributions</p>
+    <h1 class="title">Standard for Public Code</h1>
+
+    <ul class="first-page-audiences">
+      <lh>What public code is and how to implement it for:</lh>
+      <li id="first-page-public-policy-makers-what-you-need-to-do">Public policy makers</li>
+      <li id="first-page-managers-what-you-need-to-do">Managers</li>
+      <li id="first-page-developers-and-designers-what-you-need-to-do">Developers and designers</li>
+    </ul>
+
+    <img src="assets/hands-shake.svg" alt="hands shaking">
+
+    <p><strong>Draft</strong><br/>Version <span class="standard-version">0.7.1</span></p>
+    <p><img src="/assets/cc-zero-badge.svg" alt="Licensed CC0" height="46"> <img src="/assets/dpg-badge.svg" alt="Digital Public Goods approval badge" width="92" height="46"></p>
+    <p>github.com/publiccodenet/standard</p>
+  </article>
+
+  <article id="section-authors">
+
+    <h1 id="作者群">作者群</h1>
+
+<ul>
+  <li>Alba Roza，<a href="https://publiccode.net/">Foundation for Public Code</a></li>
+  <li>Arnout Engelen</li>
+  <li>Arnout Schuijff，Foundation for Public Code</li>
+  <li>唐鳳，<a href="https://digitalminister.tw/">數位發展部</a></li>
+  <li>Ben Cerveny，Foundation for Public Code</li>
+  <li>Bert Spaan</li>
+  <li>Boris van Hoytema，Foundation for Public Code</li>
+  <li>Charlotte Heikendorf</li>
+  <li>Claus Mullie，Foundation for Public Code</li>
+  <li>David Barberi</li>
+  <li>Edo Plantinga，<a href="https://codefor.nl/">Code For NL</a></li>
+  <li>Elena Findley-de Regt，Foundation for Public Code</li>
+  <li>Eric Herman，Foundation for Public Code</li>
+  <li>Felix Faassen，Foundation for Public Code</li>
+  <li>Floris Deerenberg</li>
+  <li>Jan Ainali，Foundation for Public Code</li>
+  <li>Johan Groenen，Code For NL</li>
+  <li>Marcus Klaas de Vries</li>
+  <li>Mark van der Net，<a href="https://www.amsterdam.nl/en/">阿姆斯特丹市政府</a></li>
+  <li>Martijn de Waal，<a href="https://www.amsterdamuas.com/">阿姆斯特丹應用科技大學 (AUAS)</a>，數位媒體與創意產業學院，
+戲劇與公民媒體系講師</li>
+  <li>Matti Schneider</li>
+  <li>Mauko Quiroga</li>
+  <li>Maurice Hendriks， 阿姆斯特丹市政府</li>
+  <li>Maurits van der Schee，阿姆斯特丹市政府</li>
+  <li>Mirjam van Tiel，Foundation for Public Code</li>
+  <li>Ngô Ngọc Đức Huy</li>
+  <li>Paul Keller</li>
+  <li>Petteri Kivimäki， <a href="https://niis.org">北歐互通性解決方案機構 (NIIS)</a></li>
+  <li>Sky Bristol</li>
+  <li>Tamas Erkelens，阿姆斯特丹市政府</li>
+  <li>Timo Slinger</li>
+</ul>
+
+
+  </article>
+
+  <article id="table-of-contents">
+
+    <h1>Table of Contents</h1>
+
+    <ol>
+      <li><a href="#section-authors" class="table-of-contents">Authors</a></li>
+      <li><a href="#section-readers-guide" class="table-of-contents">Readers guide</a></li>
+      <li><a href="#section-glossary" class="table-of-contents">Glossary</a></li>
+      <li><a href="#section-criteria" class="table-of-contents">Criteria</a>
+        
+        <ol>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+          <li><a href="#section-criteria-code-in-the-open.md" class="table-of-contents">原始碼要開放</a></li>
+          
+          <li><a href="#section-criteria-bundle-policy-and-source-code.md" class="table-of-contents">政策與原始碼要合捆</a></li>
+          
+          <li><a href="#section-criteria-make-the-codebase-reusable-and-portable.md" class="table-of-contents">程式基底要可重複使用且可移植</a></li>
+          
+          <li><a href="#section-criteria-welcome-contributors.md" class="table-of-contents">歡迎貢獻者</a></li>
+          
+          <li><a href="#section-criteria-make-contributing-easy.md" class="table-of-contents">貢獻要容易</a></li>
+          
+          <li><a href="#section-criteria-maintain-version-control.md" class="table-of-contents">維護版本控制</a></li>
+          
+          <li><a href="#section-criteria-require-review-of-contributions.md" class="table-of-contents">要求審查貢獻內容</a></li>
+          
+          <li><a href="#section-criteria-document-codebase-objectives.md" class="table-of-contents">程式基底要有目標文件</a></li>
+          
+          <li><a href="#section-criteria-document-the-code.md" class="table-of-contents">程式碼要有文件</a></li>
+          
+          <li><a href="#section-criteria-use-plain-english.md" class="table-of-contents">使用白話的英語</a></li>
+          
+          <li><a href="#section-criteria-use-open-standards.md" class="table-of-contents">採用開放標準</a></li>
+          
+          <li><a href="#section-criteria-use-continuous-integration.md" class="table-of-contents">使用持續整合</a></li>
+          
+          <li><a href="#section-criteria-publish-with-an-open-license.md" class="table-of-contents">發行採用開放授權</a></li>
+          
+          <li><a href="#section-criteria-make-the-codebase-findable.md" class="table-of-contents">程式基底可查詢得到</a></li>
+          
+          <li><a href="#section-criteria-use-a-coherent-style.md" class="table-of-contents">風格要前後一致</a></li>
+          
+          <li><a href="#section-criteria-document-codebase-maturity.md" class="table-of-contents">記錄程式基底成熟度</a></li>
+          
+        </ol>
+      </li>
+      <li><a href="#section-contributing" class="table-of-contents">Contributing guide</a></li>
+      <li><a href="#section-code-of-conduct" class="table-of-contents">Code of conduct</a></li>
+      <li><a href="#section-governance" class="table-of-contents">Governance</a></li>
+      <li><a href="#section-changelog" class="table-of-contents">Version history</a></li>
+      <li><a href="#section-license" class="table-of-contents">License</a></li>
+    </ol>
+
+  </article>
+
+  <figure>
+    <img src="/assets/codebase.svg" alt="codebase">
+  </figure>
+
+  <article id="section-readers-guide">
+
+    <h1 id="讀者指引">讀者指引</h1>
+
+<p>本標準描述說明許多準則。所有準則各小節結構維持一致，來讓讀者清楚明白如何開發良好的公共程式。</p>
+
+<p>「政策制定者」、「管理人員」以及「開發人員與設計師」的稱呼，係指任何履行這些角色職責的人，不受其職稱限制。常見同時承擔多個角色職責的人。</p>
+
+<p>以下是各小節的簡要介紹，以及在本標準準則中的作用。</p>
+
+<h2 id="前言">前言</h2>
+
+<p>本小節說明這些準則想達成的目的，以及為何會對程式基底使用者與貢獻者來說這麼重要的原因。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<p>這個小節列出如果要遵循本標準，需要完成哪些事項。</p>
+
+<p>本文件中的下列關鍵字，請以《<a href="https://tools.ietf.org/html/rfc2119">IETF RFC 2119</a>》的描述作解釋：</p>
+
+<ul>
+  <li>必須</li>
+  <li>禁止</li>
+  <li>要求</li>
+  <li>應當</li>
+  <li>不得</li>
+  <li>應該</li>
+  <li>不該</li>
+  <li>建議</li>
+  <li>得以</li>
+  <li>可選擇</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<p>本小節提供您可採取的行動，來確認貢獻內容是否遵循本標準。如果您想要務實操作本標準，這部分很關鍵。</p>
+
+<p>我們已嘗試調整用字，讓即使是不熟悉這類主題內容的讀者，看完之後也能夠進行基本的遵循檢查。</p>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<p>本小節主要對象是政策制定者，列出他們的角色所能採取的具體行動。</p>
+
+<p>公共政策制定者設定專案的優先順序與目標，而在科技上的經驗可能沒那麼多。</p>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<p>本小節主要對象是管理人員，列出他們的角色所能採取的具體行動。</p>
+
+<p>管理人員負責監督專案的準時交付、利害關係人管理，以及服務的持續交付。因此，他們得完全依賴政策制定者、開發人員與設計師。他們需要塑造正確的文化、籌備合適的資源、提供適
+當的架構等，才能交付優良的服務。</p>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<p>本小節主要對象是開發人員與設計師，列出他們的角色能採取的具體行動。</p>
+
+<p>開發人員通常對技術比較在行，與其他角色類別相比，對服務交付的影響更大。</p>
+
+<h2 id="作用範圍限制">作用範圍限制</h2>
+
+<p>《公共程式標準》不是為了涵蓋程式基底的個別實作而撰寫。這代表本標準不是要告訴實作人員，該如何遵循其組織單位當地的技術性基礎建設或法律框架。</p>
+
+<p>此外，雖然《公共程式標準》有引用一些標準，並且與其他標準有滿多重疊的部分，但本標準的目的是要推動協作。因此，本標準目標不在於取代品質標準，像是 ISO 25000
+認證系列，或是取代那些聚焦於安全性的標準，例如 <a href="https://github.com/coreinfrastructure/best-practices-badge">OpenSSF 最佳實務標
+章</a>等，而是希望能與它們能良好協同搭
+配。</p>
+
+<p>《公共程式標準》的目在於促進協作，但也無法保證能夠催生出一個社群。若要建立社群，除了程式基底需要準備好進行協作以外，也需要積極主動，以及做到超越協作以外的企圖
+心。</p>
+
+
+  </article>
+
+  <article id="section-glossary">
+
+    <h1 id="詞彙表">詞彙表</h1>
+
+<h2 id="程式或程式碼-code">程式或程式碼 (Code)</h2>
+
+<p>任何明確的規則系統，包括法律、政策與規則條例（法規、法式，也可稱為程式），以及用來開發軟體的原始碼（程式碼）。兩者都是規則，有些是由人類來執行，其餘則是由機器執
+行。</p>
+
+<h2 id="程式基底-codebase">程式基底 (Codebase)</h2>
+
+<p>任何獨立分離的統合包，內含執行部分政策或軟體所需的程式（包含原始碼與政策）、測試與文件等的整套內容。</p>
+
+<p>舉例而言，這個具體形式可以是文件，或是版本控制的儲存庫。</p>
+
+<h2 id="持續整合">持續整合</h2>
+
+<p>在軟體工程中，持續整合 (CI) 是盡可能頻繁地將所有開發人員工作中的副本，合併回程式基底開發中分支的實務作法。</p>
+
+<h2 id="不同情境">不同情境</h2>
+
+<p>只要是不同的公家機關或不同的部門，無法透過同一個決策單位讓協作自然發生，那就算是兩個不同的情境。</p>
+
+<h2 id="一般大眾">一般大眾</h2>
+
+<p>整體民眾：程式碼與其所建立的服務的終端使用者。</p>
+
+<p>舉例而言，城市的居民即視為該城市的服務、以及驅動這些服務運作的程式碼的終端使用者。</p>
+
+<h2 id="開源或開放原始碼-open-source">開源或開放原始碼 (Open Source)</h2>
+
+<p>所謂「開源」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《<a href="https://opensource.org/osd-annotated">開放原始碼定義</a>》而來。</p>
+
+<h2 id="開放標準">開放標準</h2>
+
+<p>任何符合 OSI 開放原始碼促進會《<a href="https://opensource.org/osr">開放標準需求規範</a>》的標準，就是開放標準。</p>
+
+<h2 id="政策">政策</h2>
+
+<p>政策是一套謹慎設計的原則體系，用來引導決策並達成合理的成果。政策是一種意圖的聲明，並以程序或協定來執行。政策通常是由組織單位內的理事機構採用執行。政策能協助做出主觀
+與客觀的決策。</p>
+
+<p>公共政策是政府將其政治願景，轉化成計畫與行動來取得成果的程序。</p>
+
+<p>在國家層級，政策與立法（法律）通常是分開的；而在地方政府中，這兩者之間的區別通常比較模糊。</p>
+
+<p>在本標準當中，「政策」一詞指的是公家機關，例如政府與自治市等，所制定與採用的政策。</p>
+
+<h2 id="公共程式-public-code">公共程式 (Public Code)</h2>
+
+<p>公共程式，是由公家機關所開發的開放原始碼軟體，同時包含協作與重複利用所需的政策與指引。</p>
+
+<p>公共程式是在公共情境下，由人類或機器所執行的電腦原始碼（例如軟體與演算法）以及公共政策兩者。</p>
+
+<p>服務公眾利益的公共程式，具有開放、易懂、課責、近用、永續等特性。</p>
+
+<p>透過獨立於當地情境，但仍可在當地情境下實作的方式，還有公開以文件記錄開發程序等作法，來開發公共程式。如此，公共程式能作為基礎組件提供給他人，使其得以：</p>
+
+<ul>
+  <li>根據其當地情境重新實作</li>
+  <li>作為起點並繼續開發</li>
+  <li>當作學習時的基礎</li>
+</ul>
+
+<p>為了促進重複利用，公共程式通常放到公眾領域發行，或者採取允許他人能自由檢視、重複利用其成果，甚至產出衍生作品的開放授權。</p>
+
+<h2 id="儲存庫">儲存庫</h2>
+
+<p>儲存庫是版本控制工具，用於存放程式基底的檔案與中介資料的儲存位置。儲存庫讓多位貢獻者，得以同時對同一組檔案作業。儲存庫可以儲存一組檔案的多個版本。</p>
+
+<h2 id="原始碼-source-code">原始碼 (Source Code)</h2>
+
+<p>人類可讀，並且能夠翻譯成機器指令的電腦程式文字。</p>
+
+<h2 id="版本控制">版本控制</h2>
+
+<p>版本控制，是對原始碼及其相關檔案的變動行為作管理的流程。變動行為，通常是以稱為「<em>修訂編號</em>」（或版次等類似名稱）的代號作識別。每次修訂都會標示其改動時間以及作者，
+方便追溯程式碼的演進。修訂控制系統可用來比較不同版本之間的差異，以及查看內容隨著時間經歷的變動。</p>
+
+
+  </article>
+
+  <article id="section-criteria">
+    <h1>Criteria</h1>
+    
+    <ol>
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      <li><a href="#section-criteria-code-in-the-open.md" class="table-of-contents">原始碼要開放</a></li>
+      
+      <li><a href="#section-criteria-bundle-policy-and-source-code.md" class="table-of-contents">政策與原始碼要合捆</a></li>
+      
+      <li><a href="#section-criteria-make-the-codebase-reusable-and-portable.md" class="table-of-contents">程式基底要可重複使用且可移植</a></li>
+      
+      <li><a href="#section-criteria-welcome-contributors.md" class="table-of-contents">歡迎貢獻者</a></li>
+      
+      <li><a href="#section-criteria-make-contributing-easy.md" class="table-of-contents">貢獻要容易</a></li>
+      
+      <li><a href="#section-criteria-maintain-version-control.md" class="table-of-contents">維護版本控制</a></li>
+      
+      <li><a href="#section-criteria-require-review-of-contributions.md" class="table-of-contents">要求審查貢獻內容</a></li>
+      
+      <li><a href="#section-criteria-document-codebase-objectives.md" class="table-of-contents">程式基底要有目標文件</a></li>
+      
+      <li><a href="#section-criteria-document-the-code.md" class="table-of-contents">程式碼要有文件</a></li>
+      
+      <li><a href="#section-criteria-use-plain-english.md" class="table-of-contents">使用白話的英語</a></li>
+      
+      <li><a href="#section-criteria-use-open-standards.md" class="table-of-contents">採用開放標準</a></li>
+      
+      <li><a href="#section-criteria-use-continuous-integration.md" class="table-of-contents">使用持續整合</a></li>
+      
+      <li><a href="#section-criteria-publish-with-an-open-license.md" class="table-of-contents">發行採用開放授權</a></li>
+      
+      <li><a href="#section-criteria-make-the-codebase-findable.md" class="table-of-contents">程式基底可查詢得到</a></li>
+      
+      <li><a href="#section-criteria-use-a-coherent-style.md" class="table-of-contents">風格要前後一致</a></li>
+      
+      <li><a href="#section-criteria-document-codebase-maturity.md" class="table-of-contents">記錄程式基底成熟度</a></li>
+      
+    </ol>
+  </article>
+
+  <figure>
+    <img src="/assets/unlock.svg" alt="unlock">
+  </figure>
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    <article id="section-criteria-code-in-the-open.md">
+      <h1 id="原始碼要開放">原始碼要開放</h1>
+
+<p>以開放精神編寫原始碼，能改善資訊透明、提高<a href="/glossary.html#source-code">原始碼</a>品質、讓原始碼更容易稽核，也能促進互相協作。</p>
+
+<p>這些合在一起，讓公民更有機會瞭解軟體與<a href="/glossary.html#policy">政策</a>如何影響他們與公家機關的互動。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>任何使用中政策的所有原始碼都「必須」要公開（用於偵測詐欺的原始碼除外），且能供民眾取用。</li>
+  <li>任何使用中軟體的所有原始碼都「必須」要公開（用於偵測詐欺的原始碼除外），且能供民眾取用。</li>
+  <li>程式基底「禁止」包含與使用者及其組織單位，或與第三方相關的敏感性資訊。</li>
+  <li>目前非使用中的任何原始碼（像是新版本、提案版本，或較舊版本）都「應該」公開。</li>
+  <li>「可選擇」是否要以文件記錄<a href="/glossary.html#general-public">一般大眾</a>與組織單位之間可能發生的任何特定互動，其背後所採用的原始碼或
+支持的政策。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認目前使用中的每個版本都有公布原始碼在網際網路上，而且民眾不需要經過任何形式的身分核對或授權，就能在原始貢獻組織以外，查看這些原始碼。</li>
+  <li>確認<a href="/glossary.html#codebase">程式基底</a>檔案與送交版次歷史紀錄，不包含敏感性資訊。</li>
+  <li>檢查目前非使用中的原始碼是否有公開。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>制定合乎開放精神的政策。</li>
+  <li>以公開透明的政策為優先。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>孕育擁抱開放、重視學習、歡迎意見回饋的文化。</li>
+  <li>與外部供應商和自由工作者以開放精神的方式協作。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>審查人員在檢核每次的送交版次紀錄時，要確實核對內容沒有包含組態設定、使用者名稱或密碼、公開金鑰，或其他產品系統中使用的實名憑證等敏感性資訊。</li>
+  <li>為符合上述敏感性資訊的相關規定，請明確分開資料與原始碼。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>英國政府數位服務團《<a href="https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/">以開放精神編寫原始
+碼</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed">程式碼應該開放或封閉的時
+機</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open">以開放精神編寫原始碼的資安考
+量</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/service-manual/technology/deploying-software-regularly">定期部署軟
+體</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://gdstechnology.blog.gov.uk/2014/01/27/how-we-use-github/">政府數位服務團如何使用
+GitHub</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-bundle-policy-and-source-code.md">
+      <h1 id="政策與原始碼要合捆">政策與原始碼要合捆</h1>
+
+<p>對於想根據所在情境實作程式基底的人，或是想更進一步貢獻<a href="/glossary.html#codebase">程式基底</a>開發的人來說，能同時取用<a href="../glossary.md#source-code">原始
+碼</a>與<a href="/glossary.html#policy">政策</a>文件兩者，可作為建置成品時的基礎組件。</p>
+
+<p>瞭解作用範疇與該範疇的政策是基本原則，才能瞭解程式基底試圖想解決的問題是什麼，以及該如何解決這些問題的作法。</p>
+
+<p>為了評估是否需要在新的情境中實作程式基底，組織單位需要瞭解必須做出改變的程序有哪些，或是如何對現有解決方案付出額外調整設定，以適應新的情境背景。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底「必須」包含原始碼所根據的政策。</li>
+  <li>如果政策根據原始碼而來，則該原始碼「必須」包含在程式基底中，用於偵測詐騙的原始碼則可除外。</li>
+  <li>政策「應該」採用機器可讀且明確的格式。</li>
+  <li><a href="/glossary.html#continuous-integration">持續整合</a>測試「應該」驗證原始碼與政策是否有一致執行。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>與公務人員確認原始碼所根據的所有政策內容都有收錄在內。</li>
+  <li>與公務人員確認政策所根據的所有原始碼都有收錄在內。</li>
+  <li>確認政策內容是否能在機器上解讀。</li>
+  <li>確認原始碼與政策間的執行一致性能通過持續整合測試。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>與開發人員及設計師合作，確保政策法規與原始碼之間沒有不相符之處。</li>
+  <li>提供相關政策內文，以便收錄於<a href="/glossary.html#repository">儲存庫</a>中；如果政策內文沒有英文版，請提供英文版摘要。務必也同時包含貴組織單
+位所選擇遵守的各項標準，以及影響貴組織單位程式基底開發或部署情境的任何組織單位流程。</li>
+  <li>請提供政策相關參考資料與連結。</li>
+  <li>政策內容請使用明確且機器可讀的格式，像是<a href="https://www.omg.org/spec/">物件管理群體</a>所發表的格式。</li>
+  <li>追蹤政策時，請使用與追蹤原始碼<a href="/criteria/maintain-version-control.html">相同的版本控制</a>與文件。</li>
+  <li>定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合<a href="/criteria/document-codebase-objectives.html">政策意圖</a>。</li>
+  <li>納入會影響社會群體、程式基底與開發目標的相關政策，包含 <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj">GDPR 一般資料保護規
+則</a>或是<a href="https://ec.europa.eu/digital-single-market/en/web-accessibility">歐盟網頁無障礙命
+令</a>等此類法律義務，或者是人權政
+策，例如公家機關對機會平等的承諾等。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>讓政策制定者、開發人員與設計師持續參與，並且在整個開發過程中保持聯繫溝通。</li>
+  <li>確保政策制定者、開發人員與設計師朝相同目標努力。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>熟悉並且學會貴組織單位政策制定者所使用的流程模型標記法。</li>
+  <li>與政策制定者一同合作，確保政策法規與原始碼之間沒有不相符之處。</li>
+  <li>針對如何讓政策文字更清楚提供意見。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>維基百科上的 <a href="https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation">BPMN 業務流程模型與標記
+法</a>。</li>
+  <li>Trisotech 提供的 <a href="https://www.bpmnquickguide.com/view-bpmn-quick-guide/">BPMN 快速指
+南</a>。</li>
+  <li>維基百科上的 <a href="https://en.wikipedia.org/wiki/Decision_Model_and_Notation">DMN 決策模型與標記
+法</a>。</li>
+  <li>維基百科上的<a href="https://en.wikipedia.org/wiki/CMMN"> CMMN 案例管理模型標記法</a>。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-make-the-codebase-reusable-and-portable.md">
+      <h1 id="程式基底要可重複使用且可移植">程式基底要可重複使用且可移植</h1>
+
+<p>編寫可重複使用且可移植的<a href="/glossary.html#code">程式碼</a>，讓政策制定者、開發人員與設計師等，能重複使用、測試與改善目前已開發的內容，並將改善貢獻
+回程式基底中，如此可提高品質、降低維護成本、增強可靠性。</p>
+
+<p>以重複利用為前提籌劃設計<a href="/glossary.html#codebase">程式基底</a>，更容易與多方共享程式基底的目標使命、願景與範圍等。多方開發與使用的程式基底，
+更可以從能自我運作的社群中獲益。</p>
+
+<p>以文件記錄周全的模組構成程式基底，能夠改善重複使用與維護的能力。以文件清楚記錄用途的模組，更容易在<a href="/glossary.html#different-contexts">另一種情境</a>中重複利用。</p>
+
+<p>原始碼不依賴任何貢獻者、供應商或部署底下的特定情況專用基礎架構，則其他任何貢獻者都能測試該原始碼。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底「必須」開發成能在不同情境中重複使用。</li>
+  <li>程式基底「必須」獨立於任何採用保密、無法揭露、專有或非開放式授權的軟體或服務，以供執行與瞭解。</li>
+  <li>程式基底「應該」有多方單位使用。</li>
+  <li>發展路線圖「應該」有多方單位的需求影響。</li>
+  <li>程式基底開發「應該」由多方單位協作。</li>
+  <li>「應該」使用組態設定方式以將<a href="/glossary.html#source-code">原始碼</a>調整成能適應各情境的特定需求。</li>
+  <li>程式基底「應該」能夠在地化。</li>
+  <li>原始碼與其文件「不應該」包含特定情況專用的資訊。</li>
+  <li>程式基底模組「應該」以使其能夠在其他情境中重複利用的模式撰寫文件。</li>
+  <li>軟體「不應該」要求僅有單一供應商能提供的服務或平台。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>與另一組織單位角色與您相似的人確認，看他們是否能利用程式基底，以及需要怎麼進行。</li>
+  <li>確認程式基底不需要用到任何專有或非開放式授權的軟體或服務，就能夠執行。</li>
+  <li>若程式基底處於早期開發階段，尚未準備好正式上線，則檢查是否有想要尋求協作者的意圖跡象。
+    <ul>
+      <li>或是如果程式基底非常成熟與穩定，鮮少需要修正、改善或貢獻：
+        <ul>
+          <li>檢查是否有多方單位，或是有在多種情境下正使用程式基底。</li>
+          <li>檢查是否有以文件記錄協作所做出的成果，以及有編列相關預算。</li>
+        </ul>
+      </li>
+      <li>若是沒有，則：
+        <ul>
+          <li>檢查是否有多方單位，或是有在多種情境下正使用程式基底。</li>
+          <li>檢查程式基底貢獻者是否來自多方單位。</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>檢查程式基底檔案與送交版次歷史紀錄中，不包含特定情況專用的資料。</li>
+  <li>檢查軟體是否可以在不使用單一供應商服務或平台的情況下，正常部署與執行。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>為您的<a href="/glossary.html#policy">政策</a>撰寫清楚且足夠詳細的文件，讓他人即使不是處於同個原始背景情境也能夠理解。</li>
+  <li>確保程式基底有將貴組織單位列為已知使用者。</li>
+  <li>找出貴團隊想要協作的其他組織單位。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>確認利害關係人與業主能夠瞭解，程式基底是以重複利用為明確目標，因而得以減少程式碼技術債，並讓程式基底可以永續發展。</li>
+  <li>確認您的團隊與其他團隊能相互協作。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<p>原始碼應該設計成：</p>
+
+<ul>
+  <li>能讓其他使用者與組織單位可以重複利用，而不受地方環境影響，</li>
+  <li>能解決通用性質問題，而非特定問題，</li>
+  <li>以邏輯上具有意義且獨立的模組構成，</li>
+  <li>如此讓類似組織單位中要面對近似問題的人，都可以採用這套解決方案（或其中一部份）。</li>
+</ul>
+
+<p>確保程式基底文件中，有說明程式的組建日期與執行時期的依賴項目。如果您的情境需要部署至專有平臺上，或者要用到專有組件，則請確保協作者可以在不用到這兩者的情況下，就能進
+行開發、使用、測試、部署等。</p>
+
+<p>在每份送交版次中，審查人員要確認其中不含特定情況專用的資料，像是主機名稱、個人與組織單位資料、代符與密碼等。</p>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable">讓原始碼開放且可重複利
+用</a>》。</li>
+  <li>W3C 全球資訊網協會《<a href="https://www.w3.org/International/questions/qa-i18n">在地化與國際化</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-welcome-contributors.md">
+      <h1 id="歡迎貢獻者">歡迎貢獻者</h1>
+
+<p><a href="/glossary.html#codebase">程式基底</a>社群的氛圍，會影響使用者選擇所要使用的程式基底。歡迎任何人成為貢獻者的社群，才能夠不斷茁壯並且持續自我
+運作。若貢獻者有明確的方法可以影響程式基底、社群目標與進展，則該社群分裂成分歧的社群的機率也較低。新參與者需要瞭解並信任程式基底社群的治理方式。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底必須「允許」任何人對程式基底提出修改建議。</li>
+  <li>程式基底「必須」包含貢獻指引，說明歡迎貢獻的內容類型，以及貢獻者可如何參與開發，例如以「<code class="language-plaintext highlighter-rouge">CONTRIBUTING</code>」檔案說明。</li>
+  <li>程式基底「必須」以文件記錄程式基底、貢獻內容與社群互動等的治理方式，例如以「<code class="language-plaintext highlighter-rouge">GOVERNANCE</code>」檔案來說明。</li>
+  <li>貢獻指引「應該」以文件記錄預期由何者負擔審查貢獻內容所需的開銷費用。</li>
+  <li>程式基底「應該」宣布投入其開發與維護工作的參與組織單位。</li>
+  <li>程式基底「應該」要有可公開取得的發展路線圖。</li>
+  <li>程式基底「應該」公布程式基底的活動統計數據。</li>
+  <li>「可選擇」是否為程式基底加入貢獻者的行為守則。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認可以提交修改建議給程式基底。</li>
+  <li>確認程式基底有貢獻指引。</li>
+  <li>確認程式基底有清楚解釋治理架構，並包含如何影響程式基底治理的方法。</li>
+  <li>確認貢獻指引是否有涵蓋預期由何者負擔審查貢獻內容的開銷費用。</li>
+  <li>檢查是否有參與的組織單位名單。</li>
+  <li>檢查是否有發展路線圖。</li>
+  <li>檢查是否有公布活動統計數據。</li>
+  <li>檢查是否有行為守則。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>為程式基底加入其他資源的清單，而這些資源可幫助<a href="/glossary.html#policy">政策</a>專家、非政府組織、學者等，更能瞭解或可重複利用您的政策。</li>
+  <li>考慮放入聯絡資訊，讓其他考慮合作的政策制定者能徵詢您的意見。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>確保治理架構文件內容中，有包含目前如何改變治理狀態的流程。</li>
+  <li>如果社群對於治理架構應該如何改變有共識，則應該將這些構想宣告為願景寫入文件中。</li>
+  <li>若有需要，確認您有編列貢獻內容審查流程的預算，且經過程式基底社群同意。</li>
+  <li>確認文件有解釋每個參與組織單位所投入的內容，例如提供程式基底哪些資源，以及參與的時間長度等。</li>
+  <li>支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能長久參與社群。</li>
+</ul>
+
+<p style="page-break-after: always;"></p>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>快速回應請求。</li>
+  <li>告知管理人員，您在支援其他貢獻者時所需的時間與資源。</li>
+  <li>清楚告知貢獻者他們該如何做，才能讓貢獻內容整合到程式基底中。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>開放原始碼指引所提供的《<a href="https://opensource.guide/building-community/">營造友善的社群</a>》。</li>
+  <li>Mike McQuaid《<a href="https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/">開放原始碼貢獻者瓶
+頸</a>》。</li>
+  <li>開放原始碼指引針對推動<a href="/glossary.html#open-source">開放原始碼</a>社群專案所寫的《<a href="https://opensource.guide/leadership-and-governance/">領導與治
+理</a>》。</li>
+  <li>Pieter Hintjens《<a href="http://hintjens.com/blog:117">打造網路社群</a>》(長篇文章！)。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-make-contributing-easy.md">
+      <h1 id="貢獻要容易">貢獻要容易</h1>
+
+<p>若要開發更好、更可靠且功能更豐富的軟體，使用者需要能夠為共享的<a href="/glossary.html#codebase">程式基底</a>修正問題、新增功能，以及提出安全性議題
+等。</p>
+
+<p>共享的數位基礎建設讓協作貢獻更容易。使用者讓程式基底接受貢獻時所需付出的心力越少，則使用者越可能成為貢獻者。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底「必須」有個可以公開接受任何人建議的議題追蹤器。</li>
+  <li>文件中「必須」同時有公開的議題追蹤器連結，以及已提交的程式基底變動的連結，例如記錄在「<code class="language-plaintext highlighter-rouge">README</code>」檔案中。</li>
+  <li>程式基底「必須」要有能與使用者以及開發人員溝通的管道，像是設立電子郵件列表（郵遞論壇）。</li>
+  <li>「必須」有透過封閉管道通報安全性問題的方法，來達成負責任的揭露。</li>
+  <li>文件「必須」說明，該如何通報潛在的安全性與敏感性問題。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認有公開的議題追蹤器。</li>
+  <li>確認程式基底有公開的議題追蹤器連結，以及已提交的程式基底變動的連結。</li>
+  <li>確認可以使用程式基底中提到的管道，與其他使用者以及開發人員一同討論該軟體。</li>
+  <li>確認有封閉的管道可通報安全性問題。</li>
+  <li>確認有說明如何私下通報安全性問題。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>追蹤程式基底中的<a href="/glossary.html#policy">政策</a>問題，讓相關的外部政策專家如果自願也能夠協助。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>追蹤程式基底中的管理問題，讓有相關經驗的外部管理人員如果自願也能夠協助。</li>
+  <li>支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能為程式基底持續做出長久貢獻。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>與<a href="/criteria/require-review-of-contributions.html">審查</a>流程相同，務必迅速回應請求。</li>
+  <li>告知管理人員，您在支援其他貢獻者時所需的時間與資源。</li>
+  <li>確保人們可輕鬆找到合適的溝通管道，來詢問維護人員與利害關係人問題，例如寫在「<code class="language-plaintext highlighter-rouge">README</code>」文件當中。</li>
+  <li>確保中介資料包含合適的聯絡資訊，例如寫在 publiccode.yml 檔案中。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Joel Hans《<a href="https://dev.to/joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-project-1ebf">如何引發他人為您的開放原始碼專案做出優秀貢
+獻</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/">以開放精神編寫原始碼的好
+處</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-maintain-version-control.md">
+      <h1 id="維護版本控制">維護版本控制</h1>
+
+<p><a href="/glossary.html#version-control">版本控制</a>主要在追蹤<a href="/glossary.html#source-code">原始碼</a>以及其他<a href="../glossary.md#codebase">程
+式基底</a>檔案歷來的變動。這能讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發人員可以
+針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底中的所有檔案皆「必須」有版本控制。</li>
+  <li>所有決定皆「必須」記錄成送交版次訊息。</li>
+  <li>每份送交版次訊息皆「必須」盡可能附上討論與議題連結。</li>
+  <li>程式基底「應該」以分散式版本控制系統作維護。</li>
+  <li>貢獻守則「應該」要求貢獻者，將相關的修改變動以群組分類方式送交。</li>
+  <li>維護人員「應該」使用像是修訂版次標記，或文字標籤，來標示程式基底正式發行的版本。</li>
+  <li>貢獻守則「應該」鼓勵採用能在版本控制系統中，輕鬆檢視與瞭解檔案中何處有做出更動的檔案格式。</li>
+  <li>貢獻者「可選擇」是否對送交內容作簽章，並附上電子郵件信箱，以便當未來貢獻者對其內容有疑問時，可以與之前的貢獻者聯絡。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認程式基底維持在版本控制狀態中，像是使用 Git 之類的軟體。</li>
+  <li>審查送交版次歷史紀錄，確認所有的送交版次訊息，皆有解釋程式碼修改變動的原因。</li>
+  <li>審查送交版次歷史紀錄，確認所有送交版次訊息之中，盡可能在所有討論過修改變更的地方，包含變動內容以及連結位置（提供網址）。</li>
+  <li>檢查版本控制系統是否為分散式。</li>
+  <li>審查送交版次歷史紀錄，檢查是否有根據貢獻指引將相關的程式碼變動以群組分類。</li>
+  <li>檢查是否可能透過像是修訂版次標記，或文字標籤，來取用程式基底中的特定版本。</li>
+  <li>檢查程式基底在盡可能的情況下，檔案都是採用文字格式。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>如果因為<a href="/glossary.html#policy">政策</a>改變而在程式基底中有新的版本，則請確認有在文件中清楚說明：
+    <ul>
+      <li>政策改變的地方，</li>
+      <li>程式基底如何因應而改變。</li>
+    </ul>
+  </li>
+</ul>
+
+<p>舉例來說，為程式基底作權限管理時，如果要新增申請方類別來賦予取用權，應視為一種政策變動。</p>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>支持政策制定者、開發人員與設計師，使其能清楚表達他們對程式基底做出的改善。確保改善程式基底不會有公關風險。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>確認版本控制系統中，有瞭解程式碼、建置與部署所需要用到的所有檔案。</li>
+  <li>送交版次訊息要寫清楚，讓人一看就能瞭解送交修改的原因。</li>
+  <li>使用像是修訂版次標記，或文字標籤來標示不同版本，以方便取用特定版本。</li>
+  <li>送交版次訊息要寫清楚，方便之後比較各版本。</li>
+  <li>在政策改變以後，與政策制定者合作說明原始碼更新的部分。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Karl Fogel《<a href="https://producingoss.com/en/vc.html#vc-vocabulary">製作開放原始碼軟體：版本控制字
+彙</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding">維護程式碼的版本控
+制</a>》。</li>
+  <li>GitHub 提供的「<a href="https://skills.github.com/">GitHub 技能</a>」，可學習如何使用 GitHub，或是重溫您的技巧。</li>
+  <li>GitHub 提供的「<a href="https://education.github.com/git-cheat-sheet-education.pdf">Git 密技
+表</a>」，列出了最常用的 git 命
+令。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-require-review-of-contributions.md">
+      <h1 id="要求審查貢獻內容">要求審查貢獻內容</h1>
+
+<p>同儕審查貢獻是<a href="/glossary.html#source-code">原始碼</a>提升品質的關鍵，也能降低安全性風險與營運風險。</p>
+
+<p>要求仔細審查貢獻，能孕育出確保貢獻都是優質、完整且能帶來價值的文化。審查原始碼能提高在原始碼加入<a href="/glossary.html#codebase">程式基底</a>之前，
+就發現與修正潛在臭蟲與出錯的機率。得知所有原始碼都會被審查，就不會孕育出習慣怪罪他人的文化，反倒是鼓勵每個人都專注在解決方案上。</p>
+
+<p>快速審查<a href="/glossary.html#policy">政策</a>在於向貢獻者保證，必定在一段時間內提供意見回饋或是協作式改善，進而提高貢獻者交付貢獻內容的頻率，以及參
+與的熱度。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>所有被接受或是送交給程式基底正式發行版本中的貢獻內容，都「必須」經過另一位貢獻者審查。</li>
+  <li>審查「必須」包含原始碼、政策、測試、文件等。</li>
+  <li>如果不接受貢獻內容，審查人員「必須」提供意見回饋。</li>
+  <li>審查流程「應該」確認貢獻內容遵循程式基底的標準、架構、決策安排等，以通過審查。</li>
+  <li>審查內容「應該」包含執行軟體與執行程式基底測試。</li>
+  <li>貢獻內容「應該」由與貢獻者不同背景情境的人來審查。</li>
+  <li>版本控制系統「不應該」在程式基底的正式發行版本中，接受未經審查的貢獻內容。</li>
+  <li>審查「應該」在兩個工作天內進行。</li>
+  <li>「可選擇」是否由多位審查人員進行審查。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認歷史紀錄中，每個送交版次都有經過不同的貢獻者審查。</li>
+  <li>確認審查內容包含原始碼、政策、測試、文件等。</li>
+  <li>針對未被採用的貢獻內容，確認有適當解釋原因。</li>
+  <li>檢查審查人員指引中，有包含是否遵循標準、架構、程式基底指引等指示。</li>
+  <li>檢查審查人員在審查時是否有執行軟體與測試。</li>
+  <li>與審查人員確認，送交版次是否有經過不同情境背景的不同貢獻者審查。</li>
+  <li>檢查<a href="/glossary.html#version-control">版本控制</a>系統中是否有採用分支保護。</li>
+  <li>檢查貢獻提交與審查之間的時間間隔。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>制定進行任何審查時，含原始碼與其他一切事物，都要恪遵「四眼原則」的政策。</li>
+  <li>採用具有審查與意見回饋功能的版本控制系統，或作業流程。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>將交付妥善軟體作為共同目標。</li>
+  <li>確保如原始碼、政策、文件、測試等的貢獻內容撰寫與審查，皆受到同等重視。</li>
+  <li>創造歡迎所有形式的貢獻，而且每個人都能夠審查貢獻內容的文化。</li>
+  <li>確保貢獻者在貢獻內容給程式基底時，不是獨自一人埋頭苦幹。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>請程式基底的其他貢獻者，審查您在貴組織單位內外的工作成果。</li>
+  <li>當他人請求您審查時，請盡快回覆，並先給出需要修正之處背後的概念。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>英國政府數位服務團《<a href="https://gds-way.cloudapps.digital/manuals/code-review-guidelines.html#content">英國政府數位服務團程式碼審查程
+序</a>》。</li>
+  <li><a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches">GitHub</a>
+與
+<a href="https://about.gitlab.com/blog/2014/11/26/keeping-your-code-protected/">GitLab</a> 平
+臺的分支保護說明。</li>
+  <li>Sage Sharp《<a href="https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/">程式修補審查的和善藝
+術</a>》。</li>
+  <li>Mozilla《<a href="https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177">參與度評測成
+果</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-document-codebase-objectives.md">
+      <h1 id="程式基底要有目標文件">程式基底要有目標文件</h1>
+
+<p>以文件清楚記錄<a href="/glossary.html#codebase">程式基底</a>目標，來傳達程式基底的用途目標。這能幫助利害關係人與貢獻者劃定程式基底的開發範圍。這些目
+標也能方便人們判斷，是否在當下或未來，會對此程式基底或其模組感興趣。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底「必須」包含描寫目標的文件，像是主旨、使命或目標陳述。開發人員與設計師需要能夠瞭解這些，他們才知道可以怎樣使用程式基底或協助貢獻。</li>
+  <li>程式基底文件「應該」清楚描述<a href="/glossary.html#policy">政策</a>目標與程式基底目標之間的關聯。</li>
+  <li>「可選擇」是否以文件記錄給<a href="/glossary.html#general-public">一般大眾</a>看的程式基底目標。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認程式基底文件有包含程式基底目標，或主旨、使命等。</li>
+  <li>查看政策目標與程式基底目標之間關聯的描述。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>將政策目標加入程式基底文件中，例如「<code class="language-plaintext highlighter-rouge">README</code>」文件當中。</li>
+  <li>確保所有程式基底目標，有連結或引用為了符合〈<a href="/criteria/bundle-policy-and-source-code.html">政策與原始碼要合捆</a>〉準則而加入的支持政策文
+件。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>將單位目標、組織目標或業務目標加入程式基底文件中，例如「<code class="language-plaintext highlighter-rouge">README</code>」文件當中。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>將技術與設計目標加入程式基底文件中，例如「<code class="language-plaintext highlighter-rouge">README</code>」文件當中。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Marek Hajduczenia《<a href="http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf">如何撰寫專案目
+標</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-document-the-code.md">
+      <h1 id="程式碼要有文件">程式碼要有文件</h1>
+
+<p>文件記錄周全的<a href="/glossary.html#source-code">原始碼</a>能幫助人們瞭解該原始碼的作用與使用方式。文件紀錄是幫助人們快速上手如何使用<a href="../glossary.md#codebase">程式基
+底</a>，並做出貢獻的關鍵。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底的所有功能、<a href="/glossary.html#policy">政策</a>及原始碼，都「必須」以可清楚瞭解的用語描述，讓懂程式基底目的用途的人也能夠理解。</li>
+  <li>程式基底文件「必須」說明如何安裝與執行軟體。</li>
+  <li>程式基底文件「必須」為關鍵功能舉出範例。</li>
+  <li>程式基底文件「應該」包含精要的說明，讓<a href="/glossary.html#general-public">一般大眾</a>和記者等廣泛的利害關係人都能清楚明白。</li>
+  <li>程式基底文件「應該」有一部分用來說明，如何安裝與執行原始碼的單機版；如果有必要，也應該包含測試資料集。</li>
+  <li>程式基底文件「應該」包含所有功能的範例。</li>
+  <li>程式碼文件「應該」描述程式基底的主要組件或模組，以及其彼此之間的關係，例如以高層架構圖表示。</li>
+  <li>「應該」要有針對文件品質的<a href="/glossary.html#continuous-integration">持續整合</a>測試。</li>
+  <li>「可選擇」是否在程式基底文件中，包含讓使用者想要立即使用程式基底的範例。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認文件內容能讓其他利害關係人、其他公家機關的專業人士，以及一般大眾，都可以清楚明白。</li>
+  <li>確認文件有說明如何安裝與執行原始碼。</li>
+  <li>確認文件有包含主要功能的範例。</li>
+  <li>向一般大眾的成員以及記者確認，他們是否能明白文件當中的精要說明。</li>
+  <li>檢查單機版原始碼的安裝與執行的步驟說明，確認能順利執行系統。</li>
+  <li>檢查文件中列舉的所有功能都包含範例。</li>
+  <li>檢查文件中是否包含高層架構圖，或類似的組件關係圖表。</li>
+  <li>確認整合測試有包含到程式碼文件品質，例如確認生成的文件是否正確，並檢查連結與圖片等。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>定期查看程式基底中非政策程式碼的變動情況。</li>
+  <li>針對如何讓非政策文件更清楚易懂提供意見回饋。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>嘗試使用程式基底，並提供您的意見回饋來讓政策與原始碼文件改善得更加清楚。舉例來說，可以自問目前的文件是否足以說服另一個公家機關的管理人員使用這套程式基底？</li>
+  <li>確保您同時瞭解政策、原始碼以及文件內容。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>定期查看程式基底中非原始碼部分的變動情況。</li>
+  <li>針對如何讓非原始碼文件更清楚易懂提供意見回饋。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Write the Docs《<a href="https://www.writethedocs.org/guide/">文件指南</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-use-plain-english.md">
+      <h1 id="使用白話的英語">使用白話的英語</h1>
+
+<p>英語是軟體開發領域中的<i>實際</i> 協作語言。</p>
+
+<p>公家機關資訊需要讓所有選民都能取用。簡單且白話的語言，能讓更多人能瞭解<a href="/glossary.html#code">程式碼</a>與其功用。</p>
+
+<p>翻譯可以讓更多人有機會認識<a href="/glossary.html#codebase">程式基底</a>。用語越是簡單明暸，製作與維護翻譯的成本就越低。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底的所有文件都「必須」使用英語。</li>
+  <li>所有<a href="/glossary.html#source-code">原始碼</a>都「必須」使用英語編寫，其中<a href="/glossary.html#policy">政策</a>是由機器
+解讀當作程式碼的部分則除外。</li>
+  <li>任何合捆的政策如果沒有英語版本，則「必須」隨附英語版摘要。</li>
+  <li>任何翻譯版本皆「必須」跟隨英語版本更新，以維持在最新狀態，反之亦然。</li>
+  <li>程式基底中「不應該」使用首字母縮字、縮寫、雙關語，或法律/非英語/行業特定詞彙；如果有的話，則需要在這些用語出現之前先行解釋，或是附上解釋該用語的網頁連結。</li>
+  <li>根據《<a href="https://www.w3.org/WAI/WCAG21/quickref/?
+showtechniques=315#readable">網頁內容近用性無障礙指引 2</a>》的建議，文件內容「應該」以國中識讀程度為主。</li>
+  <li>「可選擇」是否提供任何程式碼、文件、測試等的翻譯版。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認程式基底文件有英語版本。</li>
+  <li>確認原始碼為英語，確認任何非英語內容都是政策，或確認術語在其前方有先行說明等。</li>
+  <li>確認任何非英語政策都有隨附英語版摘要。</li>
+  <li>確認翻譯版與英語版內容相同。</li>
+  <li>確認文件當中，沒有任何未說明的首字母縮寫字、縮寫、雙關語，或法律/非英語/行業特定詞彙等。</li>
+  <li>檢查文件的拼字、文法與易讀性等。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>在過程中經常與其他管理人員、開發人員與設計師測試，確認他們是否瞭解您們正要交付的程式碼與其文件的內容。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>在團隊內部與利害關係人之間的內部溝通中，試著限制首字母縮寫字、縮寫、雙關語，或法律/非英語/行業特定詞彙的使用。如果有使用到的話，則將這些用語加入詞彙表，並且在
+使用這些詞彙的地方加上詞彙表連結。</li>
+  <li>以批判性觀點看待提案與修改當中的文件與描述。如果有您看不懂的內容，很有可能其他人也同樣迷惘。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>經常與政策制定者和管理人員測試，確認他們是否瞭解您們正要交付的程式碼與其文件的內容。</li>
+  <li>詢問身處不同背景情境的人（像是另一個程式基底的開發人員）是否能瞭解內容。</li>
+</ul>
+
+<p style="page-break-after: always;"></p>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>符合 W3C 全球資訊網協會《<a href="https://www.w3.org/TR/WCAG21/#readable">網頁內容近用性無障礙指引 2.1、3.1 之可讀
+性</a>》要求，撰寫的文字內容要容易閱讀與理解。</li>
+  <li>歐盟委員會的《<a href="https://ec.europa.eu/digital-single-market/en/web-accessibility">歐盟無障礙環境命
+令</a>》，是高度要求無障礙環境
+的法規範例。</li>
+  <li>美國總務署《<a href="https://www.plainlanguage.gov/about/definitions/">白話語言定義</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-use-open-standards.md">
+      <h1 id="採用開放標準">採用開放標準</h1>
+
+<p><a href="/glossary.html#open-standard">開放標準</a>保證可以取得使用與貢獻<a href="/glossary.html#codebase">程式基底</a>所需的知
+識。不僅能為不同的系統之間建立互通性，更能降低廠商套牢的可能性。開放標準如果明確，不同方就可以各自獨立開發作資料交換。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底如要促進資料交換的特性，就「必須」採用符合 <a href="https://opensource.org/osr">OSI 開放原始碼促進會其《開放標準需求規範</a>》的
+開放標準。</li>
+  <li>如果有使用到任何非開放標準，則「必須」在文件中清楚記錄。</li>
+  <li>程式基底選擇採用的任何標準，皆「必須」在文件中列出，並且只要有的話，就附上該標準的連結。</li>
+  <li>程式基底選擇採用的任何非開放標準，皆「禁止」妨礙程式基底的協作與重複使用。</li>
+  <li>如果還沒有已存在的開放標準可採用，則「應該」投入開發新標準。</li>
+  <li>採用開放標準時，「應該」優先選擇可經機器測試的開放標準。</li>
+  <li>採用非開放標準時，「應該」優先選擇可經機器測試的非開放標準。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認資料交換遵守 OSI 開放原始碼促進會批准的開放標準。</li>
+  <li>確認若有採用任何的非開放標準，皆有清楚記錄在文件中。</li>
+  <li>確認文件有清單列出程式基底所採用的標準，其中各標準有對應的有效連結；或沒有採用任何標準時，則留下聲明。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>以政策要求盡可能在任何情況下採用開放標準。</li>
+  <li>禁止採購不採用開放標準的技術科技。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>考慮在<a href="/glossary.html#source-code">原始碼</a>審查中納入開放標準依循評估。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>將是否依循標準加入<a href="/glossary.html#continuous-integration">持續整合</a>測試中。</li>
+  <li>審查送交版次與<a href="/glossary.html#repository">儲存庫</a>其他資源是否有參考開放標準，並交叉檢查其中有列出標準的部分。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>英國內閣辦公室發表的《<a href="https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles">開放標準原
+則</a>》
+<a href="/glossary.html#policy">政策</a>報告。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-use-continuous-integration.md">
+      <h1 id="使用持續整合">使用持續整合</h1>
+
+<p>透過自動化測試驗證，開發人員能更頻繁地將其工作成果合併至共享的分支，達成非同步協作。合併的頻率越頻繁、貢獻的規模越小，在合併時所發生的衝突就越容易解決。</p>
+
+<p>自動化測試所有功能，使人更加信賴貢獻內容發揮其功用且沒有引發任何錯誤，同時讓審查人員專注在貢獻的結構與作法。測試越聚焦，就越容易辨識並瞭解所出現的問題。</p>
+
+<p>以文件記錄程式基底的<a href="/glossary.html#continuous-integration">持續整合</a>工作流程，能協助貢獻者瞭解對貢獻內容的期待。持續整合讓
+監管<a href="/glossary.html#codebase">程式基底</a>狀態變得更為簡單。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li><a href="/glossary.html#source-code">原始碼</a>中的所有功能，都「必須」有自動化測試。</li>
+  <li>所有貢獻內容都「必須」先通過自動化測試，才能上傳至程式基底。</li>
+  <li>程式基底「必須」有解說如何撰寫貢獻內容結構的相關指引。</li>
+  <li>程式基底「必須」有能夠審查貢獻內容的活躍貢獻者。</li>
+  <li>「應該」公開貢獻內容的自動化測試結果。</li>
+  <li>程式基底指引「應該」指出，每次的貢獻內容都只應聚焦在單一議題上。</li>
+  <li>「應該」監管原始碼測試與文件的涵蓋範圍。</li>
+  <li>「可選擇」是否測試<a href="/glossary.html#policy">政策</a>和文件，與原始碼之間有無一致性，或是反之亦然。</li>
+  <li>「可選擇」是否測試政策和文件所採用的樣式，以及連結有無失效。</li>
+  <li>「可選擇」是否使用文件中的範例來測試軟體。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認有測試可用。</li>
+  <li>確認原始碼覆蓋率工具能檢查到 100% 的原始碼。</li>
+  <li>確認貢獻內容只有在通過所有測試後，才會認可上傳至程式基底。</li>
+  <li>確認有貢獻指引解說如何撰寫貢獻內容的結構。</li>
+  <li>確認最近三個月內有貢獻內容上傳。</li>
+  <li>檢查是否可以查看測試結果。</li>
+  <li>檢查是否有公布原始碼覆蓋率數據。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>儘早讓管理人員、開發人員與設計師一同加入，並且讓他們持續參與您政策的制定程序。</li>
+  <li>確保政策文件也有設好自動化測試。</li>
+  <li>如果政策文件未能通過測試，請快速修正。</li>
+  <li>確保原始碼能反映出政策的任何變動（請參閱〈<a href="/criteria/maintain-version-control.html">維護版本控制</a>〉）。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>確保能儘快且經常給真正的終端使用者進行測試。</li>
+  <li>以頻繁整合少量部分內容的方式做專案規劃，而非久久一次繳交大量部分內容。</li>
+  <li>聘請有能力處理漸進式交付，並跟得上規劃進度的顧問服務。</li>
+  <li>發生重大失誤後，鼓勵公開事故報告，以及公開討論事後學到的教訓。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>協助管理人員擬定工作規劃，例如規劃成可以拆分成小部分逐次整合。</li>
+  <li>協助貢獻者聚焦其貢獻內容與功能請求，讓涵蓋範圍盡可能合理地縮小。</li>
+  <li>協助管理人員與政策制定者測試其貢獻內容，例如測試其貢獻內容中的失效連結或樣式。</li>
+  <li>編排原始碼結構時，要將難以在測試環境下創造出來的情況，得以在測試過程中模擬出來。例如硬碟空間不足、記憶體分配失敗等資源耗盡情況，都是難以創造的典型案例。</li>
+  <li>調整程式碼覆蓋率測試工具，避免在 inline 過程或其他最佳化處理時得到假警報。</li>
+  <li>經常部署。</li>
+  <li>至少每天整合工作內容一次。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Martin Fowler《<a href="https://www.martinfowler.com/articles/continuousIntegration.html">什麼是持續整
+合</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://gds-way.cloudapps.digital/standards/continuous-delivery.html">使用持續交
+付</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/service-manual/technology/quality-assurance-testing-your-service-regularly">品質保證：定期測試您的服
+務</a>》。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-publish-with-an-open-license.md">
+      <h1 id="發行採用開放授權">發行採用開放授權</h1>
+
+<p>採用開放且為人熟知的授權，讓任何人都可以查看<a href="/glossary.html#source-code">原始碼</a>，使其能瞭解運作方式、自由使用，並且能為<a href="../glossary.md#codebase">程式基
+底</a>做出貢獻。這也能促進供應商建立出以程式基底為中心的生態系。</p>
+
+<p>明確指出程式基底中每一個檔案的授權，讓使用者能正確重複利用程式基底的部分內容，並表彰作者名稱。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>所有原始碼與文件，皆「必須」採用使其得以自由重複使用、自由修改、自由再次散布的授權條款。</li>
+  <li>軟體原始碼「必須」採用<a href="https://spdx.org/licenses/">經 OSI 開放原始碼促進會所批准，或由 FSF 自由軟體基金會所發表的自由授權條
+款</a>。</li>
+  <li>所有原始碼皆「必須」搭配授權條款檔案一併發行。</li>
+  <li>「禁止」要求貢獻者將其貢獻的程式碼著作權轉讓給程式基底。</li>
+  <li>程式基底中所有原始碼檔案，皆「應該」包含機器可讀的著作權聲明與授權條款標頭內容。</li>
+  <li>「可選擇」是否為不同類型的原始碼與文件採用多重授權條款。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認程式基底有清楚給予授權條款。</li>
+  <li>確認原始碼的授權條款有列於<a href="https://spdx.org/licenses/">經 OSI 開放原始碼促進會所批准，或由 FSF 自由軟體基金會所發表的自由授權條款清
+單</a>，以及文件的授權條款有<a href="https://opendefinition.org/licenses/">符合「開放定
+義」</a>。</li>
+  <li>確認程式基底中有包含其採用的授權條款檔案。</li>
+  <li>確認貢獻指引中，以及<a href="/glossary.html#repository">儲存庫</a>的組態設定中，沒有要求貢獻者轉讓著作權。</li>
+  <li>在程式基底<a href="/glossary.html#continuous-integration">持續整合</a>測試中，確認是否有檢查授權內容為機器可讀的檢查項目。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>制定要求原始碼必須採用<a href="/glossary.html#open-source">開放原始碼</a>授權的<a href="/glossary.html#policy">政策</a>。</li>
+  <li>制定抑制採購非開放原始碼授權程式碼，與非開放科技的政策。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>只與能採用開放原始碼授權交付、與發行其原始碼的開放原始碼軟體供應商合作。</li>
+  <li>請注意，雖然<a href="https://creativecommons.org/licenses/">創用CC授權</a>適合用於文件作品，但其中指明「非商業性」或「禁止改作」
+的授權條款，代表「無法」自由重複使用、自由修改、自由再次散布等，因此未能符合規定。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>每當建立新的程式基底時，都要加入新的「<code class="language-plaintext highlighter-rouge">license</code>」授權條款檔案。</li>
+  <li>每當建立新的原始碼檔案時，都要加入著作權聲明與授權條款標頭內容。</li>
+  <li>每當程式基底重複利用原始碼時，都要確認原始碼的授權與程式基底的授權相容。</li>
+</ul>
+
+<p style="page-break-after: always;"></p>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>開放原始碼促進會所發表的《<a href="https://opensource.org/osd">開放原始碼定義</a>》，所有開放原始碼授權條款皆符合這套定義。</li>
+  <li>紐西蘭CC Aotearoa《<a href="https://creativecommons.org/about/videos/creative-commons-kiwi">創用CC介紹動畫影
+片</a>》。</li>
+  <li>歐洲自由軟體基金會所發表的《<a href="https://reuse.software/spec/">REUSE 倡議規範</a>》，提供規範明確、人類可讀以及機器可讀的著作權與
+授權資訊。</li>
+  <li>Linux 基金會所發表的 <a href="https://spdx.org/licenses/">SPDX 授權條款清單</a>，提供經標準化、且機器可讀的大多數授權條款縮寫表示
+法。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-make-the-codebase-findable.md">
+      <h1 id="程式基底可查詢得到">程式基底可查詢得到</h1>
+
+<p>一旦<a href="/glossary.html#codebase">程式基底</a>越容易被發現，更多的潛在協作者也就找得到它。不能只是發表個程式基底，然後就盼望他人找得到這套程式基
+底，更需要主動積極。</p>
+
+<p>有中介資料說明檔的話，會讓程式基底更容易被發現。良好且包含永久唯一識別碼的中介資料，例如寫成 Wikidata 維基數據條目，或是放到 FSF 自由軟體基金會的軟體
+目錄列表之中（使程式基底成為語意網路中的一部份），他人就能更容易透過第三方工具參考、引用、辨別、發現程式基底。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底名稱「應該」要能描述說明其用途，且不包含任何首字母縮寫字、縮寫、雙關語，或組織單位品牌名稱或抬頭等。</li>
+  <li>程式基底說明「應該」要簡短，幫助他人瞭解程式基底的目的與作用。</li>
+  <li>維護人員「應該」將程式基底提交至相關的軟體目錄上。</li>
+  <li>程式基底「應該」要架設網站，內容中以程式基底各類潛在使用者（技術人員、政策專家、管理人員等）偏好的業內用語，描述程式基底所能解決的問題。</li>
+  <li>在搜尋引擎查找程式基底名稱時，「應該」能搜尋得到程式基底。</li>
+  <li>在使用搜尋引擎時，如果以自然語言描述程式基底所能解決的問題，「應該」能搜尋得到程式基底。</li>
+  <li>程式基底「應該」具備永久唯一識別碼，而且該項條目要提及主要貢獻者、<a href="/glossary.html#repository">儲存庫</a>、位置、網站等。</li>
+  <li>程式基底「應該」包含機器可讀的中介資料說明，例如採用
+<a href="https://github.com/publiccodeyml/publiccode.yml">publiccode.yml</a>格式的檔案。</li>
+  <li>「可選擇」是否為程式基底設置專用的網域名稱。</li>
+  <li>「可選擇」是否在社群舉辦的會議中定期進行簡報。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>檢查程式基底名稱是否描述說明其用途，且不包含雙關語。</li>
+  <li>檢查程式基底名稱是否不包含任何首字母縮寫字或縮寫，或是其首字母縮寫字或縮寫比完整名稱更熟為人知。</li>
+  <li>檢查程式基底是否不包含組織單位品牌名稱或抬頭等，除非該組織單位也是程式基底社群成員。</li>
+  <li>檢查程式基底儲存庫是否包含程式基底的簡短描述。</li>
+  <li>檢查程式基底有刊登在相關軟體型錄上。</li>
+  <li>檢查程式基底的網站有描述程式基底能夠解決的問題。</li>
+  <li>檢查以程式基底名稱來作搜尋時，有超過一個的常用主流搜尋引擎，都有將程式基底列在搜尋結果中。</li>
+  <li>檢查以自然語言來作搜尋，例如使用程式基底的簡短描述時，有超過一個的常用主流搜尋引擎，都將程式基底放在搜尋結果中。</li>
+  <li>檢查永久唯一識別碼條目有提及主要貢獻者。</li>
+  <li>檢查永久唯一識別碼條目中有包含儲存庫位置。</li>
+  <li>檢查永久唯一識別碼條目有列出程式基底網站。</li>
+  <li>檢查中介資料說明檔是機器可讀的格式。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>貢獻一段說明此程式基底作用的政策領域，或所處理問題的描述。</li>
+  <li>請那些對程式基底不熟悉且不同領域背景的同事，來測試您的問題描述。</li>
+  <li>在相關會議上作簡報，介紹程式基底如何執行<a href="/glossary.html#policy">政策</a>。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>在決定專案名稱之前，先搜尋過商標資料庫，以避免名稱造成混淆或侵權的問題。</li>
+  <li>在引用到程式基底的地方，都使用簡短描述，例如放到社交媒體帳號中的說明。</li>
+  <li>為團隊編列內容設計與實作 SEO 搜尋引擎最佳化技能的預算。</li>
+  <li>確保專案參與人員出席相關會議，或作簡報介紹。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>實作搜尋引擎最佳化，例如加入<a href="https://www.sitemaps.org/protocol.html">網站地圖</a>。</li>
+  <li>在引用到程式基底的地方，都使用簡短描述，例如放到儲存庫中的說明。</li>
+  <li>請那些對程式基底不熟悉且不同領域背景的同事，來測試您的問題描述。</li>
+  <li>推薦適合出席或作簡報介紹的會議，並且在這些會議中出席或作簡報。</li>
+</ul>
+
+<p style="page-break-after: always;"></p>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>Wikidata 維基數據社群《<a href="https://www.wikidata.org/wiki/Wikidata:Introduction">維基數據簡
+介</a>》。</li>
+  <li>FSF 自由軟體基金會《<a href="https://directory.fsf.org/wiki/Main_Page">FSF 軟體目錄列表</a>》。</li>
+  <li>GO FAIR 國際支援與合作辦公室所撰寫的《<a href="https://www.go-fair.org/fair-principles/">FAIR 科學資料管理與監督指導原
+則</a>》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓
+機器採取行動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-use-a-coherent-style.md">
+      <h1 id="風格要前後一致">風格要前後一致</h1>
+
+<p>採用前後一致的風格，讓不同環境的貢獻者能夠一同合作。用詞統一能減少貢獻者之間在溝通上的摩擦。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li><a href="/glossary.html#codebase">程式基底</a>「必須」遵守程式碼撰寫風格指引、或文件寫作風格指引，可以是程式基底社群自身的風格指引，或是程式基底
+有採用的既有風格。</li>
+  <li>貢獻內容「應該」通過自動化的風格測試。</li>
+  <li>風格指引「應該」描述對於較複雜的程式碼區段，如何作列內註解與為其寫下說明文件的期待。</li>
+  <li>「可選擇」是否將<a href="/criteria/use-plain-english.html">可理解的白話英語</a>期望加入風格指引之中。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認貢獻內容有遵循文件中指定的風格指引。</li>
+  <li>檢查是否有自動化的風格測試。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>為<a href="/glossary.html#policy">政策</a>與文件建立風格指引，遵守並且持續改善，同時記錄到程式基底文件中，像是「<code class="language-plaintext highlighter-rouge">CONTRIBUTING</code>」或
+「<code class="language-plaintext highlighter-rouge">README</code>」檔案。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>將書面語言、原始碼、測試、政策標準等，包含在貴組織單位對品質的定義當中。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<p>如果程式基底還沒有工程指引，或其他貢獻者指引，則請先在<a href="/glossary.html#repository">儲存庫</a>中加入相關文件，像是
+「<code class="language-plaintext highlighter-rouge">CONTRIBUTING</code>」或「<code class="language-plaintext highlighter-rouge">README</code>」檔案，並描述目前在設立指引方面的進展。上述檔案的重要目的之一，在於宣達設計偏好、命名規則，以及機器不容易檢查
+的其他層面。指引應該包含貢獻的<a href="/glossary.html#source-code">原始碼</a>預期該符合哪些要求，才會被維護人員合併至程式基底中，包括原始碼、測
+試、文件等項目。請持續改善與擴充這份文件內容，目標讓文件朝向工程指引演進。</p>
+
+<p>此外：</p>
+
+<ul>
+  <li>使用 linter 程式碼品質梳理工具。</li>
+  <li>在程式基底中加入 linter 梳理工具的組態設定。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>維基百科上的《<a href="https://en.wikipedia.org/wiki/Programming_style">程式碼風格</a>》條目。</li>
+</ul>
+
+    </article>
+    
+    <article id="section-criteria-document-codebase-maturity.md">
+      <h1 id="記錄程式基底成熟度">記錄程式基底成熟度</h1>
+
+<p>清楚標示<a href="/glossary.html#codebase">程式基底</a>的成熟度，有助於他人決定是否要使用，或為該程式基底做出貢獻。程式基底版本的成熟度，包含其依賴項
+目的成熟度。瞭解程式基底演進到什麼程度，是理解該程式基底並知道如何做出貢獻的關鍵。</p>
+
+<h2 id="需求規定">需求規定</h2>
+
+<ul>
+  <li>程式基底「必須」註明版本編號。</li>
+  <li>程式基底「必須」明確以文件記錄，是否有已經準備好可供使用的版本。</li>
+  <li>準備好可供使用的程式基底版本，「必須」只能依賴其他也已經準備好可供使用的程式基底版本。</li>
+  <li>程式基底「應該」包含每次版本的變動紀錄，像是以「<code class="language-plaintext highlighter-rouge">CHANGELOG</code>」日誌格式檔記錄。</li>
+  <li>「應該」要以文件記錄分配版本識別碼的方法。</li>
+  <li>「可選擇」是否採用語意化版本控制編號。</li>
+</ul>
+
+<h2 id="測試方式">測試方式</h2>
+
+<ul>
+  <li>確認程式基底有版本編號策略，且有文件記載該策略。</li>
+  <li>確認政策制定者、管理人員、開發人員與設計師等，都能清楚知道程式基底是否有準備好可供使用的版本。</li>
+  <li>確認準備好可供使用的程式基底版本，並不依賴任何尚未準備好可供使用的其他程式基底的版本。</li>
+  <li>確認有文件記錄程式基底的版本編號方法，並且確實遵守。</li>
+  <li>確認是否有版本的變動紀錄。</li>
+</ul>
+
+<h2 id="公共政策制定者需要的工作">公共政策制定者：需要的工作</h2>
+
+<ul>
+  <li>制定<a href="/glossary.html#policy">政策</a>時，請記住任何開發出來的<a href="/glossary.html#source-code">原始碼</a>都必須先經過
+測試與改善，才能夠投入服務。</li>
+  <li>考慮將政策的變動註明版本編號，尤其是因而觸發新版本原始碼開發的情況。</li>
+</ul>
+
+<h2 id="管理人員需要的工作">管理人員：需要的工作</h2>
+
+<ul>
+  <li>要確認服務依賴的程式基底版本成熟度，等同或高於該服務本身。舉例來說，正式上線的服務不要使用 beta 公測版程式基底。</li>
+</ul>
+
+<h2 id="開發人員與設計師需要的工作">開發人員與設計師：需要的工作</h2>
+
+<ul>
+  <li>確認所有發行版，都有遵守程式基底的版本控制編號作法。</li>
+</ul>
+
+<h2 id="延伸閱讀">延伸閱讀</h2>
+
+<ul>
+  <li>許多程式基底使用「<a href="https://semver.org/">語意化版本編號規範</a>」來標示版本。</li>
+  <li><a href="https://en.wikipedia.org/wiki/Software_release_life_cycle">軟體發行生命週期</a></li>
+  <li>澳洲數位轉型局《<a href="https://www.dta.gov.au/help-and-advice/build-and-improve-services/service-design-and-delivery-process">服務設計與交付流
+程</a>》。</li>
+  <li>英國政府數位服務團《<a href="https://www.gov.uk/service-manual/agile-delivery">敏捷交付服務手冊</a>》。</li>
+</ul>
+
+    </article>
+    
+
+  <article id="section-contributing">
+
+    <h1 id="貢獻此標準">貢獻此標準</h1>
+
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+
+<p>🙇‍♀️ 感謝您的貢獻！</p>
+
+<p>我們理解這樣的標準，只有在盡可能與公共技術人員、政策制定者，以及有興趣的人士協作下才能完成。因此，我們很感謝您的意見，樂意得到回饋，以及歡迎提供改善此專案的建議。我
+們非常開放任何合作的機會。</p>
+
+<p>我們歡迎每個人提出的議題，以及拉取請求。如果您不大習慣 GitHub ，也歡迎將意見回饋用電子郵件寄送到
+<a href="mailto:info@publiccode.net">info@publiccode.net</a>。</p>
+
+<h2 id="問題建議與議題等">問題、建議與議題等</h2>
+
+<p>在<a href="/docs/roadmap.html">發展路線圖</a>中可查看我們勾勒的精要概覽。歡迎回報問題、建議修改，以及發問等，來協助發展。您可以到 <a href="https://github.com/publiccodenet/standard/issues">Standard
+for Public Code 的 GitHub
+Issue</a> 頁面中，為本專案<a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">提出 GitHub 議
+題</a>。</p>
+
+<p>或者，註冊加入<a href="https://lists.publiccode.net/mailman/postorius/lists/standard.lists.publiccode.net/">郵遞論壇列
+表</a>，
+並寄送電子郵件到<a href="mailto:standard@lists.publiccode.net">standard@lists.publiccode.net</a>。</p>
+
+<p>您不一定要修改我們的程式碼或文件，也能成為貢獻者！</p>
+
+<h2 id="為文件與程式碼提出拉取請求">為文件與程式碼提出拉取請求</h2>
+
+<p>如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求 (Pull Request，亦可簡稱 PR)。</p>
+
+<p>若您從未使用過 GitHub，歡迎先<a href="https://docs.github.com/en/get-started/quickstart/github-flow">認識 GitHub 作業流
+程</a>，或是參加 <a href="https://skills.github.com/">GitHub
+Skills</a> 免費且優質的互動式課程，當中會介紹該如何使用 GitHub 以及 MarkDown 語法。
+MarkDown 是本專案文件所採用的撰寫語法。</p>
+
+<p>本專案採用創用CC 0 1.0 通用式公眾領域貢獻宣告給予授權；這本質上代表本專案，以及您所做出的貢獻，在無論何種司法管轄情況下，都屬於公眾領域，也就是任何人都可以
+任意使用。</p>
+
+<h3 id="1-作出您的修改">1. 作出您的修改</h3>
+
+<p>貢獻內容應該<a href="/docs/standard-for-public-code.html">遵守</a>《公共程式標準》自身所列出的準則規定。審查人員同時也會確保貢獻內容，符合
+<a href="/foreword.html#values-of-public-code">公共程式的價值</a>。此外，他們也會審查貢獻是否遵循<a href="#standards-to-follow">標
+準</a>，且與整體作品有所連貫。</p>
+
+<p>本專案使用 <a href="https://nvie.com/posts/a-successful-git-branching-model/">GitFlow 分支與工作流程</a>。
+當您對此儲存庫作分支以後，請務必依照 GitFlow 模型建立新功能分支。</p>
+
+<p>將您所作的變更內容加入送交版次，<a href="https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message">並附上內容說
+明</a>。如果需要作
+出多種類型的變更，請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。例如：修正空白、以及文字內容更動，兩者應該放在不同的送交版次中。當新增檔案時，請選用
+容易以「<code class="language-plaintext highlighter-rouge">diff</code> 」檢視的檔案格式，如「<code class="language-plaintext highlighter-rouge">.svg</code> 」格式就勝過二進位影像。在送交版次訊息中，請記錄您所作的選擇與決策，如此未來其他人都能知道您當時的抉
+擇。</p>
+
+<p>如果您是要新增程式碼，請確保您有新增與更新相關文件與測試項目，之後再提交您的拉取請求。請務必撰寫可以展示新增或修改後程式碼行為的測試項目。</p>
+
+<h4 id="適用政策">適用政策</h4>
+
+<p>就目前而言，《公共程式標準》並非在執行任何特定的公共政策。</p>
+
+<h4 id="風格">風格</h4>
+
+<p>《公共程式標準》目標<a href="/criteria/use-plain-english.html">使用白話的英語</a>，而拼字採用美式英文。文字內容基本上以每句一行為原則，沒有文繞圖
+換行，來讓「<code class="language-plaintext highlighter-rouge">diff</code>」輸出更容易檢視。然而，我們想要強調更重要的是，您應該專注在貢獻內容上，而不是擔心拼字與排版。我們的審查流程會協助修正這一部分，也會另外再次檢查品質才<a href="/docs/releasing.html">推出新發行版本</a>。</p>
+
+<h4 id="遵守的標準">遵守的標準</h4>
+
+<p>這些是《公共程式標準》所採用的標準。請確保您的貢獻內容也遵守這些標準，才會更容易合併。</p>
+
+<ul>
+  <li><a href="https://tools.ietf.org/html/rfc2119">IETF RFC 2119</a> - 要求等級關鍵字</li>
+  <li><a href="https://www.w3.org/TR/WCAG21/#readable">網頁內容可近用無障礙指引 2.1</a> - 易讀性</li>
+</ul>
+
+<h3 id="2-拉取請求">2. 拉取請求</h3>
+
+<p>當您提出拉取請求時，請隨附描述您想要解決的問題，以及該拉取請求所能修正的議題編號。以一個拉取請求處理單一項議題為佳。若一組變動能同時解決多項議題，則請列出所有能一併
+修正的議題編號。</p>
+
+<h3 id="3-改善">3. 改善</h3>
+
+<p>所有貢獻都必須接受審查。Foundation for Public Code 致力於確保有維護人員能審查貢獻內容，目標是在兩個工作日內提供意見回饋。</p>
+
+<p>維護人員有時候可以立即合併您的貢獻內容。不過一般來說，新的拉取請求通常需要再經過改善後，才能夠合併。其他貢獻者（或是輔助用機器人）可能會提供意見回饋。若是如此，負責
+審查您貢獻內容的維護人員，將協助您改善文件與程式碼。</p>
+
+<p>一旦您的文件與程式碼通過人工審查，就會合併。</p>
+
+<h3 id="4-慶祝">4. 慶祝</h3>
+
+<p>您的構想、文件與程式碼，已成為本專案的一部份。您就是我們需要的開放原始碼英雄！</p>
+
+<p>誠摯歡迎您提出拉取請求，將您的名字加到 <a href="/AUTHORS.html"><code class="language-plaintext highlighter-rouge">AUTHORS</code></a> 檔案中，讓您所做的貢獻能銘記在本專案中。</p>
+
+<h2 id="翻譯成其他語言">翻譯成其他語言</h2>
+
+<p>《公共程式標準》沒有官方版本的翻譯，您仍可以協助本標準維護已有的<a href="https://github.com/publiccodenet/community-translations-standard">社群翻譯</a>，或是新增翻譯。</p>
+
+<h2 id="發行版本">發行版本</h2>
+
+<p>我們有提供<a href="/docs/releasing.html">發行新版本</a>，與<a href="/docs/printing.html">訂購印刷版標準</a>的專用詳細文件。</p>
+
+<p>若要進一步瞭解如何使用，以及協助貢獻本專案，請參閱 <a href="/README.html"><code class="language-plaintext highlighter-rouge">README </code></a>。</p>
+
+
+  </article>
+
+  <figure>
+      <img src="/assets/collaborative-development.svg" alt="collaborative-development">
+    </figure>
+
+  <article id="section-code-of-conduct">
+
+    <h1 id="行為守則">行為守則</h1>
+
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!-- SPDX-FileCopyrightText: 2021-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+
+<p>社群很多成員來自有行為守則的公民社會或專業背景，但有些人並非如此。本文件表達基金會對於所有社群成員，以及所有互動間的期望，無論互動是透過何種溝通管道。</p>
+
+<p>來到這裡來是為了協作。</p>
+
+<p>請對彼此體貼、尊重，以及有耐心。</p>
+
+<p>努力做出有建設性的行為。</p>
+
+<p>若有問題需要提出，請寄送電子郵件到 directors@publiccode.net。</p>
+
+
+  </article>
+
+  <figure>
+    <img src="/assets/collaboration.svg" alt="collaboration">
+  </figure>
+
+  <article id="section-governance">
+
+    <h1 id="治理方式">治理方式</h1>
+
+<p>本標準是 <a href="https://publiccode.net/">Foundation for Public Code</a> 在為程式基底提供督導時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群共同參與開發。</p>
+
+<p>這份標準由 Foundation for Public Code 職員負責維護。</p>
+
+<p><a href="/CONTRIBUTING.html">我們歡迎任何人貢獻，例如提供修改建議，或是給予一般意見回饋等。</a></p>
+
+<p>由於《公共程式標準》在我們的核心流程中，扮演至關重要的角色，所以我們會以《公共程式標準》的最高標準作要求。</p>
+
+<p>我們會努力儘速回覆所有拉取請求。拉取請求使我們有機會一起合作，來改善我們的方法與這份標準。我們有可能不會接受貢獻者提出的所有修改，而我們會解釋背後的邏輯。</p>
+
+
+  </article>
+
+  <figure>
+    <img src="/assets/eco-system.svg" alt="ecosystem">
+  </figure>
+
+  <article id="section-changelog">
+
+    <h1 id="版本歷史">版本歷史</h1>
+
+<h2 id="071-版">0.7.1 版</h2>
+
+<p>2023/07/31: 💄 第十六版草稿修改準則名稱，並釐清程式 code 的稱呼。</p>
+
+<ul>
+  <li>〈程式碼要可重複使用且可攜〉準則改名為〈程式基底要可重複使用且可移植〉。</li>
+  <li>新增詞彙條目「原始碼」。</li>
+  <li>對於只適用於「原始碼」意義的「程式 (code)」，現在明確以「原始碼」稱呼。</li>
+  <li>將「運作的程式碼」釐清稱為「軟體」。</li>
+  <li>細微修改以清楚區分「程式碼」與「程式基底」。</li>
+  <li>簡化給政策制定者在〈政策與原始碼要合捆〉中的指引。</li>
+  <li>釐清〈程式基底可查詢得到〉與〈程式基底要可重複使用且可移植〉的「測試方式」小節。</li>
+  <li>在發行成品前的要求中，加入準則與需求規定檢查清單。</li>
+  <li>提升發行流程的自動化程度。</li>
+</ul>
+
+<h2 id="070-版">0.7.0 版</h2>
+
+<p>2023年5月31日：📑第十五版新增紀錄募資審查的新規定，並釐清審查流程規定。</p>
+
+<ul>
+  <li>新增規定，記錄預期由何者負擔審核貢獻內容所需的開銷費用。</li>
+  <li>新增規定，程式基底必須要有簡短說明。</li>
+  <li>原先專注在貢獻內容是否遵循標準，現在則改為注重貢獻內容的審查。</li>
+  <li>將〈程式基底可查詢得到〉中許多「必須」等級的規定，調降為「應該」等級。</li>
+  <li>審查範本現在有 HTML 格式。</li>
+  <li>「前言」轉換為「序文」。</li>
+  <li>改善貢獻指引。</li>
+  <li>改善命令稿文件紀錄。</li>
+</ul>
+
+<h2 id="060-版">0.6.0 版</h2>
+
+<p>2023年4月20日：🔀第十四版草稿新增可移植性與測試的規定，並且每個準則都有一段前言。</p>
+
+<ul>
+  <li>新增規定，在〈程式碼要可重複使用且可攜〉加入多方協作開發的內容。</li>
+  <li>新增規定，在〈程式碼要可重複使用且可攜〉中加入依賴單一供應商的內容。</li>
+  <li>新增規定，在〈使用持續整合〉中加入要發布自動化測試結果的內容。</li>
+  <li>對安全性區分出兩項規定，一是要有提供方法，另一個是要有文件紀錄。</li>
+  <li>重新撰寫規定，將焦點放在程式基底，而非貢獻者行為。</li>
+  <li>移除「此措施辦不到的事」以及「此措施為何重要」兩個小節，改換成在每項準則中加入前言。</li>
+  <li>在本標準前言中，加入通用的「此措施辦不到的事」小節。</li>
+  <li>為政策制定者加入相關政策與授權相容性的指引。</li>
+  <li>為開發人員與設計師新增檔案要有版本控制的相關指引。</li>
+  <li>為開發人員與設計師釐清有關快速回應，以及搜尋引擎最佳化的內容。</li>
+  <li>新增可近用性無障礙環境的「延伸閱讀」內容。</li>
+  <li>將各準則的連結與其名稱連動。</li>
+  <li>改善網頁版的導覽功能。</li>
+  <li>已將「延伸閱讀」小節的工具移到社群實踐指引。</li>
+  <li>將標準依循或認證相關流程移到 <a href="https://publiccode.net">publiccode.net</a>。</li>
+  <li>變更審查範本格式，讓範本在發行新版後更容易更新。</li>
+  <li>改善著陸引導頁文字，加入相關資源的連結。</li>
+  <li>新增拼字檢查自動化測試。</li>
+  <li>微調文字，讓內容更明確與一致。</li>
+  <li>將 SPDX 標頭換成 yaml 標頭。</li>
+</ul>
+
+<h2 id="050-版">0.5.0 版</h2>
+
+<p>2023年1月25日：🎨第十三版草稿焦點著重在文件紀錄風格指引。</p>
+
+<ul>
+  <li>調整程式碼撰寫風格要求，專注於程式基底上，而非貢獻者行為。</li>
+  <li>將程式基底名稱規定，從〈使用白話的英文〉移到〈程式基底可查詢得到〉。</li>
+  <li>將測試程式碼的規定，從〈程式碼要有文件〉移到〈使用持續整合〉。</li>
+  <li>劃分機器可讀的測試標準規定，指明程式碼的開放性比可測試性更重要。</li>
+  <li>調整可查找性的測試規定，降低對搜尋引擎演算法的依賴。</li>
+  <li>微調文字，讓內容更明確與一致。</li>
+</ul>
+
+<h2 id="041-版">0.4.1 版</h2>
+
+<p>2022年12月5日：📝第十二版草稿指出要以文件記錄成熟度。</p>
+
+<ul>
+  <li>寫下成熟度著重於程式基底是否已經可供使用，更甚於版本編號。</li>
+  <li>寫下成熟度不再需要為尚未準備好可供使用的程式基底加上特定標籤。</li>
+  <li>稽核流程圖現在以更容易轉譯的格式生成。</li>
+  <li>改善「測試方式」指引。</li>
+  <li>新增 publiccode.yml 檔案。</li>
+  <li>新增審查範本。</li>
+  <li>一致性連結詞彙表。</li>
+  <li>在「CONTRIBUTING」中加入要遵循的實務與標準。</li>
+  <li>將 Matti Schneider 加入作者群。</li>
+  <li>將剩餘 SPDX 標頭加入檔案中。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+  <li>更新部分超連結。</li>
+  <li>將範例移動到《<a href="https://publiccodenet.github.io/community-implementation-guide-standard/">社群實踐指
+引</a>》。</li>
+</ul>
+
+<h2 id="040-版">0.4.0 版</h2>
+
+<p>2022年9月7日：🔭第十一版草稿新增可查找性準則。</p>
+
+<ul>
+  <li>導入新準則：程式基底可查詢得到。</li>
+  <li>改善多數準則的「測試方式」小節。</li>
+  <li>在〈歡迎貢獻者〉中加入發布活動統計的新規定。</li>
+  <li>移除可重複使用與移植的程式碼中多餘的規定。</li>
+  <li>在開放授權的定義中，加入 OSI 與 FSF 所批准的授權。</li>
+  <li>重新編寫「得以」等級的相關規定，加入使用「可選擇」這個關鍵字，讓規定更明確。</li>
+  <li>表達《公共程式標準》應該盡可能符合其自身規定的立場，並加入評估措施。</li>
+  <li>將 SPDX 授權識別碼加入檔案中。</li>
+  <li>導入新的行為守則。</li>
+  <li>解釋原始碼與政策內文的差異。</li>
+  <li>將規定重新調整為項目要點清單格式。</li>
+  <li>告知程式基底成熟度對於重複使用時的重要性。</li>
+  <li>將可查找性相關規定移動到新準則中。</li>
+  <li>釐清非開放標準在程式基底中的角色。</li>
+  <li>加入組建日期與執行時期依賴項目的額外指引。</li>
+  <li>新增《公共程式標準》的發展路線圖。</li>
+  <li>更新 Authors 檔案的結構。</li>
+  <li>將唐鳳加入作者群。</li>
+  <li>將準則列表加到印刷版本中。</li>
+  <li>釐清標準對於政策制定者、管理人員、開發人員與設計師等不同身分間的意義。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+  <li>更新部分超連結。</li>
+</ul>
+
+<h2 id="030-版">0.3.0 版</h2>
+
+<p>2022年5月23日：🗎第十版草稿加強文件紀錄與在地化內容。</p>
+
+<ul>
+  <li>在〈程式碼要可重複使用且可攜〉中定下明確的在地化規定。</li>
+  <li>以文件記錄治理方式的規定，從「應該」等級調升為「必須」。</li>
+  <li>在貢獻指引中，將非常主觀（且難以驗證）的「貢獻內容『必須』小」的規定，改為必須紀錄貢獻所要完成的期待，並一次專注在單一議題上。</li>
+  <li>社群翻譯連結現在已放到頁尾中。</li>
+  <li>還原「用 Mermaid 流程圖取代業務流程 BPMN svg」。</li>
+  <li>細微調整用詞，讓句子更簡單。</li>
+  <li>更新部分超連結。</li>
+</ul>
+
+<h2 id="023-版">0.2.3 版</h2>
+
+<p>2022年3月15日：📜第九版草稿允許缺少官方翻譯的政策，改為提供政策的英文版摘要。</p>
+
+<ul>
+  <li>放寬〈使用白話的英文〉準則，加入新規定，允許合捆的政策內文如果沒有英文版，只需要加入英文版摘要，而不用翻譯全文。</li>
+  <li>同樣地，在〈政策與原始碼要合捆〉中，沒有英文版的政策內文可允許提供英文版摘要。</li>
+  <li>釐清〈政策與原始碼要合捆〉中，「政策」包含能影響開發與部署的流程。</li>
+  <li>在〈程式碼要可重複使用且可攜〉中強調解決方案部分內容的可重複使用性。</li>
+  <li>將〈程式碼要可重複使用且可攜〉當中的開發人員與設計師指引，加入部署到專有平台上的內容。</li>
+  <li>在〈使用白話的英文〉中，加入管理層在面對非英語詞彙時需要做的事的提點。</li>
+  <li>變更拉取請求流程圖，從業務流程 BPMN 改用 Mermaid，來讓<a href="https://github.com/publiccodenet/community-translations-standard">社群翻
+譯</a>更容易。</li>
+  <li>將 Maurice Hendriks 加入作者群。</li>
+  <li>將「OpenApi 規格」加入延伸閱讀。</li>
+  <li>將延伸閱讀小節的特性變得更明確。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+</ul>
+
+<h2 id="022-版">0.2.2 版</h2>
+
+<p>2021年11月29日：🏛第八版草稿認知程式碼所執行的政策，不一定是英文。</p>
+
+<ul>
+  <li>在「所有程式碼都必須使用英語編寫」規定中，雖然政策也算是一種程式 (code)，但可以保有例外。</li>
+  <li>在〈維護版本控制〉中，新增與送交者電子郵件相關的「得以」規定。</li>
+  <li>將政策制定者加入〈政策與原始碼要合捆〉指引中。</li>
+  <li>將開發人員與設計師加入「風格要前後一致」指引中。</li>
+  <li>新增「不同情境」到詞彙表中。</li>
+  <li>將 Mauko Quiroga 與 Charlotte Heikendorf 加入 AUTHORS。</li>
+  <li>新增「數位公共財」認可標章。</li>
+  <li>為「準則」頁面網頁版加入「上一頁」與「下一頁」連結。</li>
+  <li>將「開放標準」原則加入延伸閱讀。</li>
+  <li>將「白話語言定義」加入延伸閱讀。</li>
+  <li>將「語意化版本編號規範」移動為延伸閱讀參考內容。</li>
+  <li>指出 publiccode.yml 是機器可讀中介資料說明的範例之一。</li>
+  <li>將「您的程式基底」與「您的組織單位」改為較不具有所有格的寫法。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+  <li>新增印刷版的製作指示。</li>
+</ul>
+
+<h2 id="021-版">0.2.1 版</h2>
+
+<p>2021年3月1日：🧽第七版草稿是 0.2.0 版後的些微清理改善。</p>
+
+<ul>
+  <li>新增使用分散式版本控制系統的相關「應該」規定，並解釋分散式的重要性。</li>
+  <li>針對未被採用的貢獻需要給予回饋，規定要比被接受的貢獻更加嚴格。</li>
+  <li>明確指出著作權與授權聲明也應該要機器可讀。</li>
+  <li>聲明是否為機器可讀的測試方式建議。</li>
+  <li>釐清滾動發行的指引。</li>
+  <li>釐清詞彙表中「版本控制」的定義。</li>
+  <li>新增鼓勵貢獻、SPDX、Git 以及審查貢獻等的延伸閱讀項目。</li>
+  <li>新增有關公共程式概念的影片連結。</li>
+  <li>更新業務流程 BPMN 連結。</li>
+  <li>減少重複連結。</li>
+  <li>將 Alba Roza 與 Ngô Ngọc Đức Huy 加入作者群。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+</ul>
+
+<h2 id="020-版">0.2.0 版</h2>
+
+<p>2020年10月26日：🎊第六版草稿拆分出一項新規定並且釐清內容。</p>
+
+<ul>
+  <li>將〈歡迎貢獻〉準則拆分為〈貢獻要容易〉以及〈歡迎貢獻者〉。</li>
+  <li>將〈注意程式基底成熟度〉準則改名為〈記錄程式基底成熟度〉。</li>
+  <li>針對多方使用的程式基底，將「必須」等級規定調降為「應該」。</li>
+  <li>針對著作權轉讓，新增「禁止」規定。</li>
+  <li>在可重複使用程式碼的規定中，釐清組態設定的角色。</li>
+  <li>新增詞彙：持續整合、政策、儲存庫、版本控制等。</li>
+  <li>將「城市」替換成「公家機關」。</li>
+  <li>將貢獻者與審查人員規定分開為不同項目，以釐清程式碼中較敏感性的層面。</li>
+  <li>將政策制定者、開發人員與設計師加入延伸閱讀與指引中。</li>
+  <li>將 Felix Faassen 與 Arnout Engelen 加入作者群。</li>
+  <li>再稍微修改些文字，讓文字更明確。</li>
+</ul>
+
+<h2 id="014-版">0.1.4 版</h2>
+
+<p>2019年11月27日：🧹第五版草稿主要是一些細部修正。</p>
+
+<ul>
+  <li>連結 License.md 檔案。</li>
+  <li>將 Sky Bristol、Marcus Klaas de Vries 與 Jan Ainali 加入作者群。</li>
+  <li>讓標點符號使用更一致，特別是項目符號列表。</li>
+  <li>細部調整文字，讓內容更明確。</li>
+</ul>
+
+<h2 id="013-版">0.1.3 版</h2>
+
+<p>2019年10月8日：🍂第四版草稿僅針對秋季所作的清理修正一些小地方</p>
+
+<ul>
+  <li>將「持續交付」改名為「持續整合」。</li>
+  <li>在語言標準中引用無障礙指導原則。</li>
+  <li>改善一些樣式，與一致性修正。</li>
+</ul>
+
+<h2 id="012-版">0.1.2 版</h2>
+
+<p>2019年8月22日：🌠第三版草稿專注在提升文字品質，並且納入社群意見</p>
+
+<ul>
+  <li>有好幾位很棒的新貢獻者加入我們的作者群名單，讓氣象一新。</li>
+  <li>所有連結都是 HTTPS。</li>
+  <li>一般校對、釐清用字淺詞、修正拼字錯誤等。</li>
+  <li>更新準則：
+    <ul>
+      <li>在不同情境背景下重複使用的規定</li>
+      <li>明確的版本控制建議</li>
+      <li>多方部署的建議</li>
+      <li>檔案授權標頭的建議</li>
+      <li>漏洞回報的建議</li>
+      <li>明確以文件記錄治理方式的建議</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="011-版">0.1.1 版</h2>
+
+<p>2019年5月9日：🤔第二版草稿修正一些基本的疏漏，以及許多拼字錯誤</p>
+
+<ul>
+  <li>移除出現「Foundation for Public Code」的地方，我們之後可能必須改名才能成為協會。</li>
+  <li>更新簡介。</li>
+  <li>更新詞彙表。</li>
+  <li>新增行為守則。</li>
+  <li>我們建議使用 publiccode.yml 標準，方便重複使用。</li>
+</ul>
+
+<h2 id="010-版">0.1.0 版</h2>
+
+<p>2019年4月16日：🎉初版草稿已準備就緒，全新內容，而且有許多有趣的新穎理念</p>
+
+<ul>
+  <li>14 項準則，有各自的規定，以及相關的實施方式。</li>
+  <li>精要的背景介紹，例如本標準是什麼，以及 Foundation for Public Code 如何使用此標準。</li>
+</ul>
+
+<p>最初的版本是由阿姆斯特丹應用科學大學、阿姆斯特丹市政府，以及本基金會合作撰寫，取自 <a href="https://smartcities.publiccode.net/">Smart Cities? Public Code! 專
+案</a> 的部分內容。</p>
+
+
+  </article>
+
+  <article id="section-license">
+
+    <p>This license is the legal contract that allows anyone to do anything they like with the content in this entire document.</p>
+    <h1>CC0 1.0 Universal</h1>
+    <pre>Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+</pre>
+
+  </article>
+
+</body>
+</html>

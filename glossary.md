@@ -1,78 +1,79 @@
-# Glossary
+---
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+---
 
-<!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- written in 2019 - 2022 by The Foundation for Public Code <info@publiccode.net> -->
+# 詞彙表
 
-## Code
+## 程式或程式碼 (Code)
 
-Any explicitly described system of rules. This includes laws, policy and ordinances, as well as source code that is used to build software. Both of these are rules, some executed by humans and others by machines.
+任何明確的規則系統，包括法律、政策與規則條例（法規、法式，也可稱為程式），以及用來開發軟體的原始碼（程式碼）。兩者都是規則，有些是由人類來執行，其餘則是由機器執
+行。
 
-## Codebase
+## 程式基底 (Codebase)
 
-Any discrete package of code (both source and policy), the tests and the documentation required to implement a piece of policy or software.
+任何獨立分離的統合包，內含執行部分政策或軟體所需的程式（包含原始碼與政策）、測試與文件等的整套內容。
 
-This can be, for example, a document or a version-control repository.
+舉例而言，這個具體形式可以是文件，或是版本控制的儲存庫。
 
-## Continuous integration
+## 持續整合
 
-In software engineering, continuous integration (CI) is the practice of merging all developers' working copies to a development branch of a codebase as frequently as reasonable.
+在軟體工程中，持續整合 (CI) 是盡可能頻繁地將所有開發人員工作中的副本，合併回程式基底開發中分支的實務作法。
 
-## Different contexts
+## 不同情境
 
-Two contexts are different if they are different public organizations or different departments for which there is not one decision maker that could make collaboration happen naturally.
+只要是不同的公家機關或不同的部門，無法透過同一個決策單位讓協作自然發生，那就算是兩個不同的情境。
 
-## General public
+## 一般大眾
 
-The public at large: end users of the code and the services based upon it.
+整體民眾：程式碼與其所建立的服務的終端使用者。
 
-For example, a city's residents are considered end users of a city's services and of all code that powers these services.
+舉例而言，城市的居民即視為該城市的服務、以及驅動這些服務運作的程式碼的終端使用者。
 
-## Open source
+## 開源或開放原始碼 (Open Source)
 
-Open source is defined by the Open Source Initiative in their [Open Source Definition](https://opensource.org/osd-annotated).
+所謂「開源」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-annotated)》而來。
 
-## Open standard
+## 開放標準
 
-An open standard is any standard that meets the Open Source Initiative's [Open Standard Requirements](https://opensource.org/osr).
+任何符合 OSI 開放原始碼促進會《[開放標準需求規範](https://opensource.org/osr)》的標準，就是開放標準。
 
-## Policy
+## 政策
 
-A policy is a deliberate system of principles to guide decisions and achieve rational outcomes.
-A policy is a statement of intent, and is implemented as a procedure or protocol.
-Policies are generally adopted by a governance body within an organization.
-Policies can assist in both subjective and objective decision making.
+政策是一套謹慎設計的原則體系，用來引導決策並達成合理的成果。政策是一種意圖的聲明，並以程序或協定來執行。政策通常是由組織單位內的理事機構採用執行。政策能協助做出主觀
+與客觀的決策。
 
-Public policy is the process by which governments translate their political vision into programs and actions to deliver outcomes.
+公共政策是政府將其政治願景，轉化成計畫與行動來取得成果的程序。
 
-At the national level, policy and legislation (the law) are usually separate. The distinction is often more blurred in local government.
+在國家層級，政策與立法（法律）通常是分開的；而在地方政府中，這兩者之間的區別通常比較模糊。
 
-In the Standard the word 'policy' refers to policy created and adopted by public organizations such as governments and municipalities.
+在本標準當中，「政策」一詞指的是公家機關，例如政府與自治市等，所制定與採用的政策。
 
-## Public code
+## 公共程式 (Public Code)
 
-Public code is open source software developed by public organizations, together with the policy and guidance needed for collaboration and reuse.
+公共程式，是由公家機關所開發的開放原始碼軟體，同時包含協作與重複利用所需的政策與指引。
 
-Public code is both computer source code (such as software and algorithms) and public policy executed in a public context, by humans or machines.
+公共程式是在公共情境下，由人類或機器所執行的電腦原始碼（例如軟體與演算法）以及公共政策兩者。
 
-Public code serves the public interest, is open, legible, accountable, accessible and sustainable.
+服務公眾利益的公共程式，具有開放、易懂、課責、近用、永續等特性。
 
-By developing public code independently from but still implementable in the local context for which it was developed, as well as documenting the development process openly, public code can provide a building block for others to:
+透過獨立於當地情境，但仍可在當地情境下實作的方式，還有公開以文件記錄開發程序等作法，來開發公共程式。如此，公共程式能作為基礎組件提供給他人，使其得以：
 
-* re-implement in their local context
-* take as a starting point to continue development
-* use as a basis for learning
+* 根據其當地情境重新實作
+* 作為起點並繼續開發
+* 當作學習時的基礎
 
-To facilitate reuse, public code is either released into the public domain or licensed with an open license that permits others to view and reuse the work freely and to produce derivative works.
+為了促進重複利用，公共程式通常放到公眾領域發行，或者採取允許他人能自由檢視、重複利用其成果，甚至產出衍生作品的開放授權。
 
-## Repository
+## 儲存庫
 
-A repository is a storage location used by version control tools for files and metadata of a codebase.
-Repositories allow multiple developers to work on the same set of files.
-Repositories are able to store multiple versions of sets of files.
+儲存庫是版本控制工具，用於存放程式基底的檔案與中介資料的儲存位置。儲存庫讓多位貢獻者，得以同時對同一組檔案作業。儲存庫可以儲存一組檔案的多個版本。
 
-## Version control
+## 原始碼 (Source Code)
 
-Version control is the management of changes to source code and the files associated with it.
-Changes are usually identified by a code, termed the *revision number* (or similar).
-Each revision is associated with the time it was made and the person making the change, thus making it easier to retrace the evolution of the code.
-Revision control systems can be used to compare different versions with each other and to see how content has changed over time.
+人類可讀，並且能夠翻譯成機器指令的電腦程式文字。
+
+## 版本控制
+
+版本控制，是對原始碼及其相關檔案的變動行為作管理的流程。變動行為，通常是以稱為「*修訂編號*」（或版次等類似名稱）的代號作識別。每次修訂都會標示其改動時間以及作者，
+方便追溯程式碼的演進。修訂控制系統可用來比較不同版本之間的差異，以及查看內容隨著時間經歷的變動。

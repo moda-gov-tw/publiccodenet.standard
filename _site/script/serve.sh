@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# 2019-2022 by The Foundation for Public Code <info@publiccode.net>
+# SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
 
 # The serve.sh script can be used to preview how Jekyll will build the site.
 # See also: pdf.sh
@@ -12,5 +12,4 @@ if [ "_${PAGES_REPO_NWO}_" == "__" ]; then
 export PAGES_REPO_NWO=publiccodenet/standard
 fi
 
-#bundle exec jekyll serve --livereload --host 127.0.0.1 --port 6015
-bundle exec jekyll serve --host https://lyzez5.toomore.net --port 6015
+bundle exec jekyll serve --livereload
