@@ -108,3 +108,7 @@ script/pdf.sh
 
 本標準採用 CC0 公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。CC0 代表任何人都能任意使用這些內容。如果您是貢獻者，代表您也將
 這些權利賦予他人。若要進一步瞭解如何協助本專案，請參閱〈[貢獻指引](CONTRIBUTING.md)〉。
+
+## 軟體中文化
+
+本專案為數位部開放原始碼軟體中文化專案項目之一，其中文化與專案應用可參考 [Wiki](https://github.com/moda-gov-tw/publiccodenet.standard/wiki)。
