@@ -64,9 +64,6 @@ redirect_from:
 
 ## 延伸閱讀
 
-* Martin Fowler《[什麼是持續整
-合](https://www.martinfowler.com/articles/continuousIntegration.html)》。
-* 英國政府數位服務團《[使用持續交
-付](https://gds-way.cloudapps.digital/standards/continuous-delivery.html)》。
-* 英國政府數位服務團《[品質保證：定期測試您的服
-務](https://www.gov.uk/service-manual/technology/quality-assurance-testing-your-service-regularly)》。
+* Martin Fowler《[什麼是持續整合](https://www.martinfowler.com/articles/continuousIntegration.html)》。
+* 英國政府數位服務團《[使用持續交付](https://gds-way.cloudapps.digital/standards/continuous-delivery.html)》。
+* 英國政府數位服務團《[品質保證：定期測試您的服務](https://www.gov.uk/service-manual/technology/quality-assurance-testing-your-service-regularly)》。

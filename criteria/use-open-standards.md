@@ -44,6 +44,5 @@ redirect_from:
 
 ## 延伸閱讀
 
-* 英國內閣辦公室發表的《[開放標準原
-則](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles)》
+* 英國內閣辦公室發表的《[開放標準原則](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles)》
 [政策](../glossary.md#policy)報告。

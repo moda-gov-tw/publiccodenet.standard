@@ -73,6 +73,5 @@ redirect_from:
 
 ## 延伸閱讀
 
-* 英國政府數位服務團《[讓原始碼開放且可重複利
-用](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)》。
+* 英國政府數位服務團《[讓原始碼開放且可重複利用](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable)》。
 * W3C 全球資訊網協會《[在地化與國際化](https://www.w3.org/International/questions/qa-i18n)》。

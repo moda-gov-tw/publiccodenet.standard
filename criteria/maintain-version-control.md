@@ -8,8 +8,7 @@ redirect_from:
 
 # 維護版本控制
 
-[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md#source-code)以及其他[程
-式基底](../glossary.md#codebase)檔案歷來的變動。這能讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發人員可以
+[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md#source-code)以及其他[程式基底](../glossary.md#codebase)檔案歷來的變動。這能讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發人員可以
 針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。
 
 ## 需求規定
@@ -55,11 +54,8 @@ redirect_from:
 
 ## 延伸閱讀
 
-* Karl Fogel《[製作開放原始碼軟體：版本控制字
-彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
-* 英國政府數位服務團《[維護程式碼的版本控
-制](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)》。
+* Karl Fogel《[製作開放原始碼軟體：版本控制字彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
+* 英國政府數位服務團《[維護程式碼的版本控制](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)》。
 * GitHub 提供的「[GitHub 技能](https://skills.github.com/)」，可學習如何使用 GitHub，或是重溫您的技巧。
-* GitHub 提供的「[Git 密技
-表](https://education.github.com/git-cheat-sheet-education.pdf)」，列出了最常用的 git 命
+* GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-education.pdf)」，列出了最常用的 git 命
 令。

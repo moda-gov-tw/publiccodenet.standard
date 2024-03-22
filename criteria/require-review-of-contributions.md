@@ -58,13 +58,10 @@ redirect_from:
 
 ## 延伸閱讀
 
-* 英國政府數位服務團《[英國政府數位服務團程式碼審查程
-序](https://gds-way.cloudapps.digital/manuals/code-review-guidelines.html#content)》。
+* 英國政府數位服務團《[英國政府數位服務團程式碼審查程序](https://gds-way.cloudapps.digital/manuals/code-review-guidelines.html#content)》。
 * [GitHub](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
 與
 [GitLab](https://about.gitlab.com/blog/2014/11/26/keeping-your-code-protected/) 平
 臺的分支保護說明。
-* Sage Sharp《[程式修補審查的和善藝
-術](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)》。
-* Mozilla《[參與度評測成
-果](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177)》。
+* Sage Sharp《[程式修補審查的和善藝術](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/)》。
+* Mozilla《[參與度評測成果](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177)》。

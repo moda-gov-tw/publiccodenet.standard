@@ -44,7 +44,5 @@ order: 5
 
 ## 延伸閱讀
 
-* Joel Hans《[如何引發他人為您的開放原始碼專案做出優秀貢
-獻](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-project-1ebf)》。
-* 英國政府數位服務團《[以開放精神編寫原始碼的好
-處](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)》。
+* Joel Hans《[如何引發他人為您的開放原始碼專案做出優秀貢獻](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-project-1ebf)》。
+* 英國政府數位服務團《[以開放精神編寫原始碼的好處](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)》。

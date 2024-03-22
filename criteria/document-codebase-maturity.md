@@ -46,6 +46,5 @@ redirect_from:
 
 * 許多程式基底使用「[語意化版本編號規範](https://semver.org/)」來標示版本。
 * [軟體發行生命週期](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-* 澳洲數位轉型局《[服務設計與交付流
-程](https://www.dta.gov.au/help-and-advice/build-and-improve-services/service-design-and-delivery-process)》。
+* 澳洲數位轉型局《[服務設計與交付流程](https://www.dta.gov.au/help-and-advice/build-and-improve-services/service-design-and-delivery-process)》。
 * 英國政府數位服務團《[敏捷交付服務手冊](https://www.gov.uk/service-manual/agile-delivery)》。
