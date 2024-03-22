@@ -41,13 +41,8 @@ order: 1
 
 ## 延伸閱讀
 
-* 英國政府數位服務團《[以開放精神編寫原始
-碼](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/)》。
-* 英國政府數位服務團《[程式碼應該開放或封閉的時
-機](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)》。
-* 英國政府數位服務團《[以開放精神編寫原始碼的資安考
-量](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open)》。
-* 英國政府數位服務團《[定期部署軟
-體](https://www.gov.uk/service-manual/technology/deploying-software-regularly)》。
-* 英國政府數位服務團《[政府數位服務團如何使用
-GitHub](https://gdstechnology.blog.gov.uk/2014/01/27/how-we-use-github/)》。
+* 英國政府數位服務團《[以開放精神編寫原始碼](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/)》。
+* 英國政府數位服務團《[程式碼應該開放或封閉的時機](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)》。
+* 英國政府數位服務團《[以開放精神編寫原始碼的資安考量](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open)》。
+* 英國政府數位服務團《[定期部署軟體](https://www.gov.uk/service-manual/technology/deploying-software-regularly)》。
+* 英國政府數位服務團《[政府數位服務團如何使用GitHub](https://gdstechnology.blog.gov.uk/2014/01/27/how-we-use-github/)》。

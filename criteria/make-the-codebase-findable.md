@@ -67,9 +67,7 @@ redirect_from:
 
 ## 延伸閱讀
 
-* Wikidata 維基數據社群《[維基數據簡
-介](https://www.wikidata.org/wiki/Wikidata:Introduction)》。
+* Wikidata 維基數據社群《[維基數據簡介](https://www.wikidata.org/wiki/Wikidata:Introduction)》。
 * FSF 自由軟體基金會《[FSF 軟體目錄列表](https://directory.fsf.org/wiki/Main_Page)》。
-* GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR 科學資料管理與監督指導原
-則](https://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓
+* GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR 科學資料管理與監督指導原則](https://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓
 機器採取行動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。

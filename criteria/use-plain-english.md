@@ -54,9 +54,7 @@ showtechniques=315#readable)》的建議，文件內容「應該」以國中識�
 
 ## 延伸閱讀
 
-* 符合 W3C 全球資訊網協會《[網頁內容近用性無障礙指引 2.1、3.1 之可讀
-性](https://www.w3.org/TR/WCAG21/#readable)》要求，撰寫的文字內容要容易閱讀與理解。
-* 歐盟委員會的《[歐盟無障礙環境命
-令](https://ec.europa.eu/digital-single-market/en/web-accessibility)》，是高度要求無障礙環境
+* 符合 W3C 全球資訊網協會《[網頁內容近用性無障礙指引 2.1、3.1 之可讀性](https://www.w3.org/TR/WCAG21/#readable)》要求，撰寫的文字內容要容易閱讀與理解。
+* 歐盟委員會的《[歐盟無障礙環境命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)》，是高度要求無障礙環境
 的法規範例。
 * 美國總務署《[白話語言定義](https://www.plainlanguage.gov/about/definitions/)》。

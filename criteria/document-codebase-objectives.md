@@ -38,5 +38,4 @@ redirect_from:
 
 ## 延伸閱讀
 
-* Marek Hajduczenia《[如何撰寫專案目
-標](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)》。
+* Marek Hajduczenia《[如何撰寫專案目標](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)》。

@@ -8,8 +8,7 @@ redirect_from:
 
 # 政策與原始碼要合捆
 
-對於想根據所在情境實作程式基底的人，或是想更進一步貢獻[程式基底](../glossary.md#codebase)開發的人來說，能同時取用[原始
-碼](../glossary.md#source-code)與[政策](../glossary.md#policy)文件兩者，可作為建置成品時的基礎組件。
+對於想根據所在情境實作程式基底的人，或是想更進一步貢獻[程式基底](../glossary.md#codebase)開發的人來說，能同時取用[原始碼](../glossary.md#source-code)與[政策](../glossary.md#policy)文件兩者，可作為建置成品時的基礎組件。
 
 瞭解作用範疇與該範疇的政策是基本原則，才能瞭解程式基底試圖想解決的問題是什麼，以及該如何解決這些問題的作法。
 
@@ -38,9 +37,7 @@ redirect_from:
 * 政策內容請使用明確且機器可讀的格式，像是[物件管理群體](https://www.omg.org/spec/)所發表的格式。
 * 追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control.md)與文件。
 * 定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合[政策意圖](document-codebase-objectives.md)。
-* 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR 一般資料保護規
-則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命
-令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政
+* 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR 一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政
 策，例如公家機關對機會平等的承諾等。
 
 ## 管理人員：需要的工作
@@ -56,10 +53,7 @@ redirect_from:
 
 ## 延伸閱讀
 
-* 維基百科上的 [BPMN 業務流程模型與標記
-法](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)。
-* Trisotech 提供的 [BPMN 快速指
-南](https://www.bpmnquickguide.com/view-bpmn-quick-guide/)。
-* 維基百科上的 [DMN 決策模型與標記
-法](https://en.wikipedia.org/wiki/Decision_Model_and_Notation)。
+* 維基百科上的 [BPMN 業務流程模型與標記法](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)。
+* Trisotech 提供的 [BPMN 快速指南](https://www.bpmnquickguide.com/view-bpmn-quick-guide/)。
+* 維基百科上的 [DMN 決策模型與標記法](https://en.wikipedia.org/wiki/Decision_Model_and_Notation)。
 * 維基百科上的[ CMMN 案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。
